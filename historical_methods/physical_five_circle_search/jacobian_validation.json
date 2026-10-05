@@ -1,0 +1,8 @@
+{
+  "method": "directional centered finite differences at the actual physical weak-case baseline",
+  "direction_seed": 1475,
+  "step": 1e-06,
+  "equality_max_absolute_error": 3.849738305916617e-10,
+  "inequality_max_absolute_error": 2.1273166339597083e-08,
+  "scope": "Numerical analytic-Jacobian consistency only"
+}

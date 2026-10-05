@@ -1,0 +1,64 @@
+{
+  "status": "PASS_NEW_EXACT_RADIUS_ENDPOINT_ARITHMETIC_19_500",
+  "premise": "Frozen stronger normalized fit; independent theorem acceptance is tracked separately in PREMISE_STATUS.json",
+  "lambda": [
+    7,
+    50
+  ],
+  "tilt": [
+    1071883,
+    20000000
+  ],
+  "same_local_normalized_fee": [
+    19,
+    500
+  ],
+  "fee_minus_3_100": [
+    1,
+    125
+  ],
+  "unit_lhs_strict_lower_K": [
+    993,
+    1250
+  ],
+  "unit_sum_norms_squared_strict_upper_S": [
+    5378209,
+    1000000
+  ],
+  "radius_interval": {
+    "lower": [
+      0,
+      1
+    ],
+    "lower_included": false,
+    "upper": [
+      794400,
+      5378209
+    ],
+    "upper_included": true
+  },
+  "K_minus_Rmax_S": [
+    0,
+    1
+  ],
+  "requested_simple_upper": [
+    231,
+    2000
+  ],
+  "K_minus_requested_upper_times_S": [
+    346433721,
+    2000000000
+  ],
+  "Rmax_minus_requested_upper": [
+    346433721,
+    10756418000
+  ],
+  "endpoint_logic": "K < actual_lhs <= R*actual_sum < R*S <= K; strict fit includes the closed upper endpoint",
+  "new_fraction_endpoint_calls_this_receipt": 1,
+  "frozen_source_imports_or_executions": 0,
+  "stronger_or_earlier_or_conjugate_checker_calls": 0,
+  "primitive_verify_calls": 0,
+  "new_trig_or_fit_guard_calls": 0,
+  "optimizers_or_scans_or_geometry_searches": 0,
+  "scope": "Local actual signed-anchor consecutive three-face inequality at the exact fixed coefficient pair. No coefficient rectangle, global radius exclusion or optimum."
+}

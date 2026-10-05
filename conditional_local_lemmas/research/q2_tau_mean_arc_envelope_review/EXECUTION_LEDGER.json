@@ -1,0 +1,13 @@
+{
+  "status": "INDEPENDENT_STATIC_REVIEW_COMPLETE",
+  "reviewer": "/root/q2_uniform_review",
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "old_guard_replays": 0,
+  "new_guard_executions": 0,
+  "parameter_scans_or_searches": 0,
+  "numerical_optimizers": 0,
+  "metadata_hashing_only": true,
+  "author_and_predecessor_sources_modified": false,
+  "method": "Full paper derivation and exact rational long multiplication without executing mathematical sources."
+}

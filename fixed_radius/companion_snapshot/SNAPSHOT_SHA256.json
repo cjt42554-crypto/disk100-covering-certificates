@@ -1,0 +1,17 @@
+{
+  "source_directory": "improved_algebraic_1154469",
+  "copied_before_after_source_hashes_equal": true,
+  "files": {
+    "stdioverify.py": "2e1006536cbb5f8a2ab0624f67f711647666bd3f56de90a7edcc53cbaa57f597",
+    "exact_algebraic_cover.py": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+    "exact_krawczyk.py": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+    "source_configuration.json": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+    "polynomial_system.json": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+    "root_high_precision.json": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+    "krawczyk_preconditioner.json.gz": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+    "algebraic_cover_topology.json": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+    "LOCAL_PROOF.md": "d703c32429871485e8907445b70ff57e809f6293c17c5b626892c177b76eeae1"
+  },
+  "stored_reports_not_copied_or_trusted": true,
+  "frozen_companion_manifest_sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2"
+}

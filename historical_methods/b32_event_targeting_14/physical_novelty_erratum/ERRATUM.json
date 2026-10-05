@@ -1,0 +1,20 @@
+{
+  "status": "PERMANENT_EXTERNAL_PHYSICAL_NOVELTY_CORRECTION",
+  "unchanged_first2_manifest_sha256": "6ed839710066ef3fc62e2ebf1475a33dc982eee5651e386e9b187955c348f446",
+  "unchanged_additional4_manifest_sha256": "ceba8d269ef3f70fc75fc5c1e185e3263857c93fe32fd4e2ec85e28855d23632",
+  "unchanged_research_v2_manifest_sha256": "9e5482ff5588d32ad884de1e7e9674bad3f2413ea695e0fabaf49f899d086279",
+  "record_count": 6,
+  "independent_physical_targets_after_verified_mirror_dedup": 5,
+  "duplicate_target_id": 3,
+  "duplicate_candidate_id": 78,
+  "duplicate_of_target_id": 0,
+  "duplicate_of_candidate_id": 80,
+  "target3_eligible_as_independent_new_physical_event": false,
+  "target3_geometric_and_jet_eligibility_unchanged": true,
+  "first2_review_and_launch_scope_unchanged": true,
+  "peer_diagnostic_sha256": "f4bbfcd9f52620e7a3e5ccc1e4fdd9291aa0e241acf2e4ad3d2df3cf9501d377",
+  "reason": "Owner compared extra candidates against18 historical routes but omitted full-source mirror comparison with already selected new target0. Raw clearance jets use swapped third/fourth labels; different function scaling does not make a new physical event.",
+  "new_optimizer_calls": 0,
+  "new_wholeD_calls": 0,
+  "replacement_target_added": false
+}

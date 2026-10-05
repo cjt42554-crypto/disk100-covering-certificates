@@ -1,0 +1,75 @@
+Exact covering radius of one fixed rational configuration
+========================================================
+The configuration is pinned by SHA256
+84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36.
+It consists of 100 distinct rational centers with common denominator 10^15.
+All statements here concern these fixed centers.
+
+Let f(x)=min_i |x-c_i|^2 on the whole CLOSED unit disk. This continuous
+function attains its maximum. At an interior local maximum, one nearest
+center is impossible by strict convexity. Two nearest centers are impossible
+by strict convexity along their bisector. Thus there are at least three
+nearest centers; three distinct equidistant centers cannot be collinear.
+The point is therefore a noncollinear triple circumcenter. On the unit
+circle, partition at every pair-bisector/circle intersection. On each open
+arc a fixed center is nearest, with squared distance
+1+|c|^2-2c dot x. Its maximum is at an arc endpoint or the antipode of c.
+Zero-center constant arcs are covered by endpoints or the extra point (1,0).
+Consequently the conservative candidates() enumeration contains every
+possible full-domain maximum. The source UPPER_PROOF.txt explains this same
+extremum reduction. No triangulation or spatial sample is assumed.
+
+The checker enumerates 138437 entries: 128436 triple circumcenters within
+the closed disk, 9900 pair-bisector/unit-circle intersections, 100 antipodes,
+and (1,0). These are observed counts, not inputs to acceptance. For every
+candidate except T(24,26,33), a supplied witness center is independently
+proved to have squared distance <= S=6663999696176893/(5*10^17). The source
+integer/quadratic-surd checker is byte-identical to its saved source.
+
+For T(24,26,33), the regenerated rational circumcenter is strictly inside
+the disk. The checker derives its squared distance to center24 as N/D,
+using the full integers printed in polynomial.txt and exact_result.json.
+At this SAME point, all 100 center-distance comparisons with N/D are exact;
+none is smaller, and equality holds exactly for centers24,26,33. Thus
+f(x*)=N/D. The exact strict comparison S<N/D proves every other candidate
+has strictly smaller f. This establishes max f=N/D and a unique worst
+candidate. Since N/D<1, a zero-center constant boundary arc cannot attain
+this value; every maximum is represented in the enumeration, so the worst
+point in the whole closed disk is unique as well.
+
+The positive covering radius r=sqrt(N/D) is the positive root of
+P(r)=D*r^2-N. The integers N,D are coprime, so P is primitive. The reduced
+rational N/D is not a rational square, as verified by integer square roots
+of N and D; P is irreducible over Q. The adjacent rational 10^-60 endpoints
+lo,hi satisfy 0<lo<hi, P(lo)<0<P(hi). Because P'(r)=2D*r>0 for r>0, there
+is exactly one root in that interval and it is the unique positive root.
+All coefficients and both exact endpoints are explicitly stored.
+
+The proposed top candidates were found using numerical/Decimal arithmetic,
+but the acceptance proof trusts only the complete exact enumeration, exact
+nearest-center comparisons, polynomial identities and rational sign tests.
+The stored PASS flags and numerical rankings are never acceptance inputs.
+
+
+Scope and strict nonglobal comparison
+------------------------------------
+P is the exact minimal polynomial of THIS FIXED rational configuration's
+covering radius, not the arbitrary-configuration global optimum polynomial.
+
+The separately frozen 932-variable algebraic companion is bundled in
+companion_snapshot/ as a separate mathematical dependency. Its original
+manifest hash is 4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2.
+The snapshot was hash-checked against that frozen source and its complete
+root + whole closed-disk acceptance actually rerun using -S -O.
+
+verify_nonglobal.py independently regenerates the fixed-radius proof and
+the companion proof, including polynomial system semantics, exact
+Krawczyk root inclusion/contraction, full triangulation and boundary arc
+coverage. It uses the FRESHLY recomputed companion interval, never a stored
+report or success flag. Its 100-center covering radius upper endpoint is
+strictly below the fixed radius lower isolation endpoint. The positive
+rational gap lower bound is 188468665619510714219412887581449767253276672477/312500000000000000000000000000000000000000000000000000000000000.
+Thus this fixed configuration is strictly nonglobal. No global optimum
+claim is made for either configuration. The fixed-radius entry point alone
+checks the interval comparison conditionally; verify_nonglobal.py supplies
+and recomputes its bundled companion dependency as well.

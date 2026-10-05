@@ -1,0 +1,14 @@
+{
+  "scope": "New paper mean-budget envelope; positive-tau closure remains conditional on path directional coefficient <= 0.30.",
+  "mathematical_program_executions": 0,
+  "mathematical_imports": 0,
+  "old_checker_replays": 0,
+  "optimization_or_parameter_searches": 0,
+  "bookkeeping": "Only source writing and SHA256 file hashing; no mathematical program was run for this addendum.",
+  "files": {
+    "MEAN_BUDGET_ENVELOPE.md": "4a4e634053549ff56019d93802cfb10da56ae21bbf23b03cc6822b6fc97a0a8c",
+    "WORKING_INTERFACE.md": "f648021de12b7182c14104d15c8b947aafd1fa90fc24dc2ce459efc87a45c5d3",
+    "../q2_strong_arc_norm_budget/TAU_ZERO_NORM_PROOF.md": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1"
+  },
+  "review_status": "New envelope addendum awaits independent review; no review of the earlier zero-tau proof is claimed to cover it."
+}

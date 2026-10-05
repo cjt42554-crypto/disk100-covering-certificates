@@ -1,0 +1,23 @@
+{
+  "status": "VALID_ARITHMETIC_COUNTEREXAMPLE_TO_PRIOR_DIMENSION_BINDING",
+  "prior_source_sha256": "5d9cb7906d916a43f1808aa4ec1a0067a41f8f377174be44421d880d57c8f528",
+  "original_rows": 100,
+  "original_coordinate_columns": 3,
+  "intended_primary_radius_squared": [
+    9,
+    1
+  ],
+  "intended_minimum_origin_distance_squared": [
+    9,
+    1
+  ],
+  "claimed_radius": [
+    1,
+    1
+  ],
+  "flattened_acceptor_centers": 150,
+  "flattened_acceptor_contains_origin": true,
+  "proof": "The flattened set covers the unit disk by its origin-centered radius1 disk; intended100 planar centers miss the origin. Added centers are already on circle so displacement bound D=0.",
+  "full_cover_acceptor_executions": 0,
+  "final_guard_rejected_before_cover_call": true
+}

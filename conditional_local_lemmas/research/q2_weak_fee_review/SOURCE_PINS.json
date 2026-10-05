@@ -1,0 +1,39 @@
+{
+  "status": "PASS_STATIC_CORRECTED_CONDITIONAL_Q2_WEAK_FEE_SECTION_2",
+  "source_files": {
+    "PROJECT_SOURCE/research/q2_actual_anchor/AUTHOR_ANALYSIS.md": "faefe51d4ef2885bfcad669bb0a4964c1914bae138598d957bac521196c6d2b0",
+    "PROJECT_SOURCE/research/q2_actual_anchor/history/AUTHOR_ANALYSIS_before_direction_z_correction.md": "4f063ae8ef08dd0b613a8eafb21ab3655355b2754236e06224c041865090b571",
+    "PROJECT_SOURCE/research/q2_actual_anchor/history/AUTHOR_ANALYSIS_before_zero_skew_correction.md": "5a0d1c1906950c32dacfd53537b4a7f86b5d54904d6169969fbf382e68c0df1f",
+    "PROJECT_SOURCE/research/q2_interface_review/REVIEW.md": "61df26a993405cdd442bd38b20da1522b115ff96bf932e9007cb0003848bb082",
+    "PROJECT_SOURCE/research/q2_interface_review/SOURCE_PINS.json": "cb8136d28aa34ea1c07da69421c9145df1e06789f7f149d2317ca37c89296745",
+    "PROJECT_SOURCE/research/q2_interface_review/SHA256.json": "fc8247deb7194d5f34a9afa7d40e3a7635021ab2d0a68e9537836a7c813247b1",
+    "PROJECT_SOURCE/research/Q2_ARC_SCOPE_INTERFACE_20261005.md": "c9134243b18308b056b2636ebb1d6a71134e2f66787a865db84d40036e09b545",
+    "PROJECT_SOURCE/research/q3_parameter_uniform/independent_review/SOURCE_PINS.json": "86fc88d076e7b4dd861d9b54cb31bed42798757c3c2e7c138ae24479b8795402",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/verify_actual_quadratic.py": "71811ec96c80d452028f9b434215a8899798e555056125b3adaab178d41bc86f",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/SOURCE_REVIEW.md": "59f55297674fc38f0cd8895d246cab2103f437afca6272e36048cb1ccccecb51",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/DEGENERATE_CLOSURE_ADDENDUM.md": "06ac07cdf3c1e55b32b8e06e31214390c0269ccfeee11831a4bae334bee53146",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/root_independent_audit/REVIEW.md": "79141b7ef5402d671ba4970df0d115cafbf5d178d29c06142aaefb5b7096f329",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2"
+  },
+  "accepted_normalized_source_pins_unchanged": true,
+  "norm_review_manifest_unchanged": true,
+  "norm_lemma_source_pins_match": true,
+  "final_author_source_matches_freeze_announced_by_root": true,
+  "reviewer_checker_calls": 0,
+  "reviewer_fraction_or_other_mathematical_calculations": 0,
+  "reviewer_mathematical_imports": 0,
+  "reviewer_optimizer_or_geometry_search_calls": 0,
+  "document_corrections_reviewed": [
+    "Combined outer radial+direction z coefficient17/5 replaced by27/5; missing2z included.",
+    "Zero-skew multiplied bound corrected to nonstrict, with zero case explicit."
+  ],
+  "new_mirrored_skew_obstruction_and_helper_guards": "NOT_AUDITED_BY_THIS_REVIEW",
+  "accepted_scalar_enclosures": "Explicit accepted arithmetic premise; not regenerated.",
+  "execution_scope": "This Section2 audit made no mathematical calls. Other q2 targeted-helper executions are recorded in author Section5 and must not be conflated with this audit.",
+  "scope": "Fixed R5661/50000 and exact lambda/t0 conditional two-face actual signed-A fee1/10000000, given|p|<=1 and at least one outer assigned arc xi>=3/5. No larger q2-row fee or full-cover reduction.",
+  "root_or_preexisting_frozen_files_modified_by_reviewer": false
+}

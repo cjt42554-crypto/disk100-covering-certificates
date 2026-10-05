@@ -1,0 +1,7 @@
+{
+  "configuration_source": "improved_upper_certificate/variants/U1154469548859/configuration.json",
+  "configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "critical_checker_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+  "immutable_source_package_sha256": "17ac866fb89867e4e209b3598273b6da47af3c854a265c6470d481925726e89e",
+  "scope": "Exact fixed rational configuration radius only; no global optimum polynomial claim."
+}

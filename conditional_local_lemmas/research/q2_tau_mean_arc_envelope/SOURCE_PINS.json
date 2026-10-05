@@ -1,0 +1,40 @@
+{
+  "status": "NEW_ROOT_AUTHOR_PAPER_AWAITING_INDEPENDENT_REVIEW",
+  "files": {
+    "q2_radius_uniform_tau/PROOF.md": {
+      "bytes": 15575,
+      "sha256": "692a4526d88dd3e856aa96b60961b43c1726d9ba029803199b90e8d7b0c9da2c"
+    },
+    "q2_radius_uniform_tau/COROLLARY_RELAXED_MIDDLE.md": {
+      "bytes": 6484,
+      "sha256": "768a6e71756ad155331b2196b68394548f2eadb4affeb1352e210ef93d766e28"
+    },
+    "q2_uniform_tau_review/PRO_RADIUS_REVIEW.md": {
+      "bytes": 8660,
+      "sha256": "6115ffc95e88f1a5fe5a806a1037d0deb4833f3766302bc399aa3d4e69097387"
+    },
+    "q2_uniform_tau_review/PRO_RADIUS_RELAXED_CAP_REVIEW.md": {
+      "bytes": 6454,
+      "sha256": "6885e6822e3c6027bbda4312fb71c3be3195449dbb3c950e9c77772683bea5f8"
+    },
+    "q2_tau_geometry_thresholds/ANALYSIS.md": {
+      "bytes": 12781,
+      "sha256": "97283475b6176cd0d426759d73d931690a155dec69a86843d5f5a630ff6ebbdf"
+    },
+    "q2_tau_geometry_thresholds_review/INDEPENDENT_REVIEW.md": {
+      "bytes": 4209,
+      "sha256": "8232bdd64f2aa66a271ef8d1846d9a950754b441993ec7087a081fd36c8118f4"
+    },
+    "q2_pro_parameter_uniform_tau_review/INDEPENDENT_REVIEW.md": {
+      "bytes": 6551,
+      "sha256": "e5214f141c1eec4c40463c3e9f5a4fb627221d69164c1b7701a6e1b5a41af668"
+    },
+    "q2_parameter_uniform_tau/PRO_PARAMETER_COROLLARY.md": {
+      "bytes": 11132,
+      "sha256": "43059d525b9e23f4c1639fe6d95cfeea45c5b55fb993daf20aaf6a29b5a12f1b"
+    }
+  },
+  "mathematical_executions": 0,
+  "mathematical_source_imports": 0,
+  "old_guard_replays": 0
+}

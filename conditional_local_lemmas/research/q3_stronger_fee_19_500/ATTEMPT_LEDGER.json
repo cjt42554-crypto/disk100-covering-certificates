@@ -1,0 +1,10 @@
+{
+  "new_author_guard_attempts": 1,
+  "new_author_guard_passes": 1,
+  "old_verifier_calls": 0,
+  "old_conjugate_checker_calls": 0,
+  "optimizers": 0,
+  "geometry_searches": 0,
+  "portable_replays": 0,
+  "note": "One fixed rational-guard author calculation, source snapshot and complete log retained in attempts/author_001. No old verifier, optimizer, search, or portable replay."
+}

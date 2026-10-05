@@ -1,0 +1,20 @@
+{
+  "schema": "PORTABLE_CENTERWISE_TRANSPORT_INPUT_MAPPING_V1",
+  "source": {
+    "file": "endpoint/inputs/centers.npy",
+    "sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565"
+  },
+  "ordinary_best": {
+    "file": "transport/inputs/ordinary_best.npy",
+    "sha256": "ea5ebe01e8aea5eeb86d83bd72a9ca86071e0ef1ac2109b3501d0d3cf505c398"
+  },
+  "inherited_transport_result": {
+    "file": "transport/INHERITED_RESULT.json",
+    "sha256": "d30ed4c9342f80b9e380fb8733c3e3796fc82debff683690c62c9c5d2b7f4985"
+  },
+  "delta": [
+    1,
+    100000000
+  ],
+  "public_verifier_not_executed": true
+}

@@ -1,0 +1,5 @@
+{
+  "root_actual_checker_attempts_so_far": 2,
+  "completed_certificate": false,
+  "error": "Final before/after source guard used str.read_bytes; all geometric/score guards passed before the guard error."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_STATIC_READ_SOURCE_PIN_MATCHES",
+  "source_root": "PROJECT_SOURCE/research",
+  "known_frozen_sha256_matches": true,
+  "source_files": {
+    "q3_actual_quadratic_support/PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "q3_actual_quadratic_support/verify_actual_quadratic.py": "71811ec96c80d452028f9b434215a8899798e555056125b3adaab178d41bc86f",
+    "q3_actual_quadratic_support/certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+    "q3_actual_quadratic_support/replay.log": "ee02905f57913c1dfa688d9f3faf0a0767869883ffb33b4d33e47c7029fed162",
+    "q3_actual_quadratic_support/SHA256.json": "4d162383fc1b87bf9d006cdc2323be67486bae15a30fdc057a948475b07e6430",
+    "q3_actual_quadratic_support/BLIND_REVIEW.md": "b55f48fe9ef1f0b9bb8082856df72495767e6884c955fc5fca6f47fe38bfad02",
+    "q3_actual_quadratic_support/SOURCE_REVIEW.md": "59f55297674fc38f0cd8895d246cab2103f437afca6272e36048cb1ccccecb51",
+    "q3_actual_quadratic_support/QUADRATIC_BUDGET_REVIEW.md": "938bbcb9345d50f47fbeff8cb3f2a39e0d308814c56ad1cec34b56f0f8b61ed9",
+    "q3_actual_quadratic_support/ROOT_QUADRATIC_BUDGET_INTERFACE.md": "9e451e083dfc5316988f4ee3d08e809ff84b5f1ae680555f5b62c8127cd7f4c4",
+    "q3_actual_quadratic_support/DEGENERATE_CLOSURE_ADDENDUM.md": "06ac07cdf3c1e55b32b8e06e31214390c0269ccfeee11831a4bae334bee53146",
+    "q3_actual_quadratic_support/root_independent_audit/REVIEW.md": "79141b7ef5402d671ba4970df0d115cafbf5d178d29c06142aaefb5b7096f329",
+    "q3_actual_quadratic_support/root_independent_audit/runtime_receipt.json": "995c514e7ed5797274c15251d9d5c4180008e97d09e3b22b8ce362260f8db462",
+    "quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "quadratic_lambda14_conjugate/verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "coupled_edges/verify_support.py": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+    "q3_actual_quadratic_support/BUDGET_DOMAIN_ADDENDUM_REVIEW.md": "115728a38d6b8650e72aa2b8fe0c6835efa7783ce8ca422a165f4d0c26ca6131",
+    "q3_actual_quadratic_support/SOURCE_REVIEW_SHA256.json": "afa9bfcf00df253df5f08df1c6dc96607c120495df286e16ba0858fa98ae39e4",
+    "q3_actual_quadratic_support/root_independent_audit/SHA256.json": "db14c56a724a0960a28c2a8cc48ebc9fd4cc3f8bd1a0eaf7cb82bb35a3d59a87",
+    "q3_actual_quadratic_support/root_independent_audit/SOURCE_PINS.json": "2fce1e2a6184a22662ed3e80674b545cd3ab892531906ac4eaea138a73c07414"
+  },
+  "frozen_source_execution": false,
+  "note": "Hashes bind static source reads and prior evidence; they do not expand any original certificate metadata to a radius interval."
+}

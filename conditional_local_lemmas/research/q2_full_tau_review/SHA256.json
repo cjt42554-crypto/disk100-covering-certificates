@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_INDEPENDENT_FULL_SOURCE_STATIC_ACTUAL_TAU_LOCAL_CONDITIONAL_PASS",
+  "files": {
+    "INDEPENDENT_REVIEW.md": {
+      "sha256": "cb5bd88282037a212c739622fb5bf46205ce27a3514d02d93f4ccf389f05d62b",
+      "bytes": 14464
+    },
+    "ISSUE_HISTORY.md": {
+      "sha256": "22d5140cb7eb2d07cdde85734f6fb5c25cd5412eadf37575c912448614f9a0ec",
+      "bytes": 2299
+    },
+    "SUPPLEMENTAL_STATIC_CHECK.md": {
+      "sha256": "bb8677543bb0b7985de3cda05a62b0a377e7bfadaec0ed1d15dd87d04337c11b",
+      "bytes": 2078
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "77c28358a8ec18d67b3653b5b605aca8f4c5df5d5c183de17299632661b900bd",
+      "bytes": 8184
+    }
+  },
+  "mathematical_program_executions": 0,
+  "mathematical_imports": 0,
+  "checker_replays": 0,
+  "metadata_only": true
+}

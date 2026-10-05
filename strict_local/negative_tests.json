@@ -1,0 +1,46 @@
+{
+  "all_rejected": true,
+  "number_tests": 8,
+  "results": [
+    {
+      "test": "zero inverse row",
+      "rejected": true,
+      "reason": "Pivot inverse Neumann condition failed"
+    },
+    {
+      "test": "zero Cholesky transform",
+      "rejected": true,
+      "reason": "Verified transformed reduced Hessian is not strictly positive definite"
+    },
+    {
+      "test": "duplicate pivot column",
+      "rejected": true,
+      "reason": "Pivot and free columns must form a partition"
+    },
+    {
+      "test": "non-dyadic inverse denominator",
+      "rejected": true,
+      "reason": "Denominators must be powers of two"
+    },
+    {
+      "test": "wrong witness dimension",
+      "rejected": true,
+      "reason": "Witness dimension mismatch"
+    },
+    {
+      "test": "negated Lagrangian Hessian",
+      "rejected": true,
+      "reason": "Verified transformed reduced Hessian is not strictly positive definite"
+    },
+    {
+      "test": "witness source SHA mismatch",
+      "rejected": true,
+      "reason": "ValueError: Witness source mismatch"
+    },
+    {
+      "test": "altered geometric polynomial source",
+      "rejected": true,
+      "reason": "ValueError: Source binding failed: polynomial_system.json"
+    }
+  ]
+}

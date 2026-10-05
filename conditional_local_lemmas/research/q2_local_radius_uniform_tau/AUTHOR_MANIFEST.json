@@ -1,0 +1,19 @@
+{
+  "status": "AUTHOR_PAPER_PROOF_PENDING_INDEPENDENT_REVIEW",
+  "frozen_policy": "Keep these author bytes; any later clarification is a new separately pinned file.",
+  "mathematical_program_executions": 0,
+  "files": {
+    "RADIUS_UNIFORM_ACTUAL_TAU_PROOF.md": {
+      "sha256": "f955eb7473c61ac2222a989a35337dbb11a2d990ed5122ac9cd0bb2d4f1bb720",
+      "bytes": 20094
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "c2c9130b10f99f74e12e053ebb8b998260f05f9bc5e32adbcd1ac91fc5714b68",
+      "bytes": 1397
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "f9c90654c9dc9a6ae505fe392ef8841dc3401067517a8fdef60dc2254758bcd0",
+      "bytes": 4844
+    }
+  }
+}

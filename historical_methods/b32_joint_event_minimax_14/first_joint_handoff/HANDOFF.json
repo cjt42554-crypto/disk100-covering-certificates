@@ -1,0 +1,131 @@
+{
+  "status": "READY_IMMUTABLE_SELECTED_ENDPOINTS",
+  "rows": [
+    {
+      "name": "joint02_pre",
+      "primary": [
+        89,
+        38,
+        47
+      ],
+      "added": [
+        90,
+        37
+      ],
+      "coordinate_file": "coordinates/joint02_pre.npy",
+      "coordinate_file_sha256": "9d850a8df5d82611665ab2db48f4698a4976a7b9163baae330789584869a7849",
+      "coordinate_sha256": "46c55fae21f22df4b0217c2ec7acd2a2df67db27a37a6281c0454a7a7bb823ba",
+      "csv_file": "coordinates/joint02_pre.csv",
+      "csv_file_sha256": "a05746048c8e6b79d6aa9a9ac7941046e343e7cff514d8a23b210fb3ee6981db",
+      "original_file": "workers/joint02/accepted/node012_prejoint_0.999900000000.npy",
+      "original_file_sha256": "9d850a8df5d82611665ab2db48f4698a4976a7b9163baae330789584869a7849",
+      "source_initial_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "phase": "prejoint",
+      "phase_control": 0.9999,
+      "wholeD_radius_alltriple": 0.11615135057326438,
+      "proposed_rational_radius_for_root_exact_test": "0.1161513505752643808388004913"
+    },
+    {
+      "name": "joint02_near1",
+      "primary": [
+        89,
+        38,
+        47
+      ],
+      "added": [
+        90,
+        37
+      ],
+      "coordinate_file": "coordinates/joint02_near1.npy",
+      "coordinate_file_sha256": "28cf611baa6a2e23ac7162aff91dbc955cef79e7937cdf7c12f6b6ab53b38580",
+      "coordinate_sha256": "ee7214a40f3163a7980df6e8e10f31b86f778f3d13f7e2d2ae615cbb36fce31c",
+      "csv_file": "coordinates/joint02_near1.csv",
+      "csv_file_sha256": "e47b40dbd5f316ab43ce0469b3e9f04d9e696f7a3fa321080bb142cdbbfacc88",
+      "original_file": "workers/joint02/accepted/node013_prejoint_1.000000000000.npy",
+      "original_file_sha256": "28cf611baa6a2e23ac7162aff91dbc955cef79e7937cdf7c12f6b6ab53b38580",
+      "source_initial_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "phase": "prejoint",
+      "phase_control": 1.0,
+      "wholeD_radius_alltriple": 0.11615151234082917,
+      "proposed_rational_radius_for_root_exact_test": "0.1161515123428291688678062314"
+    },
+    {
+      "name": "joint02_post",
+      "primary": [
+        89,
+        38,
+        47
+      ],
+      "added": [
+        90,
+        37
+      ],
+      "coordinate_file": "coordinates/joint02_post.npy",
+      "coordinate_file_sha256": "a559f7ade84fa4563d6bcede941d3e672f148ff55cb6882f7308f050dfacdb30",
+      "coordinate_sha256": "8673363b1ccc839d56fdb83d1b6e138b21ad0074ef3167fe5d485ba2f5560322",
+      "csv_file": "coordinates/joint02_post.csv",
+      "csv_file_sha256": "060ab8dc10e0160835524f45f49909107938029c561633d55419d2547cf6310e",
+      "original_file": "workers/joint02/accepted/node016_postjoint_0.000003814697.npy",
+      "original_file_sha256": "a559f7ade84fa4563d6bcede941d3e672f148ff55cb6882f7308f050dfacdb30",
+      "source_initial_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "phase": "postjoint",
+      "phase_control": 3.814697265625e-06,
+      "wholeD_radius_alltriple": 0.11615142845171787,
+      "proposed_rational_radius_for_root_exact_test": "0.1161514284537178724476238472"
+    },
+    {
+      "name": "joint03_pre",
+      "primary": [
+        73,
+        29,
+        20
+      ],
+      "added": [
+        74,
+        72
+      ],
+      "coordinate_file": "coordinates/joint03_pre.npy",
+      "coordinate_file_sha256": "7e0720374a720804b1caf3cc54d64e263423eb12529433e6ca8336f85d95c5bd",
+      "coordinate_sha256": "be7846d741067c3430526cee2309d81db84dbae58c53b5570a8af2dedff96d87",
+      "csv_file": "coordinates/joint03_pre.csv",
+      "csv_file_sha256": "326506fbf33e71401d33b99269d2da2d78c9ad0c629ab0ffd29657a4cb28f1b9",
+      "original_file": "workers/joint03/accepted/node012_prejoint_0.999900000000.npy",
+      "original_file_sha256": "7e0720374a720804b1caf3cc54d64e263423eb12529433e6ca8336f85d95c5bd",
+      "source_initial_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "phase": "prejoint",
+      "phase_control": 0.9999,
+      "wholeD_radius_alltriple": 0.1164101235932694,
+      "proposed_rational_radius_for_root_exact_test": "0.1164101235952693961805384220"
+    },
+    {
+      "name": "joint03_near1",
+      "primary": [
+        73,
+        29,
+        20
+      ],
+      "added": [
+        74,
+        72
+      ],
+      "coordinate_file": "coordinates/joint03_near1.npy",
+      "coordinate_file_sha256": "c29e3c55ed15f6995178f356e9d04577cc7e621d5900975ad4e6911b7228f547",
+      "coordinate_sha256": "fdc161db975365fb3cb3fe99f0d3cab4cc341ffbf125b20d46eb198d76a29bde",
+      "csv_file": "coordinates/joint03_near1.csv",
+      "csv_file_sha256": "bea65fbd3024d1549853b687f4838f781a14ed245bf942a29cacb47134a83785",
+      "original_file": "workers/joint03/accepted/node013_prejoint_1.000000000000.npy",
+      "original_file_sha256": "c29e3c55ed15f6995178f356e9d04577cc7e621d5900975ad4e6911b7228f547",
+      "source_initial_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "phase": "prejoint",
+      "phase_control": 1.0,
+      "wholeD_radius_alltriple": 0.11641031923136867,
+      "proposed_rational_radius_for_root_exact_test": "0.1164103192333686724324028887"
+    }
+  ],
+  "joint02": "Preferred post reached with actual strict three-face numerical gate. Near1 is numerical tie only.",
+  "joint03": "Near1 actual five-circle geometry gate passes. Original source raw eta fails its preferred cone in actual geometry; no post solve attempted.",
+  "proxy_total_original_phase": 31,
+  "original_restores": 0,
+  "exact_projection_delegated_to_root": true,
+  "no_whole_path_certificate": true
+}

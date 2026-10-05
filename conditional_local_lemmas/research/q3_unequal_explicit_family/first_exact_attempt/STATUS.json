@@ -1,0 +1,5 @@
+{
+  "root_actual_checker_attempts": 1,
+  "completed_certificate": false,
+  "error": "Fraction constant was missing an I wrapper before sqrt at rho definition; no candidate inequality failure occurred."
+}

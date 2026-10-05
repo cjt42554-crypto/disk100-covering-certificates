@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "polynomial": [
+        -1,
+        2
+      ],
+      "expected_distinct_roots_in_0_1": 1,
+      "passed": true
+    },
+    {
+      "polynomial": [
+        1,
+        -4,
+        4
+      ],
+      "expected_distinct_roots_in_0_1": 1,
+      "passed": true
+    },
+    {
+      "polynomial": [
+        2,
+        -9,
+        9
+      ],
+      "expected_distinct_roots_in_0_1": 2,
+      "passed": true
+    },
+    {
+      "polynomial": [
+        -2,
+        1
+      ],
+      "expected_distinct_roots_in_0_1": 0,
+      "passed": true
+    },
+    {
+      "polynomial": [
+        -6,
+        29,
+        -46,
+        24
+      ],
+      "expected_distinct_roots_in_0_1": 3,
+      "passed": true
+    }
+  ]
+}

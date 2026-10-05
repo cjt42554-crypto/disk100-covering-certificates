@@ -1,0 +1,156 @@
+CERTIFIED EXPLICIT RATIONAL PL COVERING PATH AND INSIDE-DELAUNAY FLIP
+=================================================================
+
+1. Scope and concrete data
+
+This package defines a new explicit PL path of 100 labeled circle centers.
+The old independently certified rational configuration U=0.1155018241946 is
+node -1. Nodes 0,...,21 are EXACT nearest-integer ties-to-even rounding at
+Q=10^15 of Fraction.from_float coordinates decoded from the saved historical
+accepted NPZ nodes. Binary64 input rationals, NPZ file SHA256, exact integer
+coordinates, and exact covering witnesses are retained in nodes/*.
+The only historical numerical use is selection of these saved nodes and
+proposal of a radius/witness. No optimization is rerun; no float comparison
+can accept coverage or geometry. Historical reported radii are not proofs.
+
+On each consecutive segment, the path is exactly
+  c_i(s)=((1-s) A_i+s B_i)/Q, 0<=s<=1.
+All 100 centers remain strictly inside the unit disk, by convexity and the
+exact node norm checks. Original files are read-only; the replay needs no
+original files and imports only the Python standard library.
+
+2. Exhaustive endpoint coverage on the WHOLE CLOSED UNIT DISK
+
+For fixed distinct centers, f(x)=min_i |x-c_i|^2 is continuous on compact
+closed D and has a maximum. An interior maximum cannot have one nearest
+center: the corresponding strictly convex quadratic cannot have a local
+maximum. If all nearest centers lie on a line (including exactly two), their
+equidistance locus has a tangent direction in which the tied squared
+distances are strictly convex, and inactive sites remain inactive nearby.
+Thus an interior maximum has three noncollinear nearest centers and is one
+of the enumerated rational triple circumcenters. The checker enumerates
+EVERY noncollinear triple circumcenter inside the CLOSED disk, regardless of
+Delaunay status; this conservative enumeration handles any topology/ties.
+
+On the unit circle, all pair bisectors partition the circle into arcs with
+a fixed nearest center. The squared distance along an arc is
+  1+|c_i|^2-2 c_i dot x.
+Its maximum occurs at an arc endpoint or the antipode of c_i. Constant arcs
+for a zero center are covered by their endpoints or the extra point (1,0).
+The checker enumerates both intersections of every pair bisector with the
+unit circle (including tangent ties), all nonzero-center antipodes, and
+(1,0). This list contains a whole-domain maximum; it is not a spatial grid.
+
+Each candidate supplies a center witness, and exact arithmetic verifies its
+squared distance <= U_node^2. Rational candidates use integer comparison;
+boundary candidates use an exact sign of a+b sqrt(d), comparing a^2 and b^2 d
+when signs differ. Thus all endpoints cover all of closed D. A floating-point
+nearest-center calculation in build_source only proposes witnesses. Any
+proposal fails closed unless exact comparison accepts; all 100 centers are
+searched exactly if a proposal is rejected. The independent replay recomputes
+the exhaustive candidate list and all witness comparisons.
+
+3. Continuous coverage between endpoints
+
+Let Dseg=(ceil sqrt(max_i |B_i-A_i|^2))/Q. The integer isqrt upward rounding is
+checked independently; it is an upper bound on every labeled displacement.
+For every x in closed D, a center covering x at A has distance <=U_A+s Dseg
+along the segment. Independently a center covering x at B has distance
+<=U_B+(1-s)Dseg. Hence the covering radius everywhere along the full segment
+is bounded by the concave envelope
+  g(s)=min(U_A+s Dseg, U_B+(1-s)Dseg).
+Its EXACT maximum is min(U_A,U_B) for Dseg=0; U_B+Dseg if U_A>U_B+Dseg;
+U_A+Dseg if U_B>U_A+Dseg; otherwise (U_A+U_B+Dseg)/2.
+The verifier recomputes these formulas and the maximum across all segments.
+No sampling can establish this claim; it follows from the triangle inequality
+for every s and every x. Subdivision or optimizer stationarity is not assumed.
+
+4. Algebraic event and strict geometric certificate
+
+The event segment is node 18 -> node 19. Let integer-polynomial coordinates
+X_i(s),Y_i(s) be the corresponding integer paths. Define the incircle
+polynomial from the 3x3 determinant with rows
+  (X_i-X_27, Y_i-Y_27, (X_i-X_27)^2+(Y_i-Y_27)^2)
+for i=65,30,64. Divide all coefficients by their positive integer gcd.
+This fixes the sign convention; it need not equal a historical predicate's
+sign convention. The complete coefficients of primitive P(s), low-to-high,
+are listed below and also in event_geometry.json.
+  p0 = -4427303351056728138386865228027563086913234
+  p1 = 651652608030603581147692065187288176118302137238313361
+  p2 = 329003914814304025664545126795913749379377582211676
+  p3 = 23790680699228509057927749238015789759306019351
+  p4 = -1279805163271845452785549885763014032272970
+
+P has degree 4. Exact Sturm sign-variation counts give exactly one root in
+(0,1) and exactly one in the strict rational isolating box
+  8612370580884599513/1267650600228229401496703205376 < s* < 4306185290442299757/633825300114114700748351602688.
+The signs at 0 and 1 differ, as do the signs at the isolating endpoints.
+Exact Fraction interval evaluation also proves P'(s)>0 on the root box,
+so the isolated root is simple and transverse. No approximate root is used
+for acceptance.
+
+The common circumcenter q(s) of sites (65,30,64) is represented by the
+explicit integer-polynomial rational functions nx(s)/den(s), ny(s)/den(s).
+The complete coefficients of nx,ny,den and of the common squared-radius
+rational function are in event_geometry.json. The replay recomputes them.
+On the entire isolating box the replay proves, using Fraction intervals:
+  * den>0, so the original triangle stays nondegenerate;
+  * den^2-nx^2-ny^2>0, so q is strictly inside D;
+  * four consecutive orientation determinants of cyclic order
+    (65,64,30,27) are strictly negative, so the quadrilateral is convex;
+  * q lies strictly to the right of all four oriented edges, so q lies
+    strictly inside that clockwise convex quadrilateral;
+  * for every other site j (all 96 checked separately), the exact polynomial
+      H_j=den (X_j^2+Y_j^2-X_65^2-Y_65^2)
+          -2 Q (nx (X_j-X_65)+ny (Y_j-Y_65))
+    has a strictly positive lower bound. Since distance_j^2-distance_65^2
+    equals H_j/(Q^2 den), all 96 other sites are strictly outside the common
+    circle throughout this box.
+
+Equal distances for sites 30,64 are polynomial identities. H_27 is an exact
+nonzero constant multiple of P, so all four sites tie at s*. The proof does
+not substitute an approximate zero of the incircle determinant. At the
+exact rational lower bracket endpoint, both old diagonal triangles
+(65,30,64),(65,30,27) have inside-D circumcenters and all other 97 sites
+strictly outside their circumcircles. At the upper bracket endpoint, both
+new diagonal triangles (65,64,27),(30,64,27) satisfy the same strict checks.
+Their exact rational circumcenters, radii, and minimum gaps are retained.
+Thus the diagonal (65,30) changes to (64,27) across a real empty convex
+inside-D Delaunay flip, not merely a zero of an unrelated determinant.
+At s*, q lies inside the convex hull of its four strictly nearest centers;
+their directional distance derivatives have a strictly negative minimum in
+every direction. Therefore q is a strict local maximum of nearest-center
+distance: an actual interior coverage hole participates in this event.
+No extra tied site is hidden; strict emptiness excludes every other center.
+
+5. Certified numerical values and limitations
+
+The 23-node / 22-segment whole-path rational coverage cap is
+  235173307525027/2000000000000000 = 0.1175866537625135.
+The largest segment cap is segment 13 -> 14.
+The two-node event-only cap is
+  231185886538821/2000000000000000 = 0.1155929432694105.
+The event endpoint radii are 0.115563584952 and 0.115563252787.
+These decimal equalities are terminating rational values, not rounded claims.
+The pre-existing starting configuration's bound remains 0.1155018241946.
+
+This package certifies this NEW rational PL path and algebraic event.
+It does NOT certify the original SLSQP curve, a stationary branch, its true
+radius supremum, a reduced record upper bound, a covering lower bound,
+or global optimality. The polynomial P describes event parameter s*, not an
+optimal covering radius. q(s*) and the common event radius are algebraically
+defined by the stored rational functions evaluated at this isolated root.
+
+6. Replay and negative checks
+
+python3 -S certified_event_path/verify_path.py
+python3 -S -O certified_event_path/verify_path.py
+
+All require() checks are explicit exceptions, not assert statements, so -O
+cannot disable acceptance conditions. Every file in MANIFEST_SHA256.json is
+checked for exact file integrity, and all mathematical predicates are then
+recomputed. The independent tamper tests bypass SHA checking and still
+reject an altered event polynomial, a nonisolating bracket, a falsely lowered
+continuous cap, a missing emptiness check, and a falsely lowered endpoint
+radius. No numerical optimizer, sample oracle, SciPy, or NumPy is imported by
+the independent verifier or mathematical tamper tests.

@@ -1,0 +1,50 @@
+{
+  "status": "PASS_READY_AUTHORIZED_LAUNCH",
+  "checks": [
+    {
+      "joint_id": 2,
+      "source_e0": [
+        0.027588597969927946,
+        0.03220487128862411
+      ],
+      "source_gradient_norm": [
+        0.5654642199928321,
+        0.5885056488738205
+      ],
+      "reviewed_jet_max_error": 1.3877787807814457e-16,
+      "post_raw_targets": [
+        -7.62939453125e-06,
+        -3.814697265625e-06
+      ]
+    },
+    {
+      "joint_id": 3,
+      "source_e0": [
+        0.027669715542842928,
+        0.048711390104696106
+      ],
+      "source_gradient_norm": [
+        0.5652709882343696,
+        0.6246116471602887
+      ],
+      "reviewed_jet_max_error": 1.3877787807814457e-16,
+      "post_raw_targets": [
+        -3.814697265625e-06,
+        -7.62939453125e-06
+      ]
+    }
+  ],
+  "source_AST_SHA": {
+    "source/branches.py": "0dc483fc5e7df1e2a4a4a5724fba3f4a3b77660a3c9a61980e74ecac2f4442eb",
+    "source/event_jets.py": "cf782e9cbca6698cc8852ebf06fe75c8cae407a05457a3cc3b0cb8a22b372713",
+    "source/geometry.py": "1145883126efb4863fc55aa1805c940396fc4155a10293c6ee4c10ecb4739f4b",
+    "source/graph_tools.py": "6270504c6406a684f2a0a1463f031dcd24d177c67f3edbcf2789e24946e7b8fe",
+    "source/helpers.py": "0c4893f35454a2d91d19fe3535fa9d537823b28ebcc4b09e2a88a43c4fd430b2",
+    "source/independent_oracle.py": "8dda462c2343b33b32ad35ad34f53b51ab68184ac518ce3975801ca64bd1b00a",
+    "source/joint_driver.py": "ef9bab826c13d1f1c000efdf8e22edee918361b2b923d65e24706630d82dd1b9",
+    "source/whole_disk_oracle.py": "e07f698766d143749f57a67ffa783cb6b3fbf9252452339eb91598a1c1c2a0f8"
+  },
+  "worker_limit": 2,
+  "BLAS_threads_per_worker": 1,
+  "no_original_restore": true
+}

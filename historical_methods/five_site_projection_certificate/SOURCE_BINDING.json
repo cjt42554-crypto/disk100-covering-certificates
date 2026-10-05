@@ -1,0 +1,10 @@
+{
+  "current_verifier_sha256": "fa21f0a6521925f6d171ec8ce2b5a12660b9da4ccd308be171f46094f47cc63b",
+  "bundled_acceptor_sha256": "06806070a7c185bc0c710629561d4c2d713eaf231efaadb9f7b9924a05ecb514",
+  "bundled_acceptor_bytes": 7444,
+  "bundled_acceptor_identical_to_actual_accepted_1132_source": true,
+  "independent_review_manifest_sha256": "fedc68ea48fdea2480ddd24f1ae84c30d48b0d9e62a7eafa17d5950450cb8e4c",
+  "portability_addendum_sha256": "a75be4dd5c69b92cb2d46dd46363a58789a80924479246fe6d8eeba38e95514f",
+  "global_optimality_claimed": false,
+  "initial_metadata_adapter_failure": "First seal read review manifest entries as plain SHA strings, but they are bytes+sha256 objects; assertion before writes/math. Corrected and verified all10 actual hashes and byte counts."
+}

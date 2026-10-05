@@ -1,0 +1,72 @@
+{
+  "status": "AUTHOR_ANALYTIC_PROOFS_FROZEN_AWAITING_INDEPENDENT_STATIC_REVIEW",
+  "radius": [5661, 50000],
+  "radius_extension_claimed": false,
+  "central_lambda": [7, 50],
+  "central_t": [1071883, 20000000],
+  "actual_score": "area/R^2+signedA/R^2-4lambda*x^2+t*gamma",
+  "matched_support": "Full-apex independent C(lambda,t), exact maximum of the acute and obtuse scalar endpoint branches.",
+  "common_geometric_domain": {
+    "faces": "Two consecutive positively oriented nondegenerate actual triangles sharing actual p c1",
+    "circumradius": "Each <= specified R",
+    "anchors": "Actual unit q_i covered by both corresponding base endpoints",
+    "signed_A_negative_allowed": true,
+    "actual_tau": "Arbitrary nonnegative actual signed-anchor slack, charged once",
+    "middle_cap": "The SAME original actual |c1|^2 <= 1-R^2",
+    "global_Q_or_variance_used": false
+  },
+  "local_0223_transport": {
+    "source": "PARAMETER_UNIFORM_LEMMA.md",
+    "central_fee": [223, 10000],
+    "additional_geometry": "Each original actual outer center covers a connected assigned full unit-circle arc > 147/1000",
+    "fee_function": "central_fee-(3/5)*abs(lambda-central_lambda)-(1723/10000)*abs(t-central_t)",
+    "broad_rectangle": {
+      "lambda": [[349, 2500], [351, 2500]],
+      "t": [[1067883, 20000000], [1075883, 20000000]],
+      "strict_uniform_fee": [1101277, 50000000],
+      "peak_displacement_upper": [9, 20000],
+      "conjugate_support_plane_residual_upper": [81, 200000000]
+    },
+    "narrow_rectangle": {
+      "lambda": [[6999, 50000], [7001, 50000]],
+      "t": [[1071483, 20000000], [1072283, 20000000]],
+      "strict_uniform_fee": [11142277, 500000000]
+    }
+  },
+  "pro_0225_transport": {
+    "source": "PRO_PARAMETER_COROLLARY.md",
+    "central_fee": [9, 400],
+    "additional_geometry": "Both original actual outer squared norms >= 83/100; no assigned-arc premise",
+    "fee_function": "central_fee-(3/5)*abs(lambda-central_lambda)-(69/400)*abs(t-central_t)",
+    "scalar_budget_extended_and_reproved": "Central actual per-face budget valid when D0 <= 1/40, using the Pro .035 localization gap and central slope/curvature",
+    "local_0223_geometric_fee_used": false,
+    "wider_lambda_rectangle": {
+      "lambda": [[1397, 10000], [1403, 10000]],
+      "t": [[1067883, 20000000], [1075883, 20000000]],
+      "strict_uniform_fee": [44571, 2000000],
+      "peak_displacement_upper": [7, 20000],
+      "conjugate_support_plane_residual_upper": [49, 200000000]
+    },
+    "balanced_rectangle": {
+      "lambda": [[699, 5000], [701, 5000]],
+      "t": [[1067883, 20000000], [1075883, 20000000]],
+      "strict_uniform_fee": [44691, 2000000]
+    },
+    "future_radius_composition": "Only conditional on a separately established central theorem at the new R with its exact geometric hypotheses; no norm .83 at R .116 asserted here."
+  },
+  "frozen_target_comparison_only": {
+    "delta": [178523206195158271774904671901, 8011730250000000000000000000000],
+    "strict_upper": [22283, 1000000],
+    "changed_global_parameter_target_recomputation_required": true
+  },
+  "author_execution": {
+    "mathematical_program_executions": 0,
+    "mathematical_source_imports": 0,
+    "old_48_guard_replays": 0,
+    "other_checker_replays": 0,
+    "optimizers_or_scans": 0,
+    "predecessor_root_pro_replay_count": 1,
+    "predecessor_replay_not_repeated": true
+  },
+  "global_certificate_or_exact_optimality_claimed": false
+}

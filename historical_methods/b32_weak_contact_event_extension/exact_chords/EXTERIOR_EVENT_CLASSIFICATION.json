@@ -1,0 +1,265 @@
+{
+  "events": [
+    {
+      "curve": 0,
+      "segment": 7,
+      "predicate_kind": "TRIANGLE_ORIENTATION_ZERO",
+      "labels": [
+        88,
+        87,
+        86
+      ],
+      "root_isolation": {
+        "left": [
+          "1038519624222427249",
+          "1152921504606846976"
+        ],
+        "right": [
+          "519259812111213625",
+          "576460752303423488"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "b4edd87ac3d7a86dfb4dc9bb7b7dc891c2ff2da15e142d2fc3b8f71c752c6931"
+      },
+      "common_denominator": "1152921504606846976",
+      "associated_circumcenter_unit_side_integer_polynomial": [
+        "-8835049584352638340457607798559549044399426369428030884786211580918104347310986277274121736296",
+        "34102952181121419392178557831617158133212355144905814184489518420675605324430206247134225036",
+        "164298195345451334687672596904968772889118307696413795611934468768769498525426658636880299",
+        "170935716919425019375710861182214288395425359207340424462194647706394026700449609336546",
+        "21861438140014391806166933237267180256752614801664766729860260788992724560759306471",
+        "-45060383453502064454651020459529415755700086519463120247568558342147211816585540",
+        "-16306925336427605755533419449983454261748522324399633984989740439805164818276"
+      ],
+      "unit_side_definition": "Q^2*D^2-|N|^2; negative means circumcenter outside closed unit disk whenever orientation is nonzero",
+      "unit_side_roots_in_closed_chord": 0,
+      "unit_side_strict_negative_at_both_endpoints": true,
+      "unit_side_strict_negative_through_chord_by_Sturm": true,
+      "event_classification": "exterior collinearity; no finite circumcenter in the unit disk",
+      "qualified_new_restricted_event": false,
+      "scope": "This proof classifies the associated three-site locus on this straight chord; it does not certify a Newton arc, nor later-cell predicates after the first root."
+    },
+    {
+      "curve": 2,
+      "segment": 18,
+      "predicate_kind": "TRIANGLE_ORIENTATION_ZERO",
+      "labels": [
+        88,
+        87,
+        86
+      ],
+      "root_isolation": {
+        "left": [
+          "109028827304953593",
+          "576460752303423488"
+        ],
+        "right": [
+          "218057654609907187",
+          "1152921504606846976"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "dea17ebef6ad3971bede5e4475621b2044e1430bca5a8939fc19baac476279e7"
+      },
+      "common_denominator": "288230376151711744",
+      "associated_circumcenter_unit_side_integer_polynomial": [
+        "-35678123356517849916062910765476150923534801265365200760088260526265941107182384795770987632308",
+        "651613667274721751133126035772695742004041441829426096538874676767635060062982841967636486092",
+        "4863609881072558815743054010853969905008818927790350002609118533009510496835383553843938979",
+        "8477951263815671311620809045726758870142329339336084575812309791265510049944313391062276",
+        "502627006523538269807107125922783693548951142412442893512265323445933773844561924718",
+        "-8988079795272698649075577303051502257355408846795525242211126234405876840666520792",
+        "-5210548702637313010385371432041352470178604284691398305492415436442203045460581"
+      ],
+      "unit_side_definition": "Q^2*D^2-|N|^2; negative means circumcenter outside closed unit disk whenever orientation is nonzero",
+      "unit_side_roots_in_closed_chord": 0,
+      "unit_side_strict_negative_at_both_endpoints": true,
+      "unit_side_strict_negative_through_chord_by_Sturm": true,
+      "event_classification": "exterior collinearity; no finite circumcenter in the unit disk",
+      "qualified_new_restricted_event": false,
+      "scope": "This proof classifies the associated three-site locus on this straight chord; it does not certify a Newton arc, nor later-cell predicates after the first root."
+    },
+    {
+      "curve": 2,
+      "segment": 18,
+      "predicate_kind": "TRIANGLE_ORIENTATION_ZERO",
+      "labels": [
+        93,
+        92,
+        94
+      ],
+      "root_isolation": {
+        "left": [
+          "218057654615747017",
+          "1152921504606846976"
+        ],
+        "right": [
+          "109028827307873509",
+          "576460752303423488"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "1a06d56a9dbe42c457dc33f61a7a1385514b62392576af13a6cbba0e47c91d54"
+      },
+      "common_denominator": "288230376151711744",
+      "associated_circumcenter_unit_side_integer_polynomial": [
+        "-146137593268304570864286371749994997674024020477795039974460201153605837359054111515415690175627024",
+        "2669009581157229186008706307754980734286268093643069622114908034683029596622827933698772308535584",
+        "19921346072883180060234368481250411797087698564912125801706829859525386723093351404770452124632",
+        "34725688376666640544202273977104959491239679703643095320363298549931636930812871231838321568",
+        "2058760218858383792616480387573068638819961322070206758916590514384127158531147030368543",
+        "-36815174841365028065571815177560221037834063579722380705173374455507974458352433043882",
+        "-21342407486000324374234347934383297919827971535555836712121085515004065340119653105"
+      ],
+      "unit_side_definition": "Q^2*D^2-|N|^2; negative means circumcenter outside closed unit disk whenever orientation is nonzero",
+      "unit_side_roots_in_closed_chord": 0,
+      "unit_side_strict_negative_at_both_endpoints": true,
+      "unit_side_strict_negative_through_chord_by_Sturm": true,
+      "event_classification": "exterior collinearity; no finite circumcenter in the unit disk",
+      "qualified_new_restricted_event": false,
+      "scope": "This proof classifies the associated three-site locus on this straight chord; it does not certify a Newton arc, nor later-cell predicates after the first root."
+    },
+    {
+      "curve": 2,
+      "segment": 24,
+      "predicate_kind": "FULL_HULL_COLLINEARITY",
+      "labels": [
+        82,
+        83,
+        84
+      ],
+      "root_isolation": {
+        "left": [
+          "335134323528120843",
+          "1152921504606846976"
+        ],
+        "right": [
+          "83783580882030211",
+          "288230376151711744"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "daac0f7752469e11c9a2a14f4f260299bc9dbc2955cea1436c22259acabbae79"
+      },
+      "common_denominator": "288230376151711744",
+      "associated_circumcenter_unit_side_integer_polynomial": [
+        "-1642715394277179592078690390273317811442047026758836350747939305098358732737154286736560266809",
+        "-54214981879316066097820455924132088942832060412999456001005865599613964816797671821980618126",
+        "418952187748791696935366546297155366969392445658258884275241716313967197226015517957039915",
+        "-634870414545642952882309801584889815513726104317938247094853211436301495184547691999004",
+        "15393221981108354803037427326348698536509770439187622451632051811559122282308250388",
+        "325406652640327515162054287757728113147011399209278026781896800817487076283733424",
+        "-42677612748251047785648373723671140924242649665986974827205610308834985207200"
+      ],
+      "unit_side_definition": "Q^2*D^2-|N|^2; negative means circumcenter outside closed unit disk whenever orientation is nonzero",
+      "unit_side_roots_in_closed_chord": 0,
+      "unit_side_strict_negative_at_both_endpoints": true,
+      "unit_side_strict_negative_through_chord_by_Sturm": true,
+      "event_classification": "exterior collinearity; no finite circumcenter in the unit disk",
+      "qualified_new_restricted_event": false,
+      "scope": "This proof classifies the associated three-site locus on this straight chord; it does not certify a Newton arc, nor later-cell predicates after the first root."
+    },
+    {
+      "curve": 2,
+      "segment": 24,
+      "predicate_kind": "FULL_HULL_COLLINEARITY",
+      "labels": [
+        96,
+        97,
+        98
+      ],
+      "root_isolation": {
+        "left": [
+          "335134323529672439",
+          "1152921504606846976"
+        ],
+        "right": [
+          "41891790441209055",
+          "144115188075855872"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "1eab679df4e4b4341d6ae19b5692fa0c89c44d767fdb2ebe33721c4de4df1562"
+      },
+      "common_denominator": "288230376151711744",
+      "associated_circumcenter_unit_side_integer_polynomial": [
+        "-410678848569258883268785393538221821758543926665517002312499387777415265044445859068012044725",
+        "-13553745469822108382845596184669301348792105650442080000670283711215563927685420011086644410",
+        "104738046937231755114310093846839735501470558158518914158740945162016470686578314930358781",
+        "-158717603636654022930494230458710696155663713297956826010102528966229814924716754966540",
+        "3848305495428901817690053774617651537567776980768823217309702137310911439308281877",
+        "81351663160197477477387061970576278923794689338693275208989515739963806491218406",
+        "-10669403187063800938257585081825572838267776012023514446966360319108126782845"
+      ],
+      "unit_side_definition": "Q^2*D^2-|N|^2; negative means circumcenter outside closed unit disk whenever orientation is nonzero",
+      "unit_side_roots_in_closed_chord": 0,
+      "unit_side_strict_negative_at_both_endpoints": true,
+      "unit_side_strict_negative_through_chord_by_Sturm": true,
+      "event_classification": "exterior collinearity; no finite circumcenter in the unit disk",
+      "qualified_new_restricted_event": false,
+      "scope": "This proof classifies the associated three-site locus on this straight chord; it does not certify a Newton arc, nor later-cell predicates after the first root."
+    },
+    {
+      "curve": 2,
+      "segment": 25,
+      "predicate_kind": "FULL_HULL_COLLINEARITY",
+      "labels": [
+        73,
+        74,
+        75
+      ],
+      "root_isolation": {
+        "left": [
+          "1058935659876576099",
+          "1152921504606846976"
+        ],
+        "right": [
+          "264733914969144025",
+          "288230376151711744"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "8139d21467107df1c7d19c7b1975c1722a6a27163af7f866d4fafcec1949097d"
+      },
+      "common_denominator": "288230376151711744",
+      "associated_circumcenter_unit_side_integer_polynomial": [
+        "-862200245295655498401928810712106499357430324846788755650732323976304831743626508641320134656",
+        "-462173058344518979870171753176029659518129977473784465238993658875724296822576245834209997312",
+        "18758490757394066456215363858410430690287637828501224255234922448200098149223608816752414784",
+        "-134684550024448999478891778639147825448028598052415224101324741955542239472405210446995536",
+        "4285934513732016125109843841648668606096910950952156490049566897125984863500443633894",
+        "1430947677016227109072743449447298132624542970503114448917548911472889604197090235310",
+        "-320144932201458192723609106643100265323000423684550218048229558017307847569180309"
+      ],
+      "unit_side_definition": "Q^2*D^2-|N|^2; negative means circumcenter outside closed unit disk whenever orientation is nonzero",
+      "unit_side_roots_in_closed_chord": 0,
+      "unit_side_strict_negative_at_both_endpoints": true,
+      "unit_side_strict_negative_through_chord_by_Sturm": true,
+      "event_classification": "exterior collinearity; no finite circumcenter in the unit disk",
+      "qualified_new_restricted_event": false,
+      "scope": "This proof classifies the associated three-site locus on this straight chord; it does not certify a Newton arc, nor later-cell predicates after the first root."
+    }
+  ],
+  "all_events_exterior": true,
+  "distinct_chords": 4,
+  "event_loci": 6
+}

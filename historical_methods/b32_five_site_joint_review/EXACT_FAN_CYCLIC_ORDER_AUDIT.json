@@ -1,0 +1,227 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "joint_id": 0,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "joint_id": 1,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "joint_id": 2,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "joint_id": 3,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "joint_id": 4,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "joint_id": 5,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "joint_id": 6,
+      "exact_completeness": {
+        "ray_count": 5,
+        "cone_count": 5,
+        "every_boundary_ray_shared_by_two_cones": true,
+        "cyclic_cone_adjacency_exact_cross_checks": true,
+        "cone_ray_indices": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      }
+    }
+  ],
+  "verified_fan_report_sha256": "fb1202de3d5b65c4e9062d6f79006f97760cea1cf94ee7c2db8d45bcf4310338",
+  "all_angle_halfplane_and_cross_signs_exact": true,
+  "repeated_finite_emptycircle_checks": 0,
+  "wholeD_calls": 0,
+  "optimizer_calls": 0
+}

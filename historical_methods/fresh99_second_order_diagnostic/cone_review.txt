@@ -1,0 +1,206 @@
+PUBLICATION SCOPE: CURATED HISTORICAL RESEARCH RECORD
+This is a lean, privacy-edited copy. Original replay/rebuild instructions below describe the complete historical archive, not a ready-to-run public reproduction. Large run snapshots, inventories, caches and some dependency trees are intentionally omitted. No complete replay of these finite runs is claimed here; no program was executed for publication. Read ../README.md and this route's PUBLICATION_SCOPE.json. Original files were retained unchanged.
+
+99 binding + 1 free：epigraph临界锥与二阶诊断独立审查
+===================================================
+
+限定读取：strict_local_second_order/theory/PHYSICAL_SOSC_THEOREM.md，
+          strict_local_second_order/LOCAL_PROOF.md，以及parent的新任务。
+本支线只写本文件；没有运行optimizer、计算源C、改冻结80文件或主script。
+下文是条件性数学审查，不是对新的99+1构型已经完成的严格证书。
+
+1. 模型、资格与free的含义
+-----------------------
+令C=(b_1,...,b_99,u)∈R^200，其中u是第100个free圆心。
+设在待审基点C_*附近，所需接触分支s_k(C)为C²函数，平方覆盖目标为
+                  Φ(C)=max_{k∈I} s_k(C)
+（如只证明s_k≤Φ，下文的负曲率下降不能自动转移给Φ）。
+所有基点active分支满足s_k(C_*)=t_*；inactive分支若省略，须有严格gap
+及库存/几何资格使其在邻域中不会成为最坏分支。
+线性rotation gauge可取h(C)=b_{j,y}-γ=0，并要求b_{j,x}≠0。
+或用其它已证明横截的C² gauge；若还有圆心域等活跃限制，必须一并加入。
+
+free两维不应作为rotation symmetry删掉。若所有附近active分支仅由
+99 binding centers定义，且free对所有真实最坏点有严格距离margin，
+则局部Φ不依赖u，u的两个坐标是flat directions。必须保留它们。
+只有“当前没有列出与u相关的接触”并不证明这一局部独立性；还需完整
+最坏点库存/严格最近性与inactive gap，或其它独立覆盖论证。
+在局部独立性已成立的条件下，去rotation后完整临界锥仍含R² free子空间，
+完整Lagrangian Hessian的这两行/列为零。因此完整SOSC的严格正定不可能。
+可报告binding quotient block的诊断，但不能把删掉free后的正定称为
+全100圆心、仅模rotation的严格局部极小；完整构型沿free fiber不严格。
+
+2. KKT与精确临界锥：零λ必须保留inequality
+-----------------------------------------
+epigraph NLP是min t，约束g_k(C,t)=s_k(C)-t≤0及h(C)=0。
+固定一组精确KKT乘子，
+ L=t+Σ_{k∈I}λ_k(s_k-t)+ν^T h，
+ λ_k≥0，Σλ_k=1，Σλ_k Ds_k+Dh^Tν=0。
+正λ集合记P，零λ的active集合记Z；inactive λ必为0且不进临界锥。
+
+对方向d=(v,τ)，线性化可行性与目标一阶非增条件是
+ Dh v=0，Ds_k v-τ≤0（k∈I），τ≤0。
+KKT给τ+Σλ_k(Ds_k v-τ)=0。非负乘子与上述符号迫使τ=0，
+并迫使每个正λ项Ds_kv=0。于是正确临界锥为
+  Ccrit={ (v,0): Dh v=0；Ds_k v=0(k∈P)；Ds_k v≤0(k∈Z) }。
+不能把Z也强制为等式；一个零乘子分支允许一阶严格下降并退出active集。
+这个锥虽用某组λ表示，实际上等于原始线性化可行+目标条件，故不依赖
+KKT乘子的选择。若存在多个乘子，不能把某组λ的零/正分类误当唯一物理库存。
+
+all-active tangent为
+  Tall={ (v,0): Dh v=0；Ds_k v=0(全部k∈I) } ⊆ Ccrit。
+若从Dg_k d=0、Dh v=0定义Tall，stationarity也自动推出τ=0。
+所有λ严格正时Ccrit=Tall，正是两份读取文档采用的关键资格。
+有零λ时通常是严格包含，除非另外证明这些零λ inequalities在锥上必等号。
+
+3. 正确reduced Hessian与rotation处理
+----------------------------------
+在精确KKT点、固定乘子的Lagrangian Hessian中，t没有二阶项：
+ H_C=Σλ_k D²s_k+Σν_l D²h_l，H_{t,*}=0。
+线性gauge的D²h=0，但非线性gauge的项不能随意删。
+若所有几何分支rotation-invariant且gauge横截，stationarity与整体
+rotation方向ω=(Jb_1,...,Jb_99,Ju)点乘，给ν=0（单个线性gauge）；
+故gauge没有添加真实力。在未规范空间，ω是应保留记录的rotation零模。
+只去这一维rotation，保留u的两维。近似数值驻点不保证ν精确为0。
+
+取N为线性空间T_P={v:Dh v=0，Ds_kv=0(k∈P)}的满列秩基。
+完整cone Hessian诊断应该研究
+             Q=N^T H_C N，且(Ds_Z N)y≤0。
+不能只研究进一步强制Ds_ZNy=0的all-active子空间。
+若采用Tall基N_all，Q_all=N_all^T H_C N_all只是较小集合上的诊断。
+若free真的局部不参与分支，N应包含它的两维且Q有对应零模；人为锚定
+u会删去合法物理方向。允许另报删free后的binding block，但必须明示范围。
+若有真约束限制u（例如free触及圆心域边界），则它不再是自由R²，
+相应一阶/二阶约束必须加入，本文件的flat假设需要重新审查。
+
+all-active正值不足fullcone的明例：
+ s_1(x,y)=1+x²-y²，s_2(x,y)=1+y，基点(0,0),t=1；λ=(1,0)。
+ Ccrit={τ=0,v_y≤0}，Tall={τ=0,v_y=0}。
+ H=diag(2,-2)在Tall非零方向严格正，但v=(0,-1)∈Ccrit且Q(v)=-2。
+ Φ(0,-ε)=1-ε²（0<ε<1），实际下降。此例完整active epigraph LICQ成立。
+
+4. 负all-active tangent何时真的支持saddle/下降
+---------------------------------------------
+假定精确KKT成立、gauge正则、分支C²、真实Φ有局部精确max表示。
+如果完整active epigraph gradients
+          (Ds_k,-1)，(Dh,0)
+满行秩（LICQ），IFT使全部active等式g_k=0及gauge组成C²流形。
+任何d∈Tall都可积分为该流形的曲线z(ε)，z'(0)=d。
+沿曲线所有列出的分支=t，因此曲线对epigraph inequalities可行。
+由于∇L=0且约束沿曲线恒零，
+             t''(0)=d^T D²L d=v^T H_C v。
+故某个非零d∈Tall满足Q(d)<0，就产生t<t_*的二阶可行下降。
+对真实Φ的下降还使用局部精确max；只有s_k≤Φ的lower-bound桥不足。
+亦可用局部constant-rank的完整active equality map及已证明可积性替代
+LICQ；仅基点的rank值、数值nullspace、或形式二阶方程可解不足以替代。
+
+LICQ必须针对(C,t)全变量及gauge，不是仅center gradients。
+free给Jacobian两个零列并不必然破坏LICQ（LICQ检查行独立）；但真正
+free两维flat会使完整KKT Jacobian有零方向，所以不能沿用两份文档
+“KKT非奇异→LICQ/隔离根”的整套无free论证。
+
+LICQ失效时，epigraph MFCQ仍通常成立：若Dh满行秩，在gauge tangent
+方向取(v,τ)=(0,1)，所有Dg_k=-1。然而MFCQ与某一乘子的负Hessian
+不能单独推出下降，乘子可能非唯一。
+例s_1(x)=x²、s_2(x)=-x²在x=t=0：λ=(1/4,3/4)严格正，Q(v=1)=-1，
+而Φ=x²有局部极小。Tall有x方向，所有active rows依赖；没有all-active
+等式流形承载该方向。严格互补本身也不能挽救这种负值推论。
+
+5. 二阶修复必须检查什么
+-----------------------
+写C(ε)=C_*+εv+(ε²/2)w_C+o(ε²)，
+   t(ε)=t_*+ετ+(ε²/2)w_t+o(ε²)。
+一阶要求Dh v=0及a_k=Ds_kv-τ≤0。二阶要求
+ Dh w_C+D²h[v,v]=0，
+ Ds_k w_C-w_t+D²s_k[v,v]≤0 对全部a_k=0的active k。
+若a_k<0，已有一阶strict slack，不需要其二阶限制。
+critical方向τ=0；二阶下降需要w_t<0，并需这些jets能实现为真实可行曲线。
+尤其：all-active tangent的全部contacts都有a_k=0，所以正λ和零λ
+contacts都必须参与二阶修复，不能因为λ=0就丢掉它们。
+不能只检查正λ加权Hessian而无视那些零λ支路的二阶上升。
+
+在LICQ下，可把a_k=0的contacts作为等式保持，再把a_k<0的零λ支路
+依靠一阶margin保持可行；相应子系统IFT给出可实现路径。
+其w_t仍是Q(v)。因此LICQ下fullcone中的负值也可产生下降。
+
+更一般地，正则gauge与epigraph MFCQ下，对固定critical v设
+J={k∈I:Ds_kv=0}。考虑二阶线性规划
+  minimize w_t，subject to 上述gauge二阶等式及k∈J的二阶inequalities。
+它可行（提升w_t），且KKT使其有下界。LP对偶给出
+      min w_t = max_{(λ,ν)∈Λ} [Σλ_k D²s_k[v,v]+ν^T D²h[v,v]]，
+其中Λ为基点的全部KKT乘子集；对任一critical v，全部λ的支持都落在J。
+故 max_Λ Q(v)<0 才是非唯一乘子时可靠的二阶下降充分条件。
+若乘子唯一，这退化成单个Q(v)<0。取得负w_t后可略微提高w_t仍保持
+负值，使二阶inequalities严格；正则gauge修复高阶项后得到实际下降。
+若max_Λ Q(v)≥0，某个选定λ的负特征值仍可能是乘子选择造成的假象。
+上面的s_1=x²,s_2=-x²例要求w_t≥2，清楚阻止下降修复。
+
+要把上述jet变成可行curve，还必须保留所有其它活跃几何/圆心约束。
+inactive contacts须由严格gap保证留inactive；若新contact或拓扑事件
+没有排除，就必须纳入分支库存或直接做全盘覆盖认证，不能忽略。
+
+6. physical lifted Hessian与hole-derivative Hessian的等价条件
+---------------------------------------------------------
+按两份来源文档，每孔选择一个reference支持中心，定义
+ e_{ki}=|x_k-c_{ki}|²-|x_k-c_{k0}|²=0（i≠0），
+ g_k=|x_k-c_{k0}|²-t≤0；boundary孔另有b_k=|q_k|²-1=0。
+λ_k=Σ_i α_{ki}，并且恒等式
+ Σ_i α_{ki}(|x_k-c_{ki}|²-t)
+   =λ_k g_k+Σ_{i≠0}α_{ki}e_{ki}
+对全部变量成立。这是常数行变换，未改变Lagrangian及其Hessian。
+需要非负的是outer contact λ；等距乘子α_{i≠0}及unit β不是不等式乘子。
+
+消孔为光滑分支x_k=φ_k(C)需要：
+ • interior三支持中心非共线，孔定义对孔坐标Jacobian可逆；
+ • boundary pair横截：4 cross(q_k,c_b-c_a)≠0；
+ • 固定所选branch，保持孔在D及对非支持中心的严格最近性；
+ • 若要负方向转移到真实Φ，另须完整局部max库存与inactive gap。
+共线/交点切触/支持集改变时，不可继续使用同一光滑hole Hessian。
+
+令嵌入E(C,t)=(C,φ(C),t)，J_E=DE。物理lifted Hessian二次型为
+ H_lift[d,d]=2Σ_{k,i}α_{ki}|δx_k-δc_{ki}|²
+                 +2Σ_{boundary k}β_k|δq_k|²
+（目标t及线性gauge无二阶项）。boundary β项不可删除。
+在精确auxiliary stationarity成立且孔定义IFT有效时，
+    J_E^T H_lift J_E = Σλ_k D²s_k+Σν_l D²h_l
+（右侧加零t行列）。这就是物理几何消孔与branch-derivative Hessian
+的等价。链式公式含∇L·D²E；精确KKT的auxiliary gradient为零将其消掉。
+对于单个孔，同样只需该孔auxiliary stationarity消掉φ_k''项，且
+J_{φ_k}^T H_{physical,k}J_{φ_k}=λ_k D²s_k。
+这里乘子作为常数固定求导；不能对数值拟合的λ(C)再求导。
+
+regular hole IFT下，λ_k=0且精确auxiliary stationarity将迫使该孔
+全部等距/unit乘子及α_{ki}为零，因为孔定义Jacobian可逆。
+但contact inequality s_k-t≤0仍在临界锥及二阶修复中，不能删掉。
+λ为近零而非精确零、或stationarity residual非零时，不能这样推断。
+
+直接只取H_lift的center-center block，一般不等于D²s；必须用正确
+IFT导数δx=Dφ δC的pullback，也不能用无资格的Hessian Schur complement
+冒充受几何等式约束的消孔。
+例如D²|φ-c_0|²[v,v]含
+2|Dφv-v_{c_0}|²+2(φ-c_0)·D²φ[v,v]；朴素地只保留第一项会漏曲率。
+完整weighted physical form通过stationarity与unit项正确重现后者。
+若stationarity只是近似，pullback与hole Hessian的差含auxiliary残差
+乘φ''，因此两种浮点实现的一致性检查不能替代严格误差证明。
+
+7. 允许的诊断结论与严格证明要求
+------------------------------
+数值λ符号、Σλ≈1、stationarity residual、SVD rank、projection后
+特征值与负方向只能报告numerical diagnostics，不能认证exact KKT、
+LICQ、critical-cone符号、MFCQ所需branch语义或真实cover下降。
+尤其tiny positive λ不能用人为阈值直接当成严格正或精确零。
+数值all-active负值应报告“在选定乘子/拓扑下的负曲率候选”；只有完成
+精确KKT和regularity、二阶修复及真实coverage桥，才可称物理saddle方向。
+数值all-active正值只能排除该小子空间的已观察负方向，不能认证fullcone。
+
+严格结论至少需：明确精确输入/根及λ≥0、Σλ=1；合法smooth branch和
+gauge资格；正确physical或IFT-pullback Hessian；所需rank/可积性；
+fullcone比较（非唯一乘子时区分max_Λ）；所有二阶binding约束的修复；
+若声称真实下降则需局部exact-max或独立认证下降构型的全盘覆盖。
+free平坦性须独立资格并保留记录；它允许binding局部极小伴free fiber，
+不允许宣称仅模rotation的全构型严格局部极小或全局下界。
+
+两份已读取证书均依赖“所有contact λ严格正且无free锚定”的已认证
+构型。这可解释其Ccrit=Tall及严格正定路线；不能把这些已认证性质
+无核验地搬给新的99 binding+1 free构型。本支线没有对新构型接受任何
+精确stationarity、rank、惯性或物理局部极值证书。

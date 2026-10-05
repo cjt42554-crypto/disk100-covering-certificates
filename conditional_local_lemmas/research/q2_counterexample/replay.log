@@ -1,0 +1,3 @@
+PASS: new fixed q2 mirrored-skew witness, sin(epsilon)=1/12.
+Actual assigned outer half-sine > .62; middle > .6; total loss < .02228272803.
+One new standalone Fraction/radical enclosure; old checker/import/search calls 0.

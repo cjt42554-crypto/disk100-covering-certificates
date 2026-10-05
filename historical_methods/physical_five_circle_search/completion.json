@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "paths": 8,
+  "accepted_nodes": 184,
+  "failed_attempt_nodes": 0,
+  "independent_replayed_arrays": 250,
+  "score_max_difference": 0.0,
+  "valid_physical_five_circles": 8,
+  "crossed_physical_five_circles": 8,
+  "last_s_all": 1.02,
+  "weak_e0093_e0094_post_failure_resolved": true,
+  "minimum_accepted_common_area_ratio": 0.6532887907851658,
+  "minimum_accepted_cycle_area_ratio": 0.37832150153595906,
+  "best_event_after_unconstrained_restore": {
+    "ids": [
+      "e0200",
+      "e0038"
+    ],
+    "radius": 0.11631925034848167
+  },
+  "no_new_upper_bound": true,
+  "current_complete_upper_bound": 0.1155018241946,
+  "source_execution_sha256": "f76ea12f3e1bf89166ece55c4d0f01ab34b97dad0fe2b94d669d6b446df98102",
+  "actual_coverage_centers": 100,
+  "rattler_note": "99 binding skeleton is only a recurrence fingerprint; 65 stays in all100 oracle/actual holes and is never deleted",
+  "frozen_trees_unchanged": true,
+  "completed_at_utc": "2026-10-04T18:01:11.736493+00:00",
+  "scope": "Numerical physical five-point circles and exact signs of saved doubles only; sampled peak not a whole-path certificate, no algebraic/global-optimality certification"
+}

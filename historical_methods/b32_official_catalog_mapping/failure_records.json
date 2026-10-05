@@ -1,0 +1,7 @@
+{
+  "execution_failures": [],
+  "failed_or_ambiguous_local_rows": [],
+  "nonmatching_family_pairs": 240,
+  "note": "Rejected poses and nonmatching pairs are recorded in all256_pair_attempts.json; these are normal identity-search rejections.",
+  "status": "PASS"
+}

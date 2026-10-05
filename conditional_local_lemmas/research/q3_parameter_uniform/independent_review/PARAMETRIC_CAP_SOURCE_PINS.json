@@ -1,0 +1,14 @@
+{
+  "status": "PASS_STATIC_PARAMETRIC_FULL_APEX_CAP",
+  "checker_calls_by_reviewer": 0,
+  "scalar_guard_calls_by_reviewer": 0,
+  "mathematical_imports_by_reviewer": 0,
+  "sources": {
+    "PROJECT_SOURCE/research/q3_parameter_uniform/PARAMETRIC_CONJUGATE_CAP.md": "8e652fc4fae8c7dd465877386a587d1559273cbe3e862f50431a177990787726",
+    "PROJECT_SOURCE/research/q3_parameter_uniform/PROOF.md": "b70130937620c3058bb6e6360868b5152a509838ef179899ed3d77e20f2a1199",
+    "PROJECT_SOURCE/research/q3_parameter_uniform/independent_review/REVIEW.md": "139b1197c77eca446c9969af5c47ba7b542a9d41275c568cdb6e95f3e6cf3594",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2"
+  },
+  "note": "Static analytic review only; changing lambda/t does not trigger any new maximizer isolation."
+}

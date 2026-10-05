@@ -1,0 +1,21 @@
+{
+  "input_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+  "pure_geometry_no_cover_optimizer": true,
+  "curves": 3,
+  "maximum_phase_parameter": 0.08,
+  "phase_step": 0.001,
+  "maximum_actual_radius": 0.11565,
+  "strong_equalities": 132,
+  "weak_and_incoming_inequalities": 22,
+  "newton_max_iterations": 30,
+  "minimum_step": 1e-06,
+  "old_ordered_count": 35274,
+  "old_unordered_count": 16382,
+  "additional_frozen19_arrays_scanned": 147,
+  "old_unordered_scope": "Complete prior B32 profile inventory supplemented with all frozen87 and19 arrays; exact coordinate duplicate check, not metric basin proof.",
+  "selected_names": [
+    "incoming_cone05_plus",
+    "incoming_cone05_minus",
+    "incoming_cone03_plus"
+  ]
+}

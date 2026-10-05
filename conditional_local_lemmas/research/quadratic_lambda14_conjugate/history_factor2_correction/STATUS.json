@@ -1,0 +1,6 @@
+{
+  "status": "SUPERSEDED_ANALYTIC_GUARD_FACTOR2",
+  "root_actual_scalar_calls_at_snapshot": 1,
+  "independent_fresh_calls": 0,
+  "issue": "PROOF f_second sin2a coefficient should be -4 instead of -8; replace safe concavity guard by -2sqrt3+4lambda<0. Scalar roots/values unchanged; replay new source once after correction."
+}

@@ -1,0 +1,80 @@
+{
+  "python": "3.12.3",
+  "stdlib_replay": {
+    "command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "[REDACTED_PERSONAL_ABSOLUTE_PATH]"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "wall_seconds": 0.9339324550001038,
+    "log": "stdlib_replay.log",
+    "log_sha256": "972a3bc6f0a3788543889cbd738b4bc21cfdfc069301eafe4ad8441ebfac15f2"
+  },
+  "both_proofs_nonglobal_replay": {
+    "command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "[REDACTED_PERSONAL_ABSOLUTE_PATH]"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "wall_seconds": 7.7512386920006975,
+    "log": "nonglobal_replay.log",
+    "log_sha256": "5298f3c48e423a47e173df5892eeed32c92be7c2153a5dd5413466136b0d363d"
+  },
+  "corruption_rejection_run": {
+    "command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "[REDACTED_PERSONAL_ABSOLUTE_PATH]"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "wall_seconds": 1.1719374609992883,
+    "log": "corruption_rejection.log",
+    "log_sha256": "ecdb6c4ba3aee5bf1a01b30588d36514411a7c501ce1e14d46d7b7a7bd580069"
+  },
+  "corruption_rejections": {
+    "all_rejected": true,
+    "cases": [
+      {
+        "case": "constant_polynomial_coefficient_plus_one",
+        "rejected": true,
+        "reason": "polynomial coefficients do not encode exact radius"
+      },
+      {
+        "case": "exact_radius_squared_numerator_plus_one",
+        "rejected": true,
+        "reason": "wrong exact radius"
+      },
+      {
+        "case": "root_interval_shifted_two_grid_units",
+        "rejected": true,
+        "reason": "invalid positive root isolation"
+      }
+    ]
+  },
+  "exact_radius_squared": [
+    30725429859560965167376375782992217524879413397919297557180322583631658281589463901,
+    2305329476319453853675010622844675060361065718958756721000000000000000000000000000000
+  ],
+  "configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "certificate_sha256": "3fdb2d6c6caeeff730fe4e3203fb7d0dfdf0524f9329d70c7fcbe927978b5f91",
+  "critical_checker_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+  "proof_sha256": "8c1a54b5675b83be4e59d64671920b6c79fede750a07a1f570f4e9b0bc4f575d",
+  "full_exact_candidate_counts": {
+    "T": 128436,
+    "B": 9900,
+    "A": 100,
+    "E": 1
+  },
+  "full_exact_candidates_total": 138437
+}

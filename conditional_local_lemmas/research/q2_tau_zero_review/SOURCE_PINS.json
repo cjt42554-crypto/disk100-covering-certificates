@@ -1,0 +1,59 @@
+{
+  "status": "INDEPENDENT_STATIC_ANALYTIC_PASS_CONDITIONAL_ACTUAL_TAU_ZERO_D_GT_223_10000",
+  "author_root": "PROJECT_SOURCE/research/q2_strong_arc_norm_budget",
+  "source_files": {
+    "TAU_ZERO_NORM_PROOF.md": {
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+      "bytes": 13053
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "cdb8edf16eca580c2b5ee4f6d902d130e3c2d61d0ece0fdd0c882d33567d967d",
+      "bytes": 452
+    },
+    "SHA256.json": {
+      "sha256": "c6491092402132c60d0b0005e7d2d75a35180b34397a622a764b743c1726918a",
+      "bytes": 1219
+    },
+    "accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+      "bytes": 15099
+    },
+    "accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    },
+    "CLARIFICATIONS.md": {
+      "sha256": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+      "bytes": 971
+    },
+    "CLARIFICATIONS_BUDGET_ENDPOINTS.md": {
+      "sha256": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+      "bytes": 1577
+    },
+    "CLARIFICATIONS_DOMAIN.md": {
+      "sha256": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b",
+      "bytes": 1209
+    }
+  },
+  "original_author_manifest_all_entries_match": true,
+  "author_sources_edited_by_reviewer": false,
+  "reviewer_mathematical_program_executions": 0,
+  "supplemental_reviewer_mathematical_program_executions": 0,
+  "reviewer_mathematical_imports": 0,
+  "reviewer_checker_calls": 0,
+  "reviewer_numerical_replays": 0,
+  "reviewer_searches_or_optimizers": 0,
+  "metadata_only_hashing_and_document_writing_performed": true,
+  "accepted_scalar_arithmetic": "Pre-existing pinned accepted support/peak bounds used as premises; not regenerated.",
+  "accepted_scope": "R=5661/50000, lambda=7/50, t=1071883/20000000; two admitted actual faces, exact tau0=tau1=0, same actual middle norm cap, both connected actual outer full arcs > .147 imply D > .0223.",
+  "excluded_scope": [
+    "arbitrary positive tau",
+    "global covering exclusion",
+    "unproved radial-reflection transport preserving actual fan"
+  ],
+  "clarifications_read_in_full": [
+    "CLARIFICATIONS.md",
+    "CLARIFICATIONS_BUDGET_ENDPOINTS.md",
+    "CLARIFICATIONS_DOMAIN.md"
+  ]
+}

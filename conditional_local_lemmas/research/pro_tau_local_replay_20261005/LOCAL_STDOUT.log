@@ -1,0 +1,53 @@
+PASS: support: second apex branch < 6/5
+PASS: support: F(5/6)>7/5
+PASS: peak lies to the right of .828
+PASS: peak lies to the left of .829
+PASS: theta below .7 loses more than .035
+PASS: theta above .96 loses more than .035
+PASS: apex loss globally increases on theta window
+PASS: apex loss derivative >1 up to z=.1
+PASS: old F curvature >4 on [.7,.96]
+PASS: Dmax smaller than localization threshold
+PASS: individual theta lower .72 from budget
+PASS: individual theta upper .94 from budget
+PASS: sin(.72)^2 >13/30
+PASS: sin(.94)<.81
+PASS: sigma coefficient >=5/4
+PASS: |d_i|<.14 from sigma
+PASS: |eta|<.096 from sigma
+PASS: all alpha,h,A are in first quadrant
+PASS: B*=sin(alpha)>6/7
+PASS: cos(alpha)>.1
+PASS: sin(A_i)>.2025
+PASS: u>.99 along homotopy
+PASS: B(t)>.83 along homotopy
+PASS: negative translation branch excluded
+PASS: signed tangential directions for linear support
+PASS: linear tau coefficient slab 1/8: kappa_i<41/200
+PASS: linear tau coefficient slab 2/8: kappa_i<41/200
+PASS: linear tau coefficient slab 3/8: kappa_i<41/200
+PASS: linear tau coefficient slab 4/8: kappa_i<41/200
+PASS: linear tau coefficient slab 5/8: kappa_i<41/200
+PASS: linear tau coefficient slab 6/8: kappa_i<41/200
+PASS: linear tau coefficient slab 7/8: kappa_i<41/200
+PASS: linear tau coefficient slab 8/8: kappa_i<41/200
+PASS: 2/sqrt(3)<7/6 after squaring
+PASS: radial first derivative <M1
+PASS: directional Hessian norm <7/4
+PASS: mean-norm quadratic remainder <13/20 T²
+PASS: total tau cost <11/50 T
+PASS: halfarc quadratic coefficient <81/100
+PASS: chi s derivative <3/5
+PASS: baseline chi <.522
+PASS: Cauchy coefficient <.71
+PASS: scalar norm envelope is increasing in used shape budget
+PASS: final mean outer squared norm <83/100
+PASS: given highM norm floor squared >83/100
+PASS: full arc .147 has a real radial inner endpoint
+PASS: full assigned arc>.147 implies norm>.911124459
+PASS: new fee exceeds requested fee by >1/5000
+PASS: 48 exact guards, including 8 full interval slabs.
+THEOREM: if |c1|^2<=1-R^2 and |c0|^2,|c2|^2>=83/100,
+         then 2*C-S2 > 9/400 for the stated actual-anchor geometry.
+         No middle-halfarc variance is charged.
+NOT A GLOBAL r_D(100) CERTIFICATE.

@@ -1,0 +1,9 @@
+PUBLICATION SCOPE: CURATED HISTORICAL RESEARCH RECORD
+This is a lean, privacy-edited copy. Original replay/rebuild instructions below describe the complete historical archive, not a ready-to-run public reproduction. Large run snapshots, inventories, caches and some dependency trees are intentionally omitted. No complete replay of these finite runs is claimed here; no program was executed for publication. Read ../README.md and this route's PUBLICATION_SCOPE.json. Original files were retained unchanged.
+
+16 numerical pure-contact directions. Each NPZ has exact input binary64 C and V; affine path is C+alpha*V, normalized max site velocity=1.
+Primary all-active model retains all146/146/150 numerically active keys as equality plus rotation gauge. NNLS weights are finite numerical data, never exact positivity/zero certificates.
+For14 heuristic tiny multiplier split threshold1e-7 separates14 values7e-11..8e-10 from132 values>=.000141. Weakpatch23/49 strong-only nullspaces and weak directional inequalities are fully recorded; weak positive weights are not declared zero.
+Stress Hessian uses centered finite differences of analytic contact gradients, h=2e-6; no exact SOSC/stability claim. No covering/proxy optimizer ran.
+First affine scans are only numerical and stored separately; most first events are disk-exterior FULL_HULL_COLLINEARITY and do not change restricted graph.14weak23 has no event at maxcenter displacement .05. No modes are qualified wholeoptimizer starts.
+Rattler owns separate Hessian/critical-cone review; geometry writer owns exact event isolation, actual postgraph/wholeD/physical prior-route novelty before proposing any new starts.

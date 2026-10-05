@@ -1,0 +1,46 @@
+{
+  "cap_coefficient": [
+    125,
+    972
+  ],
+  "fee": [
+    41,
+    2000
+  ],
+  "lambda_interval": [
+    [
+      63,
+      500
+    ],
+    [
+      77,
+      500
+    ]
+  ],
+  "old_checker_calls": 0,
+  "old_math_imports": 0,
+  "peak_displacement_upper": [
+    35,
+    1944
+  ],
+  "radius_upper": [
+    794400,
+    5378209
+  ],
+  "scope": "Broad actual signed-A local corollary. Accepted .038 theorem/radius and full analytic proof required. No whole-cover radius exclusion.",
+  "sensitivity_threshold_strict_lower": [
+    41511,
+    2000000
+  ],
+  "status": "PASS_NEW_BROAD_FRACTION_GUARDS_ONLY",
+  "tilt_interval": [
+    [
+      791883,
+      20000000
+    ],
+    [
+      1351883,
+      20000000
+    ]
+  ]
+}

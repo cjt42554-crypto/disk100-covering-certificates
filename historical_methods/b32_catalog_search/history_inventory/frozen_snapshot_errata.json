@@ -1,0 +1,22 @@
+{
+  "frozen_manifest_sha256": "4564114ea32e4853656cc97cba860cb42e81bd64b854f6ccb918ab1e7a109a4d",
+  "snapshot_content_unchanged": true,
+  "note": "Two included ZIP comparison files are early-round historical outputs. Their coordinate counts and missing-SHA lists predate exact int/int rational conversion and must not be used as final inventory evidence. The finalized snapshot conclusions are independently checked in archive_overlap_final_verification.json and zip_scan/summary.json.",
+  "superseded_files": {
+    "zip_scan/overlap_with_retained_inventory.json": "f8d787014bff15d1f441570dc634ee55cd5cdb6033de0c243c46129ade0d347a",
+    "zip_scan/verification_and_task2_comparison.json": "5c8536372d5b44a6e8dbbd11f355dc84517ab2b0301e2650277a97a9c12038fb"
+  },
+  "authoritative_final_files": [
+    "archive_overlap_final_verification.json",
+    "archive_unique_member_check.json",
+    "zip_scan/summary.json",
+    "zip_scan/arrays100.json",
+    "zip_scan/archive_index.json",
+    "zip_scan/zip_only_arrays.json"
+  ],
+  "final_archive_coordinate_candidate_unique_sha256": 24884,
+  "final_archive_coordinate_sha256_missing_local": 0,
+  "final_archive_raw_member_unique_count": 1,
+  "final_archive_unique_coordinates_count": 0,
+  "root_total_10038_note": "9840 structural-trial count is independently verified. The root-reported extra198 retains its root-context attribution; this audit does not fabricate a source for it."
+}

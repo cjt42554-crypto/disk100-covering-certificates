@@ -1,0 +1,30 @@
+{
+  "artifact": "Actual signed-A q2 strong-arc local proof, complete author paper source and preserved earlier interfaces",
+  "status_at_freeze": "Full actual-tau theorem author proof awaiting independent static review; zero-tau and ideal mean-envelope have separate accepted reviews.",
+  "author_mathematical_program_executions": 0,
+  "author_mathematical_imports": 0,
+  "author_old_checker_replays": 0,
+  "author_optimizer_or_parameter_searches": 0,
+  "freeze_policy": "Do not modify these bytes. Any necessary later clarification is a new separately hashed file. Earlier intermediate pins remain preserved.",
+  "files": {
+    "WORKING_INTERFACE.md": "f648021de12b7182c14104d15c8b947aafd1fa90fc24dc2ce459efc87a45c5d3",
+    "EXECUTION_LEDGER.json": "baf021973a53be3eb8a0b3fee9391625466d8624dcb0e0861ba73bb86f6eff26",
+    "SHA256.json": "9ff1a583f5aff15bd570c708d104e1eb6abf9e29a357f66361c76d4ea85d5276",
+    "FULL_ACTUAL_TAU_PROOF.md": "84ff30accf1b90746288d199127ab39759bea006000aaca88dd7887e5f48822e",
+    "MEAN_BUDGET_ENVELOPE.md": "4a4e634053549ff56019d93802cfb10da56ae21bbf23b03cc6822b6fc97a0a8c",
+    "ENVELOPE_PINS.json": "b1ddb1e3ebfba337abc8a825b0959ca749bcc0c32d24e7f7ab72c29396f5242f",
+    "ENDPOINT_CLARIFICATION.md": "8246a5bd62623156b03a77e6245920d4724adc9c1bb312b51fa0939d5762c5b3",
+    "ZERO_B_CLARIFICATION.md": "62b5e0af542d26d799fcdc0525e4a68b7bdf0ad69e68844120f2e7bad1a53ab7",
+    "SKEW_LOCALIZATION_CLARIFICATION.md": "30053208b6e779e1af0e012fed43cb5bd8c8a642d1813a16c2295d18fae04494",
+    "FULL_PROOF_PINS.json": "bebbb3836065d0328f7ee9d7785de6c9bfd64b304ed0d795e5407fbb9cfe0305",
+    "FULL_EXECUTION_LEDGER.json": "d17d7ff92dd77634485c3c3e744eac6d26f0e9c91763760b3918af615db8df92"
+  },
+  "frozen_external_dependencies": {
+    "../q2_strong_arc_norm_budget/TAU_ZERO_NORM_PROOF.md": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS.md": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS_BUDGET_ENDPOINTS.md": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS_DOMAIN.md": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b",
+    "../q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "../q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da"
+  }
+}

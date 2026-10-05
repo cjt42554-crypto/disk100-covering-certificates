@@ -1,0 +1,117 @@
+{
+  "status": "completed_and_frozen",
+  "completed_paths": 12,
+  "accepted_nodes": 262,
+  "failed_attempt_nodes": 3,
+  "validated_numerical_inside_events": 12,
+  "exact_binary64_sign_brackets": [
+    [
+      "e0090",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0093",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0094",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0206",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0049",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0203",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0054",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0246",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0200",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0007",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0230",
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      "e0211",
+      [
+        1,
+        -1
+      ]
+    ]
+  ],
+  "independent_replayed_arrays": 367,
+  "independent_score_max_difference": 0.0,
+  "source_input_hashes_all_match": true,
+  "copied_input_hashes_all_match": true,
+  "optimization_paths_repeated": 0,
+  "minimum_sampled_accepted_node_peak": {
+    "event": "e0206",
+    "radius": 0.11556358495084182
+  },
+  "best_event_after_unconstrained_restore": {
+    "event": "e0206",
+    "radius": 0.11551610349101131
+  },
+  "no_new_upper_bound": true,
+  "current_complete_upper_bound": 0.1155018241946,
+  "failed_progress_path": "e0093 at 1.0015 after accepted 1.001",
+  "non_strict_curvature_paths": [
+    "e0093",
+    "e0007"
+  ],
+  "proof_scope": "Numerical actual-event forcing and sampled covering only. Exact predicates describe saved binary64 points, not an algebraic event or full-path certificate. No global-optimum claim.",
+  "driver_current_sha256": "ebe9242fa2cfd3efbcc4daa4641e41cb0064114becd6c1444b47a04dcd6b7627",
+  "guarded_core_current_sha256": "8bbc07ac5811a88b3c4cbcd786203949e3152aee2f4e7703c108edc8fee01754",
+  "frozen_at_utc": "2026-10-04T17:09:54.973455+00:00"
+}

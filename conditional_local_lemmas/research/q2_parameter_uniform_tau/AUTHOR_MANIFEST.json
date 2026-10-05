@@ -1,0 +1,36 @@
+{
+  "status": "TWO_SEPARATE_PARAMETER_UNIFORM_AUTHOR_PROOFS_FROZEN_AWAITING_INDEPENDENT_STATIC_AUDIT",
+  "files": {
+    "PARAMETER_UNIFORM_LEMMA.md": {
+      "bytes": 10820,
+      "sha256": "6c131c32e6f679f4557f9c1a31b95864a357ce33bf1949fba4c1fae31531fd74"
+    },
+    "EXECUTION_LEDGER.json": {
+      "bytes": 1104,
+      "sha256": "b3dbefff337b4a8a44e2684885b2c285154e95a03ffc5234e6f8d228cd82db32"
+    },
+    "LOCAL_SOURCE_PINS.json": {
+      "bytes": 4722,
+      "sha256": "71e9fd1fd08d3db88739a52981a787618b40eac673b6a092fc8ecf04ee0c70d0"
+    },
+    "PRO_PARAMETER_COROLLARY.md": {
+      "bytes": 11132,
+      "sha256": "43059d525b9e23f4c1639fe6d95cfeea45c5b55fb993daf20aaf6a29b5a12f1b"
+    },
+    "PRO_EXECUTION_LEDGER.json": {
+      "bytes": 1425,
+      "sha256": "ee2df46310567f656c6773038499cfa529df46639f71e141a31cb1ef8461c25b"
+    },
+    "PRO_SOURCE_PINS.json": {
+      "bytes": 3902,
+      "sha256": "68356e1cc320166842289a92763b9fea7499275fbf9ad27eaa7f7bb6ad789661"
+    },
+    "LEMMA_INTERFACE.json": {
+      "bytes": 3435,
+      "sha256": "33b7861a020ac67b65e6f596d53093d18fccb168b7fae92a715afafd6bbc52b9"
+    }
+  },
+  "mathematical_program_executions": 0,
+  "source_imports_or_guard_replays": 0,
+  "metadata_only": true
+}

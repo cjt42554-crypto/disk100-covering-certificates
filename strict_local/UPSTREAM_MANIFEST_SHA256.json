@@ -1,0 +1,178 @@
+{
+  "algorithm": "SHA256",
+  "scope": "Best147-boundary-transfer grid0025 concrete 100-center algebraic KKT configuration and complete closed-unit-disk coverage; no local/global optimum claim",
+  "source_configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "n_variables": 932,
+  "active_internal_holes": 114,
+  "active_boundary_holes": 32,
+  "unsupported_centers": [],
+  "acceptance_entrypoint": "python3 -S stdioverify.py",
+  "required_acceptance_files": [
+    "stdioverify.py",
+    "exact_krawczyk.py",
+    "exact_algebraic_cover.py",
+    "source_configuration.json",
+    "polynomial_system.json",
+    "root_high_precision.json",
+    "krawczyk_preconditioner.json.gz",
+    "algebraic_cover_topology.json"
+  ],
+  "files": {
+    "CHECKPOINTS.json": {
+      "sha256": "974abf006c96b996bd56d41f2fc7e52c50a12ead100625932c54f9bf92e10f2d",
+      "bytes": 1920
+    },
+    "DEPENDENCIES.json": {
+      "sha256": "5f6b00cbeb35de1d69ee87c5b3b2eb51308a51683c6e577a5b9a78aebe005dfd",
+      "bytes": 1188
+    },
+    "INPUT_MANIFEST.json": {
+      "sha256": "a0ed9cf2b868794193ddcf3b560e7feae785012816fa8a80ea3ee9cbfb75bcb6",
+      "bytes": 1394
+    },
+    "LOCAL_PROOF.md": {
+      "sha256": "d703c32429871485e8907445b70ff57e809f6293c17c5b626892c177b76eeae1",
+      "bytes": 5978
+    },
+    "README.md": {
+      "sha256": "bfbdbeedbb1bd5b17339f49c95f3a37481b179188e7946fe6518bd0c2e4c8e6a",
+      "bytes": 5046
+    },
+    "algebraic_candidate_centers.npy": {
+      "sha256": "9787f1014f94df4d8fd9422e6eb167180570318147bce0c68476a38c29adf2ad",
+      "bytes": 1728
+    },
+    "algebraic_cover_topology.json": {
+      "sha256": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+      "bytes": 7887
+    },
+    "algebraic_cover_verification.json": {
+      "sha256": "865bdbdcffef4cd91e29acfac9c4edbabd8edf2408f763da1a7352be9b469c6b",
+      "bytes": 2482
+    },
+    "analysis.json": {
+      "sha256": "e7ba9586d9387774fb7bd5d7d1922e73babf21c83486179415e0768d9c484b93",
+      "bytes": 40852
+    },
+    "analysis.log": {
+      "sha256": "56d4127182b71efc1c6f8a1b0a531cf4a58d58798988f39f725b786975194d6c",
+      "bytes": 7119
+    },
+    "analyze.py": {
+      "sha256": "4d5bd25bb388624cecd66a6cfc513fa86b94dc53475d440b3616c608040065b6",
+      "bytes": 3188
+    },
+    "certified_upper_comparison.json": {
+      "sha256": "d88dc51e76794cf73350fd965c01e82a798405885aa8f7a8d319de843a461b5e",
+      "bytes": 755
+    },
+    "contacts.npz": {
+      "sha256": "b7f5b2adc0c57a992a6d99dfaaf350fb5d6b206293dc207521d5cf795bd56167",
+      "bytes": 415214
+    },
+    "exact_algebraic_cover.log": {
+      "sha256": "420504ef267949d20cf4d7c869d457e26d2c0f20d21fc1f5b5c3d4fab6dc6e5e",
+      "bytes": 2483
+    },
+    "exact_algebraic_cover.py": {
+      "sha256": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+      "bytes": 16080
+    },
+    "exact_krawczyk.log": {
+      "sha256": "45c4d4565a1c550b8afbc692729140b062416f1bc0d7fadad3b8777435f4084a",
+      "bytes": 1929
+    },
+    "exact_krawczyk.py": {
+      "sha256": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+      "bytes": 8057
+    },
+    "final_stdlib_replay.log": {
+      "sha256": "1a76e08b1073dcc7e69d2c7bc4dba7e6ff2317b3b1a73e16729132d113523328",
+      "bytes": 2483
+    },
+    "geometry.py": {
+      "sha256": "882a0cb9f2e2c934efb00c164f99808f3c1f086f7e8669632ace2b9286d0215a",
+      "bytes": 4023
+    },
+    "initial_rank.log": {
+      "sha256": "aadd2dfa72228d7ae8b5590d045000c3fbf080d530a507cc80de684c66f61264",
+      "bytes": 1522
+    },
+    "initial_rank_report.json": {
+      "sha256": "aadd2dfa72228d7ae8b5590d045000c3fbf080d530a507cc80de684c66f61264",
+      "bytes": 1522
+    },
+    "input/candidate.npy": {
+      "sha256": "de82a12038c6f9a705b7a985c7e25c53c8e94f5c506946aba9a6c6f03a02852d",
+      "bytes": 1728
+    },
+    "inspect_kkt_rank.py": {
+      "sha256": "64fcee7ece24a7665f395343b2b8aa5798a9e2b65320bc5605fd84ff5220ef96",
+      "bytes": 1603
+    },
+    "krawczyk_preconditioner.json.gz": {
+      "sha256": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+      "bytes": 5544622
+    },
+    "krawczyk_preconditioner.npz": {
+      "sha256": "d0b6254c60e817e3589bcf442660d5b08cb4200a97f7aa8fd2490f95f80daeb0",
+      "bytes": 5467045
+    },
+    "krawczyk_verification.json": {
+      "sha256": "8535abe13ccc7b9c525344c12f9694c1ef3fa70d7a329303ac70759930147511",
+      "bytes": 1929
+    },
+    "negative_tests.log": {
+      "sha256": "d573c51f5b5c9c83dab6a62a6f273c6253b180ecb21b6b212fb9d64b053e4ceb",
+      "bytes": 314
+    },
+    "polynomial_kkt.log": {
+      "sha256": "4292e5b59a3603c9538471d01b33379c50588d1a7050ba4b14bc43589210ad2f",
+      "bytes": 1739
+    },
+    "polynomial_kkt.py": {
+      "sha256": "68ad4b1ef9508f44c8f967834bab923a0f1084a22f323ffa1134e65a1c815cab",
+      "bytes": 6849
+    },
+    "polynomial_system.json": {
+      "sha256": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+      "bytes": 145183
+    },
+    "portability_check.json": {
+      "sha256": "24fe2f5d4f7d802cd215abe8491ef9f21568ef1f063ce95da1e2437fab60bb91",
+      "bytes": 1812
+    },
+    "portable_stdlib_replay.log": {
+      "sha256": "52c00e0e4d0f18b7245c7585c9387b2627d844624088e58d972954b32aa88284",
+      "bytes": 2482
+    },
+    "rational_midpoint.json": {
+      "sha256": "3d2ffb930325ba19ced5ae5ce4a8590be0a3488b6aba777db5132f4a4e337a72",
+      "bytes": 57955
+    },
+    "refined_rank.log": {
+      "sha256": "37e9370ceea90c853d66e121a5ff504a34b39d631efa1b2fcc965528c659d781",
+      "bytes": 1515
+    },
+    "refined_rank_report.json": {
+      "sha256": "37e9370ceea90c853d66e121a5ff504a34b39d631efa1b2fcc965528c659d781",
+      "bytes": 1515
+    },
+    "root_high_precision.json": {
+      "sha256": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+      "bytes": 104874
+    },
+    "source_configuration.json": {
+      "sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "bytes": 6128
+    },
+    "stdioverify.py": {
+      "sha256": "2e1006536cbb5f8a2ab0624f67f711647666bd3f56de90a7edcc53cbaa57f597",
+      "bytes": 583
+    },
+    "test_negative.py": {
+      "sha256": "d28e3d5054c612390a85739d524477f519dff6a017f605718776280d6ac7b130",
+      "bytes": 2682
+    }
+  }
+}

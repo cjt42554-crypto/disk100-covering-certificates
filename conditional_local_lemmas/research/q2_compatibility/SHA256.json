@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_STATIC_LOCAL_Q2_GEOMETRY_ANALYSIS_PASS",
+  "scope": "Fixed R=5661/50000,lambda=7/50,t=1071883/20000000; theta* accepted scalar peak, sin epsilon=1/12; local actual-A target counterexample only. Joint variance, Q/window/degree-7/whole cover remain external.",
+  "mathematical_guard_executions": 0,
+  "old_checker_calls": 0,
+  "optimizers": 0,
+  "geometry_searches": 0,
+  "accepted_peak_certificate_condition": "Previously accepted scalar peak bracket at same exact lambda/t is an explicit arithmetic premise; not regenerated.",
+  "files": {
+    "ANALYSIS.md": {
+      "sha256": "6919451e44091c4529ed9c498d7781e037d063c7868c1e37ddeca6f4a16dbd00",
+      "bytes": 14075
+    }
+  }
+}

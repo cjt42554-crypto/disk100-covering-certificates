@@ -1,0 +1,8 @@
+{
+  "paths_with_topology_event": 0,
+  "paths_with_new_binding_holes": 0,
+  "final_unresolved_actual_radius_gap": 0,
+  "final_not_feasible_count": 0,
+  "maximum_actual_radius_minus_frozen_objective": 1.5265566588595902e-14,
+  "scope": "Actual inventory/epigraph mismatch after at most two rounds is a numerical finite-search obstacle, not a global topology barrier or infeasibility theorem."
+}

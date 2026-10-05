@@ -1,0 +1,24 @@
+{
+  "status": "PASS_STATIC_RESTRICTED_FAMILY_AND_EXACT_INTERFACE",
+  "mathematical_executions": 0,
+  "inputs": {
+    "../q2_strong_arc_domain/ANALYSIS.md": "9274e72efe3bee6c0aa4957e9e1bcc924bb217dda8558624a6a949f36846cac4",
+    "../q2_strong_arc_domain/EXECUTION_SCOPE.md": "5750407131f7821acb69b284131680dd2c15312560d9a8e6b83fa5ddc48b7eae",
+    "../q2_strong_arc_domain/SOURCE_PINS.json": "b8d082f0c9ea09bdf50c06af96754522ecba3b488c38f3786659715ab84d2bb4",
+    "../q2_strong_arc_domain/REVISION_RECORD.json": "c558acc376a4290d783afd8fb7952dc7d99a3ba9d6015682f8506890218e6be1",
+    "../q2_strong_arc_domain/RELATED_PROGRESS.md": "cfcecc10ed0391b4c97c2ef1db8da128221c33121b6e4b1996e51c5972b89a41",
+    "../q2_strong_arc_domain/history/ANALYSIS_before_zero_skew_correction.md": "26c456d69574a69a7a3c3633204148865fdee384c47c22a7b684abe087be5b03",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+    "../q2_counterexample/ANALYSIS.md": "e827c42bb99ea7ee186f61e16ceb86173c4982d510ed7e36d4ca737a9489a331",
+    "../q2_counterexample/independent_audit/INDEPENDENT_REVIEW.md": "f1e0e42c83910b28240da349dc1c7e4f7f8b1248ad381bd45fa0ed76485c3554",
+    "../Q2_STRONG_ARC_NORM_CUT_20261005.md": "0d7fdff5df335e1da74f61f44aa43556a9dfd2f122884a5fbaa225300bc8b81d",
+    "../q2_strong_arc_cut_review/REVIEW.md": "e0d92ba4e3be51fe517fa4d503a8b816d244b290910e180b08b04961988783d2"
+  },
+  "accepted_premise_scope": "Saved scalar peak/support and dimensionless one-face localization. Hashing identifies accepted bytes and is not a fresh arithmetic replay.",
+  "related_tau_zero_theorem_reviewed_or_accepted": false,
+  "general_two_face_fee_proved": false,
+  "author_files_modified_by_this_reviewer": false
+}

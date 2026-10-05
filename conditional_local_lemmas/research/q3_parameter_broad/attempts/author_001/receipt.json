@@ -1,0 +1,8 @@
+{
+  "exit_code": 1,
+  "new_broad_fraction_calls": 1,
+  "old_checker_imports": 0,
+  "optimizer_geometry_searches": 0,
+  "prior_patch_format_failure_before_any_write_or_execution": 1,
+  "source_sha256": "5c0774f38e2cf4d4033aab16d7c16d7570385633cb80e50395deec20d198f403"
+}

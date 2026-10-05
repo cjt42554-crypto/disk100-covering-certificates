@@ -1,0 +1,4 @@
+PASS: exactly one isolated new guard verify() call.
+Whole JSONMATCH=True; serialized certificate bytes match=True.
+All author and historical sources byte-identical before/after.
+Old verifier calls=0; optimizers=0; geometry searches=0.

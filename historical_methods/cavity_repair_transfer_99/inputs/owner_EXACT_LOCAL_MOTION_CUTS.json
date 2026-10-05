@@ -1,0 +1,347 @@
+{
+  "schema": "rational-binary64-local-motion-cuts-v1",
+  "radius_exact_decimal": "0.115446954885583",
+  "certificates": [
+    {
+      "source": 0,
+      "source_sha256": "e053e7012512613df84d2329e549f6a9722d263eb7154116a6bd5771b79017ce",
+      "free_label": 24,
+      "displacement": 0.01,
+      "proposed_center": [
+        -0.399060842339535,
+        -0.6146000692390353
+      ],
+      "proposed_center_binary64_hex": [
+        "-0x1.98a367cbd99d8p-2",
+        "-0x1.3aacdc3b00821p-1"
+      ],
+      "witness": [
+        -0.5143825268121631,
+        -0.619978876927585
+      ],
+      "witness_binary64_hex": [
+        "-0x1.075d2584958c0p-1",
+        "-0x1.3d6ddf113ac55p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0015706",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6489631917260553,
+        "squared_outside_new_disk_margin": 2.308940096682926e-08,
+        "squared_uncovered99_margin": 8.166517251841028e-09,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 0,
+      "source_sha256": "e053e7012512613df84d2329e549f6a9722d263eb7154116a6bd5771b79017ce",
+      "free_label": 24,
+      "displacement": 0.02,
+      "proposed_center": [
+        -0.3919897745276695,
+        -0.6075290014271699
+      ],
+      "proposed_center_binary64_hex": [
+        "-0x1.9165c477d9dc4p-2",
+        "-0x1.370e0a9100a18p-1"
+      ],
+      "witness": [
+        -0.5068470845395747,
+        -0.6191832203449659
+      ],
+      "witness_binary64_hex": [
+        "-0x1.0381760857416p-1",
+        "-0x1.3d0595433a288p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0035995",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6402818274630293,
+        "squared_outside_new_disk_margin": 2.3089400985145872e-08,
+        "squared_uncovered99_margin": 1.242852828410695e-08,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 1,
+      "source_sha256": "2119c57582b6142b7650285b8329cbcf7f132b752cc79b18150a3096f9f13db5",
+      "free_label": 73,
+      "displacement": 0.02,
+      "proposed_center": [
+        0.28506931907862376,
+        0.7542521837587285
+      ],
+      "proposed_center_binary64_hex": [
+        "0x1.23e9362a2488cp-2",
+        "0x1.822d579c5c531p-1"
+      ],
+      "witness": [
+        0.39887095865371,
+        0.7348303066152342
+      ],
+      "witness_binary64_hex": [
+        "0x1.9871a0eaf7a83p-2",
+        "0x1.783bad8e0b4e8p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0007415",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6990736211775687,
+        "squared_outside_new_disk_margin": 2.308940097800252e-08,
+        "squared_uncovered99_margin": 2.7722465217175675e-08,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 1,
+      "source_sha256": "2119c57582b6142b7650285b8329cbcf7f132b752cc79b18150a3096f9f13db5",
+      "free_label": 73,
+      "displacement": 0.04,
+      "proposed_center": [
+        0.2709271834548928,
+        0.7401100481349975
+      ],
+      "proposed_center_binary64_hex": [
+        "0x1.156def8225065p-2",
+        "0x1.7aefb4485c91dp-1"
+      ],
+      "witness": [
+        0.3859896506724659,
+        0.7306945757857342
+      ],
+      "witness_binary64_hex": [
+        "0x1.8b40def8ee4a5p-2",
+        "0x1.761d9974ba886p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0040767",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6829025735089462,
+        "squared_outside_new_disk_margin": 2.3089400983589032e-08,
+        "squared_uncovered99_margin": 1.17508926030086e-08,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 1,
+      "source_sha256": "2119c57582b6142b7650285b8329cbcf7f132b752cc79b18150a3096f9f13db5",
+      "free_label": 73,
+      "displacement": 0.08,
+      "proposed_center": [
+        0.24264291220743092,
+        0.7118257768875356
+      ],
+      "proposed_center_binary64_hex": [
+        "0x1.f0eec4644c02fp-3",
+        "0x1.6c746da05d0f6p-1"
+      ],
+      "witness": [
+        0.3576751379569596,
+        0.7216037889996312
+      ],
+      "witness_binary64_hex": [
+        "0x1.6e426430783f8p-2",
+        "0x1.71760d44d8a0ap-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0160847",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6486435326111544,
+        "squared_outside_new_disk_margin": 2.3089400980412897e-08,
+        "squared_uncovered99_margin": 1.967073127587962e-08,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 2,
+      "source_sha256": "e482be7b4d0f6eb8d94316eee003c371d1017bea70efa9e3ba74548e7e591367",
+      "free_label": 80,
+      "displacement": 0.02,
+      "proposed_center": [
+        -0.2699620832928626,
+        -0.7614035646280278
+      ],
+      "proposed_center_binary64_hex": [
+        "-0x1.1470f0bb9c8abp-2",
+        "-0x1.85d6b02245393p-1"
+      ],
+      "witness": [
+        -0.3839250196626647,
+        -0.742951691668156
+      ],
+      "witness_binary64_hex": [
+        "-0x1.8923a3ee44eacp-2",
+        "-0x1.7c642a0471f96p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0002901",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6993756368755522,
+        "squared_outside_new_disk_margin": 2.30894009731988e-08,
+        "squared_uncovered99_margin": 9.604347260052592e-09,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 2,
+      "source_sha256": "e482be7b4d0f6eb8d94316eee003c371d1017bea70efa9e3ba74548e7e591367",
+      "free_label": 80,
+      "displacement": 0.04,
+      "proposed_center": [
+        -0.25581994766913163,
+        -0.7472614290042968
+      ],
+      "proposed_center_binary64_hex": [
+        "-0x1.05f5aa139d084p-2",
+        "-0x1.7e990cce4577fp-1"
+      ],
+      "witness": [
+        -0.3709495228730307,
+        -0.7387055307390902
+      ],
+      "witness_binary64_hex": [
+        "-0x1.7bda3114d36d1p-2",
+        "-0x1.7a379c7fcc246p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0035205",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.68328940966425,
+        "squared_outside_new_disk_margin": 2.3089400976081157e-08,
+        "squared_uncovered99_margin": 1.0075451500290355e-08,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    },
+    {
+      "source": 2,
+      "source_sha256": "e482be7b4d0f6eb8d94316eee003c371d1017bea70efa9e3ba74548e7e591367",
+      "free_label": 80,
+      "displacement": 0.08,
+      "proposed_center": [
+        -0.22753567642166975,
+        -0.7189771577568349
+      ],
+      "proposed_center_binary64_hex": [
+        "-0x1.d1fe39873c06dp-3",
+        "-0x1.701dc62645f58p-1"
+      ],
+      "witness": [
+        -0.3425113335195966,
+        -0.7293992859778246
+      ],
+      "witness_binary64_hex": [
+        "-0x1.5ebb4a7fe770cp-2",
+        "-0x1.7573d2be00429p-1"
+      ],
+      "strict_motion_budget_exact_decimal": "0.0153919",
+      "exact_checks": {
+        "pass_exact_rational": true,
+        "witness_norm_squared": 0.6493373319743326,
+        "squared_outside_new_disk_margin": 2.3089400973719113e-08,
+        "squared_uncovered99_margin": 2.414124670719821e-08,
+        "scope": "Exact rational arithmetic for these binary64 source coordinates, witness and proposed z; rules out the labeled99 motion ball with this budget, not arbitrary configurations."
+      }
+    }
+  ],
+  "all_z_pair_cuts": [
+    {
+      "source": 0,
+      "source_sha256": "e053e7012512613df84d2329e549f6a9722d263eb7154116a6bd5771b79017ce",
+      "free_label": 24,
+      "witnesses": [
+        [
+          0.7839628769867395,
+          0.6208076896323647
+        ],
+        [
+          -0.783916075371676,
+          -0.6208667866570646
+        ]
+      ],
+      "witness_binary64_hex": [
+        [
+          "0x1.9163950bdf4acp-1",
+          "0x1.3dda816827140p-1"
+        ],
+        [
+          "-0x1.915d72a50f5ebp-1",
+          "-0x1.3de2405fbaba3p-1"
+        ]
+      ],
+      "strict_motion_budget_exact_decimal": "4.26e-05",
+      "pass_exact_rational": true,
+      "pair_squared_separation_margin": 3.9466879167477353,
+      "squared_uncovered99_margins": [
+        7.389669111749502e-09,
+        1.4649178628539726e-05
+      ],
+      "scope": "Any position of the remaining disk is excluded when each labeled99 motion is at most this budget. This is a local motion-ball exclusion, not a global lower bound."
+    },
+    {
+      "source": 1,
+      "source_sha256": "2119c57582b6142b7650285b8329cbcf7f132b752cc79b18150a3096f9f13db5",
+      "free_label": 73,
+      "witnesses": [
+        [
+          -0.885265087981035,
+          0.46508677040089014
+        ],
+        [
+          0.8841440547822035,
+          -0.46721437305939556
+        ]
+      ],
+      "witness_binary64_hex": [
+        [
+          "-0x1.c541773256955p-1",
+          "0x1.dc3fb4d2b2431p-2"
+        ],
+        [
+          "0x1.c4ae87907c1b6p-1",
+          "-0x1.de6d71d20b847p-2"
+        ]
+      ],
+      "strict_motion_budget_exact_decimal": "2.96e-05",
+      "pass_exact_rational": true,
+      "pair_squared_separation_margin": 3.946682139022079,
+      "squared_uncovered99_margins": [
+        1.2818463319075873e-05,
+        2.276461901435098e-08
+      ],
+      "scope": "Any position of the remaining disk is excluded when each labeled99 motion is at most this budget. This is a local motion-ball exclusion, not a global lower bound."
+    },
+    {
+      "source": 2,
+      "source_sha256": "e482be7b4d0f6eb8d94316eee003c371d1017bea70efa9e3ba74548e7e591367",
+      "free_label": 80,
+      "witnesses": [
+        [
+          0.6505742076715118,
+          0.7594426774369377
+        ],
+        [
+          -0.6512000767201087,
+          -0.7589060811982761
+        ]
+      ],
+      "witness_binary64_hex": [
+        [
+          "0x1.4d18100323f88p-1",
+          "0x1.84d5abad8e809p-1"
+        ],
+        [
+          "-0x1.4d6a18b154c40p-1",
+          "-0x1.848f567ef6d7fp-1"
+        ]
+      ],
+      "strict_motion_budget_exact_decimal": "7.64e-05",
+      "pass_exact_rational": true,
+      "pair_squared_separation_margin": 3.946687242782995,
+      "squared_uncovered99_margins": [
+        1.853255033562466e-08,
+        1.835538483697834e-08
+      ],
+      "scope": "Any position of the remaining disk is excluded when each labeled99 motion is at most this budget. This is a local motion-ball exclusion, not a global lower bound."
+    }
+  ]
+}

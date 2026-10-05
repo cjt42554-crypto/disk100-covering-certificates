@@ -1,0 +1,1064 @@
+{
+  "status": "PASS",
+  "scope": "Integer triangular-lattice development of the numerical extracted restricted-DT core via exact face bijection; not an exact geometric-DT certificate",
+  "independent_index": 10,
+  "all100_vertex_bijection": {
+    "16": 85,
+    "23": 84,
+    "13": 67,
+    "20": 83,
+    "31": 61,
+    "9": 66,
+    "32": 60,
+    "48": 62,
+    "17": 82,
+    "69": 53,
+    "34": 54,
+    "47": 86,
+    "8": 65,
+    "2": 59,
+    "66": 52,
+    "56": 55,
+    "22": 87,
+    "18": 81,
+    "86": 44,
+    "97": 45,
+    "93": 46,
+    "72": 64,
+    "5": 58,
+    "67": 51,
+    "53": 43,
+    "94": 47,
+    "57": 88,
+    "71": 80,
+    "28": 35,
+    "83": 36,
+    "98": 37,
+    "54": 38,
+    "73": 63,
+    "7": 57,
+    "60": 50,
+    "50": 42,
+    "90": 34,
+    "49": 90,
+    "58": 89,
+    "65": 79,
+    "46": 25,
+    "45": 26,
+    "0": 27,
+    "3": 28,
+    "51": 29,
+    "63": 78,
+    "12": 56,
+    "52": 49,
+    "59": 41,
+    "70": 33,
+    "41": 24,
+    "55": 91,
+    "82": 16,
+    "81": 17,
+    "85": 18,
+    "1": 19,
+    "25": 20,
+    "15": 92,
+    "68": 77,
+    "37": 48,
+    "89": 40,
+    "79": 32,
+    "40": 23,
+    "38": 15,
+    "95": 8,
+    "75": 9,
+    "84": 10,
+    "4": 11,
+    "44": 12,
+    "43": 93,
+    "87": 76,
+    "88": 39,
+    "61": 31,
+    "6": 22,
+    "39": 14,
+    "92": 7,
+    "99": 1,
+    "27": 2,
+    "26": 3,
+    "24": 4,
+    "80": 5,
+    "42": 94,
+    "91": 75,
+    "62": 30,
+    "36": 21,
+    "10": 13,
+    "11": 6,
+    "96": 0,
+    "77": 68,
+    "30": 99,
+    "64": 98,
+    "33": 97,
+    "14": 96,
+    "78": 95,
+    "29": 74,
+    "35": 73,
+    "21": 72,
+    "19": 71,
+    "76": 70,
+    "74": 69
+  },
+  "all166_faces_bijection_check": "PASS",
+  "core_vertices": 68,
+  "core_faces": 108,
+  "core_edges": 175,
+  "core_boundary": 26,
+  "core_interior_vertices": 42,
+  "core_boundary_degree_histogram": {
+    "3": 8,
+    "4": 16,
+    "5": 2
+  },
+  "boundary_catalog_order": [
+    0,
+    6,
+    13,
+    21,
+    30,
+    39,
+    48,
+    56,
+    63,
+    64,
+    65,
+    66,
+    67,
+    61,
+    62,
+    55,
+    47,
+    38,
+    29,
+    20,
+    12,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "boundary_current_order": [
+    96,
+    11,
+    10,
+    36,
+    62,
+    88,
+    37,
+    12,
+    73,
+    72,
+    8,
+    9,
+    13,
+    31,
+    48,
+    56,
+    94,
+    54,
+    51,
+    25,
+    44,
+    80,
+    24,
+    26,
+    27,
+    99
+  ],
+  "boundary_step_directions": [
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      -1
+    ]
+  ],
+  "boundary_turn_units_60deg": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    -1,
+    1,
+    0,
+    1,
+    -1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "boundary_turn_histogram": {
+    "-1": 2,
+    "0": 16,
+    "1": 8
+  },
+  "boundary_total_turn_deg": 360,
+  "current_core_vertices": [
+    {
+      "current_vertex": 96,
+      "catalog_vertex": 0,
+      "axial": [
+        0,
+        4
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 99,
+      "catalog_vertex": 1,
+      "axial": [
+        0,
+        5
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 27,
+      "catalog_vertex": 2,
+      "axial": [
+        0,
+        6
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 26,
+      "catalog_vertex": 3,
+      "axial": [
+        0,
+        7
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 24,
+      "catalog_vertex": 4,
+      "axial": [
+        0,
+        8
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 80,
+      "catalog_vertex": 5,
+      "axial": [
+        0,
+        9
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 11,
+      "catalog_vertex": 6,
+      "axial": [
+        1,
+        3
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 92,
+      "catalog_vertex": 7,
+      "axial": [
+        1,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 95,
+      "catalog_vertex": 8,
+      "axial": [
+        1,
+        5
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 75,
+      "catalog_vertex": 9,
+      "axial": [
+        1,
+        6
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 84,
+      "catalog_vertex": 10,
+      "axial": [
+        1,
+        7
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 4,
+      "catalog_vertex": 11,
+      "axial": [
+        1,
+        8
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 44,
+      "catalog_vertex": 12,
+      "axial": [
+        1,
+        9
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 10,
+      "catalog_vertex": 13,
+      "axial": [
+        2,
+        2
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 39,
+      "catalog_vertex": 14,
+      "axial": [
+        2,
+        3
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 38,
+      "catalog_vertex": 15,
+      "axial": [
+        2,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 82,
+      "catalog_vertex": 16,
+      "axial": [
+        2,
+        5
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 81,
+      "catalog_vertex": 17,
+      "axial": [
+        2,
+        6
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 85,
+      "catalog_vertex": 18,
+      "axial": [
+        2,
+        7
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 1,
+      "catalog_vertex": 19,
+      "axial": [
+        2,
+        8
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 25,
+      "catalog_vertex": 20,
+      "axial": [
+        2,
+        9
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 36,
+      "catalog_vertex": 21,
+      "axial": [
+        3,
+        1
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 6,
+      "catalog_vertex": 22,
+      "axial": [
+        3,
+        2
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 40,
+      "catalog_vertex": 23,
+      "axial": [
+        3,
+        3
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 41,
+      "catalog_vertex": 24,
+      "axial": [
+        3,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 46,
+      "catalog_vertex": 25,
+      "axial": [
+        3,
+        5
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 45,
+      "catalog_vertex": 26,
+      "axial": [
+        3,
+        6
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 0,
+      "catalog_vertex": 27,
+      "axial": [
+        3,
+        7
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 3,
+      "catalog_vertex": 28,
+      "axial": [
+        3,
+        8
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 51,
+      "catalog_vertex": 29,
+      "axial": [
+        3,
+        9
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 62,
+      "catalog_vertex": 30,
+      "axial": [
+        4,
+        0
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 61,
+      "catalog_vertex": 31,
+      "axial": [
+        4,
+        1
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 79,
+      "catalog_vertex": 32,
+      "axial": [
+        4,
+        2
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 70,
+      "catalog_vertex": 33,
+      "axial": [
+        4,
+        3
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 90,
+      "catalog_vertex": 34,
+      "axial": [
+        4,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 28,
+      "catalog_vertex": 35,
+      "axial": [
+        4,
+        5
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 83,
+      "catalog_vertex": 36,
+      "axial": [
+        4,
+        6
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 98,
+      "catalog_vertex": 37,
+      "axial": [
+        4,
+        7
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 54,
+      "catalog_vertex": 38,
+      "axial": [
+        4,
+        8
+      ],
+      "core_degree": 5,
+      "p": 0,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 88,
+      "catalog_vertex": 39,
+      "axial": [
+        5,
+        0
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 89,
+      "catalog_vertex": 40,
+      "axial": [
+        5,
+        1
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 59,
+      "catalog_vertex": 41,
+      "axial": [
+        5,
+        2
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 50,
+      "catalog_vertex": 42,
+      "axial": [
+        5,
+        3
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 53,
+      "catalog_vertex": 43,
+      "axial": [
+        5,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 86,
+      "catalog_vertex": 44,
+      "axial": [
+        5,
+        5
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 97,
+      "catalog_vertex": 45,
+      "axial": [
+        5,
+        6
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 93,
+      "catalog_vertex": 46,
+      "axial": [
+        5,
+        7
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 94,
+      "catalog_vertex": 47,
+      "axial": [
+        5,
+        8
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 37,
+      "catalog_vertex": 48,
+      "axial": [
+        6,
+        0
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 52,
+      "catalog_vertex": 49,
+      "axial": [
+        6,
+        1
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 60,
+      "catalog_vertex": 50,
+      "axial": [
+        6,
+        2
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 67,
+      "catalog_vertex": 51,
+      "axial": [
+        6,
+        3
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 66,
+      "catalog_vertex": 52,
+      "axial": [
+        6,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 69,
+      "catalog_vertex": 53,
+      "axial": [
+        6,
+        5
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 34,
+      "catalog_vertex": 54,
+      "axial": [
+        6,
+        6
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 56,
+      "catalog_vertex": 55,
+      "axial": [
+        6,
+        7
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 12,
+      "catalog_vertex": 56,
+      "axial": [
+        7,
+        0
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 7,
+      "catalog_vertex": 57,
+      "axial": [
+        7,
+        1
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 5,
+      "catalog_vertex": 58,
+      "axial": [
+        7,
+        2
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 2,
+      "catalog_vertex": 59,
+      "axial": [
+        7,
+        3
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 32,
+      "catalog_vertex": 60,
+      "axial": [
+        7,
+        4
+      ],
+      "core_degree": 6,
+      "p": 0,
+      "is_core_boundary": false
+    },
+    {
+      "current_vertex": 31,
+      "catalog_vertex": 61,
+      "axial": [
+        7,
+        5
+      ],
+      "core_degree": 5,
+      "p": 0,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 48,
+      "catalog_vertex": 62,
+      "axial": [
+        7,
+        6
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 73,
+      "catalog_vertex": 63,
+      "axial": [
+        8,
+        0
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 72,
+      "catalog_vertex": 64,
+      "axial": [
+        8,
+        1
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 8,
+      "catalog_vertex": 65,
+      "axial": [
+        8,
+        2
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 9,
+      "catalog_vertex": 66,
+      "axial": [
+        8,
+        3
+      ],
+      "core_degree": 4,
+      "p": 1,
+      "is_core_boundary": true
+    },
+    {
+      "current_vertex": 13,
+      "catalog_vertex": 67,
+      "axial": [
+        8,
+        4
+      ],
+      "core_degree": 3,
+      "p": 2,
+      "is_core_boundary": true
+    }
+  ]
+}

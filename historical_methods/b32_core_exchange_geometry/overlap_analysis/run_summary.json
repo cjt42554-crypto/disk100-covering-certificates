@@ -1,0 +1,899 @@
+{
+  "status": "PASS",
+  "source_sha256": "f3234fd61f521362c69e3442940edc1d381fb5c2e06b1cd12a79e93ab2e57bb4",
+  "ordered_pair_count": 256,
+  "all_max_site_pose_count": 949,
+  "baseline_pose_count": 37,
+  "distance_matrix": [
+    [
+      0,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      5,
+      0,
+      4,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      5,
+      5,
+      6,
+      6,
+      5,
+      5
+    ],
+    [
+      4,
+      4,
+      0,
+      1,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      4
+    ],
+    [
+      3,
+      5,
+      1,
+      0,
+      1,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      5,
+      1,
+      1,
+      0,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      5,
+      4,
+      3,
+      3,
+      0,
+      1,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      4,
+      5,
+      4,
+      4,
+      4,
+      1,
+      0,
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      1,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      6,
+      4,
+      3,
+      3,
+      3,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      4,
+      6,
+      4,
+      4,
+      4,
+      4,
+      5,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2
+    ],
+    [
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      0,
+      1
+    ],
+    [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      0
+    ]
+  ],
+  "baseline10_summary": [
+    {
+      "target": 0,
+      "distance": 3,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 4,
+        "rotation_degrees_ccw": 240,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "translation": [
+          0,
+          12
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 65,
+        "site_exchange_distance": 3,
+        "common_core_triangles": 103,
+        "common_core_edges": 167,
+        "common_positive_directed_core_edges": 309,
+        "common_boundary_edges": 19,
+        "common_positive_boundary_edges": 19,
+        "common_boundary_sites": 21,
+        "common_boundary_incidence_profiles": 17,
+        "boundary_ring_edge_changes": 14,
+        "positive_boundary_edge_changes": 14,
+        "boundary_site_role_changes": 10,
+        "boundary_incidence_profile_changes": 18
+      }
+    },
+    {
+      "target": 1,
+      "distance": 5,
+      "pose_count": 4,
+      "preferred_transform": {
+        "rotation_k": 1,
+        "rotation_degrees_ccw": 60,
+        "reflection_swap_q_r_first": true,
+        "linear_matrix": [
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "translation": [
+          7,
+          -3
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 63,
+        "site_exchange_distance": 5,
+        "common_core_triangles": 99,
+        "common_core_edges": 161,
+        "common_positive_directed_core_edges": 297,
+        "common_boundary_edges": 15,
+        "common_positive_boundary_edges": 15,
+        "common_boundary_sites": 17,
+        "common_boundary_incidence_profiles": 13,
+        "boundary_ring_edge_changes": 22,
+        "positive_boundary_edge_changes": 22,
+        "boundary_site_role_changes": 18,
+        "boundary_incidence_profile_changes": 26
+      }
+    },
+    {
+      "target": 2,
+      "distance": 4,
+      "pose_count": 4,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 64,
+        "site_exchange_distance": 4,
+        "common_core_triangles": 101,
+        "common_core_edges": 164,
+        "common_positive_directed_core_edges": 303,
+        "common_boundary_edges": 16,
+        "common_positive_boundary_edges": 16,
+        "common_boundary_sites": 19,
+        "common_boundary_incidence_profiles": 14,
+        "boundary_ring_edge_changes": 20,
+        "positive_boundary_edge_changes": 20,
+        "boundary_site_role_changes": 14,
+        "boundary_incidence_profile_changes": 24
+      }
+    },
+    {
+      "target": 3,
+      "distance": 3,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 4,
+        "rotation_degrees_ccw": 240,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "translation": [
+          0,
+          12
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 65,
+        "site_exchange_distance": 3,
+        "common_core_triangles": 103,
+        "common_core_edges": 167,
+        "common_positive_directed_core_edges": 309,
+        "common_boundary_edges": 19,
+        "common_positive_boundary_edges": 19,
+        "common_boundary_sites": 21,
+        "common_boundary_incidence_profiles": 17,
+        "boundary_ring_edge_changes": 14,
+        "positive_boundary_edge_changes": 14,
+        "boundary_site_role_changes": 10,
+        "boundary_incidence_profile_changes": 18
+      }
+    },
+    {
+      "target": 4,
+      "distance": 3,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 4,
+        "rotation_degrees_ccw": 240,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "translation": [
+          0,
+          12
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 65,
+        "site_exchange_distance": 3,
+        "common_core_triangles": 103,
+        "common_core_edges": 167,
+        "common_positive_directed_core_edges": 309,
+        "common_boundary_edges": 19,
+        "common_positive_boundary_edges": 19,
+        "common_boundary_sites": 21,
+        "common_boundary_incidence_profiles": 17,
+        "boundary_ring_edge_changes": 14,
+        "positive_boundary_edge_changes": 14,
+        "boundary_site_role_changes": 10,
+        "boundary_incidence_profile_changes": 18
+      }
+    },
+    {
+      "target": 5,
+      "distance": 3,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 4,
+        "rotation_degrees_ccw": 240,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "translation": [
+          0,
+          12
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 65,
+        "site_exchange_distance": 3,
+        "common_core_triangles": 103,
+        "common_core_edges": 167,
+        "common_positive_directed_core_edges": 309,
+        "common_boundary_edges": 19,
+        "common_positive_boundary_edges": 19,
+        "common_boundary_sites": 21,
+        "common_boundary_incidence_profiles": 17,
+        "boundary_ring_edge_changes": 14,
+        "positive_boundary_edge_changes": 14,
+        "boundary_site_role_changes": 10,
+        "boundary_incidence_profile_changes": 18
+      }
+    },
+    {
+      "target": 6,
+      "distance": 4,
+      "pose_count": 4,
+      "preferred_transform": {
+        "rotation_k": 1,
+        "rotation_degrees_ccw": 60,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "translation": [
+          8,
+          -4
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 64,
+        "site_exchange_distance": 4,
+        "common_core_triangles": 101,
+        "common_core_edges": 164,
+        "common_positive_directed_core_edges": 303,
+        "common_boundary_edges": 16,
+        "common_positive_boundary_edges": 16,
+        "common_boundary_sites": 19,
+        "common_boundary_incidence_profiles": 14,
+        "boundary_ring_edge_changes": 20,
+        "positive_boundary_edge_changes": 20,
+        "boundary_site_role_changes": 14,
+        "boundary_incidence_profile_changes": 24
+      }
+    },
+    {
+      "target": 7,
+      "distance": 1,
+      "pose_count": 1,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 8,
+      "distance": 1,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 9,
+      "distance": 1,
+      "pose_count": 1,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 11,
+      "distance": 1,
+      "pose_count": 3,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 12,
+      "distance": 1,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 13,
+      "distance": 1,
+      "pose_count": 4,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 14,
+      "distance": 1,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 0,
+        "rotation_degrees_ccw": 0,
+        "reflection_swap_q_r_first": false,
+        "linear_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "translation": [
+          0,
+          0
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    },
+    {
+      "target": 15,
+      "distance": 1,
+      "pose_count": 2,
+      "preferred_transform": {
+        "rotation_k": 1,
+        "rotation_degrees_ccw": 60,
+        "reflection_swap_q_r_first": true,
+        "linear_matrix": [
+          [
+            -1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "translation": [
+          8,
+          -4
+        ],
+        "formula": "target_in_source_frame = R^k S^s target + translation"
+      },
+      "preferred_metrics": {
+        "common_sites": 67,
+        "site_exchange_distance": 1,
+        "common_core_triangles": 106,
+        "common_core_edges": 172,
+        "common_positive_directed_core_edges": 318,
+        "common_boundary_edges": 22,
+        "common_positive_boundary_edges": 22,
+        "common_boundary_sites": 24,
+        "common_boundary_incidence_profiles": 20,
+        "boundary_ring_edge_changes": 8,
+        "positive_boundary_edge_changes": 8,
+        "boundary_site_role_changes": 4,
+        "boundary_incidence_profile_changes": 12
+      }
+    }
+  ]
+}

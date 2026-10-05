@@ -1,0 +1,17 @@
+{
+  "status": "PASS_RADIUS_UNIFORM_RELAXED_ACTUAL_MIDDLE_CAP",
+  "reviewer": "/root/q2_uniform_review",
+  "files": {
+    "PRO_RADIUS_RELAXED_CAP_REVIEW.md": {
+      "bytes": 6454,
+      "sha256": "6885e6822e3c6027bbda4312fb71c3be3195449dbb3c950e9c77772683bea5f8"
+    },
+    "PRO_RELAXED_CAP_SOURCE_PINS.json": {
+      "bytes": 1940,
+      "sha256": "15dda865570e2cbd3136b59671ad7871509f2445a082ad1441b6da63fb9ff627"
+    }
+  },
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "checker_replays": 0
+}

@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_WORKING_EXACT_NONZERO_TAU_INTERFACE_QUANTITATIVE_STRONG_FEE_OPEN",
+  "author_mathematical_program_executions": 0,
+  "old_checker_calls": 0,
+  "mathematical_source_imports": 0,
+  "positive_tau_full_fee_proved": false,
+  "files": {
+    "EXECUTION_LEDGER.json": {
+      "sha256": "baf021973a53be3eb8a0b3fee9391625466d8624dcb0e0861ba73bb86f6eff26",
+      "bytes": 384
+    },
+    "WORKING_INTERFACE.md": {
+      "sha256": "f648021de12b7182c14104d15c8b947aafd1fa90fc24dc2ce459efc87a45c5d3",
+      "bytes": 7016
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "fresh99-second-order-audit-v1",
+  "passed": true,
+  "numerical_only": true,
+  "all_three_sources_no_robust_negative_direction": true,
+  "all_three_sources_positive_core_and_two_free_flats": true,
+  "no_negative_direction_proposals_generated": true,
+  "no_strict_local_or_global_claim": true,
+  "no_interval_root_or_Hessian_enclosure": true,
+  "limitations": [
+    "Rank, multipliers, curvature and geometry eligibility are binary64 numerical checks.",
+    "Positive all-active tangent alone is insufficient when a contact multiplier is zero.",
+    "Here all contact multipliers are numerically positive; cone=tangent would require a validated root and positive multiplier enclosure.",
+    "Core positivity cannot make the original100 configuration strict: its free center has two genuine flat directions."
+  ],
+  "source_audits": [
+    {
+      "source": 0,
+      "pass_numerical_audit": true,
+      "epigraph_plus_gauge_full_row_rank_min_singular": 0.015870879351549048,
+      "ungauged_tangent_dimension": 57,
+      "ungauged_zero_count": 3,
+      "numerical_core_minimum_eigenvalue": 0.0015733843036035502,
+      "maximum_reduced_finite_difference_error": 2.075492880585719e-10,
+      "positive_to_error_ratio": 7580774.274491994,
+      "H_rotation_norm": 2.4741280938062063e-16,
+      "A_rotation_norm": 5.222201331460518e-17,
+      "free_A_max": 0.0,
+      "free_H_max": 0.0
+    },
+    {
+      "source": 1,
+      "pass_numerical_audit": true,
+      "epigraph_plus_gauge_full_row_rank_min_singular": 0.013141315140046137,
+      "ungauged_tangent_dimension": 53,
+      "ungauged_zero_count": 3,
+      "numerical_core_minimum_eigenvalue": 0.0015684482813186978,
+      "maximum_reduced_finite_difference_error": 1.5883911331675922e-10,
+      "positive_to_error_ratio": 9874446.215214485,
+      "H_rotation_norm": 1.260923130863866e-16,
+      "A_rotation_norm": 5.375776844664781e-17,
+      "free_A_max": 0.0,
+      "free_H_max": 0.0
+    },
+    {
+      "source": 2,
+      "pass_numerical_audit": true,
+      "epigraph_plus_gauge_full_row_rank_min_singular": 0.01821847263108209,
+      "ungauged_tangent_dimension": 58,
+      "ungauged_zero_count": 3,
+      "numerical_core_minimum_eigenvalue": 0.0015605909277838102,
+      "maximum_reduced_finite_difference_error": 1.477393806949121e-10,
+      "positive_to_error_ratio": 10563134.35485759,
+      "H_rotation_norm": 4.4666875743766826e-17,
+      "A_rotation_norm": 5.486558300553832e-17,
+      "free_A_max": 0.0,
+      "free_H_max": 0.0
+    }
+  ]
+}

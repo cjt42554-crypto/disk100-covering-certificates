@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_CHORD_FIRST_EVENT",
+  "source_full_integer_graph_status": "PASS",
+  "common_denominator": "1152921504606846976",
+  "affine_coordinate_definition": "Integer P(t)=A_integer+t*(B_integer-A_integer), divided by Q; no intermediate floating rounding in predicates",
+  "polynomial_predicates_checked": 624,
+  "initial_zero_predicates": [],
+  "predicate_roots_in_segment": 0,
+  "first_event_cluster": [],
+  "first_event_bracket": null,
+  "no_any_DT_circle_hull_predicate_root_before_first_bracket": true,
+  "all_predicate_roots": [],
+  "scope": "Exact integer polynomial/Sturm first physical event of this endpoint chord only; no whole curved path, unitdisk-center necessity, radius, completeness or optimality assertion",
+  "endpoint_A_file": "PROJECT_ROOT/b32_weak_contact_event_extension/continuation/stages/curve00/stage028.npy",
+  "endpoint_B_file": "PROJECT_ROOT/b32_weak_contact_event_extension/continuation/stages/curve00/stage029.npy",
+  "endpoint_A_file_sha256": "eee44e205f4392889fb5f5814a98e19abccef2c55638c3cd70aa58efc741a48f",
+  "endpoint_B_file_sha256": "0b3170f0ee44394d6056c237a2dce23fb2ad33edd0b81dc2b7bd769cf796126c"
+}

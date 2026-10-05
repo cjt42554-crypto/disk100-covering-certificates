@@ -1,0 +1,40 @@
+{
+  "scope": "Numerical label/reflection-invariant restricted-Delaunay graph matching of retained coordinates; no optimizer, coverage, continuous path, global exhaustion, or exact incircle certificate. Independent catalog indices are not yet official parent IDs.",
+  "coordinate_unique_arrays": 34868,
+  "quick_profile_criteria": {
+    "restricted_faces": 166,
+    "boundary_vertices": 32,
+    "boundary_edges": 32,
+    "interior": 68,
+    "q_face_histogram": {
+      "0": 134,
+      "1": 32
+    },
+    "interior_degree_histogram": {
+      "6": 68
+    }
+  },
+  "unique_quick_profiles": 1531,
+  "b32_profile_records": 484,
+  "b32_profile_full_extract_passed": 484,
+  "independent_catalog_matching_unique_coordinate_counts": {
+    "10": 426,
+    "11": 38,
+    "8": 5,
+    "13": 15
+  },
+  "distinct_matching_graph_fingerprints": 4,
+  "graph_fingerprints_counts": {
+    "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7": 426,
+    "ea16618e05f3c0959f3bebd01b015bcbfec70ba597e91bf7720f12c1e0f8dcbc": 38,
+    "07842271ca4211149c131d1bbbb5c77e2412a09fffaba0761e787c10cf50c545": 5,
+    "cc7e65826bd840831571e1f07d958629f4f63b5e2c0b065f9a90a7ee8d69742b": 15
+  },
+  "canonical_distinct_labelled_graphs": 24,
+  "numerical_failure_counts": {},
+  "elapsed_seconds": 37.720717906951904,
+  "catalog_path": "b32_catalog_search/independent_catalog_numerical_index.json",
+  "catalog_sha256": "f3234fd61f521362c69e3442940edc1d381fb5c2e06b1cd12a79e93ab2e57bb4",
+  "graph_tools_sha256": "6270504c6406a684f2a0a1463f031dcd24d177c67f3edbcf2789e24946e7b8fe",
+  "current_fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7"
+}

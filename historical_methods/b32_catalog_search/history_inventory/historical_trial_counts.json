@@ -1,0 +1,319 @@
+{
+  "scope": "Historical trial totals read from retained checkpoints and TRACE_REPORT members; never run optimizer. Trial counts are distinct from stored arrays and graph classes.",
+  "initial": {
+    "records": 160,
+    "checkpoint_path": "structural_search/checkpoint_0.json",
+    "records_path": "structural_search/results_0.jsonl",
+    "start_path_pattern": "structural_search/starts/{idx:05d}.npy",
+    "final_path_pattern": "structural_search/trials/{idx:05d}.npy",
+    "start_files": 160,
+    "final_files": 160
+  },
+  "chains": [
+    {
+      "seed": 0,
+      "requested": 240,
+      "completed": 240,
+      "records": 240,
+      "successful_radius_records": 240,
+      "checkpoint_path": "structural_search/chains/chain_0/checkpoint.json",
+      "records_path": "structural_search/chains/chain_0/records.jsonl",
+      "checkpoint_sha256": "de21ee484070312e390df3cc0c3c4060c27bf7ff47a7f697626c8b123d5c9264",
+      "100_center_npy_files_by_category": {
+        "candidate": 240,
+        "start": 240,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_0/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_0/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 1,
+      "requested": 240,
+      "completed": 240,
+      "records": 240,
+      "successful_radius_records": 240,
+      "checkpoint_path": "structural_search/chains/chain_1/checkpoint.json",
+      "records_path": "structural_search/chains/chain_1/records.jsonl",
+      "checkpoint_sha256": "d8d1ea46748d991c8b4967e16499c3842af4e04e014616b9b9f438b2ff9054c5",
+      "100_center_npy_files_by_category": {
+        "candidate": 240,
+        "start": 240,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_1/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_1/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 2,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_2/checkpoint.json",
+      "records_path": "structural_search/chains/chain_2/records.jsonl",
+      "checkpoint_sha256": "0ee08c715a212cb21f5a0a4f91148dfa6f890930a0ccce0a89b8f469f4ecaa3c",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_2/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_2/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 3,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_3/checkpoint.json",
+      "records_path": "structural_search/chains/chain_3/records.jsonl",
+      "checkpoint_sha256": "1c140a9db2210df910f82c6ebece78b77ebd9b9a372021d044ba2e14bf059960",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_3/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_3/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 4,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_4/checkpoint.json",
+      "records_path": "structural_search/chains/chain_4/records.jsonl",
+      "checkpoint_sha256": "ec700f9d95140d343ebc0538a11693d8905cd6982ba3c3299762f51e531f43bf",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_4/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_4/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 5,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_5/checkpoint.json",
+      "records_path": "structural_search/chains/chain_5/records.jsonl",
+      "checkpoint_sha256": "40f190626c609e9e6764012f94a4b3dfe0dec63470ce9309bb7841b252882823",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_5/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_5/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 6,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_6/checkpoint.json",
+      "records_path": "structural_search/chains/chain_6/records.jsonl",
+      "checkpoint_sha256": "c301e2914e081875c54617ea57ead07f0c9c0b340dc4750abf0afb71fd9b2619",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600
+      },
+      "start_path_pattern": "structural_search/chains/chain_6/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_6/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 7,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_7/checkpoint.json",
+      "records_path": "structural_search/chains/chain_7/records.jsonl",
+      "checkpoint_sha256": "20f87e712e17abd31f026d9fb7b6c5dd037ae676ab3f14a8315fd8c26fabafb5",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_7/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_7/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 8,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_8/checkpoint.json",
+      "records_path": "structural_search/chains/chain_8/records.jsonl",
+      "checkpoint_sha256": "d0881623ca78db6d6e388f8bf044112acc3fd92cc2090f6b51aeb0c81e5c4546",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_8/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_8/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 9,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_9/checkpoint.json",
+      "records_path": "structural_search/chains/chain_9/records.jsonl",
+      "checkpoint_sha256": "c2effc0b6a39bbad5107267e6b8193a81144da30d39250f349addaaa9d1ec688",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_9/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_9/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 10,
+      "requested": 800,
+      "completed": 800,
+      "records": 800,
+      "successful_radius_records": 800,
+      "checkpoint_path": "structural_search/chains/chain_10/checkpoint.json",
+      "records_path": "structural_search/chains/chain_10/records.jsonl",
+      "checkpoint_sha256": "b179062deb2a857a23c19a6b9369b72aa88a78b874053996f785e006abfb942e",
+      "100_center_npy_files_by_category": {
+        "candidate": 800,
+        "start": 800,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_10/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_10/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 11,
+      "requested": 800,
+      "completed": 800,
+      "records": 800,
+      "successful_radius_records": 800,
+      "checkpoint_path": "structural_search/chains/chain_11/checkpoint.json",
+      "records_path": "structural_search/chains/chain_11/records.jsonl",
+      "checkpoint_sha256": "1d58e7eb8e7409e36620e07b9b3301aeb7758080aee63c7c81ae79accd319eac",
+      "100_center_npy_files_by_category": {
+        "candidate": 800,
+        "start": 800,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_11/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_11/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 12,
+      "requested": 800,
+      "completed": 800,
+      "records": 800,
+      "successful_radius_records": 800,
+      "checkpoint_path": "structural_search/chains/chain_12/checkpoint.json",
+      "records_path": "structural_search/chains/chain_12/records.jsonl",
+      "checkpoint_sha256": "6c4132c51f2151da65453258d414bb22889a747cf90a26cea45d54fd56a4801f",
+      "100_center_npy_files_by_category": {
+        "candidate": 800,
+        "start": 800
+      },
+      "start_path_pattern": "structural_search/chains/chain_12/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_12/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 13,
+      "requested": 800,
+      "completed": 800,
+      "records": 800,
+      "successful_radius_records": 800,
+      "checkpoint_path": "structural_search/chains/chain_13/checkpoint.json",
+      "records_path": "structural_search/chains/chain_13/records.jsonl",
+      "checkpoint_sha256": "e1b1a1e3d900eac37d2229721b6037dceb070987a27ec478fb459b48f49cafb6",
+      "100_center_npy_files_by_category": {
+        "candidate": 800,
+        "start": 800,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_13/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_13/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 14,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_14/checkpoint.json",
+      "records_path": "structural_search/chains/chain_14/records.jsonl",
+      "checkpoint_sha256": "7427422564fd08aa0d426abf532ac0183499c517a3198a7a67e5f0b78d475377",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_14/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_14/candidate_{it:04d}.npy"
+    },
+    {
+      "seed": 15,
+      "requested": 600,
+      "completed": 600,
+      "records": 600,
+      "successful_radius_records": 600,
+      "checkpoint_path": "structural_search/chains/chain_15/checkpoint.json",
+      "records_path": "structural_search/chains/chain_15/records.jsonl",
+      "checkpoint_sha256": "23582260ae2631bb9feb68861315dd536f0e852789f400b7718a428ca47e20f0",
+      "100_center_npy_files_by_category": {
+        "candidate": 600,
+        "start": 600,
+        "other": 1
+      },
+      "start_path_pattern": "structural_search/chains/chain_15/start_{it:04d}.npy",
+      "candidate_path_pattern": "structural_search/chains/chain_15/candidate_{it:04d}.npy"
+    }
+  ],
+  "chains0_13_trials": 8480,
+  "chains0_13_plus_initial": 8640,
+  "chains14_15_trials": 1200,
+  "all_chain_trials": 9680,
+  "all_structure_trials_including_initial": 9840,
+  "all_structure100_center_npy_fields": 19697,
+  "archive_reports": [
+    {
+      "archive_path": "deliverables/disk100_search_trace_chains0_13_20261004.zip",
+      "report_member": "disk100_search_trace_chains0_13/TRACE_REPORT.json",
+      "reported_counts": {
+        "initial_structure_starts": 160,
+        "chain_trial_total": 8480,
+        "structure_plus_chain_total": 8640
+      },
+      "report_sha256": "e7f758d0bd21c6b2617d98600b8f2a5a30d25da61b7092cfc6e1088e227b038c"
+    },
+    {
+      "archive_path": "deliverables/disk100_followup_search_trace_20261004.zip",
+      "report_member": "disk100_followup_search_trace/TRACE_REPORT.json",
+      "reported_counts": {
+        "intrinsic_trials": {
+          "old_branch": 520,
+          "latest_single": 320,
+          "latest_mixed": 400
+        },
+        "latest_release_stages": 2072,
+        "chains14_15_trials": 1200,
+        "current_total_structure_trials": 9840
+      },
+      "report_sha256": "1e08f8ca1219a5697d081a2d7fb8858ce6e1d66a5d8be0bdd060f15b96fcda81"
+    }
+  ],
+  "10400_status": "Incorrect shorthand from coordinating agent, withdrawn. No 10400 structural-search trial count is asserted.",
+  "10038_status": "Root context reports9840+198. Exact source of the additional198 is pending upstream clarification; not added to the independently verified structural count."
+}

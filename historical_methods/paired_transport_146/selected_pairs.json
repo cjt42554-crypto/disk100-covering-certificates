@@ -1,0 +1,402 @@
+[
+  {
+    "pair": [
+      26,
+      75
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2034304243962061,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        26,
+        75,
+        84
+      ]
+    ],
+    "shared_stress": 0.012652731755143287,
+    "union_incident_stress": 0.06519710851418498,
+    "preselection_rank": 192,
+    "single_debt_sum": 0.12489606737861858,
+    "pair_deletion_radius": 0.17977917691062764,
+    "pair_deletion_debt": 0.06433222202504506,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.47200177149714995,
+        -0.3293090252085201
+      ],
+      "nearest_center_at_maximum": 26,
+      "maximum_squared_distance": 0.03232055245066275,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.47200177149714995,
+      -0.3293090252085201
+    ],
+    "screening_index": 31,
+    "deletion_file": "screening/pair031_delete.npy",
+    "deletion_file_sha256": "dec20941f02fe239f167164536df23b5e37222642d5586a41b79e9ec31fa2d3e",
+    "pair_mixed_rank": 31,
+    "selection": "lowest_actual_pair_debt",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      75,
+      81
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21028099521604515,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        75,
+        81,
+        82
+      ]
+    ],
+    "shared_stress": 0.010961784095894007,
+    "union_incident_stress": 0.05628185159229906,
+    "preselection_rank": 157,
+    "single_debt_sum": 0.12913991857695262,
+    "pair_deletion_radius": 0.18051380309769463,
+    "pair_deletion_debt": 0.06506684821211205,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.21252642534390717,
+        -0.26891092864205696
+      ],
+      "nearest_center_at_maximum": 46,
+      "maximum_squared_distance": 0.03258523310879327,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.21252642534390717,
+      -0.26891092864205696
+    ],
+    "screening_index": 24,
+    "deletion_file": "screening/pair024_delete.npy",
+    "deletion_file_sha256": "ebe395a3014ab16344c81b0a15d43ec2f3954d32a9b542218e66f23fd1d8c069",
+    "pair_mixed_rank": 29,
+    "selection": "second_low_actual_pair_debt",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      14,
+      78
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2095802733411599,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        14,
+        78,
+        80
+      ],
+      [
+        "b",
+        14,
+        78,
+        -1
+      ]
+    ],
+    "shared_stress": 0.003056697771640695,
+    "union_incident_stress": 0.020627902666745874,
+    "preselection_rank": 116,
+    "single_debt_sum": 0.1549757862038378,
+    "pair_deletion_radius": 0.23657659806546957,
+    "pair_deletion_debt": 0.12112964317988699,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5207809148916981,
+        -0.8536903646431568
+      ],
+      "nearest_center_at_maximum": 78,
+      "maximum_squared_distance": 0.05596848675223075,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.5207809148916981,
+      -0.8536903646431568
+    ],
+    "screening_index": 9,
+    "deletion_file": "screening/pair009_delete.npy",
+    "deletion_file_sha256": "db08d25894b5ef13ae7be559efe416d3c48e45e130347105142ec7596ac6f0f2",
+    "pair_mixed_rank": 30,
+    "selection": "weak_incident_stress",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      45,
+      81
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21147121544113884,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        45,
+        81,
+        85
+      ],
+      [
+        "t",
+        45,
+        46,
+        81
+      ]
+    ],
+    "shared_stress": 0.009800398278401649,
+    "union_incident_stress": 0.04277773104483889,
+    "preselection_rank": 98,
+    "single_debt_sum": 0.13142792849649618,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 5,
+    "deletion_file": "screening/pair005_delete.npy",
+    "deletion_file_sha256": "1391f16d37d096c09934992d1d994cea18f6fb064b86ec70e90c9f929900467f",
+    "pair_mixed_rank": 23,
+    "selection": "mixed_actual_debt_stress",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      73,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.6430415065386608,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04506807233853776,
+    "preselection_rank": 47,
+    "single_debt_sum": 0.11286408791839139,
+    "pair_deletion_radius": 0.172005788447415,
+    "pair_deletion_debt": 0.0565588335618324,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        0.28224060150991986,
+        0.7619463442839478
+      ],
+      "nearest_center_at_maximum": 7,
+      "maximum_squared_distance": 0.029585991259416883,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      0.28224060150991986,
+      0.7619463442839478
+    ],
+    "screening_index": 52,
+    "deletion_file": "screening/pair052_delete.npy",
+    "deletion_file_sha256": "305854acd95a1c4227401ef1f456225a2c7678b89ef0bcd4468396f097e936ed",
+    "pair_mixed_rank": 29,
+    "selection": "lowest_actual_pair_debt",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      80,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.919784594447855,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.043945088334575055,
+    "preselection_rank": 47,
+    "single_debt_sum": 0.11695262558791772,
+    "pair_deletion_radius": 0.1760943261169413,
+    "pair_deletion_debt": 0.06064737123135873,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.813933657303914,
+        0.022708259259248607
+      ],
+      "nearest_center_at_maximum": 74,
+      "maximum_squared_distance": 0.031009211690579675,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.813933657303914,
+      0.022708259259248607
+    ],
+    "screening_index": 51,
+    "deletion_file": "screening/pair051_delete.npy",
+    "deletion_file_sha256": "c943de00ea0107f81e37c1e9cdf2b7c7897ab266a74984f9447ea2691147fac9",
+    "pair_mixed_rank": 27,
+    "selection": "second_low_actual_pair_debt",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      29,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.7430208941327354,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.010706596321952585,
+    "preselection_rank": 30,
+    "single_debt_sum": 0.13261694691925696,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 61,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 33,
+    "deletion_file": "screening/pair033_delete.npy",
+    "deletion_file_sha256": "a8f3429e4cb436ad0eba73f47e524ec2dd673343a71acf52240da7950279828f",
+    "pair_mixed_rank": 19,
+    "selection": "weak_incident_stress",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  },
+  {
+    "pair": [
+      62,
+      74
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.8698511343069839,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02662122946395767,
+    "preselection_rank": 38,
+    "single_debt_sum": 0.1267070063415937,
+    "pair_deletion_radius": 0.1809855842881138,
+    "pair_deletion_debt": 0.0655386294025312,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9988360673426764,
+        -0.04823391519891923
+      ],
+      "nearest_center_at_maximum": 75,
+      "maximum_squared_distance": 0.03275578172010994,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.9988360673426764,
+      -0.04823391519891923
+    ],
+    "screening_index": 41,
+    "deletion_file": "screening/pair041_delete.npy",
+    "deletion_file_sha256": "a996c5f4b5356d09fe9c3f1fd57bc50afca2023c5f17eb1662748212be84deeb",
+    "pair_mixed_rank": 18,
+    "selection": "mixed_actual_debt_stress",
+    "selection_scope": "Finite structured pool; this selection is not a global theorem."
+  }
+]

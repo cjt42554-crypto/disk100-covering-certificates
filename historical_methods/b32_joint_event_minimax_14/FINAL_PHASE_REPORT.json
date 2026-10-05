@@ -1,0 +1,44 @@
+{
+  "status": "FINITE_JOINT_PROXY_PHASE_COMPLETE_INDEPENDENT_NUMERICAL_PASS",
+  "proxy_solves": 31,
+  "accepted_nodes": 31,
+  "original_restores": 0,
+  "coordinate_fields_audited": 95,
+  "unique_arrays_audited": 63,
+  "alltriple_calls_new": 58,
+  "selected_handoff_receipts_reused": 5,
+  "status0": 31,
+  "failed_nodes": 0,
+  "unit_norm_guard": false,
+  "research_actual_R_cap": 0.1165,
+  "no_material_upper_improvement": true,
+  "current_certified_V": ".1154469548855829",
+  "joint02": {
+    "near1_R": 0.11615151234082917,
+    "finalpost_R": 0.11615142845171787,
+    "preferred_threeface_actual_gate": true,
+    "post_actual_graph": "e3dde8476a96e2e7d9e6bd5ece8f3b25cf326f65c61538b50902658475e3380d",
+    "post_nonbinding_center_at_squared_tolerance5e14": 38,
+    "nonbinding_is_not_removable": true
+  },
+  "joint03": {
+    "near1_R": 0.11641031923136867,
+    "actual_joint_geometry_gate": true,
+    "source_preferred_raw_eta": [
+      -1,
+      -2
+    ],
+    "actual_preferred_fan_minimum_margin": -0.0748427465692243,
+    "termination_classification": "Valid actual five-site near tie; source preferred eta left its actual cone, no post solve attempted",
+    "example_actual_cone_raw_eta_only_geometry": [
+      -1,
+      -3
+    ],
+    "not_launched": true
+  },
+  "continuous_arc_certified": false,
+  "exact_joint_or_cover_certificate_in_this_directory": false,
+  "first_joint_handoff_manifest_sha256": "3af3bc2bf3d24f3b10d5a2041486d42fd44b59cfdd38d702d26c9260b3be3baa",
+  "all_snapshots_audit_sha256": "a989717bbfca926c64db0e16041b8a5567c9fefe7521869f79466f97b42bc2c1",
+  "scope": "Finite full-variable proxy exploration and independent numerical saved-array replay; no global exclusion or strict radius claim."
+}

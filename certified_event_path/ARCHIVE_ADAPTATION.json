@@ -1,0 +1,9 @@
+{
+  "excluded_bytecode": [],
+  "optimization_and_oracle_and_acceptance_replays_in_sync": 0,
+  "scope": "Hash-verified immutable mathematical source snapshot; original actual acceptance/audit receipts retained, no new experiment.",
+  "source_hash_checks": 87,
+  "source_manifest_sha256": "2f493c30ca0effb43b692699cf789ce8128e94972904c07f0607eab060c8e4e9",
+  "source_unchanged_after_copy": true,
+  "status": "PASS"
+}

@@ -1,0 +1,53 @@
+{
+  "status": "completed",
+  "completed_pairs": 12,
+  "accepted_nodes": 259,
+  "failed_attempt_nodes": 3,
+  "independent_replayed_arrays": 335,
+  "independent_score_max_difference": 0.0,
+  "validated_numeric_event_pairs": 7,
+  "validated_five_site_cavities": 1,
+  "crossed_both_event_pairs": 6,
+  "invalid_primitive_zero_pairs": 5,
+  "no_new_upper_bound": true,
+  "current_complete_upper_bound": 0.1155018241946,
+  "best_valid_pair_post_restore": {
+    "ids": [
+      "e0200",
+      "e0246"
+    ],
+    "radius": 0.11572140085712711
+  },
+  "valid_weak_five_site_pair": {
+    "ids": [
+      "e0093",
+      "e0094"
+    ],
+    "sites": [
+      38,
+      41,
+      82,
+      92,
+      95
+    ],
+    "sampled_peak": 0.11696087614379216,
+    "post_corrector_failure_fraction": 1.0005,
+    "post_crossing": false
+  },
+  "known_basin_detection": {
+    "legacy_missed_pairs": 2,
+    "extra_solver_rounds": 3,
+    "binding_center_count": 99,
+    "unbound_center_indices": [
+      65
+    ],
+    "fix_applied_to_future_source": true,
+    "original_logs_preserved": true,
+    "optimization_repeated_for_fix": 0
+  },
+  "frozen_event_forced_tree_unchanged": true,
+  "source_execution_sha256": "e9592ac4d0e996c1f0e89aa8a48b0e9e323f6c6d89ebd0b808c53d0ebb4423b6",
+  "source_future_sha256": "6ea9e06e034e80f0e6c6739a95b100c1457239ad63df377f34a495995927c5df",
+  "scope": "Numerical paired-event construction, saved-node peak only, exact predicates of saved doubles only, no algebraic/full-path/global-optimality certification",
+  "completed_at_utc": "2026-10-04T17:37:36.057963+00:00"
+}

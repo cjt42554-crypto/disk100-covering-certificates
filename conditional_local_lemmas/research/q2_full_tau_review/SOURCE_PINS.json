@@ -1,0 +1,188 @@
+{
+  "status": "INDEPENDENT_FULL_SOURCE_STATIC_ANALYTIC_PASS_LOCAL_CONDITIONAL_ACTUAL_TAU_D_GT_223_10000",
+  "author_root": "PROJECT_SOURCE/research/q2_strong_arc_norm_budget_nonzero_tau",
+  "author_source_files_read_in_full": {
+    "WORKING_INTERFACE.md": {
+      "sha256": "f648021de12b7182c14104d15c8b947aafd1fa90fc24dc2ce459efc87a45c5d3",
+      "bytes": 7016
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "baf021973a53be3eb8a0b3fee9391625466d8624dcb0e0861ba73bb86f6eff26",
+      "bytes": 384
+    },
+    "SHA256.json": {
+      "sha256": "9ff1a583f5aff15bd570c708d104e1eb6abf9e29a357f66361c76d4ea85d5276",
+      "bytes": 539
+    },
+    "FULL_ACTUAL_TAU_PROOF.md": {
+      "sha256": "84ff30accf1b90746288d199127ab39759bea006000aaca88dd7887e5f48822e",
+      "bytes": 12907
+    },
+    "MEAN_BUDGET_ENVELOPE.md": {
+      "sha256": "4a4e634053549ff56019d93802cfb10da56ae21bbf23b03cc6822b6fc97a0a8c",
+      "bytes": 6768
+    },
+    "ENVELOPE_PINS.json": {
+      "sha256": "b1ddb1e3ebfba337abc8a825b0959ca749bcc0c32d24e7f7ab72c29396f5242f",
+      "bytes": 861
+    },
+    "ENDPOINT_CLARIFICATION.md": {
+      "sha256": "8246a5bd62623156b03a77e6245920d4724adc9c1bb312b51fa0939d5762c5b3",
+      "bytes": 1053
+    },
+    "ZERO_B_CLARIFICATION.md": {
+      "sha256": "62b5e0af542d26d799fcdc0525e4a68b7bdf0ad69e68844120f2e7bad1a53ab7",
+      "bytes": 604
+    },
+    "SKEW_LOCALIZATION_CLARIFICATION.md": {
+      "sha256": "30053208b6e779e1af0e012fed43cb5bd8c8a642d1813a16c2295d18fae04494",
+      "bytes": 1067
+    },
+    "FULL_PROOF_PINS.json": {
+      "sha256": "bebbb3836065d0328f7ee9d7785de6c9bfd64b304ed0d795e5407fbb9cfe0305",
+      "bytes": 1522
+    },
+    "FULL_EXECUTION_LEDGER.json": {
+      "sha256": "d17d7ff92dd77634485c3c3e744eac6d26f0e9c91763760b3918af615db8df92",
+      "bytes": 2271
+    },
+    "SINE_INTERVAL_GUARD.md": {
+      "sha256": "48fa3c0b0231342b9b24f9fca7588188c857f2ef2bb47d347080508f26619620",
+      "bytes": 1107
+    },
+    "FULL_AUTHOR_MANIFEST.json": {
+      "sha256": "2c0a767f6f67216f47b2d5651c09622e795d01df87fba8ff98f0e650e51d9300",
+      "bytes": 2572
+    }
+  },
+  "frozen_external_dependencies_read_in_full": {
+    "../q2_strong_arc_norm_budget/TAU_ZERO_NORM_PROOF.md": {
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+      "bytes": 13053
+    },
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS.md": {
+      "sha256": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+      "bytes": 971
+    },
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS_BUDGET_ENDPOINTS.md": {
+      "sha256": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+      "bytes": 1577
+    },
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS_DOMAIN.md": {
+      "sha256": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b",
+      "bytes": 1209
+    },
+    "../q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+      "bytes": 15099
+    },
+    "../q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    }
+  },
+  "tau_zero_all_source_pins": {
+    "TAU_ZERO_NORM_PROOF.md": {
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+      "bytes": 13053
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "cdb8edf16eca580c2b5ee4f6d902d130e3c2d61d0ece0fdd0c882d33567d967d",
+      "bytes": 452
+    },
+    "SHA256.json": {
+      "sha256": "c6491092402132c60d0b0005e7d2d75a35180b34397a622a764b743c1726918a",
+      "bytes": 1219
+    },
+    "accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+      "bytes": 15099
+    },
+    "accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    },
+    "CLARIFICATIONS.md": {
+      "sha256": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+      "bytes": 971
+    },
+    "CLARIFICATIONS_BUDGET_ENDPOINTS.md": {
+      "sha256": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+      "bytes": 1577
+    },
+    "CLARIFICATIONS_DOMAIN.md": {
+      "sha256": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b",
+      "bytes": 1209
+    }
+  },
+  "frozen_predecessor_independent_reviews": {
+    "research/q2_tau_zero_review/INDEPENDENT_REVIEW.md": {
+      "sha256": "432df75e4dbe1996be17414de5c263ebed7ca6fdee41d3dcd7eefffb6fbe400a",
+      "bytes": 11037
+    },
+    "research/q2_tau_zero_review/ISSUE_HISTORY.md": {
+      "sha256": "2a95976ba5ecb2d9d2dce64a4aaba512c81185ef2805b7bf96c17b6cd996aba4",
+      "bytes": 2331
+    },
+    "research/q2_tau_zero_review/SOURCE_PINS.json": {
+      "sha256": "8ff944ef3734f55900afc47ffa3dcaa6a4f9adec88c5132df49d9ca2e4be6094",
+      "bytes": 2446
+    },
+    "research/q2_tau_zero_review/SHA256.json": {
+      "sha256": "bd6c4bb91fbacd2defd2d3ec9d0bf0b692887a33808db20817d178c935a05650",
+      "bytes": 595
+    },
+    "research/q2_mean_budget_review/INDEPENDENT_REVIEW.md": {
+      "sha256": "f54f629df1bc3a920771aabadc6f19ae6b92f1c5b64ccaaf91db99c337ac7acf",
+      "bytes": 9244
+    },
+    "research/q2_mean_budget_review/ISSUE_HISTORY.md": {
+      "sha256": "7d70f1b5f4938d6471675044294f8c01598c2b36cf38d2af77b6726f73094551",
+      "bytes": 1548
+    },
+    "research/q2_mean_budget_review/SOURCE_PINS.json": {
+      "sha256": "4e11f220cdd31f93c821eecea514155f0c9e9a8c7537994a410ec714011b90d4",
+      "bytes": 4169
+    },
+    "research/q2_mean_budget_review/SHA256.json": {
+      "sha256": "765b3cf622bb835d1d5158ffbf671d9b1fa1188698273e34681e35aa8c5da097",
+      "bytes": 763
+    }
+  },
+  "author_manifest_all_entries_match": true,
+  "author_full_and_envelope_pins_all_entries_match": true,
+  "accepted_dependency_bytes_unchanged": true,
+  "reviewer_source_edits": false,
+  "primary_reviewer_mathematical_program_executions": 0,
+  "supplemental_reviewer_mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "checker_calls": 0,
+  "numerical_replays": 0,
+  "parameter_searches_or_optimizers": 0,
+  "metadata_hashing_and_new_review_documents_only": true,
+  "author_reported_mathematical_program_executions": 0,
+  "author_execution_record": "FULL_EXECUTION_LEDGER.json read completely; separately preserved older exploratory work not reclassified; failed nonmathematical patch disclosed. Counts here are the author record, not a new mathematical replay receipt.",
+  "arithmetic_premise": "Pre-existing accepted scalar support/peak certificates are exact pinned premises and were not regenerated. New geometry/derivative/rational guards were independently checked on paper.",
+  "accepted_scope": "R=5661/50000,lambda=7/50,t=1071883/20000000; admitted actual consecutive positive faces, circumradii<=R, actual common covered unit anchors, SAME actual middle norm<=sqrt(1-R^2), EACH actual outer connected full assigned arc>.147 imply actual signed-A D>.0223 for arbitrary actual tau.",
+  "excluded_scope": [
+    "global covering or radius exclusion",
+    "unproved actual-fan/radial-reflection transport to the middle cap",
+    "unproved complete profile incidence or loss allocation"
+  ],
+  "newly_accepted_interfaces": [
+    "actual positive common unit-anchor branch",
+    "entire covered rigid fan path and exact D(v)=D-W+vW",
+    "physical outer mean-square derivative",
+    "two-branch lens maximum and Lipschitz transport",
+    "tip support<.224",
+    "whole-path Hessian<5.2 and retained-R support perturb<.061",
+    "uniform support<.285 and M prime<=.285W",
+    "single-budget integration with independent ideal mean envelope"
+  ],
+  "clarification_history": [
+    "previous tau-zero three separate clarifiers remain frozen",
+    "mean Eq4 zero-H ENDPOINT_CLARIFICATION and ZERO_B singleton case",
+    "SKEW_LOCALIZATION_CLARIFICATION preserves acute-d-before-eta ordering",
+    "SINE_INTERVAL_GUARD replaces implicit precise-pi distance guard without execution"
+  ]
+}

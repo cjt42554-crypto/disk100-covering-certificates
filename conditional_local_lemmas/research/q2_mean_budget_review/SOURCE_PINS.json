@@ -1,0 +1,101 @@
+{
+  "status": "INDEPENDENT_STATIC_PASS_IDEAL_MEAN_SHAPE_ENVELOPE_ONLY",
+  "author_root": "PROJECT_SOURCE/research/q2_strong_arc_norm_budget_nonzero_tau",
+  "source_files_read_in_full": {
+    "MEAN_BUDGET_ENVELOPE.md": {
+      "sha256": "4a4e634053549ff56019d93802cfb10da56ae21bbf23b03cc6822b6fc97a0a8c",
+      "bytes": 6768
+    },
+    "ENVELOPE_PINS.json": {
+      "sha256": "b1ddb1e3ebfba337abc8a825b0959ca749bcc0c32d24e7f7ab72c29396f5242f",
+      "bytes": 861
+    },
+    "ENDPOINT_CLARIFICATION.md": {
+      "sha256": "8246a5bd62623156b03a77e6245920d4724adc9c1bb312b51fa0939d5762c5b3",
+      "bytes": 1053
+    },
+    "WORKING_INTERFACE.md": {
+      "sha256": "f648021de12b7182c14104d15c8b947aafd1fa90fc24dc2ce459efc87a45c5d3",
+      "bytes": 7016
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "baf021973a53be3eb8a0b3fee9391625466d8624dcb0e0861ba73bb86f6eff26",
+      "bytes": 384
+    },
+    "SHA256.json": {
+      "sha256": "9ff1a583f5aff15bd570c708d104e1eb6abf9e29a357f66361c76d4ea85d5276",
+      "bytes": 539
+    }
+  },
+  "author_envelope_and_working_manifests_match": true,
+  "tau_zero_source_dependencies": {
+    "TAU_ZERO_NORM_PROOF.md": {
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+      "bytes": 13053
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "cdb8edf16eca580c2b5ee4f6d902d130e3c2d61d0ece0fdd0c882d33567d967d",
+      "bytes": 452
+    },
+    "SHA256.json": {
+      "sha256": "c6491092402132c60d0b0005e7d2d75a35180b34397a622a764b743c1726918a",
+      "bytes": 1219
+    },
+    "accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+      "bytes": 15099
+    },
+    "accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    },
+    "CLARIFICATIONS.md": {
+      "sha256": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+      "bytes": 971
+    },
+    "CLARIFICATIONS_BUDGET_ENDPOINTS.md": {
+      "sha256": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+      "bytes": 1577
+    },
+    "CLARIFICATIONS_DOMAIN.md": {
+      "sha256": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b",
+      "bytes": 1209
+    }
+  },
+  "frozen_tau_zero_independent_review": {
+    "research/q2_tau_zero_review/INDEPENDENT_REVIEW.md": {
+      "sha256": "432df75e4dbe1996be17414de5c263ebed7ca6fdee41d3dcd7eefffb6fbe400a",
+      "bytes": 11037
+    },
+    "research/q2_tau_zero_review/ISSUE_HISTORY.md": {
+      "sha256": "2a95976ba5ecb2d9d2dce64a4aaba512c81185ef2805b7bf96c17b6cd996aba4",
+      "bytes": 2331
+    },
+    "research/q2_tau_zero_review/SOURCE_PINS.json": {
+      "sha256": "8ff944ef3734f55900afc47ffa3dcaa6a4f9adec88c5132df49d9ca2e4be6094",
+      "bytes": 2446
+    },
+    "research/q2_tau_zero_review/SHA256.json": {
+      "sha256": "bd6c4bb91fbacd2defd2d3ec9d0bf0b692887a33808db20817d178c935a05650",
+      "bytes": 595
+    }
+  },
+  "source_edits_by_reviewers": false,
+  "reviewer_mathematical_program_executions": 0,
+  "supplemental_reviewer_mathematical_program_executions": 0,
+  "mathematical_imports": 0,
+  "checker_calls": 0,
+  "numerical_replays": 0,
+  "searches_or_optimizers": 0,
+  "metadata_hashing_and_review_document_writing_only": true,
+  "accepted_scope": "Sections1-3 shape envelope at ideal positive-unit-tip branch: weighted budget1666/625, chi_eff<=.523+sqrt(.47B), M(0)<=N(B), N prime>.30 for B>0, continuous B0 case; B=D-W.",
+  "excluded_scope": [
+    "actual-path M prime<=.30W",
+    "whole-path support-branch signs or derivative coefficient",
+    "general positive-tau strong fee",
+    "global covering or radius exclusion"
+  ],
+  "working_interface_scope": "Read in full for boundaries and dependency identity; its actual path/gradient bridge not accepted by this envelope review.",
+  "endpoint_handling": "Author separate Eq4 clarification plus independent explicit B=0 singleton-v maximum case; unchanged main retained.",
+  "arithmetic_premise": "Pre-existing accepted scalar and peak bounds used without regeneration."
+}

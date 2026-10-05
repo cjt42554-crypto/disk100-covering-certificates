@@ -1,0 +1,26 @@
+{
+  "status": "NEW_ANALYTIC_PRO_0225_PARAMETER_COROLLARY_AWAITING_STATIC_REVIEW",
+  "radius_scope": "Exactly 5661/50000. Future radius composition explicitly conditional on its separately proved central theorem and unchanged exact hypotheses.",
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "old_checker_replays": 0,
+  "old_48_guard_batch_replays": 0,
+  "numerical_optimizers": 0,
+  "parameter_scans_or_searches": 0,
+  "method": "Full static Pro source/audit read, paper extension of its scalar single-deficit budget to 1/40, exact score/support-plane comparison, bootstrap, monotonicity and completed square.",
+  "predecessor_root_replay_count": 1,
+  "predecessor_root_replay_receipt": "research/pro_tau_local_replay_20261005/LOCAL_REPLAY_RECEIPT.json",
+  "predecessor_root_replay_not_repeated": true,
+  "local_0223_geometric_fee_used": false,
+  "same_frozen_scalar_peak_enclosures_used": true,
+  "bookkeeping": "Filesystem reads, new source/ledger writes and later SHA256 metadata hashing only.",
+  "predecessor_sources_modified": false,
+  "independent_review_status": "Not yet reviewed.",
+  "scope_exclusions": [
+    "global covering or radius exclusion",
+    "changed global target assumed equal to frozen delta",
+    "outer squared norm .83 automatically valid at other radii",
+    "middle actual norm cap acquired by unproved reflection",
+    "a second execution of old 48 guards"
+  ]
+}

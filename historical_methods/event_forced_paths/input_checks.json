@@ -1,0 +1,432 @@
+{
+  "input_files": {
+    "inputs/baseline_corrected.npy": "fb61e33638e9efd7fc38a40aa2f930eae559e57a5871149a6bfb24d850795cec",
+    "inputs/derive.py": "7077fd3d270c4434e62ae320e264f4efd3735cedda6fd1f993f4f448f2987045",
+    "inputs/diagnostic.json": "e11b3e655bcb2ae1d1b9272f9d5e783a2aaed50d902506bc4fdb99e7c2357d7e",
+    "inputs/events.json": "04b1719c049a3dbc8cc9be66b14549b87384e605191a320cd2cded17cff2845a",
+    "inputs/matrices.npz": "701a757bcb9c1f0dd95f869e1fa1df3865d994436c3d2cbc3e828761a62754f2",
+    "inputs/true_cover.py": "e07f698766d143749f57a67ffa783cb6b3fbf9252452339eb91598a1c1c2a0f8"
+  },
+  "baseline_coordinate_sha256": "d4efe696fa6ccf1a5a9714626eb41a2c8e3f7c5d5ee83c07574916b6710a5e4f",
+  "baseline_true_radius": 0.1155018241945471,
+  "independent_baseline_score": {
+    "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+    "all_pairs_examined": 4950,
+    "interior_candidates": 165,
+    "boundary_intersection_candidates": 9900,
+    "antipodes": 100,
+    "auxiliary_circle_points": 104,
+    "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+    "maximum_point": [
+      0.11436960005284408,
+      0.9934382691359099
+    ],
+    "nearest_center_at_maximum": 68,
+    "maximum_squared_distance": 0.013340671392268065,
+    "numerical_only": true
+  },
+  "rank_A": 151,
+  "rank_A_gauge": 152,
+  "rank_B_eq": 153,
+  "full_tangent_dimension": 48,
+  "finite_slice_dimension": 199,
+  "positive_G_min_eigenvalue": 0.001553720487389238,
+  "positive_G_max_eigenvalue": 0.03584016294893201,
+  "gauge_Q_orthogonality": 5.5077470362263625e-17,
+  "tangent_residual_inf": 1.0082811945841244e-16,
+  "max_paths": 12,
+  "one_CPU_BLAS_thread": true,
+  "geometry_budgets": {
+    "true_radius": 0.13,
+    "max_center_shift": 0.3
+  },
+  "method": "full48 quadratic t-objective event predictor, full199 current actual-hole epigraph minimization with exact-form incircle equality, dynamic inventory refresh, independent true_cover scoring",
+  "local_prediction_scope": "Taylor optimum only for sufficiently small event progress on a fixed regular geometric stratum; no finite-event or global optimality guarantee",
+  "sample_peak_scope": "maximum over saved numerical nodes; no certified whole-segment supremum",
+  "selected": [
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          95,
+          75,
+          38
+        ],
+        "shared_edge": [
+          82,
+          95
+        ],
+        "index": 90,
+        "id": "e0090",
+        "base_sign": 1.0,
+        "base_value": 0.0015783395027663143,
+        "base_value_corrected": 0.001578339521285057,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 0.00025020635420505753,
+      "predicted_radius_barrier": 0.0010831272837025475,
+      "event_gradient_tangent_norm": 0.008918703017341387,
+      "denominator": 0.004978202197072715,
+      "maximum_linear_center_shift": 0.05901165973004656,
+      "maximum_second_derivative_center_shift": 0.05014307268208099,
+      "second_equality_residual_inf": 1.6360610782806262e-16,
+      "kappa": 0.0005004127084101036,
+      "energy_kappa": 0.0005004127084101152,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          38,
+          95,
+          41
+        ],
+        "shared_edge": [
+          38,
+          82
+        ],
+        "index": 93,
+        "id": "e0093",
+        "base_sign": 1.0,
+        "base_value": 0.0013264295639052776,
+        "base_value_corrected": 0.0013264295699073837,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 0.00012909310500703507,
+      "predicted_radius_barrier": 0.0005588357842279423,
+      "event_gradient_tangent_norm": 0.01090558403375472,
+      "denominator": 0.006814521208661012,
+      "maximum_linear_center_shift": 0.046381524548234916,
+      "maximum_second_derivative_center_shift": 0.02816447110872719,
+      "second_equality_residual_inf": 7.081195439045951e-17,
+      "kappa": 0.00025818621001407003,
+      "energy_kappa": 0.0002581862100140701,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          38,
+          95,
+          82,
+          92
+        ],
+        "shared_edge": [
+          38,
+          95
+        ],
+        "index": 94,
+        "id": "e0094",
+        "base_sign": 1.0,
+        "base_value": 0.0012194328110756469,
+        "base_value_corrected": 0.00121943277655265,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 0.00010906663360183891,
+      "predicted_radius_barrier": 0.00047214247204499217,
+      "event_gradient_tangent_norm": 0.010896554024428701,
+      "denominator": 0.006817008316032931,
+      "maximum_linear_center_shift": 0.039850364656764094,
+      "maximum_second_derivative_center_shift": 0.016851498250930467,
+      "second_equality_residual_inf": 7.640914810591592e-17,
+      "kappa": 0.00021813326720367641,
+      "energy_kappa": 0.00021813326720367777,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          65,
+          30,
+          64,
+          27
+        ],
+        "shared_edge": [
+          30,
+          65
+        ],
+        "index": 206,
+        "id": "e0206",
+        "base_sign": 1.0,
+        "base_value": 0.0003259908008680628,
+        "base_value_corrected": 0.00032599081786449245,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 1.1126488430574826e-05,
+      "predicted_radius_barrier": 4.816585585624081e-05,
+      "event_gradient_tangent_norm": 0.009504923023952819,
+      "denominator": 0.004775541447557614,
+      "maximum_linear_center_shift": 0.019901800307678897,
+      "maximum_second_derivative_center_shift": 0.003812031486896806,
+      "second_equality_residual_inf": 7.22688510597369e-18,
+      "kappa": 2.225297686114943e-05,
+      "energy_kappa": 2.2252976861149645e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          77,
+          96,
+          74,
+          99
+        ],
+        "shared_edge": [
+          77,
+          96
+        ],
+        "index": 49,
+        "id": "e0049",
+        "base_sign": 1.0,
+        "base_value": 0.0006192905361963939,
+        "base_value_corrected": 0.0006192905235192288,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 1.726202795561048e-05,
+      "predicted_radius_barrier": 7.472621352947195e-05,
+      "event_gradient_tangent_norm": 0.013779085335495513,
+      "denominator": 0.011108797688978052,
+      "maximum_linear_center_shift": 0.02754023744140194,
+      "maximum_second_derivative_center_shift": 0.007426725581428505,
+      "second_equality_residual_inf": 7.60000311923921e-18,
+      "kappa": 3.452405591122072e-05,
+      "energy_kappa": 3.452405591122094e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          30,
+          99,
+          77,
+          27
+        ],
+        "shared_edge": [
+          30,
+          99
+        ],
+        "index": 203,
+        "id": "e0203",
+        "base_sign": 1.0,
+        "base_value": 0.00040231247316109987,
+        "base_value_corrected": 0.00040231244224135047,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 1.816249789329852e-05,
+      "predicted_radius_barrier": 7.862429022205873e-05,
+      "event_gradient_tangent_norm": 0.00790802409213637,
+      "denominator": 0.004455755539052816,
+      "maximum_linear_center_shift": 0.032896797353557584,
+      "maximum_second_derivative_center_shift": 0.006221156562566166,
+      "second_equality_residual_inf": 1.1399369404148374e-17,
+      "kappa": 3.632499578659545e-05,
+      "energy_kappa": 3.632499578659703e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          75,
+          65,
+          26,
+          27
+        ],
+        "shared_edge": [
+          65,
+          75
+        ],
+        "index": 54,
+        "id": "e0054",
+        "base_sign": 1.0,
+        "base_value": 0.0005547217784319941,
+        "base_value_corrected": 0.0005547217869504559,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 2.4426972955160516e-05,
+      "predicted_radius_barrier": 0.00010574280157695453,
+      "event_gradient_tangent_norm": 0.011620206193677861,
+      "denominator": 0.006298698194867773,
+      "maximum_linear_center_shift": 0.030453976039314427,
+      "maximum_second_derivative_center_shift": 0.008963073163558448,
+      "second_equality_residual_inf": 2.7132900520278596e-17,
+      "kappa": 4.885394591031987e-05,
+      "energy_kappa": 4.885394591032104e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          42,
+          80,
+          78,
+          44
+        ],
+        "shared_edge": [
+          42,
+          80
+        ],
+        "index": 246,
+        "id": "e0246",
+        "base_sign": 1.0,
+        "base_value": 0.00092692893432961,
+        "base_value_corrected": 0.0009269289014578346,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 3.444598323248297e-05,
+      "predicted_radius_barrier": 0.00014911445543259758,
+      "event_gradient_tangent_norm": 0.013220934478922806,
+      "denominator": 0.012471660085283835,
+      "maximum_linear_center_shift": 0.04515538976619191,
+      "maximum_second_derivative_center_shift": 0.017917699351616505,
+      "second_equality_residual_inf": 1.9359573284207475e-17,
+      "kappa": 6.889196646496423e-05,
+      "energy_kappa": 6.889196646496593e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          43,
+          44,
+          42,
+          25
+        ],
+        "shared_edge": [
+          43,
+          44
+        ],
+        "index": 200,
+        "id": "e0200",
+        "base_sign": 1.0,
+        "base_value": 0.0007322234965990229,
+        "base_value_corrected": 0.0007322235292339194,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 3.5118025731195845e-05,
+      "predicted_radius_barrier": 0.00015202368437075233,
+      "event_gradient_tangent_norm": 0.00918720080418407,
+      "denominator": 0.007633562616356101,
+      "maximum_linear_center_shift": 0.0586828531945168,
+      "maximum_second_derivative_center_shift": 0.01759925698324892,
+      "second_equality_residual_inf": 8.95822045016148e-18,
+      "kappa": 7.023605146239467e-05,
+      "energy_kappa": 7.023605146239173e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          96,
+          76,
+          74,
+          11
+        ],
+        "shared_edge": [
+          76,
+          96
+        ],
+        "index": 7,
+        "id": "e0007",
+        "base_sign": 1.0,
+        "base_value": 0.0008172543495565128,
+        "base_value_corrected": 0.0008172543788517283,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 4.3148125444043114e-05,
+      "predicted_radius_barrier": 0.00018678547176608244,
+      "event_gradient_tangent_norm": 0.011306632883214514,
+      "denominator": 0.007739672498849343,
+      "maximum_linear_center_shift": 0.045050914902558796,
+      "maximum_second_derivative_center_shift": 0.02031068866052419,
+      "second_equality_residual_inf": 1.5348237004247922e-17,
+      "kappa": 8.629625088808291e-05,
+      "energy_kappa": 8.629625088808625e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          62,
+          88,
+          91,
+          61
+        ],
+        "shared_edge": [
+          62,
+          88
+        ],
+        "index": 230,
+        "id": "e0230",
+        "base_sign": 1.0,
+        "base_value": 0.0008233700399846945,
+        "base_value_corrected": 0.0008233700051569015,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 4.646609308363917e-05,
+      "predicted_radius_barrier": 0.0002011487411894614,
+      "event_gradient_tangent_norm": 0.011086171406959559,
+      "denominator": 0.007294977051027126,
+      "maximum_linear_center_shift": 0.04087477843742497,
+      "maximum_second_derivative_center_shift": 0.016510215226747282,
+      "second_equality_residual_inf": 6.7898161051904715e-18,
+      "kappa": 9.293218616728048e-05,
+      "energy_kappa": 9.293218616727833e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    },
+    {
+      "event": {
+        "kind": "dt_flip",
+        "sites": [
+          59,
+          60,
+          52,
+          50
+        ],
+        "shared_edge": [
+          59,
+          60
+        ],
+        "index": 211,
+        "id": "e0211",
+        "base_sign": 1.0,
+        "base_value": 0.0008625584562714228,
+        "base_value_corrected": 0.0008625584778243832,
+        "base_orientation_sign": 1
+      },
+      "predicted_squared_barrier": 4.660461919114663e-05,
+      "predicted_radius_barrier": 0.00020174841183740776,
+      "event_gradient_tangent_norm": 0.011438901419892667,
+      "denominator": 0.007982117873500984,
+      "maximum_linear_center_shift": 0.03536323109805958,
+      "maximum_second_derivative_center_shift": 0.013325396908292226,
+      "second_equality_residual_inf": 3.686287386450715e-18,
+      "kappa": 9.320923838229364e-05,
+      "energy_kappa": 9.32092383822932e-05,
+      "initial_inactive_squared_gap": 3.128405348234824e-05,
+      "local_only": true
+    }
+  ]
+}

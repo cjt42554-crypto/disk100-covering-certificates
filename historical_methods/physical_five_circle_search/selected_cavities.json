@@ -1,0 +1,2114 @@
+[
+  {
+    "ids": [
+      "e0094",
+      "e0093"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          38,
+          95,
+          82,
+          92
+        ],
+        "shared_edge": [
+          38,
+          95
+        ],
+        "index": 94,
+        "id": "e0094",
+        "base_sign": 1.0,
+        "base_value": 0.0012194328110756469,
+        "base_value_corrected": 0.00121943277655265,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          38,
+          95,
+          41
+        ],
+        "shared_edge": [
+          38,
+          82
+        ],
+        "index": 93,
+        "id": "e0093",
+        "base_sign": 1.0,
+        "base_value": 0.0013264295639052776,
+        "base_value_corrected": 0.0013264295699073837,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      38,
+      95,
+      82
+    ],
+    "extras": [
+      41,
+      92
+    ],
+    "union": [
+      38,
+      41,
+      82,
+      92,
+      95
+    ],
+    "cycle": [
+      82,
+      41,
+      38,
+      92,
+      95
+    ],
+    "cycle_triangles": [
+      [
+        82,
+        41,
+        38
+      ],
+      [
+        82,
+        41,
+        92
+      ],
+      [
+        82,
+        41,
+        95
+      ],
+      [
+        41,
+        38,
+        82
+      ],
+      [
+        41,
+        38,
+        92
+      ],
+      [
+        41,
+        38,
+        95
+      ],
+      [
+        38,
+        92,
+        82
+      ],
+      [
+        38,
+        92,
+        41
+      ],
+      [
+        38,
+        92,
+        95
+      ],
+      [
+        92,
+        95,
+        82
+      ],
+      [
+        92,
+        95,
+        41
+      ],
+      [
+        92,
+        95,
+        38
+      ],
+      [
+        95,
+        82,
+        41
+      ],
+      [
+        95,
+        82,
+        38
+      ],
+      [
+        95,
+        82,
+        92
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.03442661886661905,
+      0.06944920253065362,
+      0.03492334055767225,
+      0.034426618866619046,
+      0.0013188016102498958,
+      0.03399924487342605,
+      0.03634138527428447,
+      0.0013188016102498956,
+      0.03456878310758232,
+      0.032723364397777094,
+      0.06724922637075847,
+      0.03456878310758231,
+      0.03492334055767226,
+      0.03449596656447926,
+      0.0327233643977771
+    ],
+    "common_initial_area": 0.03449596656447926,
+    "gaps": [
+      0.038451729347199017,
+      0.035350010392470294
+    ],
+    "q0": [
+      -0.42543616981358834,
+      -0.06022764935388066
+    ],
+    "rho0_squared": 0.013340671392268024,
+    "physical_gap_gram": [
+      [
+        3791.8811639575924,
+        -2279.0536189707404
+      ],
+      [
+        -2279.05361897074,
+        4270.27909425668
+      ]
+    ],
+    "gram_eigenvalues": [
+      1739.508279246818,
+      6322.651978967455
+    ],
+    "gram_condition": 3.634735203275418,
+    "cross_coupling": -0.5663684512550131,
+    "predicted_squared_barrier": 0.0005737369059817283,
+    "predicted_radius_barrier": 0.002483670322883159,
+    "maximum_joint_linear_shift": 0.08791788175566051,
+    "initial_empty_min_nonunion_gap": 0.04575432082283742,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.42543616981358834,
+          -0.06022764935388065
+        ],
+        "common_circle_center_norm": 0.42967814039388874,
+        "common_circle_squared_radius": 0.013340671392268022,
+        "common_circle_radius": 0.11550182419454691,
+        "four_site_squared_spread": 0.035350010392470294,
+        "nearest_squared_gap": 0.0,
+        "nearest_center": 38,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.42543616981358834,
+          -0.06022764935388064
+        ],
+        "common_circle_center_norm": 0.42967814039388874,
+        "common_circle_squared_radius": 0.013340671392268025,
+        "common_circle_radius": 0.11550182419454692,
+        "four_site_squared_spread": 0.03845172934719901,
+        "nearest_squared_gap": -3.469446951953614e-18,
+        "nearest_center": 38,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 0,
+    "initial_aux_equalities_residual": 1.3003269662891311e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 1.3322676295501878e-15,
+    "mixed_physical_response_residual": 3.3306690738754696e-16,
+    "mixed_contact_response_residual": 1.2023802092864244e-16,
+    "mixed_gap_response_residual": 1.1102230246251565e-16,
+    "mixed_curvature_gram_inverse_error": 1.6263032587282567e-19,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0007",
+      "e0072"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          96,
+          76,
+          74,
+          11
+        ],
+        "shared_edge": [
+          76,
+          96
+        ],
+        "index": 7,
+        "id": "e0007",
+        "base_sign": 1.0,
+        "base_value": 0.0008172543495565128,
+        "base_value_corrected": 0.0008172543788517283,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          96,
+          11,
+          76,
+          92
+        ],
+        "shared_edge": [
+          11,
+          96
+        ],
+        "index": 72,
+        "id": "e0072",
+        "base_sign": 1.0,
+        "base_value": 0.0012922289008788863,
+        "base_value_corrected": 0.0012922288948325757,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      11,
+      76,
+      96
+    ],
+    "extras": [
+      74,
+      92
+    ],
+    "union": [
+      11,
+      74,
+      76,
+      92,
+      96
+    ],
+    "cycle": [
+      76,
+      74,
+      96,
+      92,
+      11
+    ],
+    "cycle_triangles": [
+      [
+        76,
+        74,
+        96
+      ],
+      [
+        76,
+        74,
+        92
+      ],
+      [
+        76,
+        74,
+        11
+      ],
+      [
+        74,
+        96,
+        76
+      ],
+      [
+        74,
+        96,
+        92
+      ],
+      [
+        74,
+        96,
+        11
+      ],
+      [
+        96,
+        92,
+        76
+      ],
+      [
+        96,
+        92,
+        74
+      ],
+      [
+        96,
+        92,
+        11
+      ],
+      [
+        92,
+        11,
+        76
+      ],
+      [
+        92,
+        11,
+        74
+      ],
+      [
+        92,
+        11,
+        96
+      ],
+      [
+        11,
+        76,
+        74
+      ],
+      [
+        11,
+        76,
+        96
+      ],
+      [
+        11,
+        76,
+        92
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.03134365666389986,
+      0.06866055729692933,
+      0.035751175149401064,
+      0.03134365666389986,
+      0.0015057693242482586,
+      0.029253950661713247,
+      0.038822669957277726,
+      0.0015057693242482586,
+      0.03461721379448561,
+      0.029456012984422332,
+      0.0623653951319506,
+      0.03461721379448561,
+      0.035751175149401064,
+      0.033661469147214455,
+      0.02945601298442233
+    ],
+    "common_initial_area": 0.033661469147214455,
+    "gaps": [
+      0.024278630718034412,
+      0.03838896303608038
+    ],
+    "q0": [
+      -0.8202001196654406,
+      0.15171504700419924
+    ],
+    "rho0_squared": 0.013340671392268029,
+    "physical_gap_gram": [
+      [
+        9386.049432428868,
+        -907.9077896713316
+      ],
+      [
+        -907.9077896713324,
+        5078.700370018881
+      ]
+    ],
+    "gram_eigenvalues": [
+      4895.152074682312,
+      9569.597727765438
+    ],
+    "gram_condition": 1.954913265567238,
+    "cross_coupling": -0.13149947775174067,
+    "predicted_squared_barrier": 0.000173771926868843,
+    "predicted_radius_barrier": 0.0007522475427580613,
+    "maximum_joint_linear_shift": 0.06130881973808757,
+    "initial_empty_min_nonunion_gap": 0.04511895414392254,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.895189014592247,
+          0.116427231862135
+        ],
+        "common_circle_center_norm": 0.9027284598181878,
+        "common_circle_squared_radius": 0.012997512845990506,
+        "common_circle_radius": 0.11400663509634211,
+        "four_site_squared_spread": 0.02607399601186303,
+        "nearest_squared_gap": -6.938893903907228e-18,
+        "nearest_center": 74,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.8202001196654406,
+          0.15171504700419927
+        ],
+        "common_circle_center_norm": 0.834113716340098,
+        "common_circle_squared_radius": 0.013340671392268029,
+        "common_circle_radius": 0.11550182419454694,
+        "four_site_squared_spread": 0.03838896303608039,
+        "nearest_squared_gap": -3.469446951953614e-18,
+        "nearest_center": 11,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 1,
+    "initial_aux_equalities_residual": 5.2013078651565245e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 6.661338147750939e-16,
+    "mixed_physical_response_residual": 4.440892098500626e-16,
+    "mixed_contact_response_residual": 3.404394821604484e-17,
+    "mixed_gap_response_residual": 5.551115123125783e-17,
+    "mixed_curvature_gram_inverse_error": 4.0657581468206416e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0006",
+      "e0002"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          52,
+          7,
+          12,
+          60
+        ],
+        "shared_edge": [
+          7,
+          52
+        ],
+        "index": 6,
+        "id": "e0006",
+        "base_sign": 1.0,
+        "base_value": 0.0008617844302597317,
+        "base_value_corrected": 0.0008617844230850399,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          52,
+          12,
+          37,
+          7
+        ],
+        "shared_edge": [
+          12,
+          52
+        ],
+        "index": 2,
+        "id": "e0002",
+        "base_sign": 1.0,
+        "base_value": 0.0012866418130555461,
+        "base_value_corrected": 0.0012866418530659634,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      7,
+      12,
+      52
+    ],
+    "extras": [
+      37,
+      60
+    ],
+    "union": [
+      7,
+      12,
+      37,
+      52,
+      60
+    ],
+    "cycle": [
+      60,
+      7,
+      12,
+      37,
+      52
+    ],
+    "cycle_triangles": [
+      [
+        60,
+        7,
+        12
+      ],
+      [
+        60,
+        7,
+        37
+      ],
+      [
+        60,
+        7,
+        52
+      ],
+      [
+        7,
+        12,
+        60
+      ],
+      [
+        7,
+        12,
+        37
+      ],
+      [
+        7,
+        12,
+        52
+      ],
+      [
+        12,
+        37,
+        60
+      ],
+      [
+        12,
+        37,
+        7
+      ],
+      [
+        12,
+        37,
+        52
+      ],
+      [
+        37,
+        52,
+        60
+      ],
+      [
+        37,
+        52,
+        7
+      ],
+      [
+        37,
+        52,
+        12
+      ],
+      [
+        52,
+        60,
+        7
+      ],
+      [
+        52,
+        60,
+        12
+      ],
+      [
+        52,
+        60,
+        37
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.0344040451290339,
+      0.06902997361229427,
+      0.033128910840628426,
+      0.0344040451290339,
+      0.02892698236724195,
+      0.03331610867781243,
+      0.06355291085050231,
+      0.028926982367241946,
+      0.03460311073974178,
+      0.0030911742786464275,
+      0.03899223705031227,
+      0.03460311073974178,
+      0.03312891084062843,
+      0.03204097438940696,
+      0.003091174278646431
+    ],
+    "common_initial_area": 0.03331610867781243,
+    "gaps": [
+      0.03861921167050428,
+      0.02586689914536637
+    ],
+    "q0": [
+      0.145581920939438,
+      0.6573050809260899
+    ],
+    "rho0_squared": 0.013291580974722836,
+    "physical_gap_gram": [
+      [
+        5600.9892392494385,
+        -1639.5640013152145
+      ],
+      [
+        -1639.564001315215,
+        9062.283624567071
+      ]
+    ],
+    "gram_eigenvalues": [
+      4947.66709069042,
+      9715.60577312609
+    ],
+    "gram_condition": 1.963674110452393,
+    "cross_coupling": -0.23013208912527217,
+    "predicted_squared_barrier": 0.00018662946259777094,
+    "predicted_radius_barrier": 0.0008079069915095858,
+    "maximum_joint_linear_shift": 0.07038946124494179,
+    "initial_empty_min_nonunion_gap": 0.05593143258182066,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.145581920939438,
+          0.6573050809260899
+        ],
+        "common_circle_center_norm": 0.6732340344305763,
+        "common_circle_squared_radius": 0.013291580974722831,
+        "common_circle_radius": 0.11528911906473581,
+        "four_site_squared_spread": 0.025866899145366374,
+        "nearest_squared_gap": 0.0,
+        "nearest_center": 52,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.04536102547291638,
+          0.7083312035177574
+        ],
+        "common_circle_center_norm": 0.7097821613064597,
+        "common_circle_squared_radius": 0.013340671392268029,
+        "common_circle_radius": 0.11550182419454694,
+        "four_site_squared_spread": 0.03718283777268185,
+        "nearest_squared_gap": -1.5612511283791264e-17,
+        "nearest_center": 37,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 2,
+    "initial_aux_equalities_residual": 3.900980898867393e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 1.3322676295501878e-15,
+    "mixed_physical_response_residual": 6.661338147750939e-16,
+    "mixed_contact_response_residual": 1.1607739509172932e-17,
+    "mixed_gap_response_residual": 3.122502256758253e-17,
+    "mixed_curvature_gram_inverse_error": 4.0657581468206416e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0188",
+      "e0235"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          34,
+          31,
+          69,
+          48
+        ],
+        "shared_edge": [
+          31,
+          34
+        ],
+        "index": 188,
+        "id": "e0188",
+        "base_sign": 1.0,
+        "base_value": 0.0008774398799378475,
+        "base_value_corrected": 0.0008774398858408838,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          34,
+          48,
+          31,
+          56
+        ],
+        "shared_edge": [
+          34,
+          48
+        ],
+        "index": 235,
+        "id": "e0235",
+        "base_sign": 1.0,
+        "base_value": 0.0012839290261457668,
+        "base_value_corrected": 0.0012839289872350207,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      31,
+      34,
+      48
+    ],
+    "extras": [
+      56,
+      69
+    ],
+    "union": [
+      31,
+      34,
+      48,
+      56,
+      69
+    ],
+    "cycle": [
+      56,
+      48,
+      31,
+      69,
+      34
+    ],
+    "cycle_triangles": [
+      [
+        56,
+        48,
+        31
+      ],
+      [
+        56,
+        48,
+        69
+      ],
+      [
+        56,
+        48,
+        34
+      ],
+      [
+        48,
+        31,
+        56
+      ],
+      [
+        48,
+        31,
+        69
+      ],
+      [
+        48,
+        31,
+        34
+      ],
+      [
+        31,
+        69,
+        56
+      ],
+      [
+        31,
+        69,
+        48
+      ],
+      [
+        31,
+        69,
+        34
+      ],
+      [
+        69,
+        34,
+        56
+      ],
+      [
+        69,
+        34,
+        48
+      ],
+      [
+        69,
+        34,
+        31
+      ],
+      [
+        34,
+        56,
+        48
+      ],
+      [
+        34,
+        56,
+        31
+      ],
+      [
+        34,
+        56,
+        69
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.02942950513877078,
+      0.06398942246259809,
+      0.034573394197901126,
+      0.02942950513877078,
+      0.03428765346222051,
+      0.033418290266889104,
+      0.06884757078604782,
+      0.03428765346222052,
+      0.03325103356667092,
+      0.002965642106642543,
+      0.0323816703713395,
+      0.03325103356667092,
+      0.034573394197901126,
+      0.03856217932601945,
+      0.002965642106642543
+    ],
+    "common_initial_area": 0.03341829026688911,
+    "gaps": [
+      0.03841994838698078,
+      0.026256276991832028
+    ],
+    "q0": [
+      0.6659547100721591,
+      -0.10709899459794588
+    ],
+    "rho0_squared": 0.013309387338785665,
+    "physical_gap_gram": [
+      [
+        5623.42788109416,
+        -1649.4274695212403
+      ],
+      [
+        -1649.4274695212412,
+        8892.153360933082
+      ]
+    ],
+    "gram_eigenvalues": [
+      4935.775861618604,
+      9579.805380408638
+    ],
+    "gram_condition": 1.9408914928456866,
+    "cross_coupling": -0.2332540461441312,
+    "predicted_squared_barrier": 0.0001883779082011171,
+    "predicted_radius_barrier": 0.0008154759005529666,
+    "maximum_joint_linear_shift": 0.06953920779644587,
+    "initial_empty_min_nonunion_gap": 0.055581787603898695,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.5957912270637877,
+          -0.05950582057716401
+        ],
+        "common_circle_center_norm": 0.5987554834226869,
+        "common_circle_squared_radius": 0.013340671392268025,
+        "common_circle_radius": 0.11550182419454692,
+        "four_site_squared_spread": 0.02638834922474059,
+        "nearest_squared_gap": -1.3877787807814457e-17,
+        "nearest_center": 31,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.665954710072159,
+          -0.10709899459794592
+        ],
+        "common_circle_center_norm": 0.6745115792269131,
+        "common_circle_squared_radius": 0.013309387338785658,
+        "common_circle_radius": 0.1153663180429438,
+        "four_site_squared_spread": 0.03841994838698076,
+        "nearest_squared_gap": 0.0,
+        "nearest_center": 34,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 3,
+    "initial_aux_equalities_residual": 1.5603923595469572e-15,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 8.881784197001252e-16,
+    "mixed_physical_response_residual": 4.510281037539698e-16,
+    "mixed_contact_response_residual": 1.1950957259400374e-16,
+    "mixed_gap_response_residual": 8.326672684688674e-17,
+    "mixed_curvature_gram_inverse_error": 5.421010862427522e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0117",
+      "e0065"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          97,
+          69,
+          86,
+          34
+        ],
+        "shared_edge": [
+          69,
+          97
+        ],
+        "index": 117,
+        "id": "e0117",
+        "base_sign": 1.0,
+        "base_value": 0.0008864166617035948,
+        "base_value_corrected": 0.0008864166545700465,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          86,
+          69,
+          66,
+          97
+        ],
+        "shared_edge": [
+          69,
+          86
+        ],
+        "index": 65,
+        "id": "e0065",
+        "base_sign": 1.0,
+        "base_value": 0.0011562998609902838,
+        "base_value_corrected": 0.0011562998680164673,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      69,
+      86,
+      97
+    ],
+    "extras": [
+      34,
+      66
+    ],
+    "union": [
+      34,
+      66,
+      69,
+      86,
+      97
+    ],
+    "cycle": [
+      66,
+      86,
+      97,
+      34,
+      69
+    ],
+    "cycle_triangles": [
+      [
+        66,
+        86,
+        97
+      ],
+      [
+        66,
+        86,
+        34
+      ],
+      [
+        66,
+        86,
+        69
+      ],
+      [
+        86,
+        97,
+        66
+      ],
+      [
+        86,
+        97,
+        34
+      ],
+      [
+        86,
+        97,
+        69
+      ],
+      [
+        97,
+        34,
+        66
+      ],
+      [
+        97,
+        34,
+        86
+      ],
+      [
+        97,
+        34,
+        69
+      ],
+      [
+        34,
+        69,
+        66
+      ],
+      [
+        34,
+        69,
+        86
+      ],
+      [
+        34,
+        69,
+        97
+      ],
+      [
+        69,
+        66,
+        86
+      ],
+      [
+        69,
+        66,
+        97
+      ],
+      [
+        69,
+        66,
+        34
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.028872812033315532,
+      0.06264079657303605,
+      0.034518920779802384,
+      0.028872812033315536,
+      0.032508995740540496,
+      0.03339923419327575,
+      0.06627698028026101,
+      0.032508995740540496,
+      0.032704659927037846,
+      0.005473022586539436,
+      0.0335948983797731,
+      0.032704659927037846,
+      0.034518920779802384,
+      0.0390453429397626,
+      0.005473022586539436
+    ],
+    "common_initial_area": 0.03339923419327575,
+    "gaps": [
+      0.026540029314459805,
+      0.03462055031936223
+    ],
+    "q0": [
+      0.39186853343887545,
+      -0.08348698429747317
+    ],
+    "rho0_squared": 0.013340671392268022,
+    "physical_gap_gram": [
+      [
+        8435.397202434873,
+        -949.1697386270718
+      ],
+      [
+        -949.1697386270729,
+        4767.547213318819
+      ]
+    ],
+    "gram_eigenvalues": [
+      4536.477273648181,
+      8666.46714210551
+    ],
+    "gram_condition": 1.9103958025862742,
+    "cross_coupling": -0.14967305171911424,
+    "predicted_squared_barrier": 0.00019205386079911734,
+    "predicted_radius_barrier": 0.0008313888639352964,
+    "maximum_joint_linear_shift": 0.06270094728386355,
+    "initial_empty_min_nonunion_gap": 0.051528659538945656,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.3918685334388755,
+          -0.08348698429747317
+        ],
+        "common_circle_center_norm": 0.4006632302153788,
+        "common_circle_squared_radius": 0.013340671392268029,
+        "common_circle_radius": 0.11550182419454694,
+        "four_site_squared_spread": 0.026540029314459795,
+        "nearest_squared_gap": -1.734723475976807e-17,
+        "nearest_center": 69,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.3786295225383334,
+          0.019214306870909338
+        ],
+        "common_circle_center_norm": 0.379116743136116,
+        "common_circle_squared_radius": 0.013340671392268019,
+        "common_circle_radius": 0.1155018241945469,
+        "four_site_squared_spread": 0.03349756718619772,
+        "nearest_squared_gap": -3.469446951953614e-18,
+        "nearest_center": 69,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 4,
+    "initial_aux_equalities_residual": 5.2013078651565245e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 1.3322676295501878e-15,
+    "mixed_physical_response_residual": 1.4432899320127035e-15,
+    "mixed_contact_response_residual": 8.300922883092143e-17,
+    "mixed_gap_response_residual": 5.551115123125783e-17,
+    "mixed_curvature_gram_inverse_error": 3.049318610115481e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0203",
+      "e0050"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          30,
+          99,
+          77,
+          27
+        ],
+        "shared_edge": [
+          30,
+          99
+        ],
+        "index": 203,
+        "id": "e0203",
+        "base_sign": 1.0,
+        "base_value": 0.00040231247316109987,
+        "base_value_corrected": 0.00040231244224135047,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          77,
+          99,
+          96,
+          30
+        ],
+        "shared_edge": [
+          77,
+          99
+        ],
+        "index": 50,
+        "id": "e0050",
+        "base_sign": 1.0,
+        "base_value": 0.0012267270110536148,
+        "base_value_corrected": 0.0012267269887015976,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      30,
+      99,
+      77
+    ],
+    "extras": [
+      27,
+      96
+    ],
+    "union": [
+      27,
+      30,
+      77,
+      96,
+      99
+    ],
+    "cycle": [
+      96,
+      77,
+      30,
+      27,
+      99
+    ],
+    "cycle_triangles": [
+      [
+        96,
+        77,
+        30
+      ],
+      [
+        96,
+        77,
+        27
+      ],
+      [
+        96,
+        77,
+        99
+      ],
+      [
+        77,
+        30,
+        96
+      ],
+      [
+        77,
+        30,
+        27
+      ],
+      [
+        77,
+        30,
+        99
+      ],
+      [
+        30,
+        27,
+        96
+      ],
+      [
+        30,
+        27,
+        77
+      ],
+      [
+        30,
+        27,
+        99
+      ],
+      [
+        27,
+        99,
+        96
+      ],
+      [
+        27,
+        99,
+        77
+      ],
+      [
+        27,
+        99,
+        30
+      ],
+      [
+        99,
+        96,
+        77
+      ],
+      [
+        99,
+        96,
+        30
+      ],
+      [
+        99,
+        96,
+        27
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.026397577532497694,
+      0.060731925617038794,
+      0.032718397537540966,
+      0.026397577532497697,
+      0.03138944046440313,
+      0.029222602397183113,
+      0.06572378854894423,
+      0.031389440464403125,
+      0.03049264647165352,
+      0.00031228032493566676,
+      0.0283258084044335,
+      0.030492646471653517,
+      0.032718397537540966,
+      0.03554342240222638,
+      0.00031228032493567023
+    ],
+    "common_initial_area": 0.02922260239718311,
+    "gaps": [
+      0.013767166824270616,
+      0.04197870442982336
+    ],
+    "q0": [
+      -0.8084997340564752,
+      -0.1978783313354775
+    ],
+    "rho0_squared": 0.012928238528079483,
+    "physical_gap_gram": [
+      [
+        21668.720710816644,
+        -3874.457221266229
+      ],
+      [
+        -3874.4572212662265,
+        4785.591818224776
+      ]
+    ],
+    "gram_eigenvalues": [
+      3938.914823839401,
+      22515.39770520202
+    ],
+    "gram_condition": 5.716142316389431,
+    "cross_coupling": -0.38047524689986234,
+    "predicted_squared_barrier": 0.00019283278538040913,
+    "predicted_radius_barrier": 0.0008347607785640204,
+    "maximum_joint_linear_shift": 0.06618696804868147,
+    "initial_empty_min_nonunion_gap": 0.051010362267987296,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.8084997340564752,
+          -0.1978783313354775
+        ],
+        "common_circle_center_norm": 0.832362693770873,
+        "common_circle_squared_radius": 0.012928238528079483,
+        "common_circle_radius": 0.11370241214714613,
+        "four_site_squared_spread": 0.01376716682427062,
+        "nearest_squared_gap": -3.469446951953614e-18,
+        "nearest_center": 77,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.8354947774243944,
+          -0.07710712201710654
+        ],
+        "common_circle_center_norm": 0.8390453094852501,
+        "common_circle_squared_radius": 0.01334067139226801,
+        "common_circle_radius": 0.11550182419454685,
+        "four_site_squared_spread": 0.03749349237822713,
+        "nearest_squared_gap": 0.0,
+        "nearest_center": 77,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 5,
+    "initial_aux_equalities_residual": 2.6006539325782622e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 9.71445146547012e-16,
+    "mixed_physical_response_residual": 8.881784197001252e-16,
+    "mixed_contact_response_residual": 4.981908982570893e-17,
+    "mixed_gap_response_residual": 8.326672684688674e-17,
+    "mixed_curvature_gram_inverse_error": 5.421010862427522e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0200",
+      "e0038"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          43,
+          44,
+          42,
+          25
+        ],
+        "shared_edge": [
+          43,
+          44
+        ],
+        "index": 200,
+        "id": "e0200",
+        "base_sign": 1.0,
+        "base_value": 0.0007322234965990229,
+        "base_value_corrected": 0.0007322235292339194,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          25,
+          43,
+          15,
+          44
+        ],
+        "shared_edge": [
+          25,
+          43
+        ],
+        "index": 38,
+        "id": "e0038",
+        "base_sign": 1.0,
+        "base_value": 0.0011526558764765114,
+        "base_value_corrected": 0.0011526559223836424,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      25,
+      44,
+      43
+    ],
+    "extras": [
+      15,
+      42
+    ],
+    "union": [
+      15,
+      25,
+      42,
+      43,
+      44
+    ],
+    "cycle": [
+      15,
+      25,
+      44,
+      42,
+      43
+    ],
+    "cycle_triangles": [
+      [
+        15,
+        25,
+        44
+      ],
+      [
+        15,
+        25,
+        42
+      ],
+      [
+        15,
+        25,
+        43
+      ],
+      [
+        25,
+        44,
+        15
+      ],
+      [
+        25,
+        44,
+        42
+      ],
+      [
+        25,
+        44,
+        43
+      ],
+      [
+        44,
+        42,
+        15
+      ],
+      [
+        44,
+        42,
+        25
+      ],
+      [
+        44,
+        42,
+        43
+      ],
+      [
+        42,
+        43,
+        15
+      ],
+      [
+        42,
+        43,
+        25
+      ],
+      [
+        42,
+        43,
+        44
+      ],
+      [
+        43,
+        15,
+        25
+      ],
+      [
+        43,
+        15,
+        44
+      ],
+      [
+        43,
+        15,
+        42
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.03272891104145274,
+      0.05954940021851448,
+      0.03121817053809014,
+      0.032728911041452736,
+      0.03186750659528563,
+      0.034180734106789776,
+      0.05868799577234737,
+      0.03186750659528563,
+      0.02948119908138027,
+      0.003463196912460078,
+      0.03179442659288442,
+      0.02948119908138027,
+      0.031218170538090142,
+      0.03266999360342718,
+      0.003463196912460078
+    ],
+    "common_initial_area": 0.034180734106789776,
+    "gaps": [
+      0.03372238638241168,
+      0.021422112437557834
+    ],
+    "q0": [
+      0.04074545054713884,
+      -0.8086214655648235
+    ],
+    "rho0_squared": 0.013340671392268019,
+    "physical_gap_gram": [
+      [
+        4655.923550888484,
+        -2091.926219636826
+      ],
+      [
+        -2091.926219636826,
+        13231.187468983453
+      ]
+    ],
+    "gram_eigenvalues": [
+      4172.817294035898,
+      13714.29372583604
+    ],
+    "gram_condition": 3.2865790087281157,
+    "cross_coupling": -0.266528730981778,
+    "predicted_squared_barrier": 0.00019283616224052423,
+    "predicted_radius_barrier": 0.0008347753967751986,
+    "maximum_joint_linear_shift": 0.08561106764538358,
+    "initial_empty_min_nonunion_gap": 0.04354523593863106,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          -0.022707053831454417,
+          -0.8518182307444983
+        ],
+        "common_circle_center_norm": 0.8521208297667602,
+        "common_circle_squared_radius": 0.012062829591796522,
+        "common_circle_radius": 0.10983091364363916,
+        "four_site_squared_spread": 0.02483696566115508,
+        "nearest_squared_gap": -6.938893903907228e-18,
+        "nearest_center": 44,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.14149454984074303,
+          -0.8457404186738507
+        ],
+        "common_circle_center_norm": 0.8574949349198833,
+        "common_circle_squared_radius": 0.012235607718574867,
+        "common_circle_radius": 0.11061468129762372,
+        "four_site_squared_spread": 0.03692259676066718,
+        "nearest_squared_gap": -1.214306433183765e-17,
+        "nearest_center": 15,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 6,
+    "initial_aux_equalities_residual": 6.501634831445655e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 8.881784197001252e-16,
+    "mixed_physical_response_residual": 8.881784197001252e-16,
+    "mixed_contact_response_residual": 6.124387021827493e-17,
+    "mixed_gap_response_residual": 1.1102230246251565e-16,
+    "mixed_curvature_gram_inverse_error": 6.776263578034403e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  },
+  {
+    "ids": [
+      "e0211",
+      "e0212"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          59,
+          60,
+          52,
+          50
+        ],
+        "shared_edge": [
+          59,
+          60
+        ],
+        "index": 211,
+        "id": "e0211",
+        "base_sign": 1.0,
+        "base_value": 0.0008625584562714228,
+        "base_value_corrected": 0.0008625584778243832,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          52,
+          59,
+          60,
+          89
+        ],
+        "shared_edge": [
+          52,
+          59
+        ],
+        "index": 212,
+        "id": "e0212",
+        "base_sign": 1.0,
+        "base_value": 0.001216587810913623,
+        "base_value_corrected": 0.0012165878337930959,
+        "base_orientation_sign": 1
+      }
+    ],
+    "common": [
+      52,
+      59,
+      60
+    ],
+    "extras": [
+      50,
+      89
+    ],
+    "union": [
+      50,
+      52,
+      59,
+      60,
+      89
+    ],
+    "cycle": [
+      50,
+      60,
+      52,
+      89,
+      59
+    ],
+    "cycle_triangles": [
+      [
+        50,
+        60,
+        52
+      ],
+      [
+        50,
+        60,
+        89
+      ],
+      [
+        50,
+        60,
+        59
+      ],
+      [
+        60,
+        52,
+        50
+      ],
+      [
+        60,
+        52,
+        89
+      ],
+      [
+        60,
+        52,
+        59
+      ],
+      [
+        52,
+        89,
+        50
+      ],
+      [
+        52,
+        89,
+        60
+      ],
+      [
+        52,
+        89,
+        59
+      ],
+      [
+        89,
+        59,
+        50
+      ],
+      [
+        89,
+        59,
+        60
+      ],
+      [
+        89,
+        59,
+        52
+      ],
+      [
+        59,
+        50,
+        60
+      ],
+      [
+        59,
+        50,
+        52
+      ],
+      [
+        59,
+        50,
+        89
+      ]
+    ],
+    "cycle_initial_areas": [
+      0.03312282998658829,
+      0.06825058834110698,
+      0.03333037062865602,
+      0.03312282998658829,
+      0.028882794403400348,
+      0.03271587894787609,
+      0.06401055275791903,
+      0.028882794403400344,
+      0.03451520105028442,
+      0.003428067882309205,
+      0.038348285594760154,
+      0.03451520105028442,
+      0.03333037062865602,
+      0.03292341958994382,
+      0.003428067882309205
+    ],
+    "common_initial_area": 0.03271587894787609,
+    "gaps": [
+      0.026365132332181445,
+      0.03718646336023555
+    ],
+    "q0": [
+      0.04747853368123864,
+      0.4782836767375559
+    ],
+    "rho0_squared": 0.013147673225196225,
+    "physical_gap_gram": [
+      [
+        9192.973258968019,
+        -1900.2929075485117
+      ],
+      [
+        -1900.2929075485122,
+        5640.391428949215
+      ]
+    ],
+    "gram_eigenvalues": [
+      4815.466753273347,
+      10017.897934643886
+    ],
+    "gram_condition": 2.0803586542953805,
+    "cross_coupling": -0.26389911090054957,
+    "predicted_squared_barrier": 0.0001931345404073638,
+    "predicted_radius_barrier": 0.000836067056750789,
+    "maximum_joint_linear_shift": 0.06528770703687789,
+    "initial_empty_min_nonunion_gap": 0.0581408752100208,
+    "initial_individual_event_checks": [
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.0474785336812387,
+          0.4782836767375559
+        ],
+        "common_circle_center_norm": 0.48063446255352454,
+        "common_circle_squared_radius": 0.013147673225196223,
+        "common_circle_radius": 0.11466330374272417,
+        "four_site_squared_spread": 0.02636513233218146,
+        "nearest_squared_gap": -1.214306433183765e-17,
+        "nearest_center": 60,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      },
+      {
+        "valid": false,
+        "inside_unit_disk": true,
+        "common_circle_center": [
+          0.04747853368123864,
+          0.4782836767375559
+        ],
+        "common_circle_center_norm": 0.48063446255352454,
+        "common_circle_squared_radius": 0.013147673225196225,
+        "common_circle_radius": 0.11466330374272418,
+        "four_site_squared_spread": 0.03718646336023557,
+        "nearest_squared_gap": -1.214306433183765e-17,
+        "nearest_center": 59,
+        "convex": true,
+        "base_orientation_preserved": true,
+        "exact_predicates": {
+          "incircle_sign": 1,
+          "incircle_exactly_zero": false,
+          "orientation_signs": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "convex": true,
+          "arithmetic": "exact fractions of saved binary64 coordinates"
+        },
+        "validation_tolerance": 2e-09
+      }
+    ],
+    "path_index": 7,
+    "initial_aux_equalities_residual": 9.102288764023918e-16,
+    "initial_physical_J_rank": 5,
+    "initial_contact_plus_physical_J_rank": 157,
+    "initial_contact_plus_physical_rows": 157,
+    "first_physical_response_residual": 1.3322676295501878e-15,
+    "mixed_physical_response_residual": 6.661338147750939e-16,
+    "mixed_contact_response_residual": 1.5463433485074507e-17,
+    "mixed_gap_response_residual": 8.326672684688674e-17,
+    "mixed_curvature_gram_inverse_error": 8.131516293641283e-20,
+    "mixed_scope": "Complete second-order geometric equality response; not stationary third-derivative KKT sensitivity"
+  }
+]

@@ -1,0 +1,43 @@
+Independent strict upper margin with unchanged rational geometry
+==============================================================
+The source configuration is copied byte-for-byte and pinned at SHA256
+84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36.
+It explicitly lists 100 distinct rational centers with denominator 10^15.
+Its old radius_bound field is provenance metadata and is NOT the acceptance
+bound. The new margin ledger explicitly supplies
+V=1154469548855829/10^16 and U=115446954885583/10^15.
+The certificate's squared bound is checked to be exactly V^2.
+
+The continuous function f(x)=min_i |x-c_i|^2 attains a maximum on the closed
+unit disk. An interior maximum must be the circumcenter of at least three
+noncollinear nearest centers: one-center regions are strictly convex, and
+two-center bisectors are strictly convex along the bisector. On the unit
+circle, partition at every pair-bisector/circle intersection. On each open
+arc, the nearest fixed center has squared distance 1+|c|^2-2c dot x; a
+maximum occurs at an arc endpoint or its antipode. Zero-center constant
+arcs are handled by endpoints or the extra point (1,0).
+Thus the exhaustive candidates() set includes a full-domain maximum.
+The saved CLOSED_DOMAIN_PROOF.txt supplies the original continuous argument.
+
+The original critical_candidates.py is preserved byte-for-byte and pinned
+by SHA256. It conservatively enumerates every noncollinear triple
+circumcenter inside or on the closed disk, every pair-bisector/unit-circle
+intersection, every nonzero-center antipode and (1,0). All candidate
+coverage comparisons use exact integers or the exact sign of one quadratic
+surd a+b*sqrt(d). Equality and all boundary points are retained.
+Every candidate is independently proved covered at V by its supplied
+integer witness index. The witnesses are proposals, never acceptance.
+This establishes max f <= V^2 and the fixed configuration radius <= V.
+No KKT proof, algebraic companion, numerical ranking, float, Decimal or
+stored PASS flag is read to establish coverage or the strict comparison.
+
+The pure integer comparison is
+1154469548855829*10^15 < 115446954885583*10^16,
+and U-V=1/10^16>0. Therefore the fixed configuration radius <= V < U.
+By existence of this 100-center cover, the arbitrary-configuration optimal
+covering radius is also strictly below U. No exact optimum value or optimum
+polynomial is claimed.
+
+This is a separate local strict proof, using the already frozen geometry.
+It is not a material new configuration. It does not change the independent
+cloud result's non-strict <= statement into a cloud strict statement.

@@ -1,0 +1,22 @@
+{
+  "source_configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "source_checker_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+  "local_cover_radius_bound": [
+    1154469548855829,
+    10000000000000000
+  ],
+  "reference_radius_bound": [
+    115446954885583,
+    1000000000000000
+  ],
+  "strict_radius_margin": [
+    1,
+    10000000000000000
+  ],
+  "configuration_radius_bound_is_metadata_only": true,
+  "acceptance_bound": "V is explicitly bound to cover_certificate.json bound_squared; no old configuration radius is used.",
+  "proof_scope": "Independent local whole-closed-disk cover and strict margin. Geometry is unchanged; no optimum polynomial or material new geometry is claimed.",
+  "witness_proposal_sha256": "142db3b99d863cd70b417baf07ede60294e7ca34565a9eca4a30c098dc8f4ce8",
+  "witness_proposal_is_not_acceptance": true,
+  "cloud_statement_not_changed": "The cloud result remains its own non-strict <= statement; this is a separate locally recomputed strict proof."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_EXACT_FIXED_TAU_DIRECTIONAL_LENS_SUPPORT",
+  "mathematical_executions": 0,
+  "inputs": {
+    "../q2_actual_anchor_direction/DIRECTIONAL_LENS_LEMMA.md": "2d0df21426259167a02ad874b483255f22f021ff88d56dcce4df4007c9905248",
+    "../q2_actual_anchor_direction/REVISION_RECORD.md": "9cfb61e4758677512f7e40495064537bb2a362d1715dcb12a2a1d8c47c948012",
+    "../q2_actual_anchor_direction/SHA256.json": "d890fc66b633f72ce67d2bb67245fc744561b6986c531a471fad58c901934e9a",
+    "../q2_actual_anchor_direction/history/pre_zero_coefficient_DIRECTIONAL_LENS_LEMMA.md": "43763af68a53506cc895ec838968cbde243b883979be2bcd941cd6bf93add999",
+    "../q2_actual_anchor_direction/history/pre_zero_coefficient_SHA256.json": "0cdd0715d7f1bee50f1276a7a059a217e59c7b0869fb2c0fa7b4b6e8bcf815ad"
+  },
+  "external_mathematical_premises": [],
+  "scope": "Exact one-base fixed feasible tau directional lens support, arbitrary real a,b. Not a two-face fee or global exclusion.",
+  "author_files_modified_by_this_reviewer": false
+}

@@ -1,0 +1,16 @@
+{
+  "given_companion_radius_interval": [
+    [
+      11544695488558220163979840676978324705424034570427252136862487491,
+      100000000000000000000000000000000000000000000000000000000000000000
+    ],
+    [
+      11544695488558220163979840676978324705424034570427252136949107360,
+      100000000000000000000000000000000000000000000000000000000000000000
+    ]
+  ],
+  "companion_coverage_acceptance_external": true,
+  "companion_verifier": "companion_snapshot/stdioverify.py",
+  "companion_manifest_sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2",
+  "acceptance_scope": "The companion was actually copied and mathematically replayed with -S -O. verify_nonglobal.py repeats both exact proofs, never accepting a stored flag."
+}

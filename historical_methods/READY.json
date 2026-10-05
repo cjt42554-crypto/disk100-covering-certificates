@@ -1,0 +1,10 @@
+{
+  "status": "READY_FOR_ROOT_PUBLICATION_REVIEW",
+  "scope": "Lean historical mathematics record; not complete finite-run replay.",
+  "manifest_sha256": "3608474c978c6fbe0717558b9d5edd948b286a959f48556aee11301a8d5065aa",
+  "payload_files": 676,
+  "payload_bytes": 12124251,
+  "mathematical_execution_count": 0,
+  "originals_retained": true,
+  "privacy_scan_includes_all_utf8_payloads_and_encoded_path_variants": true
+}

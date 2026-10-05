@@ -1,0 +1,473 @@
+{
+  "scope": "All retained on-disk 100-center coordinate fields in task-3 and task-2; read-only, excludes github repository duplicate staging and this new search folder. This is a coordinate storage inventory, not a count of searches, topologies, coverage, or local minima.",
+  "root": "PROJECT_ROOT",
+  "files_examined": 49958,
+  "coordinate_records": 44995,
+  "coordinate_unique_float64_byte_arrays": 34868,
+  "duplicate_coordinate_records": 10127,
+  "elapsed_seconds": 17.419774770736694,
+  "coordinate_records_by_top_folder": {
+    "../task-2/cloud_import": {
+      ".json": 6,
+      ".npy": 12
+    },
+    "active_algebraic": {
+      ".npy": 1,
+      ".npz": 2,
+      ".json": 3
+    },
+    "best147_boundary_transfer": {
+      ".npy": 1305,
+      ".npz": 1
+    },
+    "cavity_repair_transfer_99": {
+      ".npy": 164
+    },
+    "certified_candidates": {
+      ".npy": 3,
+      ".json": 1
+    },
+    "certified_event_path": {
+      ".json": 23
+    },
+    "contact_release_search": {
+      ".npy": 3353,
+      ".npz": 2481
+    },
+    "deliverables": {
+      ".npy": 1284,
+      ".npz": 2,
+      ".json": 6
+    },
+    "energy_search": {
+      ".npy": 922
+    },
+    "event_forced_paths": {
+      ".npz": 786,
+      ".npy": 103
+    },
+    "event_geometry_146": {
+      ".npz": 249,
+      ".npy": 50,
+      ".json": 2
+    },
+    "event_release_diagnostic": {
+      ".npy": 12,
+      ".npz": 80,
+      ".json": 1
+    },
+    "exact_certificate": {
+      ".json": 3
+    },
+    "exact_fixed_radius_1154469": {
+      ".json": 4
+    },
+    "exact_fixed_radius_1154916": {
+      ".json": 1
+    },
+    "fresh99_second_order_diagnostic": {
+      ".npy": 6,
+      ".npz": 6
+    },
+    "fresh_rattler_geometry_bridge": {
+      ".npy": 51
+    },
+    "fresh_rattler_transfer_99": {
+      ".npy": 329
+    },
+    "global_lower_sync_11309": {
+      ".json": 2,
+      ".npy": 4
+    },
+    "global_lower_sync_1131": {
+      ".json": 2,
+      ".npy": 4
+    },
+    "global_lower_sync_11311": {
+      ".json": 2,
+      ".npy": 4
+    },
+    "global_lower_sync_11312": {
+      ".json": 2,
+      ".npy": 4
+    },
+    "global_lower_sync_11313": {
+      ".json": 2,
+      ".npy": 4
+    },
+    "improved_algebraic_1154469": {
+      ".npy": 2,
+      ".npz": 1,
+      ".json": 3
+    },
+    "improved_algebraic_1154916": {
+      ".npy": 2,
+      ".npz": 1,
+      ".json": 3
+    },
+    "improved_algebraic_115492": {
+      ".npy": 2,
+      ".npz": 1,
+      ".json": 3
+    },
+    "improved_upper_certificate": {
+      ".json": 3,
+      ".npy": 3
+    },
+    "intrinsic_mode_search": {
+      ".npy": 1040
+    },
+    "latest_algebraic": {
+      ".npy": 2,
+      ".npz": 1,
+      ".json": 3
+    },
+    "latest_algebraic_transfer": {
+      ".json": 1
+    },
+    "latest_contact_release": {
+      ".npy": 3557,
+      ".npz": 2072,
+      ".json": 1
+    },
+    "latest_fixed_radius": {
+      ".json": 1
+    },
+    "latest_intrinsic_mode_search": {
+      ".npy": 640
+    },
+    "latest_mixed_modes": {
+      ".npz": 1,
+      ".npy": 1200
+    },
+    "library_import": {
+      ".json": 3
+    },
+    "new_algebraic": {
+      ".npy": 2,
+      ".npz": 1,
+      ".json": 3
+    },
+    "new_best_certificates": {
+      ".json": 1,
+      ".npy": 2
+    },
+    "next146_boundary_transfer": {
+      ".npy": 1316,
+      ".npz": 1
+    },
+    "paired_event_search": {
+      ".npz": 777,
+      ".npy": 74
+    },
+    "paired_transport_146": {
+      ".npy": 433,
+      ".npz": 1
+    },
+    "physical_five_circle_search": {
+      ".npy": 67,
+      ".npz": 187
+    },
+    "rattler_contact_transfer": {
+      ".npy": 300,
+      ".npz": 1
+    },
+    "stress_zero_steering": {
+      ".npz": 64,
+      ".npy": 7,
+      ".json": 1
+    },
+    "strict_local_second_order": {
+      ".json": 3
+    },
+    "strict_upper_margin_1154469": {
+      ".json": 1
+    },
+    "structural_search": {
+      ".npy": 19697
+    },
+    "structured_crosslayer_search": {
+      ".npy": 596
+    },
+    "topology_event_barrier": {
+      ".npz": 1,
+      ".npy": 1300
+    },
+    "topology_patch_hybrid_146": {
+      ".npy": 325,
+      ".npz": 6
+    }
+  },
+  "coordinate_field_counts": {
+    "('.json', '$.centers_numerators')": 69,
+    "('.json', '$.numerators[:200]')": 11,
+    "('.json', '$.variables[:200]')": 10,
+    "('.npy', '$')": 36882,
+    "('.npy', '$[0]')": 20,
+    "('.npy', '$[10]')": 20,
+    "('.npy', '$[11]')": 20,
+    "('.npy', '$[12]')": 20,
+    "('.npy', '$[13]')": 20,
+    "('.npy', '$[14]')": 20,
+    "('.npy', '$[15]')": 20,
+    "('.npy', '$[16]')": 20,
+    "('.npy', '$[17]')": 20,
+    "('.npy', '$[18]')": 20,
+    "('.npy', '$[19]')": 20,
+    "('.npy', '$[1]')": 20,
+    "('.npy', '$[20]')": 20,
+    "('.npy', '$[21]')": 20,
+    "('.npy', '$[22]')": 20,
+    "('.npy', '$[23]')": 20,
+    "('.npy', '$[24]')": 20,
+    "('.npy', '$[25]')": 20,
+    "('.npy', '$[26]')": 20,
+    "('.npy', '$[27]')": 20,
+    "('.npy', '$[28]')": 20,
+    "('.npy', '$[29]')": 20,
+    "('.npy', '$[2]')": 20,
+    "('.npy', '$[30]')": 20,
+    "('.npy', '$[31]')": 20,
+    "('.npy', '$[32]')": 20,
+    "('.npy', '$[33]')": 20,
+    "('.npy', '$[34]')": 20,
+    "('.npy', '$[35]')": 20,
+    "('.npy', '$[36]')": 20,
+    "('.npy', '$[37]')": 20,
+    "('.npy', '$[38]')": 20,
+    "('.npy', '$[39]')": 20,
+    "('.npy', '$[3]')": 20,
+    "('.npy', '$[40]')": 20,
+    "('.npy', '$[41]')": 20,
+    "('.npy', '$[42]')": 20,
+    "('.npy', '$[43]')": 20,
+    "('.npy', '$[44]')": 20,
+    "('.npy', '$[45]')": 20,
+    "('.npy', '$[46]')": 20,
+    "('.npy', '$[47]')": 20,
+    "('.npy', '$[48]')": 20,
+    "('.npy', '$[49]')": 20,
+    "('.npy', '$[4]')": 20,
+    "('.npy', '$[50]')": 20,
+    "('.npy', '$[51]')": 20,
+    "('.npy', '$[52]')": 20,
+    "('.npy', '$[53]')": 20,
+    "('.npy', '$[54]')": 20,
+    "('.npy', '$[55]')": 20,
+    "('.npy', '$[56]')": 20,
+    "('.npy', '$[57]')": 20,
+    "('.npy', '$[58]')": 20,
+    "('.npy', '$[59]')": 20,
+    "('.npy', '$[5]')": 20,
+    "('.npy', '$[60]')": 20,
+    "('.npy', '$[61]')": 20,
+    "('.npy', '$[62]')": 20,
+    "('.npy', '$[63]')": 20,
+    "('.npy', '$[64]')": 20,
+    "('.npy', '$[6]')": 20,
+    "('.npy', '$[7]')": 20,
+    "('.npy', '$[8]')": 20,
+    "('.npy', '$[9]')": 20,
+    "('.npz', 'C')": 6186,
+    "('.npz', 'C0')": 24,
+    "('.npz', 'C_original')": 3,
+    "('.npz', 'Csource')": 5,
+    "('.npz', 'active_state[:200]')": 1,
+    "('.npz', 'base_state[:200]')": 1,
+    "('.npz', 'previous')": 503
+  },
+  "array_shape_dtype_counts": {
+    "('.npy', '(100, 2)', 'float64')": 36882,
+    "('.npy', '(18, 2)', 'float64')": 3,
+    "('.npy', '(201,)', 'float64')": 115,
+    "('.npy', '(65, 100, 2)', 'float64')": 20,
+    "('.npy', '(97, 2)', 'float64')": 3,
+    "('.npy', '(98, 2)', 'float64')": 88,
+    "('.npy', '(99, 2)', 'float64')": 363,
+    "('.npz', '()', 'float64')": 3568,
+    "('.npz', '(0,)', 'int64')": 715,
+    "('.npz', '(10, 10, 201)', 'float64')": 1,
+    "('.npz', '(10, 201)', 'float64')": 4,
+    "('.npz', '(100, 2)', 'float64')": 6721,
+    "('.npz', '(119, 3)', 'int32')": 1,
+    "('.npz', '(143, 2)', 'float64')": 1,
+    "('.npz', '(143, 200)', 'float64')": 1,
+    "('.npz', '(143,)', 'float64')": 2,
+    "('.npz', '(144, 2)', 'float64')": 1,
+    "('.npz', '(144, 200)', 'float64')": 1,
+    "('.npz', '(144,)', 'float64')": 2,
+    "('.npz', '(145,)', 'float64')": 1,
+    "('.npz', '(145,)', 'int64')": 1,
+    "('.npz', '(146,)', 'float64')": 3,
+    "('.npz', '(146,)', 'int64')": 4,
+    "('.npz', '(147,)', 'float64')": 3,
+    "('.npz', '(147,)', 'int64')": 4,
+    "('.npz', '(148, 2)', 'float64')": 1,
+    "('.npz', '(148, 200)', 'float64')": 1,
+    "('.npz', '(148,)', 'float64')": 2,
+    "('.npz', '(149,)', 'float64')": 7,
+    "('.npz', '(149,)', 'int64')": 7,
+    "('.npz', '(150,)', 'float64')": 1,
+    "('.npz', '(150,)', 'int64')": 1,
+    "('.npz', '(152, 152)', 'float64')": 6,
+    "('.npz', '(152, 200)', 'float64')": 8,
+    "('.npz', '(152, 201)', 'float64')": 1,
+    "('.npz', '(152,)', 'float64')": 293,
+    "('.npz', '(152,)', 'int64')": 6,
+    "('.npz', '(153, 201)', 'float64')": 17,
+    "('.npz', '(161700, 2)', 'float128')": 1,
+    "('.npz', '(161700, 3)', 'int32')": 1,
+    "('.npz', '(161700,)', 'bool')": 4,
+    "('.npz', '(161700,)', 'float128')": 4,
+    "('.npz', '(161700,)', 'int32')": 1,
+    "('.npz', '(161700,)', 'int8')": 1,
+    "('.npz', '(163, 3)', 'int32')": 6,
+    "('.npz', '(165, 3)', 'int32')": 3188,
+    "('.npz', '(166, 3)', 'int32')": 2824,
+    "('.npz', '(176, 3)', 'int32')": 5,
+    "('.npz', '(196,)', 'float64')": 6,
+    "('.npz', '(198, 2)', 'float64')": 4,
+    "('.npz', '(198, 200)', 'float64')": 16,
+    "('.npz', '(198, 50)', 'float64')": 1,
+    "('.npz', '(198, 54)', 'float64')": 1,
+    "('.npz', '(198, 55)', 'float64')": 1,
+    "('.npz', '(198,)', 'float64')": 1219,
+    "('.npz', '(198,)', 'int64')": 3,
+    "('.npz', '(2, 2)', 'float64')": 20,
+    "('.npz', '(2, 2, 152)', 'float64')": 12,
+    "('.npz', '(2, 2, 2)', 'float64')": 12,
+    "('.npz', '(2, 2, 201)', 'float64')": 32,
+    "('.npz', '(2, 2, 203)', 'float64')": 8,
+    "('.npz', '(2, 200)', 'float64')": 20,
+    "('.npz', '(2, 200, 200)', 'float64')": 20,
+    "('.npz', '(2,)', '<U5')": 12,
+    "('.npz', '(2,)', 'float64')": 510,
+    "('.npz', '(2,)', 'int64')": 8,
+    "('.npz', '(20, 10)', 'float64')": 1,
+    "('.npz', '(20, 201)', 'float64')": 2,
+    "('.npz', '(200, 1)', 'int32')": 1,
+    "('.npz', '(200, 152)', 'float64')": 6,
+    "('.npz', '(200, 197)', 'float64')": 1,
+    "('.npz', '(200, 199)', 'float64')": 10,
+    "('.npz', '(200, 2)', 'float128')": 1,
+    "('.npz', '(200, 2)', 'float64')": 20,
+    "('.npz', '(200, 200)', 'float64')": 49,
+    "('.npz', '(200, 48)', 'float64')": 37,
+    "('.npz', '(200, 50)', 'float64')": 1,
+    "('.npz', '(200, 51)', 'float64')": 9,
+    "('.npz', '(200, 52)', 'float64')": 1,
+    "('.npz', '(200, 53)', 'float64')": 1,
+    "('.npz', '(200, 54)', 'float64')": 1,
+    "('.npz', '(200, 55)', 'float64')": 1,
+    "('.npz', '(200, 56)', 'float64')": 1,
+    "('.npz', '(200, 57)', 'float64')": 1,
+    "('.npz', '(200, 6)', 'float64')": 3,
+    "('.npz', '(200,)', 'bool')": 4,
+    "('.npz', '(200,)', 'float128')": 4,
+    "('.npz', '(200,)', 'float64')": 44,
+    "('.npz', '(200,)', 'int32')": 1,
+    "('.npz', '(200,)', 'int8')": 1,
+    "('.npz', '(201,)', 'float64')": 2,
+    "('.npz', '(203, 2)', 'float64')": 8,
+    "('.npz', '(203,)', 'float64')": 608,
+    "('.npz', '(22, 3663)', 'float64')": 11,
+    "('.npz', '(22,)', '<U19')": 11,
+    "('.npz', '(23, 3663)', 'float64')": 1,
+    "('.npz', '(23,)', '<U22')": 1,
+    "('.npz', '(231, 200)', 'float64')": 6,
+    "('.npz', '(231, 200, 200)', 'float64')": 2,
+    "('.npz', '(231, 231)', 'float64')": 1,
+    "('.npz', '(231, 48)', 'float64')": 3,
+    "('.npz', '(231,)', '<U5')": 3,
+    "('.npz', '(231,)', 'float64')": 4,
+    "('.npz', '(232, 152)', 'float64')": 5,
+    "('.npz', '(232, 200)', 'float64')": 10,
+    "('.npz', '(232, 4)', 'int64')": 5,
+    "('.npz', '(232,)', 'float64')": 72,
+    "('.npz', '(246, 2)', 'float128')": 1,
+    "('.npz', '(246, 3)', 'int32')": 1,
+    "('.npz', '(246,)', '<U10')": 1,
+    "('.npz', '(246,)', '<U13')": 1,
+    "('.npz', '(246,)', '<U25')": 1,
+    "('.npz', '(246,)', 'bool')": 3,
+    "('.npz', '(246,)', 'float128')": 2,
+    "('.npz', '(246,)', 'int8')": 1,
+    "('.npz', '(253, 4)', 'int64')": 5,
+    "('.npz', '(253,)', 'bool')": 5,
+    "('.npz', '(3,)', 'int64')": 8,
+    "('.npz', '(32, 2)', 'int32')": 2822,
+    "('.npz', '(32, 2)', 'int64')": 2,
+    "('.npz', '(32,)', 'int64')": 2824,
+    "('.npz', '(33, 2)', 'int32')": 2481,
+    "('.npz', '(33, 2)', 'int64')": 714,
+    "('.npz', '(33,)', 'int64')": 3195,
+    "('.npz', '(345, 147)', 'float64')": 1,
+    "('.npz', '(345, 345)', 'float64')": 1,
+    "('.npz', '(346, 32)', 'float64')": 1,
+    "('.npz', '(346, 346)', 'float64')": 1,
+    "('.npz', '(347, 33)', 'float64')": 1,
+    "('.npz', '(347, 347)', 'float64')": 1,
+    "('.npz', '(352, 152)', 'float64')": 6,
+    "('.npz', '(352, 352)', 'float64')": 6,
+    "('.npz', '(352,)', 'float64')": 148,
+    "('.npz', '(3647, 200)', 'float64')": 1,
+    "('.npz', '(3647,)', 'float64')": 57,
+    "('.npz', '(3663, 10)', 'float64')": 1,
+    "('.npz', '(3663, 10, 10)', 'float64')": 1,
+    "('.npz', '(3663, 40)', 'float64')": 2,
+    "('.npz', '(3663,)', '<U5')": 12,
+    "('.npz', '(3663,)', 'float64')": 645,
+    "('.npz', '(4, 0)', 'int32')": 1,
+    "('.npz', '(4, 2)', 'float128')": 1,
+    "('.npz', '(4,)', 'bool')": 4,
+    "('.npz', '(4,)', 'float128')": 4,
+    "('.npz', '(4,)', 'int32')": 1,
+    "('.npz', '(4,)', 'int8')": 1,
+    "('.npz', '(439, 439)', 'float64')": 2,
+    "('.npz', '(439, 493)', 'float64')": 3,
+    "('.npz', '(439,)', 'int64')": 2,
+    "('.npz', '(46, 152)', 'float64')": 5,
+    "('.npz', '(46,)', 'float64')": 5,
+    "('.npz', '(46,)', 'int64')": 5,
+    "('.npz', '(48, 48)', 'float64')": 24,
+    "('.npz', '(48,)', 'float64')": 15,
+    "('.npz', '(493, 493)', 'float64')": 3,
+    "('.npz', '(493, 54)', 'float64')": 3,
+    "('.npz', '(493,)', 'float64')": 12,
+    "('.npz', '(50, 50)', 'float64')": 1,
+    "('.npz', '(50,)', 'float64')": 1,
+    "('.npz', '(51,)', 'float64')": 2,
+    "('.npz', '(52,)', 'float64')": 1,
+    "('.npz', '(52,)', 'int64')": 1,
+    "('.npz', '(54, 54)', 'float64')": 4,
+    "('.npz', '(54,)', 'float64')": 2,
+    "('.npz', '(54,)', 'int64')": 2,
+    "('.npz', '(55, 55)', 'float64')": 1,
+    "('.npz', '(55,)', 'float64')": 1,
+    "('.npz', '(56,)', 'float64')": 1,
+    "('.npz', '(57,)', 'float64')": 1,
+    "('.npz', '(8, 8)', 'float64')": 6,
+    "('.npz', '(8,)', 'int64')": 6,
+    "('.npz', '(929, 929)', 'int64')": 1,
+    "('.npz', '(932, 932)', 'int64')": 1,
+    "('.npz', '(932,)', 'float64')": 1,
+    "('.npz', '(933,)', 'float64')": 196,
+    "('.npz', '(937, 937)', 'int64')": 1,
+    "('.npz', '(947, 947)', 'int64')": 2,
+    "('.npz', '(952, 952)', 'int64')": 1,
+    "('.npz', '(962, 962)', 'int64')": 1,
+    "('.npz', '(9900, 2)', 'float128')": 1,
+    "('.npz', '(9900, 2)', 'int32')": 1,
+    "('.npz', '(9900,)', 'bool')": 4,
+    "('.npz', '(9900,)', 'float128')": 4,
+    "('.npz', '(9900,)', 'int32')": 1,
+    "('.npz', '(9900,)', 'int8')": 1
+  },
+  "json_root_types": {
+    "dict": 5296,
+    "list": 333
+  },
+  "excluded_repository_duplicate": "github_archive_staging/repository",
+  "coordinates_in_json_conversion": "coordinates_numerators / coordinate_denominator; recognized root_high_precision.variables and midpoint.numerators first 200 entries are center variables. No other arbitrary flat 200 vectors are treated as centers.",
+  "errors": []
+}

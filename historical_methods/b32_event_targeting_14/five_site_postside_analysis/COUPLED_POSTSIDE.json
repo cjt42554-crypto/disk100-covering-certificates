@@ -1,0 +1,366 @@
+{
+  "status": "NUMERICAL_FIRST_ORDER_FAN_DIAGNOSTIC",
+  "records": [
+    {
+      "joint_id": 0,
+      "component_candidate_ids": [
+        80,
+        23
+      ],
+      "source_name": "pinned14_best61",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.4884564151355903,
+        -0.8725882938206815
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              88,
+              90
+            ],
+            [
+              38,
+              88
+            ]
+          ],
+          "faces": [
+            [
+              89,
+              90,
+              88
+            ],
+            [
+              90,
+              38,
+              88
+            ],
+            [
+              38,
+              47,
+              88
+            ]
+          ],
+          "minimum_first_order_margin": 0.3549248251035942,
+          "maximum_first_order_margin": 2.5633814648014
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    },
+    {
+      "joint_id": 1,
+      "component_candidate_ids": [
+        80,
+        79
+      ],
+      "source_name": "pinned14_best61",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.4087787573280217,
+        -0.9126335121818386
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              47,
+              91
+            ],
+            [
+              89,
+              91
+            ]
+          ],
+          "faces": [
+            [
+              90,
+              91,
+              89
+            ],
+            [
+              91,
+              38,
+              47
+            ],
+            [
+              91,
+              47,
+              89
+            ]
+          ],
+          "minimum_first_order_margin": 0.6087691833464469,
+          "maximum_first_order_margin": 2.1236854171438027
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    },
+    {
+      "joint_id": 2,
+      "component_candidate_ids": [
+        80,
+        81
+      ],
+      "source_name": "pinned14_best61",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.6505795883552096,
+        -0.7594380812255637
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              37,
+              89
+            ],
+            [
+              37,
+              90
+            ]
+          ],
+          "faces": [
+            [
+              89,
+              90,
+              37
+            ],
+            [
+              89,
+              37,
+              47
+            ],
+            [
+              90,
+              38,
+              37
+            ]
+          ],
+          "minimum_first_order_margin": 0.1458173804176225,
+          "maximum_first_order_margin": 2.6640574394362218
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    },
+    {
+      "joint_id": 3,
+      "component_candidate_ids": [
+        40,
+        3
+      ],
+      "source_name": "pinned14_best61",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.4939121039546738,
+        -0.8695118363582335
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              72,
+              74
+            ],
+            [
+              29,
+              72
+            ]
+          ],
+          "faces": [
+            [
+              20,
+              72,
+              29
+            ],
+            [
+              72,
+              73,
+              74
+            ],
+            [
+              72,
+              74,
+              29
+            ]
+          ],
+          "minimum_first_order_margin": 0.3338421377055004,
+          "maximum_first_order_margin": 2.581504840085195
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    },
+    {
+      "joint_id": 4,
+      "component_candidate_ids": [
+        40,
+        41
+      ],
+      "source_name": "pinned14_best61",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.6406999483445326,
+        -0.767791362409941
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              30,
+              73
+            ],
+            [
+              30,
+              74
+            ]
+          ],
+          "faces": [
+            [
+              30,
+              20,
+              73
+            ],
+            [
+              30,
+              73,
+              74
+            ],
+            [
+              30,
+              74,
+              29
+            ]
+          ],
+          "minimum_first_order_margin": 0.1715585928489124,
+          "maximum_first_order_margin": 2.635838628798393
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    },
+    {
+      "joint_id": 5,
+      "component_candidate_ids": [
+        40,
+        42
+      ],
+      "source_name": "pinned14_best61",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.41160969124701663,
+        -0.9113602262944854
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              20,
+              75
+            ],
+            [
+              73,
+              75
+            ]
+          ],
+          "faces": [
+            [
+              29,
+              20,
+              75
+            ],
+            [
+              20,
+              73,
+              75
+            ],
+            [
+              73,
+              74,
+              75
+            ]
+          ],
+          "minimum_first_order_margin": 0.6086374281066574,
+          "maximum_first_order_margin": 2.129300647128084
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    },
+    {
+      "joint_id": 6,
+      "component_candidate_ids": [
+        505,
+        504
+      ],
+      "source_name": "cap_curve00",
+      "equal_normalized_postside_event_derivative_direction": [
+        -0.2739914902438222,
+        -0.9617321161705943
+      ],
+      "strict_numerical_first_order_regular_branches": [
+        {
+          "diagonals": [
+            [
+              72,
+              74
+            ],
+            [
+              29,
+              72
+            ]
+          ],
+          "faces": [
+            [
+              20,
+              72,
+              29
+            ],
+            [
+              72,
+              73,
+              74
+            ],
+            [
+              72,
+              74,
+              29
+            ]
+          ],
+          "minimum_first_order_margin": 0.7596693985827759,
+          "maximum_first_order_margin": 4.461405352086929
+        }
+      ],
+      "unique_sample_branch": true,
+      "q_exact_insideD": true,
+      "q_exact_inside_convex_five_hull": true,
+      "q_strict_local_maximum_of_nearest_distance_at_algebraic_endpoint": true,
+      "original_global_cover_radius_evaluated": false,
+      "actual_complete_graph_before_after_certified": false
+    }
+  ],
+  "source_joint_manifest_sha256": "cd03586cae92ff3f418e705b05906e81b30a553d462fc78242d356a0e7174014",
+  "QP_calls": 0,
+  "wholeD_calls": 0,
+  "optimizer_calls": 0
+}

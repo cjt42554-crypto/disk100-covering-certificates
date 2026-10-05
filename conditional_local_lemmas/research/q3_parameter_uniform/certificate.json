@@ -1,0 +1,95 @@
+{
+  "acute_support_lower": [
+    9054378939705044463007341675614403,
+    6250000000000000000000000000000000
+  ],
+  "convex_cut_loss_slope_lower": [
+    25072117,
+    20000000
+  ],
+  "decreasing_tail_derivative_upper": [
+    -8828117,
+    20000000
+  ],
+  "degenerate_score_upper": [
+    47890713,
+    70000000
+  ],
+  "dependency_count": 15,
+  "dependency_hashes_before_after_match": true,
+  "excess_over_1_50": [
+    27,
+    800000
+  ],
+  "fee": [
+    16027,
+    800000
+  ],
+  "frozen_checker_calls": 0,
+  "frozen_math_source_imports": 0,
+  "geometry_search_calls": 0,
+  "lambda_interval": [
+    [
+      27,
+      200
+    ],
+    [
+      29,
+      200
+    ]
+  ],
+  "monotone_secant_lower": [
+    1703,
+    1900
+  ],
+  "new_G_endpoint_derivative_margins": [
+    [
+      3,
+      8
+    ],
+    [
+      83,
+      200
+    ]
+  ],
+  "new_endpoint_gap_lower": [
+    1611325405729420846819814401823241,
+    50000000000000000000000000000000000
+  ],
+  "obtuse_support_upper": [
+    82890713,
+    70000000
+  ],
+  "optimizer_calls": 0,
+  "radius_upper": [
+    231,
+    2000
+  ],
+  "restricted_concavity_lower": [
+    83,
+    25
+  ],
+  "scope": "Actual signed A common-apex three-face local fee; same-parameter full-apex support. No independent J fee, full-cover row or global radius claim.",
+  "sensitivity": "Dnew >= (199/200) Dold - (1/40) sqrt(3 Dold/2)",
+  "square_root_bounds": [
+    [
+      19,
+      100
+    ],
+    [
+      3873,
+      20000
+    ]
+  ],
+  "status": "PASS_UNIFORM_PARAMETER_ACTUAL_A_LOCAL_FEE",
+  "tilt_interval": [
+    [
+      971883,
+      20000000
+    ],
+    [
+      1171883,
+      20000000
+    ]
+  ]
+}

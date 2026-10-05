@@ -1,0 +1,102 @@
+{
+  "format": "disk100-release-sha256-v1",
+  "file_count": 19,
+  "total_payload_bytes": 7671087,
+  "files": [
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "68c7a90480a1bf3e247737a1a1df1d49ddd7aa99a800962ba27d1dd1c213823b",
+      "bytes": 845
+    },
+    {
+      "path": "LOCAL_PROOF.md",
+      "sha256": "33430465cb3e3244d87e223d1b590d3e1eabebbf0505d9a29c13ad3c2715ddad",
+      "bytes": 8329
+    },
+    {
+      "path": "PUBLIC_COPY_RECEIPT.json",
+      "sha256": "ef211d7c2ab6950cadda02ff1aeefb38f3aa3f7c98a2e6bb1be7179b0980b047",
+      "bytes": 8314
+    },
+    {
+      "path": "README.md",
+      "sha256": "391d9549c75ed12d96a6f6b7c5e77e5bf5b6f93ed1c630a0319f98f8496513b4",
+      "bytes": 1957
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "146759db3b60ea5d8a9da71c677d79cfcafa33addb34a4a2fd4966959610430e",
+      "bytes": 1013
+    },
+    {
+      "path": "UPSTREAM_MANIFEST_SHA256.json",
+      "sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2",
+      "bytes": 6291
+    },
+    {
+      "path": "negative_tests.json",
+      "sha256": "d4a52b8660cda551b17074416f2d1bddb10c5bc41abb59d2376431d8a7f909b4",
+      "bytes": 1234
+    },
+    {
+      "path": "sosc_witness.json.gz",
+      "sha256": "7c53ab8fcfcc0d53121a6f530814797f19126f613bea24be3b71288c2d66d7f3",
+      "bytes": 1727234
+    },
+    {
+      "path": "source/algebraic_cover_topology.json",
+      "sha256": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+      "bytes": 7887
+    },
+    {
+      "path": "source/exact_algebraic_cover.py",
+      "sha256": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+      "bytes": 16080
+    },
+    {
+      "path": "source/exact_krawczyk.py",
+      "sha256": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+      "bytes": 8057
+    },
+    {
+      "path": "source/krawczyk_preconditioner.json.gz",
+      "sha256": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+      "bytes": 5544622
+    },
+    {
+      "path": "source/polynomial_system.json",
+      "sha256": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+      "bytes": 145183
+    },
+    {
+      "path": "source/rational_midpoint.json",
+      "sha256": "3d2ffb930325ba19ced5ae5ce4a8590be0a3488b6aba777db5132f4a4e337a72",
+      "bytes": 57955
+    },
+    {
+      "path": "source/root_high_precision.json",
+      "sha256": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+      "bytes": 104874
+    },
+    {
+      "path": "source/source_configuration.json",
+      "sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "bytes": 6128
+    },
+    {
+      "path": "test_negative.py",
+      "sha256": "0c317adbd192747b93b3ad40ac5b3512d99d84c8056ad9e42f31ed126e5c6dc7",
+      "bytes": 3147
+    },
+    {
+      "path": "verification.json",
+      "sha256": "0e18d1e155d447cb26690a1711fee4f2ed0e98b5afd10bfa9c939bd19c699eeb",
+      "bytes": 11405
+    },
+    {
+      "path": "verify_sosc.py",
+      "sha256": "10a8b9c5b0d261228b6f925554918f3a3a88adf17eb7c3ecd1209a1250b5cd44",
+      "bytes": 10532
+    }
+  ]
+}

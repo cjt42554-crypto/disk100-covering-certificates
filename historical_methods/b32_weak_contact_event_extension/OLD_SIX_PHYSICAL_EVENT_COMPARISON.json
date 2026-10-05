@@ -1,0 +1,28 @@
+{
+  "prior_metadata_sha256": "74b962c16fa442127e57b061cd0a81e9a42edf50bed6a12321f5c92dbafbf78a",
+  "old_six_event_types": [
+    "dt_incircle_zero",
+    "dt_incircle_zero",
+    "dt_incircle_zero",
+    "dt_incircle_zero",
+    "dt_incircle_zero",
+    "dt_incircle_zero"
+  ],
+  "old_event_support_cardinalities": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "current_event_types": [
+    "FULL_HULL_COLLINEARITY",
+    "TRIANGLE_ORIENTATION_ZERO"
+  ],
+  "current_event_support_cardinalities": [
+    3
+  ],
+  "matched_old_convex_four_site_incircle_events": 0,
+  "reason": "Current recorded exact events are exterior three-site orientation/hull collinearities; all six legacy events are four-site empty-circle diagonal exchanges. Source row labels are not equated across configurations. No new restricted event or optimizer handoff is claimed."
+}

@@ -1,0 +1,16 @@
+{
+  "mathematical_program_executions": 0,
+  "mathematical_module_imports": 0,
+  "checker_replays": 0,
+  "old_48_guard_replays": 0,
+  "numerical_parameter_scans": 0,
+  "optimizer_calls": 0,
+  "trigonometric_evaluator_calls": 0,
+  "method": "All mathematical derivations are paper algebra, finite rational comparisons, and alternating Taylor inequalities. Byte hashing and JSON operations only.",
+  "filesystem_metadata_operations": [
+    "Read the Pro fixed-R0 proof, local actual-tau proof and historical arc cut",
+    "Write new ANALYSIS.md and preserved coarse history without changing accepted inputs",
+    "Compute SHA256 byte hashes and write metadata pins/ledger/manifest"
+  ],
+  "acceptance": "New paper proof awaits independent static review; no accepted global optimum or new global lower bound claimed."
+}

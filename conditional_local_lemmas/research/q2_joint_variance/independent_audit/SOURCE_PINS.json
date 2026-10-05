@@ -1,0 +1,82 @@
+{
+  "status": "PASS_INDEPENDENT_STATIC_FIXED_JOINT_POINT_DENOM40",
+  "reviewer_mathematical_executions": 0,
+  "reviewer_math_imports": 0,
+  "reviewer_old_checker_calls": 0,
+  "reviewer_replays": 0,
+  "author_fixed_point_invocations_reported": 1,
+  "author_primitive_definition_imports_reported": 1,
+  "fallback_denom39_invocations_reported": 0,
+  "source_snapshot_matches_current_bytes": true,
+  "author_manifest_all_entries_match": true,
+  "accepted_scalar_condition": "Pinned accepted C enclosure is an arithmetic premise, not independently regenerated.",
+  "reviewed_author_files": {
+    "ANALYSIS.md": {
+      "sha256": "99e2e9bc1641ee6d2eb47f89849617839433bf5c4a5c66a57c41be20a31ba847",
+      "bytes": 8743
+    },
+    "ATTEMPT_LEDGER.json": {
+      "sha256": "aa2c90a78046b10ba7fd56a30579e0652b95e353af5200c69d76f37d9a75af9e",
+      "bytes": 605
+    },
+    "attempts/author_001_denom40/receipt.json": {
+      "sha256": "8a01074829c9706ae3a5c74f600403d56718c615a4df9b7c4b6954e81cde028f",
+      "bytes": 570
+    },
+    "attempts/author_001_denom40/replay.log": {
+      "sha256": "b5470ccf4537ac444785c31e90f8c8cdb7a60896689be58e07df6bc750e39c27",
+      "bytes": 564
+    },
+    "attempts/author_001_denom40/verify_fixed_joint.py": {
+      "sha256": "736bfec7bc7fbf76755675efd1a7f1307bb6d5ec652049715afbbb65192de09b",
+      "bytes": 6892
+    },
+    "certificate_denom40.json": {
+      "sha256": "e6d1366c2f791f0e0dfe4ba1da4748592542537fd2f85a4d9471f319c4f1cc70",
+      "bytes": 6094
+    },
+    "dependencies/coupled_edges/verify_support.py": {
+      "sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+      "bytes": 4976
+    },
+    "dependencies/quadratic_lambda14_conjugate/PROOF.md": {
+      "sha256": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+      "bytes": 3157
+    },
+    "dependencies/quadratic_lambda14_conjugate/certificate.json": {
+      "sha256": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+      "bytes": 3196
+    },
+    "dependencies/quadratic_lambda14_conjugate/verify_conjugate.py": {
+      "sha256": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+      "bytes": 3507
+    },
+    "verify_fixed_joint.py": {
+      "sha256": "736bfec7bc7fbf76755675efd1a7f1307bb6d5ec652049715afbbb65192de09b",
+      "bytes": 6892
+    },
+    "SHA256.json": {
+      "sha256": "b17d3583b5b4b925643eea4c40a1f70019f2e488b8f3ee680db579da54d2fba4",
+      "bytes": 1841
+    }
+  },
+  "accepted_readonly_inputs": {
+    "coupled_edges/verify_support.py": {
+      "sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+      "bytes": 4976
+    },
+    "quadratic_lambda14_conjugate/PROOF.md": {
+      "sha256": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+      "bytes": 3157
+    },
+    "quadratic_lambda14_conjugate/verify_conjugate.py": {
+      "sha256": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+      "bytes": 3507
+    },
+    "quadratic_lambda14_conjugate/certificate.json": {
+      "sha256": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+      "bytes": 3196
+    }
+  },
+  "scope": "Actual signed-A pair loss plus the one specified actual-middle-halfarc variance at cos gamma=17/25,tan skew half=1/40; fullarc>.134 only. Global Q,degree-7,four-cell window,whole profile and full cover are unverified; this point does not meet xi>.6."
+}

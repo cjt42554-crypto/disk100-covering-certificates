@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "failure_cause": "First attempt incorrectly asserted 7/388 as the exact peak-displacement rational simplification; corrected to 35/1944. Failed proof/source/log/receipt preserved under attempts/author_001.",
+  "new_broad_fraction_author_attempts": 2,
+  "new_broad_fraction_failures": 1,
+  "new_broad_fraction_successes": 1,
+  "old_checker_imports": 0,
+  "optimizer_geometry_searches": 0,
+  "prior_patch_format_failure_before_any_write_or_execution": 1,
+  "source_sha256": "7c4cf267517f216afb142517711b4a7fba92ee83c222e83dcd3e2230ea25c38d"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "grid_budget": 128,
+  "planned": 128,
+  "optimized": 128,
+  "skipped": 0,
+  "optimizer_exceptions": 0,
+  "all_triple_oracle_calls": 421,
+  "independent_oracle_counts": {
+    "baseline": 1,
+    "single_deletion": 100,
+    "pair_deletion": 64,
+    "start": 128,
+    "final": 128
+  },
+  "maximum_all_triple_error": 5.551115123125783e-17,
+  "stage_array_count": 174,
+  "worker_exitcodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "final_SLSQP_status_counts": {
+    "0": 107,
+    "8": 21
+  },
+  "optimizer_round_counts": {
+    "1": 82,
+    "2": 46
+  },
+  "best_grid_id": 66,
+  "best_pair": [
+    73,
+    80
+  ],
+  "best_target_family": "two_local_cavity_critical",
+  "best_final_radius": 0.11544695488558264,
+  "best_file": "workers/worker00/finals/0066.npy",
+  "best_file_sha256": "636be6c0f8859218e10ba7079fb72b4e23fdb4238c7482ae9a63b8544d01bf22",
+  "material_candidate_count": 0,
+  "seconds": 62.25794576000044,
+  "scope": "Finite numerical pair relocation with independent full critical-point replay. No exact covering, global-infeasibility or optimality certificate.",
+  "baseline_file_sha256": "de82a12038c6f9a705b7a985c7e25c53c8e94f5c506946aba9a6c6f03a02852d",
+  "best_matches_baseline_full100_geometry_and_inventories": true,
+  "original_three_frozen_trees_unchanged": true,
+  "topology_obstacles": {
+    "starts_changing_actual_inventory": 106,
+    "paths_with_topology_event": 0,
+    "paths_with_new_binding_holes": 0,
+    "paths_with_actual_radius_gap_above_1e8": 0,
+    "paths_with_actual_below_frozen_by_1e8": 0,
+    "final_not_feasible": 0
+  }
+}

@@ -1,0 +1,9 @@
+Static analytic ZIP budget-interface audit completed.
+Current source: disk100_lower_bound_0p1132_20261004.zip.
+Archive and reviewed member hashes unchanged at document freeze.
+Root interface reviewed at final 9e451e083dfc5316988f4ee3d08e809ff84b5f1ae680555f5b62c8127cd7f4c4.
+Source import calls: 0. Old verifier calls: 0. New local guard calls: 0.
+Conjugate evaluator calls: 0. Optimizer/scan/graph-catalogue calls: 0.
+Archive extractions: 0. Frozen source mutations: 0.
+Background computation initiated by this agent: none; PID: none.
+No new global lower bound claimed.

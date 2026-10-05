@@ -1,0 +1,21 @@
+{
+  "scope": "Analytic budget-interface audit only, conditional local theorem; zero verifier execution",
+  "files": {
+    "REVIEW.md": {
+      "bytes": 13212,
+      "sha256": "7cf3c6b6ac9fbbf98326f4bf76a27bfa9d761b1fb064af0c8d2436303f579d21"
+    },
+    "SOURCE_PINS.json": {
+      "bytes": 6996,
+      "sha256": "da2252e806d22a7e3722dbc895405ba3163f97dad8b22badf07705704e290009"
+    },
+    "audit_result.json": {
+      "bytes": 1544,
+      "sha256": "d1286462e910dbe06339dacf7ba6cc15222d6f015bb90408db2b8e12449c95bb"
+    },
+    "read_only_audit.log": {
+      "bytes": 571,
+      "sha256": "687070345bd21baceaae2187e1c7b3489d4c1a17d505913e2109729ad590f2d6"
+    }
+  }
+}

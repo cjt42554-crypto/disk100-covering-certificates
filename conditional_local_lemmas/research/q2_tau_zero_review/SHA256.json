@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_INDEPENDENT_STATIC_TAU_ZERO_PASS",
+  "files": {
+    "INDEPENDENT_REVIEW.md": {
+      "sha256": "432df75e4dbe1996be17414de5c263ebed7ca6fdee41d3dcd7eefffb6fbe400a",
+      "bytes": 11037
+    },
+    "ISSUE_HISTORY.md": {
+      "sha256": "2a95976ba5ecb2d9d2dce64a4aaba512c81185ef2805b7bf96c17b6cd996aba4",
+      "bytes": 2331
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "8ff944ef3734f55900afc47ffa3dcaa6a4f9adec88c5132df49d9ca2e4be6094",
+      "bytes": 2446
+    }
+  },
+  "source_mathematical_executions": 0,
+  "source_imports": 0,
+  "replays": 0,
+  "metadata_only": true
+}

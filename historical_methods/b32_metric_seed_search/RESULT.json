@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "budget": 96,
+  "owner_seeds": 96,
+  "optimized": 87,
+  "skipped": 9,
+  "skip_reasons": {
+    "harmonic_target_DT_mismatch_not_catalog_family_realization": 3,
+    "current_best_graph_reference_only_not_repeated": 6
+  },
+  "optimizer_exceptions": 0,
+  "independent_oracle_calls": 321,
+  "independent_counts": {
+    "raw_harmonic_seed": 96,
+    "old_metric_reference": 4,
+    "final": 87,
+    "stage": 134
+  },
+  "maximum_all_triple_error": 5.551115123125783e-17,
+  "worker_exitcodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "final_SLSQP_status_counts": {
+    "0": 86,
+    "8": 1
+  },
+  "round_counts": {
+    "1": 53,
+    "3": 9,
+    "2": 23,
+    "4": 2
+  },
+  "final_binding_counts": {
+    "100": 87
+  },
+  "final_target_graph_retained": 87,
+  "contact_family_counts": {
+    "finite_unmatched_metric_family00": 1,
+    "finite_unmatched_metric_family01": 2,
+    "finite_unmatched_metric_family02": 3,
+    "finite_unmatched_metric_family03": 3,
+    "finite_unmatched_metric_family04": 6,
+    "finite_unmatched_metric_family05": 6,
+    "finite_unmatched_metric_family06": 6,
+    "finite_unmatched_metric_family07": 6,
+    "finite_unmatched_metric_family08": 6,
+    "finite_unmatched_metric_family09": 6,
+    "finite_unmatched_metric_family10": 6,
+    "finite_unmatched_metric_family11": 6,
+    "finite_unmatched_metric_family12": 1,
+    "finite_unmatched_metric_family13": 3,
+    "finite_unmatched_metric_family14": 1,
+    "finite_unmatched_metric_family15": 1,
+    "finite_unmatched_metric_family16": 6,
+    "old_index08": 6,
+    "old_index11": 6,
+    "old_index13": 6
+  },
+  "finite_unmatched_metric_family_count": 17,
+  "best_grid_id": 80,
+  "best_independent_index": 11,
+  "best_radius": 0.11546097849130338,
+  "best_file": "workers/worker01/finals/0080.npy",
+  "best_file_sha256": "bae8f76af07d7d98420a999260b60d0b1ae131eca9b116db80280dc74b7edbfc",
+  "best_matches_current146": false,
+  "material_candidate_count": 0,
+  "seconds": 88.42260762399928,
+  "scope": "Finite numerical all-triple+continuous-boundary acceptance and actual restricted-DT/contact matching; no new exact upper certificate, graph completeness, all-metric minimum or global conclusion.",
+  "topology_obstacles": {
+    "paths_with_topology_event": 0,
+    "paths_with_new_binding": 0,
+    "paths_with_actual_gap_above1e8": 0,
+    "final_not_feasible": 0
+  },
+  "old_ten_frozen_trees_unchanged": true,
+  "strict_inventory_and_metric_clarification": {
+    "legacy_inventory_squared_tolerance": 1e-09,
+    "strict_inventory_squared_tolerance": 5e-14,
+    "strict_final_binding_counts": {
+      "100": 87
+    },
+    "graph14_all100_same_catalog_label_rotational_distance_max": 7.322550108604854e-07,
+    "note": "The17 finite unmatched contact-inventory labels are not17 proved physical basins. In particular graph14 has four legacy contact labels while all six all100 metrics align within7.33e-7; explicit near-active slacks account for inventory sensitivity. No free or redundant circle follows from tiny NNLS weights."
+  }
+}

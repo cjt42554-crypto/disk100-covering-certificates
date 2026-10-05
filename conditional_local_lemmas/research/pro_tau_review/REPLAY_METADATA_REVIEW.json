@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "audit_mathematical_executions": 0,
+  "root_mathematical_executions_as_receipted": 1,
+  "root_exit_code_as_receipted": 0,
+  "all_source_copy_byte_matches": {
+    "verification.log": true,
+    "README.md": true,
+    "RESULT_FOR_HANDOFF.md": true,
+    "PROOF.md": true,
+    "verification.json": true,
+    "verify.py": true
+  },
+  "all_receipt_source_hash_matches": true,
+  "stdout_matches_acquired_remote_log": true,
+  "stderr_empty": true,
+  "verification_json_byte_match": true,
+  "root_receipt": {
+    "path": "research/pro_tau_local_replay_20261005/LOCAL_REPLAY_RECEIPT.json",
+    "bytes": 1130,
+    "sha256": "9e43b03619aaeb3e83dc73b17b847aa9ffc5581bc39ae0addbe47b5f95a94314"
+  },
+  "replay_evidence": [
+    {
+      "path": "research/pro_tau_local_replay_20261005/LOCAL_STDOUT.log",
+      "bytes": 2184,
+      "sha256": "c78454485e839e00edeb457a810df4a9d878eda9f44077c165302501f20b02e2"
+    },
+    {
+      "path": "research/pro_tau_local_replay_20261005/LOCAL_STDERR.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/pro_tau_local_replay_20261005/verification.json",
+      "bytes": 23723,
+      "sha256": "b83b9882560b3d3b6c98ef077e1e9e15482b0a671b43c9cf4a63c4faade8f30e"
+    },
+    {
+      "path": "research/pro_tau_local_replay_20261005/verify.py",
+      "bytes": 11849,
+      "sha256": "34790682b20f5067840f40942ec7d53c8bf2cfe584934c269dbc266cf03b52e4"
+    }
+  ],
+  "scope": "byte/hash metadata verification only; checker not executed or imported by reviewer"
+}

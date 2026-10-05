@@ -1,0 +1,27 @@
+{
+  "status": "AUTHOR_LOCAL_WITNESS_AND_READONLY_SCALAR_INPUT_PINS",
+  "accepted_input_root": "PROJECT_SOURCE/research",
+  "accepted_inputs": {
+    "q3_actual_quadratic_support/certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+    "quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "quadratic_lambda14_conjugate/verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "coupled_edges/verify_support.py": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec"
+  },
+  "local_frozen_at_snapshot": {
+    "ANALYSIS.md": "e827c42bb99ea7ee186f61e16ceb86173c4982d510ed7e36d4ca737a9489a331",
+    "ADDITIONAL_SCOPE.md": "a1f95150db8272c002b164322be530bf5a74c26095d0025f4e1e02dd167fc084",
+    "verify_new_skew_point.py": "c21323c63e675c37128b94f8bad9e625193b81052021efb5d2be378f74df278d",
+    "certificate.json": "9607aa092babadb878f3fa561a989001c6cad129ec757a4efb4bdea7f74f0476",
+    "replay.log": "9c75c6f63540cbf4af6c62f43a117a35dd9ee4659eda9224e1b9d02d6cead60f",
+    "ATTEMPT_LEDGER.json": "f325a2d15de9ed9c2f653303a2b9b41040e8ac0e70dde498e55b5559d0a12ea0",
+    "attempts/author_001/verify_new_skew_point.py": "c21323c63e675c37128b94f8bad9e625193b81052021efb5d2be378f74df278d",
+    "attempts/author_001/certificate.json": "9607aa092babadb878f3fa561a989001c6cad129ec757a4efb4bdea7f74f0476",
+    "attempts/author_001/replay.log": "9c75c6f63540cbf4af6c62f43a117a35dd9ee4659eda9224e1b9d02d6cead60f",
+    "attempts/author_001/receipt.json": "2d6139af659b80b8d3ffa5824542efdb87796acf6b8f84fef6cb53d7b0f53e74"
+  },
+  "source_snapshot_equals_executed_source": true,
+  "certificate_snapshot_equals_executed_certificate": true,
+  "runtime_input_note": "Only the accepted peak-cosine JSON was read by the new guard. Accepted scalar proof/checker/primitive pins bind the established scalar premise and were inspected as text, never executed here. No three-face fee is used.",
+  "independent_acceptance": "pending static review; no reviewer math execution authorized"
+}

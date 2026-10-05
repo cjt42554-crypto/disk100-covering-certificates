@@ -1,0 +1,23 @@
+All-domain extremum reduction and exact acceptance
+==================================================
+For the explicitly listed distinct centers, min_i |x-c_i|^2 is continuous
+on the compact closed unit disk and attains a maximum. An interior maximum
+cannot have only one nearest center (strictly convex quadratic in a neighborhood)
+or exactly two (strictly convex quadratic along their bisector). Thus it is
+the circumcenter of at least three distinct, noncollinear nearest centers.
+The checker conservatively enumerates EVERY noncollinear triple circumcenter
+inside the closed disk, without assuming a numerical Delaunay triangulation.
+
+On the circle, partition at all pairwise bisector intersections. On every
+open arc the nearest center is fixed, with squared distance
+1+|c_i|^2-2c_i dot x. A maximum occurs at an arc endpoint or its antipode.
+Zero-center constant arcs are handled by endpoints or the extra point (1,0).
+Hence the enumerated set contains a full-domain maximum; this is a continuous
+geometric proof, not a spatial sample. Every enumerated entry is independently
+proved covered at U by a supplied center witness. Therefore the maximum is <=U.
+
+Circumcenters are rational, other candidates involve one square root. All
+acceptance comparisons use integers/Fraction or the exact sign of a+b*sqrt(d),
+determined by signs and a^2 versus b^2*d. Equality and unit-circle boundary
+points are retained. The stored PASS flag is not an input to acceptance.
+This is a covering upper bound only, not an exclusion of smaller radii.

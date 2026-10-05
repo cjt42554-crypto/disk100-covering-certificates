@@ -1,0 +1,42 @@
+{
+  "schema": "DISK100_PUBLIC_PRO_CANONICAL_PATH_MAP_V1",
+  "scope": "Original source-pin paths resolve to this byte-identical canonical copy, not a new mathematical replay",
+  "files": [
+    {
+      "historical_research_relative": "pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/README.md",
+      "public_package_relative": "research/pro_tau_local_replay_20261005/README.md",
+      "sha256": "e4bbd8d1f98c6ec69e5b209360bf1356bd0256f797c904c990b0f53f6e5e233e",
+      "byte_equal": true
+    },
+    {
+      "historical_research_relative": "pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/PROOF.md",
+      "public_package_relative": "research/pro_tau_local_replay_20261005/PROOF.md",
+      "sha256": "8d2289a8816aefd05bea1e12783d5d78e925c31773a0d6222fee60fba3476c6e",
+      "byte_equal": true
+    },
+    {
+      "historical_research_relative": "pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/RESULT_FOR_HANDOFF.md",
+      "public_package_relative": "research/pro_tau_local_replay_20261005/RESULT_FOR_HANDOFF.md",
+      "sha256": "4481fa042148bcd61be5a1a9fadbfe40b588b344b0b6e1577a48d3d049c41fcd",
+      "byte_equal": true
+    },
+    {
+      "historical_research_relative": "pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verify.py",
+      "public_package_relative": "research/pro_tau_local_replay_20261005/verify.py",
+      "sha256": "34790682b20f5067840f40942ec7d53c8bf2cfe584934c269dbc266cf03b52e4",
+      "byte_equal": true
+    },
+    {
+      "historical_research_relative": "pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verification.json",
+      "public_package_relative": "research/pro_tau_local_replay_20261005/verification.json",
+      "sha256": "b83b9882560b3d3b6c98ef077e1e9e15482b0a671b43c9cf4a63c4faade8f30e",
+      "byte_equal": true
+    },
+    {
+      "historical_research_relative": "pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verification.log",
+      "public_package_relative": "research/pro_tau_local_replay_20261005/verification.log",
+      "sha256": "c78454485e839e00edeb457a810df4a9d878eda9f44077c165302501f20b02e2",
+      "byte_equal": true
+    }
+  ]
+}

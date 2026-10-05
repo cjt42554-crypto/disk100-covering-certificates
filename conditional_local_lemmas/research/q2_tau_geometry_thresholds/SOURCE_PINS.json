@@ -1,0 +1,30 @@
+{
+  "scope": "New analytic arc-to-norm and actual unit-anchor branch interfaces; awaiting static review; not a global radius certificate",
+  "inputs": [
+    {
+      "path": "research/pro_tau_local_replay_20261005/PROOF.md",
+      "sha256": "8d2289a8816aefd05bea1e12783d5d78e925c31773a0d6222fee60fba3476c6e",
+      "role": "accepted fixed-R0 Pro actual-tau proof; no checker import"
+    },
+    {
+      "path": "research/q2_strong_arc_norm_budget_nonzero_tau/FULL_ACTUAL_TAU_PROOF.md",
+      "sha256": "84ff30accf1b90746288d199127ab39759bea006000aaca88dd7887e5f48822e",
+      "role": "local .0223 scope comparison only; no import"
+    },
+    {
+      "path": "research/Q2_STRONG_ARC_NORM_CUT_20261005.md",
+      "sha256": "0d7fdff5df335e1da74f61f44aa43556a9dfd2f122884a5fbaa225300bc8b81d",
+      "role": "historical fixed-R0 necessary arc cut; no replay"
+    }
+  ],
+  "new_author_texts": [
+    {
+      "path": "research/q2_tau_geometry_thresholds/ANALYSIS.md",
+      "sha256": "97283475b6176cd0d426759d73d931690a155dec69a86843d5f5a630ff6ebbdf"
+    },
+    {
+      "path": "research/q2_tau_geometry_thresholds/history/COARSE_BRANCH_INTERFACE.md",
+      "sha256": "6c449d5e8e5903eee5c21fc4286803b2c4741be5800765d22ec2734f95a1610c"
+    }
+  ]
+}

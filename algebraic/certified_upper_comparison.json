@@ -1,0 +1,28 @@
+{
+  "verified_by_exact_fraction_comparison": true,
+  "scope": "Arithmetic corollary of exact grid0025 closed-disk cover certificate; no global optimality claim",
+  "algebraic_radius_strict_upper": [
+    72154346803488876024874004231114529408900216065170325855931921,
+    625000000000000000000000000000000000000000000000000000000000000
+  ],
+  "short_rational_upper": [
+    115446954885583,
+    1000000000000000
+  ],
+  "source_rational_configuration_upper": [
+    1154469548859,
+    10000000000000
+  ],
+  "source_to_short_upper_improvement": [
+    317,
+    1000000000000000
+  ],
+  "previous_003_algebraic_short_upper": [
+    57745798921293,
+    500000000000000
+  ],
+  "003_to_grid0025_short_upper_improvement": [
+    44642957003,
+    1000000000000000
+  ]
+}

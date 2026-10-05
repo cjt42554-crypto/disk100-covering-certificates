@@ -1,0 +1,12 @@
+{
+  "tool_process_exit_code": 0,
+  "executed_command": "python3 -I -B PROJECT_SOURCE/research/q3_stronger_fee_19_500/independent_audit/run_once.py",
+  "guard_executions": 1,
+  "whole_JSONMATCH": true,
+  "serialized_certificate_bytes_match": true,
+  "author_and_historical_source_bytes_unchanged": true,
+  "old_verifier_calls": 0,
+  "optimizers": 0,
+  "geometry_searches": 0,
+  "supporting_tool_evidence": "The sole isolated process returned exit code 0 and printed all four PASS/match/no-old-call lines retained in replay.log."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "STOPPED_UNREVIEWED_FEASIBILITY_CANDIDATE",
+  "proposed_cutoff": [57, 2500],
+  "new_cutoff_theorem_accepted": false,
+  "new_radius_theorem_accepted_by_this_note": false,
+  "new_global_bound_claimed": false,
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "old_48_guard_replays": 0,
+  "other_checker_replays": 0,
+  "optimizers_or_parameter_scans": 0,
+  "subagents_started_for_this_task": 0,
+  "stop_instruction": "Parent directed immediate research/derivation/verification stop; only safe saving of current candidate, blockers, zero-execution ledger and hashes authorized.",
+  "scope_at_stop": "Paper domain comparison and candidate old-whole-slab Lipschitz transfer; outstanding changed-Delta signed gradient guards and full independent audit.",
+  "frozen_predecessors_modified": false,
+  "temporary_originals_deleted": false,
+  "permitted_closeout_operations": ["write this note and ledger", "read/hash source metadata", "write pins", "report exact completed boundary"]
+}

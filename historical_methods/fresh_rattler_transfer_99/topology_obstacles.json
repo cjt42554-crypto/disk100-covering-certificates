@@ -1,0 +1,2370 @@
+{
+  "paths_with_topology_event": 2,
+  "paths_with_new_binding_holes": 2,
+  "paths_with_actual_gap_above1e8": 0,
+  "final_not_feasible": 0,
+  "rows": [
+    {
+      "grid_id": 0,
+      "source_index": 0,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        14,
+        78,
+        80
+      ],
+      "radius": 0.11574374257069776,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        24
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 7.799316747991725e-15,
+      "minimum_actual_minus_frozen_objective": -4.718447854656915e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 1,
+      "source_index": 0,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        14,
+        26,
+        33
+      ],
+      "radius": 0.11564336264396995,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        4
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.498001805406602e-16,
+      "minimum_actual_minus_frozen_objective": 2.498001805406602e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 2,
+      "source_index": 0,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        26,
+        75,
+        84
+      ],
+      "radius": 0.11668735232812434,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 141,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.885780586188048e-16,
+      "minimum_actual_minus_frozen_objective": 3.885780586188048e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 3,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        17,
+        18,
+        -1
+      ],
+      "radius": 0.11654529854958817,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 139,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.465450562766819e-16,
+      "minimum_actual_minus_frozen_objective": 8.465450562766819e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 4,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        30,
+        64,
+        -1
+      ],
+      "radius": 0.11654840169202009,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 139,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.0816681711721685e-16,
+      "minimum_actual_minus_frozen_objective": 2.0816681711721685e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 5,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        17,
+        20,
+        1
+      ],
+      "radius": 0.11655371512531554,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.566591466608315e-15,
+      "minimum_actual_minus_frozen_objective": 9.853229343548264e-16,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 6,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        15,
+        43,
+        1
+      ],
+      "radius": 0.1166292014033637,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.828670879282072e-16,
+      "minimum_actual_minus_frozen_objective": 5.828670879282072e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 7,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        49,
+        55,
+        1
+      ],
+      "radius": 0.11660768811090305,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.95516952522712e-15,
+      "minimum_actual_minus_frozen_objective": 6.245004513516506e-16,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 8,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        14,
+        78,
+        -1
+      ],
+      "radius": 0.1165849975065251,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        78
+      ],
+      "active_count": 141,
+      "topology_events": 1,
+      "new_actual_binding_keys": [
+        [
+          [
+            "b",
+            24,
+            33,
+            1
+          ],
+          [
+            "t",
+            14,
+            24,
+            33
+          ]
+        ]
+      ],
+      "maximum_actual_minus_frozen_objective": 1.0547118733938987e-15,
+      "minimum_actual_minus_frozen_objective": 6.938893903907228e-17,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 9,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        21,
+        35,
+        1
+      ],
+      "radius": 0.11656571093524967,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 140,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.191891195797325e-16,
+      "minimum_actual_minus_frozen_objective": 3.191891195797325e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 10,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        87,
+        91,
+        -1
+      ],
+      "radius": 0.11656838401277289,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 140,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.938893903907228e-17,
+      "minimum_actual_minus_frozen_objective": 6.938893903907228e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 11,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        14,
+        33,
+        1
+      ],
+      "radius": 0.11658589483547352,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        4,
+        24
+      ],
+      "active_count": 141,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.6375789613221059e-15,
+      "minimum_actual_minus_frozen_objective": 1.6375789613221059e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 12,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        74,
+        77,
+        -1
+      ],
+      "radius": 0.11666208095522088,
+      "binding_count": 97,
+      "nonbinding_indices": [
+        4,
+        24,
+        74
+      ],
+      "active_count": 137,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.828670879282072e-16,
+      "minimum_actual_minus_frozen_objective": 5.828670879282072e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 13,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        29,
+        91,
+        1
+      ],
+      "radius": 0.116661322936224,
+      "binding_count": 97,
+      "nonbinding_indices": [
+        4,
+        24,
+        29
+      ],
+      "active_count": 137,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.040034807748725e-15,
+      "minimum_actual_minus_frozen_objective": 2.040034807748725e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 14,
+      "source_index": 0,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        65,
+        71,
+        1
+      ],
+      "radius": 0.11665821350079583,
+      "binding_count": 97,
+      "nonbinding_indices": [
+        4,
+        24,
+        65
+      ],
+      "active_count": 138,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.134781488891349e-16,
+      "minimum_actual_minus_frozen_objective": 5.134781488891349e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 15,
+      "source_index": 0,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        29,
+        62,
+        91
+      ],
+      "radius": 0.11642695254236186,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        4
+      ],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.551115123125783e-16,
+      "minimum_actual_minus_frozen_objective": 5.551115123125783e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 16,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        26,
+        27,
+        64
+      ],
+      "radius": 0.11564833411968897,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 150,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.5110803153770576e-15,
+      "minimum_actual_minus_frozen_objective": -2.220446049250313e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 17,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        8,
+        9,
+        17
+      ],
+      "radius": 0.11573415645206203,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.1094237467877974e-15,
+      "minimum_actual_minus_frozen_objective": 1.4849232954361469e-15,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 18,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        7,
+        12,
+        52
+      ],
+      "radius": 0.11592425344958411,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.3592239273284576e-16,
+      "minimum_actual_minus_frozen_objective": 2.3592239273284576e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 19,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        65,
+        71,
+        72
+      ],
+      "radius": 0.11588477073321346,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.3175905639050143e-15,
+      "minimum_actual_minus_frozen_objective": 2.3175905639050143e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 20,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        30,
+        64,
+        -1
+      ],
+      "radius": 0.11583959600281654,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.3306690738754696e-16,
+      "minimum_actual_minus_frozen_objective": 3.3306690738754696e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 21,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        33,
+        64,
+        1
+      ],
+      "radius": 0.11584160623299128,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.689893001203927e-16,
+      "minimum_actual_minus_frozen_objective": 5.689893001203927e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 22,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        63,
+        65,
+        1
+      ],
+      "radius": 0.11590558301124967,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.9845236565174673e-15,
+      "minimum_actual_minus_frozen_objective": -5.689893001203927e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 23,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        19,
+        21,
+        1
+      ],
+      "radius": 0.11584419641937316,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.743006318923108e-16,
+      "minimum_actual_minus_frozen_objective": 8.743006318923108e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 24,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        56,
+        57,
+        94
+      ],
+      "radius": 0.11585192667328473,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        94
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.967448757360216e-16,
+      "minimum_actual_minus_frozen_objective": 5.967448757360216e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 25,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        4,
+        24,
+        84
+      ],
+      "radius": 0.11588533510422751,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 7.480127628411992e-15,
+      "minimum_actual_minus_frozen_objective": -6.522560269672795e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 26,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        15,
+        43,
+        1
+      ],
+      "radius": 0.11586750728105986,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 9.020562075079397e-16,
+      "minimum_actual_minus_frozen_objective": -6.245004513516506e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 27,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        30,
+        77,
+        1
+      ],
+      "radius": 0.1158709974270728,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 4.996003610813204e-16,
+      "minimum_actual_minus_frozen_objective": 4.996003610813204e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 28,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        19,
+        76,
+        -1
+      ],
+      "radius": 0.11586141649951827,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 9.853229343548264e-16,
+      "minimum_actual_minus_frozen_objective": 9.853229343548264e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 29,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        14,
+        33,
+        1
+      ],
+      "radius": 0.1158774788288816,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 149,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 7.632783294297951e-16,
+      "minimum_actual_minus_frozen_objective": 7.632783294297951e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 30,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        49,
+        55,
+        1
+      ],
+      "radius": 0.11549881867948097,
+      "binding_count": 100,
+      "nonbinding_indices": [],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.1788126858268697e-15,
+      "minimum_actual_minus_frozen_objective": 1.1379786002407855e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 31,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        21,
+        35,
+        1
+      ],
+      "radius": 0.11587713684039547,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.8457457784393227e-15,
+      "minimum_actual_minus_frozen_objective": 1.8457457784393227e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 32,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        42,
+        43,
+        -1
+      ],
+      "radius": 0.11587464824842411,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.6653345369377348e-16,
+      "minimum_actual_minus_frozen_objective": 1.6653345369377348e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 33,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        22,
+        57,
+        1
+      ],
+      "radius": 0.11588520980749674,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 151,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.3600232051658168e-15,
+      "minimum_actual_minus_frozen_objective": 1.3600232051658168e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 34,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        49,
+        58,
+        -1
+      ],
+      "radius": 0.1154988186794807,
+      "binding_count": 100,
+      "nonbinding_indices": [],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.967448757360216e-16,
+      "minimum_actual_minus_frozen_objective": 5.967448757360216e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 35,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        20,
+        23,
+        1
+      ],
+      "radius": 0.11587426086812423,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        23,
+        73
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 7.13318293321663e-15,
+      "minimum_actual_minus_frozen_objective": 7.13318293321663e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 36,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        15,
+        55,
+        -1
+      ],
+      "radius": 0.11588526003342418,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        55,
+        73
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 9.43689570931383e-16,
+      "minimum_actual_minus_frozen_objective": 1.1102230246251565e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 37,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        22,
+        47,
+        -1
+      ],
+      "radius": 0.11589465286139213,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        47,
+        73
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.800116025829084e-16,
+      "minimum_actual_minus_frozen_objective": -1.0685896612017132e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 38,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        57,
+        58,
+        1
+      ],
+      "radius": 0.11590581083053281,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        58,
+        73
+      ],
+      "active_count": 141,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.465450562766819e-16,
+      "minimum_actual_minus_frozen_objective": 7.632783294297951e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 39,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        74,
+        76,
+        1
+      ],
+      "radius": 0.11596388115989602,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        73,
+        74
+      ],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.1379786002407855e-15,
+      "minimum_actual_minus_frozen_objective": 1.1379786002407855e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 40,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        42,
+        78,
+        1
+      ],
+      "radius": 0.11596607984003492,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        73,
+        78
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 7.771561172376096e-16,
+      "minimum_actual_minus_frozen_objective": 7.771561172376096e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 41,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        29,
+        35,
+        -1
+      ],
+      "radius": 0.11596854809492875,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        29,
+        73
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.938893903907228e-16,
+      "minimum_actual_minus_frozen_objective": 6.938893903907228e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 42,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        74,
+        77,
+        -1
+      ],
+      "radius": 0.11596388115989602,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        73,
+        74
+      ],
+      "active_count": 143,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.096345236817342e-15,
+      "minimum_actual_minus_frozen_objective": 1.096345236817342e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 43,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        29,
+        91,
+        1
+      ],
+      "radius": 0.11596854809493153,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        29,
+        73
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.096345236817342e-15,
+      "minimum_actual_minus_frozen_objective": 1.096345236817342e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 44,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        14,
+        78,
+        -1
+      ],
+      "radius": 0.11596607984003549,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        73,
+        78
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.551115123125783e-17,
+      "minimum_actual_minus_frozen_objective": 5.551115123125783e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 45,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        65,
+        71,
+        1
+      ],
+      "radius": 0.11589771197198379,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.0130785099704553e-15,
+      "minimum_actual_minus_frozen_objective": 3.885780586188048e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 46,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        31,
+        34,
+        48
+      ],
+      "radius": 0.11589427146226249,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        34,
+        73
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.0531133177191805e-16,
+      "minimum_actual_minus_frozen_objective": 3.0531133177191805e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 47,
+      "source_index": 1,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        37,
+        68,
+        87
+      ],
+      "radius": 0.11595036235004365,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 149,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.743006318923108e-16,
+      "minimum_actual_minus_frozen_objective": 8.743006318923108e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 48,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        68,
+        87,
+        -1
+      ],
+      "radius": 0.11586332383283889,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 7.494005416219807e-16,
+      "minimum_actual_minus_frozen_objective": 7.494005416219807e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 49,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        17,
+        18,
+        -1
+      ],
+      "radius": 0.11586098349143438,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.4988010832439613e-15,
+      "minimum_actual_minus_frozen_objective": 1.4988010832439613e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 50,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        17,
+        20,
+        1
+      ],
+      "radius": 0.11585709519674464,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 149,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.456368441983159e-15,
+      "minimum_actual_minus_frozen_objective": 8.881784197001252e-16,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 51,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        16,
+        23,
+        -1
+      ],
+      "radius": 0.11546097849131545,
+      "binding_count": 100,
+      "nonbinding_indices": [],
+      "active_count": 151,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.249000902703301e-16,
+      "minimum_actual_minus_frozen_objective": 1.249000902703301e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 52,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        87,
+        91,
+        -1
+      ],
+      "radius": 0.11588240375749605,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.0269562977782698e-15,
+      "minimum_actual_minus_frozen_objective": 1.0269562977782698e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 53,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        16,
+        47,
+        1
+      ],
+      "radius": 0.1154609784913029,
+      "binding_count": 100,
+      "nonbinding_indices": [],
+      "active_count": 151,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.220446049250313e-15,
+      "minimum_actual_minus_frozen_objective": 6.938893903907228e-16,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 54,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        63,
+        68,
+        -1
+      ],
+      "radius": 0.11596734304968506,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.220446049250313e-16,
+      "minimum_actual_minus_frozen_objective": 2.220446049250313e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 55,
+      "source_index": 1,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        18,
+        71,
+        -1
+      ],
+      "radius": 0.11597691051516767,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        73
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.1102230246251565e-15,
+      "minimum_actual_minus_frozen_objective": 1.1102230246251565e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 56,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        26,
+        27,
+        64
+      ],
+      "radius": 0.11567556177556905,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.465450562766819e-16,
+      "minimum_actual_minus_frozen_objective": 8.465450562766819e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 57,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        8,
+        9,
+        17
+      ],
+      "radius": 0.11567556177556788,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.4432899320127035e-15,
+      "minimum_actual_minus_frozen_objective": 2.7755575615628914e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 58,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        4,
+        24,
+        84
+      ],
+      "radius": 0.11587320932918795,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 149,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.9012569296705806e-15,
+      "minimum_actual_minus_frozen_objective": 1.9012569296705806e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 59,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        14,
+        24,
+        78
+      ],
+      "radius": 0.1158832110549634,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.6667223157185163e-14,
+      "minimum_actual_minus_frozen_objective": 4.0245584642661925e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 60,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        30,
+        64,
+        -1
+      ],
+      "radius": 0.11582802571975398,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.938893903907228e-17,
+      "minimum_actual_minus_frozen_objective": 6.938893903907228e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 61,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        17,
+        18,
+        -1
+      ],
+      "radius": 0.11582802571975367,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.106226635438361e-16,
+      "minimum_actual_minus_frozen_objective": 6.106226635438361e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 62,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        33,
+        64,
+        1
+      ],
+      "radius": 0.11584469825536498,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.469446951953614e-16,
+      "minimum_actual_minus_frozen_objective": 3.469446951953614e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 63,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        17,
+        20,
+        1
+      ],
+      "radius": 0.11584469825536667,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.249000902703301e-16,
+      "minimum_actual_minus_frozen_objective": 1.249000902703301e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 64,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        15,
+        43,
+        1
+      ],
+      "radius": 0.11587897226403279,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 9.020562075079397e-16,
+      "minimum_actual_minus_frozen_objective": -1.2351231148954867e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 65,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        42,
+        78,
+        1
+      ],
+      "radius": 0.11591104274938906,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.191891195797325e-16,
+      "minimum_actual_minus_frozen_objective": 3.191891195797325e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 66,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        68,
+        87,
+        -1
+      ],
+      "radius": 0.1158270739792993,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 140,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.7208456881689926e-15,
+      "minimum_actual_minus_frozen_objective": 3.885780586188048e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 67,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        19,
+        21,
+        1
+      ],
+      "radius": 0.11582707397930336,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 140,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.0269562977782698e-15,
+      "minimum_actual_minus_frozen_objective": 1.0269562977782698e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 68,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        42,
+        43,
+        44
+      ],
+      "radius": 0.11599194048906167,
+      "binding_count": 100,
+      "nonbinding_indices": [],
+      "active_count": 149,
+      "topology_events": 1,
+      "new_actual_binding_keys": [
+        [
+          [
+            "b",
+            42,
+            80,
+            -1
+          ],
+          [
+            "b",
+            43,
+            80,
+            1
+          ]
+        ]
+      ],
+      "maximum_actual_minus_frozen_objective": 9.71445146547012e-16,
+      "minimum_actual_minus_frozen_objective": 9.43689570931383e-16,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 69,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        56,
+        57,
+        94
+      ],
+      "radius": 0.11584655880579,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        94
+      ],
+      "active_count": 146,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 9.71445146547012e-17,
+      "minimum_actual_minus_frozen_objective": 9.71445146547012e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 70,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        16,
+        23,
+        -1
+      ],
+      "radius": 0.11587422242636637,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 4.0245584642661925e-16,
+      "minimum_actual_minus_frozen_objective": 4.0245584642661925e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 71,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        49,
+        55,
+        1
+      ],
+      "radius": 0.11590744238922948,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.8171909249863347e-15,
+      "minimum_actual_minus_frozen_objective": 2.3037127760972e-15,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 72,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        30,
+        77,
+        1
+      ],
+      "radius": 0.11585583297404366,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": -4.163336342344337e-17,
+      "minimum_actual_minus_frozen_objective": -4.163336342344337e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 73,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        18,
+        71,
+        -1
+      ],
+      "radius": 0.11585583297404178,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.0547118733938987e-15,
+      "minimum_actual_minus_frozen_objective": 1.0547118733938987e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 74,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        63,
+        68,
+        -1
+      ],
+      "radius": 0.11584699724754283,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.885780586188048e-16,
+      "minimum_actual_minus_frozen_objective": 3.885780586188048e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 75,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        19,
+        76,
+        -1
+      ],
+      "radius": 0.11584699724754653,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.887379141862766e-15,
+      "minimum_actual_minus_frozen_objective": 1.887379141862766e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 76,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        21,
+        35,
+        1
+      ],
+      "radius": 0.11585673759080962,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 141,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.2343238370581275e-15,
+      "minimum_actual_minus_frozen_objective": 2.2343238370581275e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 77,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        87,
+        91,
+        -1
+      ],
+      "radius": 0.11585673759080296,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 141,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.604228440844963e-16,
+      "minimum_actual_minus_frozen_objective": 8.604228440844963e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 78,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        22,
+        57,
+        1
+      ],
+      "radius": 0.11587897226403307,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.800116025829084e-16,
+      "minimum_actual_minus_frozen_objective": 6.800116025829084e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 79,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        16,
+        47,
+        1
+      ],
+      "radius": 0.11591104274938681,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 145,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.6375789613221059e-15,
+      "minimum_actual_minus_frozen_objective": -1.249000902703301e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 80,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        49,
+        58,
+        -1
+      ],
+      "radius": 0.115907442389253,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": -3.3306690738754696e-16,
+      "minimum_actual_minus_frozen_objective": -3.3306690738754696e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 81,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        42,
+        43,
+        -1
+      ],
+      "radius": 0.11596274853976195,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 4.579669976578771e-16,
+      "minimum_actual_minus_frozen_objective": 4.579669976578771e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 82,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        20,
+        23,
+        1
+      ],
+      "radius": 0.11585890588478696,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        23,
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.551115123125783e-16,
+      "minimum_actual_minus_frozen_objective": 5.551115123125783e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 83,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        14,
+        33,
+        1
+      ],
+      "radius": 0.11596317787587311,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 144,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.914335439641036e-16,
+      "minimum_actual_minus_frozen_objective": 2.914335439641036e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 84,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        15,
+        55,
+        -1
+      ],
+      "radius": 0.11588707953838914,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 148,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.106226635438361e-16,
+      "minimum_actual_minus_frozen_objective": 6.106226635438361e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 85,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        22,
+        47,
+        -1
+      ],
+      "radius": 0.11588315729833958,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        47,
+        80
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.967448757360216e-16,
+      "minimum_actual_minus_frozen_objective": 5.967448757360216e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 86,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        57,
+        58,
+        1
+      ],
+      "radius": 0.11588707953838795,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        58,
+        80
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 5.440092820663267e-15,
+      "minimum_actual_minus_frozen_objective": 8.326672684688674e-17,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 87,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        63,
+        65,
+        1
+      ],
+      "radius": 0.11595052103920117,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        65,
+        80
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.7755575615628914e-16,
+      "minimum_actual_minus_frozen_objective": 2.7755575615628914e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 88,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        74,
+        76,
+        1
+      ],
+      "radius": 0.11595052103919647,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        74,
+        80
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.1796119636642288e-15,
+      "minimum_actual_minus_frozen_objective": -7.771561172376096e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 89,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        29,
+        35,
+        -1
+      ],
+      "radius": 0.11595310148383227,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        29,
+        80
+      ],
+      "active_count": 140,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.942890293094024e-15,
+      "minimum_actual_minus_frozen_objective": 1.942890293094024e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 90,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        74,
+        77,
+        -1
+      ],
+      "radius": 0.11595052103920055,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        74,
+        80
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 2.6645352591003757e-15,
+      "minimum_actual_minus_frozen_objective": 2.6645352591003757e-15,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 91,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        29,
+        91,
+        1
+      ],
+      "radius": 0.11595310148383293,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        29,
+        80
+      ],
+      "active_count": 140,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.2490009027033011e-15,
+      "minimum_actual_minus_frozen_objective": -9.020562075079397e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    },
+    {
+      "grid_id": 92,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        65,
+        71,
+        1
+      ],
+      "radius": 0.11595052103919919,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        65,
+        80
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 8.187894806610529e-16,
+      "minimum_actual_minus_frozen_objective": 8.187894806610529e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 93,
+      "source_index": 2,
+      "target_kind": "boundary",
+      "target_key": [
+        "b",
+        14,
+        78,
+        -1
+      ],
+      "radius": 0.11587422242637029,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 147,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 6.661338147750939e-16,
+      "minimum_actual_minus_frozen_objective": 6.661338147750939e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 1
+    },
+    {
+      "grid_id": 94,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        53,
+        66,
+        67
+      ],
+      "radius": 0.11589197461470038,
+      "binding_count": 98,
+      "nonbinding_indices": [
+        53,
+        80
+      ],
+      "active_count": 142,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 3.2751579226442118e-15,
+      "minimum_actual_minus_frozen_objective": 1.942890293094024e-15,
+      "final_feasible": true,
+      "final_status": 8,
+      "rounds": 2
+    },
+    {
+      "grid_id": 95,
+      "source_index": 2,
+      "target_kind": "internal",
+      "target_key": [
+        "t",
+        24,
+        26,
+        84
+      ],
+      "radius": 0.11588768158320462,
+      "binding_count": 99,
+      "nonbinding_indices": [
+        80
+      ],
+      "active_count": 149,
+      "topology_events": 0,
+      "new_actual_binding_keys": [],
+      "maximum_actual_minus_frozen_objective": 1.0408340855860843e-15,
+      "minimum_actual_minus_frozen_objective": 3.7470027081099033e-16,
+      "final_feasible": true,
+      "final_status": 0,
+      "rounds": 2
+    }
+  ],
+  "scope": "Finite saved-path observations only; no global topology barrier."
+}

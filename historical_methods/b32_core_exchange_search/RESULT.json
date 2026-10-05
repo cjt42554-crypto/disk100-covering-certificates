@@ -1,0 +1,219 @@
+{
+  "status": "MATHEMATICAL_ARRAY_ACCEPTANCE_PASS_WITH_RECORDED_PROGRAM_FAILURES",
+  "budget": 96,
+  "optimized": 19,
+  "first_batch": 6,
+  "unknown_batch": 3,
+  "inverse_cross_batch": 10,
+  "optimizer_exceptions": 0,
+  "orchestration_errors": 1,
+  "auditor_preexecution_syntax_errors": 1,
+  "no_optimizer_repeated": true,
+  "independent_alltriple_calls": 80,
+  "maximum_independent_score_error": 2.7755575615628914e-17,
+  "material_improvements": 0,
+  "best_branch": "batch002",
+  "best_grid_id": 2,
+  "best_radius": 0.11544695488558328,
+  "best_file_sha256": "187bade766c94c4c6da6475a887b7a0d9edda7b652358ceb2fe71621e381f9cc",
+  "final_binding_counts": {
+    "100": 16,
+    "99": 3
+  },
+  "last_SLSQP_status_counts": {
+    "0": 18,
+    "8": 1
+  },
+  "paths_with_actual_topology_events": 0,
+  "paths_with_actual_minus_frozen_gap": 0,
+  "old_eleven_frozen_trees": {
+    "rattler_contact_transfer": {
+      "manifest_sha256": "02567a31762ce4201e1760c6001a78568d78094835d10f6d68ec19ba75d7a95d",
+      "files": 429,
+      "unchanged": true
+    },
+    "best147_boundary_transfer": {
+      "manifest_sha256": "cba40f3e974ca23a15aa078ec2105fdc747bd3e34f13123d2e988712e97949c9",
+      "files": 1467,
+      "unchanged": true
+    },
+    "next146_boundary_transfer": {
+      "manifest_sha256": "2ef51032abf2476d46178d981346a6c0fe0405f6fad2c811f2f25ec96c41a438",
+      "files": 1456,
+      "unchanged": true
+    },
+    "paired_transport_146": {
+      "manifest_sha256": "48f9ba4549aa4d5c1e7f6bc03b104ad6084477cacf33f114bf4c03328ee0df7a",
+      "files": 716,
+      "unchanged": true
+    },
+    "topology_patch_hybrid_146": {
+      "manifest_sha256": "8d712db43e71f5fc33a622edbcd5ee5670dd1302d4dcc92523cd4b9442dce748",
+      "files": 395,
+      "unchanged": true
+    },
+    "event_geometry_146": {
+      "manifest_sha256": "78a3aa808b38549dc7f49517899a85d186713fa71f8e4fe80847b8adbba0a9a8",
+      "files": 619,
+      "unchanged": true
+    },
+    "fresh_rattler_transfer_99": {
+      "manifest_sha256": "66cf0045ca412f32da7f98aa232d7d2f83af3a85a43f7c6123800947912c15e2",
+      "files": 470,
+      "unchanged": true
+    },
+    "fresh_rattler_geometry_bridge": {
+      "manifest_sha256": "c4e7e6f72ce904a691e6448f5fe24869ce048999064184d2ff5e8458106b56f5",
+      "files": 80,
+      "unchanged": true
+    },
+    "fresh99_second_order_diagnostic": {
+      "manifest_sha256": "d9ac7dbb2a50c4df7f321a3ddcefae4dd924d199fcf03c594c685150d4ba9546",
+      "files": 20,
+      "unchanged": true
+    },
+    "cavity_repair_transfer_99": {
+      "manifest_sha256": "eb33fd3a749ff74b57c66d11f055bc90b0d74865877bfa3c50395e004e572bbe",
+      "files": 211,
+      "unchanged": true
+    },
+    "b32_metric_seed_search": {
+      "manifest_sha256": "c9b92d33d8fda784dfecbb617d47dff7f8bb19cb6812e815f43cf6ac9e114294",
+      "files": 541,
+      "unchanged": true
+    }
+  },
+  "owner_handoff_checks": [
+    {
+      "source": "inputs/first_handoff",
+      "owner": "first_handoff",
+      "local_and_owner_SHA_unchanged": true,
+      "manifest_sha256": "0c00034633a970345bb3efa8e2b85340ad5276adc026b2855ae90b0c9516d4a2"
+    },
+    {
+      "source": "batches/batch001/inputs/owner_handoff",
+      "owner": "second_handoff",
+      "local_and_owner_SHA_unchanged": true,
+      "manifest_sha256": "aa36b78908c4b0cb464b6421a2dd949ccb39a7ecc8ceb4c2379088bafa75885d"
+    },
+    {
+      "source": "batches/batch002/inputs/owner_handoff",
+      "owner": "third_handoff",
+      "local_and_owner_SHA_unchanged": true,
+      "manifest_sha256": "04801c5812fff57f7877bcf925007b7b29c4edf773782ff766b2888c5865dd3a"
+    }
+  ],
+  "unknown_99_skeletons": [
+    {
+      "grid_id": 0,
+      "radius": 0.11575935439180197,
+      "free_index": [
+        38
+      ],
+      "actual_fingerprint": "9e2baacbb9f1c1b3e9792d900791e83f6f8f992b73bc26c2f2e3a7bb42ac6429",
+      "classification": "finite_unmatched_batch001_0"
+    },
+    {
+      "grid_id": 1,
+      "radius": 0.11560225358190059,
+      "free_index": [
+        5
+      ],
+      "actual_fingerprint": "b83a8447d1339bd09d32f29a4a03f9d845e39c1b4aaa1b7cbb0d1d8f33368cde",
+      "classification": "finite_unmatched_batch001_1"
+    },
+    {
+      "grid_id": 2,
+      "radius": 0.11596438521387466,
+      "free_index": [
+        67
+      ],
+      "actual_fingerprint": "2336a49d758f6fd5f05545cb05d65af6209f53dd91b3a6dfc987e55622941a7a",
+      "classification": "finite_unmatched_batch001_2"
+    }
+  ],
+  "deletion_debts": [
+    {
+      "branch": "batch001",
+      "grid_id": 0,
+      "free_index": 38,
+      "source_sha256": "184fae9d905e8e9f576bb69bec589546bc35824a8b026cc08d515b6305877c41",
+      "deleted_file": "diagnostics/nonbinding_deletions/batch001_grid0000_remove038.npy",
+      "deleted_file_sha256": "8e7bce95cd44c2e697b665176d3adc3912a5170c6cad26bc4b6b36032556928c",
+      "full100_radius": 0.11575935439180197,
+      "deleted99_radius": 0.13119945110775047,
+      "actual_deletion_debt": 0.015440096715948495,
+      "independent_detail": {
+        "sites": 99,
+        "triples": 156849,
+        "nondegenerate_triples": 156849,
+        "inside_triple_candidates": 124581,
+        "pairs": 4851,
+        "boundary_pair_candidates": 9702,
+        "antipodes": 99,
+        "worst_point": [
+          0.47623709493979693,
+          -0.6244655972381106
+        ],
+        "numerical_only": true,
+        "method": "all-triples+all-pair-circle+antipodes+axes actual-nearest-distance, independent of Delaunay"
+      },
+      "scope": "Diagnostic only; numerical nonbinding is never treated as legal redundancy or permission to remove a covering disk."
+    },
+    {
+      "branch": "batch001",
+      "grid_id": 1,
+      "free_index": 5,
+      "source_sha256": "1222c3595adb3c6cd770a07915d2e8e3a721e3fd7abc13226d5f759b8d74ff9f",
+      "deleted_file": "diagnostics/nonbinding_deletions/batch001_grid0001_remove005.npy",
+      "deleted_file_sha256": "cee616f30e3bee5a980386fb2d03fa08e5c28666197c750f06056674f66bb0d4",
+      "full100_radius": 0.11560225358190059,
+      "deleted99_radius": 0.15087446841733695,
+      "actual_deletion_debt": 0.03527221483543637,
+      "independent_detail": {
+        "sites": 99,
+        "triples": 156849,
+        "nondegenerate_triples": 156849,
+        "inside_triple_candidates": 124548,
+        "pairs": 4851,
+        "boundary_pair_candidates": 9702,
+        "antipodes": 99,
+        "worst_point": [
+          -0.38225143198004524,
+          0.6980625254392199
+        ],
+        "numerical_only": true,
+        "method": "all-triples+all-pair-circle+antipodes+axes actual-nearest-distance, independent of Delaunay"
+      },
+      "scope": "Diagnostic only; numerical nonbinding is never treated as legal redundancy or permission to remove a covering disk."
+    },
+    {
+      "branch": "batch001",
+      "grid_id": 2,
+      "free_index": 67,
+      "source_sha256": "0843d236901ae2dd550d97edb0242176bc51ee25d55ab592606038b04ed959a3",
+      "deleted_file": "diagnostics/nonbinding_deletions/batch001_grid0002_remove067.npy",
+      "deleted_file_sha256": "827b1df0f867c3bb29df0fbd1e90d60c8c37930fa065289b7b2c5ad4b5bd24c2",
+      "full100_radius": 0.11596438521387466,
+      "deleted99_radius": 0.13135645116991534,
+      "actual_deletion_debt": 0.015392065956040688,
+      "independent_detail": {
+        "sites": 99,
+        "triples": 156849,
+        "nondegenerate_triples": 156849,
+        "inside_triple_candidates": 124559,
+        "pairs": 4851,
+        "boundary_pair_candidates": 9702,
+        "antipodes": 99,
+        "worst_point": [
+          0.7989896246428401,
+          -0.012427230535558456
+        ],
+        "numerical_only": true,
+        "method": "all-triples+all-pair-circle+antipodes+axes actual-nearest-distance, independent of Delaunay"
+      },
+      "scope": "Diagnostic only; numerical nonbinding is never treated as legal redundancy or permission to remove a covering disk."
+    }
+  ],
+  "scope": "19 finite fewsite structural exchanges. All source/start/stage/final numerical wholeD arrays independently accepted; this does not erase the preserved empty-worker program failure or syntax parse failure. No new exact upper, strict local/global optimum, disk redundancy, or catalog completeness claim."
+}

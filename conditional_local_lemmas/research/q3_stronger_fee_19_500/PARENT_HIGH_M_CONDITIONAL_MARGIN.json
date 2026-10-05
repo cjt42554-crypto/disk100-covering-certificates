@@ -1,0 +1,34 @@
+{
+  "scope": "Conditional replacement arithmetic for parent supplied high-M surplus, not independent full-cover verification.",
+  "R": [
+    11321,
+    100000
+  ],
+  "lambda": [
+    7,
+    50
+  ],
+  "tilt": [
+    1071883,
+    20000000
+  ],
+  "parent_supplied_raw_surplus": [
+    255452797335856006499,
+    1000000000000000000000000
+  ],
+  "normalized_actual_A_fee": [
+    19,
+    500
+  ],
+  "resulting_area_margin": [
+    231574358464143993501,
+    1000000000000000000000000
+  ],
+  "resulting_area_margin_denominator_10_24_numerator": 231574358464143993501,
+  "old_actual_A_1_40_margin": [
+    64959805164143993501,
+    1000000000000000000000000
+  ],
+  "new_Fraction_arithmetic_calls": 1,
+  "old_verifier_calls": 0
+}

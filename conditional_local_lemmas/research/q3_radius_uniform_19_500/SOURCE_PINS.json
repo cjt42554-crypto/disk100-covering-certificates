@@ -1,0 +1,29 @@
+{
+  "status": "PASS_STATIC_STRONGER_SOURCE_AND_ACCEPTANCE_PIN_MATCHES",
+  "source_root": "PROJECT_SOURCE/research/q3_stronger_fee_19_500",
+  "source_files": {
+    "ATTEMPT_LEDGER.json": "818cc49268dfd8be528613ead1a04e1cb35b67ea30c749e48f371e8f1d304c05",
+    "GUARD_ADDENDUM.md": "e2ce31e43a8ed34b0e8ef006287881b9fc0fa94ad0706dd8f8df344407fca5f7",
+    "PROOF.md": "5a58cc96f916018885d39888bcd07ca77e768d3c719a695e2d619311fed1610f",
+    "README.md": "502472ff4ab8819ad474892c3f0ba476d3267647186969c9c7da77eda09f6b18",
+    "attempts/author_001/receipt.json": "74327ae1771b2781dd3bd60b9844f86a59e1d540fb41c229785cb44f9092898d",
+    "attempts/author_001/replay.log": "73c59fa6be61ece177613748b7591e80c0c93bbb20c712134059346cd613d973",
+    "attempts/author_001/verify_actual_quadratic_19_500.py": "bd042f4976fbeeb8440da66864814371f82e4fd0e380844cd153dcb7e600f46d",
+    "certificate.json": "b79cc05457486de14e8ed89a8d62bacf596581b152092a3951f9893b3dfa56bb",
+    "dependencies/coupled_edges/verify_support.py": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+    "dependencies/quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "dependencies/quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "dependencies/quadratic_lambda14_conjugate/verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "replay.log": "73c59fa6be61ece177613748b7591e80c0c93bbb20c712134059346cd613d973",
+    "verify_actual_quadratic_19_500.py": "bd042f4976fbeeb8440da66864814371f82e4fd0e380844cd153dcb7e600f46d",
+    "SHA256.json": "b1be5f8251bf97900e481f6c5b4d5fc0ff8e7004697a1b6f8b53f5cfbe5215c6",
+    "independent_audit/INDEPENDENT_REVIEW.md": "9a7b5e434a3b4a7f6989fa8d054afe9bd2554f20d98041cdec7a3ce01480aee1",
+    "independent_audit/execution_receipt.json": "f19cd7f0b9d249a03e715cf5a44155f2b2de3bf1e2421769628ac41e17ec8ad0",
+    "independent_audit/replayed_certificate.json": "b79cc05457486de14e8ed89a8d62bacf596581b152092a3951f9893b3dfa56bb",
+    "independent_audit/SHA256.json": "7fc47a59bed0e643a9b1e57e727baf13bd5fc1a61c9f8d9f2100e24d7ab21945"
+  },
+  "frozen_math_source_execution": false,
+  "earlier_radius_directory": "PROJECT_SOURCE/research/q3_radius_uniform",
+  "earlier_radius_manifest_sha256": "6faee472ad9c2b3f559a48cedb58e0d4858b0b482fea7720515871b844754fe9",
+  "earlier_radius_frozen_files_unchanged": true
+}

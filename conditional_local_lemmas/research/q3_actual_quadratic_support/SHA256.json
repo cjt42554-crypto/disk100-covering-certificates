@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_AUTHOR_PROOF_AND_ONCE_FRESH_SCALAR_PASS",
+  "files": {
+    "PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "verify_actual_quadratic.py": "71811ec96c80d452028f9b434215a8899798e555056125b3adaab178d41bc86f",
+    "certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+    "replay.log": "ee02905f57913c1dfa688d9f3faf0a0767869883ffb33b4d33e47c7029fed162",
+    "QUADRATIC_BUDGET_REVIEW.md": "938bbcb9345d50f47fbeff8cb3f2a39e0d308814c56ad1cec34b56f0f8b61ed9"
+  },
+  "old_batches_run": 0,
+  "optimizers_run": 0,
+  "geometry_searches_run": 0,
+  "independent_full_source_review": "pending; independent blind analytic guards PASS",
+  "external_inputs": {
+    "../coupled_edges/verify_support.py": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+    "../quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "../quadratic_lambda14_conjugate/verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "../quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2"
+  },
+  "scope": "Actual same-quadratic signed-anchor local three-face fee 1/40 at R=.11321, lambda=.14,t=.05359415; expanded common-unitpoint domain; global budget/incidence/other components remain external."
+}

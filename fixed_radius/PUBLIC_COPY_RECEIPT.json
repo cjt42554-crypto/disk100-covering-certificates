@@ -1,0 +1,296 @@
+{
+  "schema": "DISK100_PUBLIC_COPY_RECEIPT_V1",
+  "source_commit": "0abd66b68b71d7b799a8306a86f78a7977cc1d3f",
+  "scope": "Static copy, metadata redaction and dependency curation; not fresh mathematical acceptance",
+  "mathematical_replay_count": 0,
+  "all_copied_python_sources_byte_identical": true,
+  "numeric_and_exact_witness_payloads_byte_identical": true,
+  "original_evidence_not_modified": true,
+  "files": [
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/PROOF.txt",
+      "public_package_relative": "PROOF.txt",
+      "original_sha256": "8c1a54b5675b83be4e59d64671920b6c79fede750a07a1f570f4e9b0bc4f575d",
+      "public_sha256": "8c1a54b5675b83be4e59d64671920b6c79fede750a07a1f570f4e9b0bc4f575d",
+      "bytes": 4673,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/README.txt",
+      "public_package_relative": "README.txt",
+      "original_sha256": "b319e6043b23f9c4365e9a5fb393a849efb5a1f94675456fccfd72ee9180c0b2",
+      "public_sha256": "145915342bc6043a812c3160f604b1435348fd8a028f128ebfd37e54369e7445",
+      "bytes": 3494,
+      "unchanged": false,
+      "changes": [
+        "portable command paths and omitted nonacceptance tools documented"
+      ]
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/SOURCE_PACKAGE_RECEIPT.json",
+      "public_package_relative": "SOURCE_PACKAGE_RECEIPT.json",
+      "original_sha256": "a32f8e392228a7547ef2747b0aa373fd7fc45a1ec28212ecf94f2da2528c4694",
+      "public_sha256": "a562a01ba7bfcb4a74df4fdbb58aa17f486fb92de797890e2127dfa8d390d013",
+      "bytes": 4380,
+      "unchanged": false,
+      "changes": [
+        "private metadata redacted; numerical and mathematical source inputs unchanged"
+      ]
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_interval_reference.json",
+      "public_package_relative": "companion_interval_reference.json",
+      "original_sha256": "44ca42df5c25203fdc42fb3cb39dfab82ef3d295e0249b5629876de3e1dcf614",
+      "public_sha256": "44ca42df5c25203fdc42fb3cb39dfab82ef3d295e0249b5629876de3e1dcf614",
+      "bytes": 751,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/LOCAL_PROOF.md",
+      "public_package_relative": "companion_snapshot/LOCAL_PROOF.md",
+      "original_sha256": "d703c32429871485e8907445b70ff57e809f6293c17c5b626892c177b76eeae1",
+      "public_sha256": "d703c32429871485e8907445b70ff57e809f6293c17c5b626892c177b76eeae1",
+      "bytes": 5978,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/SNAPSHOT_SHA256.json",
+      "public_package_relative": "companion_snapshot/SNAPSHOT_SHA256.json",
+      "original_sha256": "fcc3e0491dd607aa1ea5bb32e70d54ff2b1f3de195b639c73fe0aadcaf12628d",
+      "public_sha256": "fcc3e0491dd607aa1ea5bb32e70d54ff2b1f3de195b639c73fe0aadcaf12628d",
+      "bytes": 1161,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/SOURCE_MANIFEST_SHA256.json",
+      "public_package_relative": "companion_snapshot/SOURCE_MANIFEST_SHA256.json",
+      "original_sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2",
+      "public_sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2",
+      "bytes": 6291,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/algebraic_cover_topology.json",
+      "public_package_relative": "companion_snapshot/algebraic_cover_topology.json",
+      "original_sha256": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+      "public_sha256": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+      "bytes": 7887,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/exact_algebraic_cover.py",
+      "public_package_relative": "companion_snapshot/exact_algebraic_cover.py",
+      "original_sha256": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+      "public_sha256": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+      "bytes": 16080,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/exact_krawczyk.py",
+      "public_package_relative": "companion_snapshot/exact_krawczyk.py",
+      "original_sha256": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+      "public_sha256": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+      "bytes": 8057,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/krawczyk_preconditioner.json.gz",
+      "public_package_relative": "companion_snapshot/krawczyk_preconditioner.json.gz",
+      "original_sha256": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+      "public_sha256": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+      "bytes": 5544622,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/polynomial_system.json",
+      "public_package_relative": "companion_snapshot/polynomial_system.json",
+      "original_sha256": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+      "public_sha256": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+      "bytes": 145183,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/root_high_precision.json",
+      "public_package_relative": "companion_snapshot/root_high_precision.json",
+      "original_sha256": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+      "public_sha256": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+      "bytes": 104874,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/source_configuration.json",
+      "public_package_relative": "companion_snapshot/source_configuration.json",
+      "original_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "public_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "bytes": 6128,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/companion_snapshot/stdioverify.py",
+      "public_package_relative": "companion_snapshot/stdioverify.py",
+      "original_sha256": "2e1006536cbb5f8a2ab0624f67f711647666bd3f56de90a7edcc53cbaa57f597",
+      "public_sha256": "2e1006536cbb5f8a2ab0624f67f711647666bd3f56de90a7edcc53cbaa57f597",
+      "bytes": 583,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/configuration.json",
+      "public_package_relative": "configuration.json",
+      "original_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "public_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "bytes": 6128,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/corruption_rejection.log",
+      "public_package_relative": "corruption_rejection.log",
+      "original_sha256": "ecdb6c4ba3aee5bf1a01b30588d36514411a7c501ce1e14d46d7b7a7bd580069",
+      "public_sha256": "ecdb6c4ba3aee5bf1a01b30588d36514411a7c501ce1e14d46d7b7a7bd580069",
+      "bytes": 480,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/critical_candidates.py",
+      "public_package_relative": "critical_candidates.py",
+      "original_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+      "public_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+      "bytes": 5174,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/exact_certificate.json",
+      "public_package_relative": "exact_certificate.json",
+      "original_sha256": "3fdb2d6c6caeeff730fe4e3203fb7d0dfdf0524f9329d70c7fcbe927978b5f91",
+      "public_sha256": "3fdb2d6c6caeeff730fe4e3203fb7d0dfdf0524f9329d70c7fcbe927978b5f91",
+      "bytes": 404238,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/exact_result.json",
+      "public_package_relative": "exact_result.json",
+      "original_sha256": "ad9eed942582b019350f868c86b5f2f87439fc1748313e243aca2ef01e7acb08",
+      "public_sha256": "ad9eed942582b019350f868c86b5f2f87439fc1748313e243aca2ef01e7acb08",
+      "bytes": 3045,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/negative_tests.py",
+      "public_package_relative": "negative_tests.py",
+      "original_sha256": "f62bd4b79dc82acc02fa624623f13c5f7c7c16c8300fa56be9d60bec64bd95b7",
+      "public_sha256": "f62bd4b79dc82acc02fa624623f13c5f7c7c16c8300fa56be9d60bec64bd95b7",
+      "bytes": 2398,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/nonglobal_replay.log",
+      "public_package_relative": "nonglobal_replay.log",
+      "original_sha256": "5298f3c48e423a47e173df5892eeed32c92be7c2153a5dd5413466136b0d363d",
+      "public_sha256": "5298f3c48e423a47e173df5892eeed32c92be7c2153a5dd5413466136b0d363d",
+      "bytes": 1428,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/polynomial.txt",
+      "public_package_relative": "polynomial.txt",
+      "original_sha256": "a20e0c6a06fa3e4a8b4d996e93355f2dc2e170aa2b39779dbe379d13d19f5085",
+      "public_sha256": "a20e0c6a06fa3e4a8b4d996e93355f2dc2e170aa2b39779dbe379d13d19f5085",
+      "bytes": 703,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/replay_receipt.json",
+      "public_package_relative": "replay_receipt.json",
+      "original_sha256": "7d9d3c69472d6b698fdfb0c79e7fbe56e40aff8b074d16f25bfa55be6a08ad80",
+      "public_sha256": "bf3f253ae07e965c1b05327378b902127e8116829216d2f01f272ccac76ce954",
+      "bytes": 2379,
+      "unchanged": false,
+      "changes": [
+        "private metadata redacted; numerical and mathematical source inputs unchanged"
+      ]
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/savedsource/UPPER_PROOF.txt",
+      "public_package_relative": "savedsource/UPPER_PROOF.txt",
+      "original_sha256": "c8735cd81d66139080170a5e2c3791fa5028356e4159fd12d28c7a00b63db019",
+      "public_sha256": "c8735cd81d66139080170a5e2c3791fa5028356e4159fd12d28c7a00b63db019",
+      "bytes": 1537,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/savedsource/critical_candidates.py",
+      "public_package_relative": "savedsource/critical_candidates.py",
+      "original_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+      "public_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+      "bytes": 5174,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/source_provenance.json",
+      "public_package_relative": "source_provenance.json",
+      "original_sha256": "6f57762a4d1512756d2cd5d9c2826f9d56a03914a9c4f00c87cf6b8af70792bb",
+      "public_sha256": "6f57762a4d1512756d2cd5d9c2826f9d56a03914a9c4f00c87cf6b8af70792bb",
+      "bytes": 496,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/stdlib_replay.log",
+      "public_package_relative": "stdlib_replay.log",
+      "original_sha256": "972a3bc6f0a3788543889cbd738b4bc21cfdfc069301eafe4ad8441ebfac15f2",
+      "public_sha256": "972a3bc6f0a3788543889cbd738b4bc21cfdfc069301eafe4ad8441ebfac15f2",
+      "bytes": 1697,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/verification_result.json",
+      "public_package_relative": "verification_result.json",
+      "original_sha256": "bb3b42e4fe2039863647f23a65ae65916b3bef28872cbfc088bb187284f70ac4",
+      "public_sha256": "bb3b42e4fe2039863647f23a65ae65916b3bef28872cbfc088bb187284f70ac4",
+      "bytes": 1412,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/verify_exact.py",
+      "public_package_relative": "verify_exact.py",
+      "original_sha256": "bfe55b1ebc4200e11d33627d6c98233f7a30c7b09904aecb064ef0fa4ddb3ff1",
+      "public_sha256": "bfe55b1ebc4200e11d33627d6c98233f7a30c7b09904aecb064ef0fa4ddb3ff1",
+      "bytes": 5848,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "exact_fixed_radius_1154469/verify_nonglobal.py",
+      "public_package_relative": "verify_nonglobal.py",
+      "original_sha256": "af318f637666d7a7287a97d4a855ca9bf327f650b2d8b3b3ea0f34824592956c",
+      "public_sha256": "af318f637666d7a7287a97d4a855ca9bf327f650b2d8b3b3ea0f34824592956c",
+      "bytes": 4366,
+      "unchanged": true,
+      "changes": []
+    }
+  ]
+}

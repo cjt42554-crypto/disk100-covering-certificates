@@ -1,0 +1,27 @@
+{
+  "status": "INDEPENDENT_STATIC_PASS",
+  "reviewer": "root, independent of author subagent",
+  "source_root": "q2_local_radius_uniform_tau",
+  "source_files": {
+    "q2_local_radius_uniform_tau/AUTHOR_MANIFEST.json": {
+      "bytes": 660,
+      "sha256": "fbba6f1076065d15c0b23f9a697ce5307c216613ff0f3d20b617c0f1d0fb666f"
+    },
+    "q2_local_radius_uniform_tau/EXECUTION_LEDGER.json": {
+      "bytes": 1397,
+      "sha256": "c2c9130b10f99f74e12e053ebb8b998260f05f9bc5e32adbcd1ac91fc5714b68"
+    },
+    "q2_local_radius_uniform_tau/RADIUS_UNIFORM_ACTUAL_TAU_PROOF.md": {
+      "bytes": 20094,
+      "sha256": "f955eb7473c61ac2222a989a35337dbb11a2d990ed5122ac9cd0bb2d4f1bb720"
+    },
+    "q2_local_radius_uniform_tau/SOURCE_PINS.json": {
+      "bytes": 4844,
+      "sha256": "f9c90654c9dc9a6ae505fe392ef8841dc3401067517a8fdef60dc2254758bcd0"
+    }
+  },
+  "mathematical_executions": 0,
+  "mathematical_source_imports": 0,
+  "old_guard_replays": 0,
+  "parameter_scans": 0
+}

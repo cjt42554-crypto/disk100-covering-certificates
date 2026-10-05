@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "reviewer_identity": "/root/pro_tau_review",
+  "independent_child_reviewer_identity": "/root/pro_tau_review/tau_hessian_static",
+  "mathematical_executions_by_this_audit": 0,
+  "mathematical_imports_by_this_audit": 0,
+  "root_local_replay_executions_separate": 1,
+  "file_count": 5,
+  "files": [
+    {
+      "path": "research/pro_tau_review/CHILD_STATIC_REVIEW.md",
+      "bytes": 2398,
+      "sha256": "3bc861eae80af5b526c1d349a2e9335f2abcf8bfa4c397358035375e0ff567a6"
+    },
+    {
+      "path": "research/pro_tau_review/EXECUTION_LEDGER.json",
+      "bytes": 805,
+      "sha256": "31861c586790e850d90bd83d1f081bbc0774cbb24ebdc16a7c165cf84c00c22a"
+    },
+    {
+      "path": "research/pro_tau_review/REPLAY_METADATA_REVIEW.json",
+      "bytes": 1586,
+      "sha256": "1b096ac71dd66619b455abf528ad3b26fb2ec06a5db35165d69824c1a4a28482"
+    },
+    {
+      "path": "research/pro_tau_review/SOURCE_PINS.json",
+      "bytes": 1863,
+      "sha256": "6d9fde7854f18ed7fecc2fa1084a99a91b727bee10f12ae9122031fa60a7cf4a"
+    },
+    {
+      "path": "research/pro_tau_review/STATIC_REVIEW.md",
+      "bytes": 12735,
+      "sha256": "e595c63da5eca44119c5fbaa997a6c04a29351c884201e390b53c86d51e8e80c"
+    }
+  ]
+}

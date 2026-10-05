@@ -1,0 +1,45 @@
+{
+  "status": "SAFE_SAVED_RESEARCH_STOPPED",
+  "mathematical_executions": 0,
+  "mathematical_imports": 0,
+  "old_checker_replays": 0,
+  "file_count": 7,
+  "original_author_manifest_preserved": true,
+  "files": [
+    {
+      "path": "research/q2_global_admission_interface/CENTER_PROJECTION_LEMMA.md",
+      "bytes": 5325,
+      "sha256": "900e1dc430be16fb60455e582d669566ab9a40e0ff9b28c82fd06f82575874b4"
+    },
+    {
+      "path": "research/q2_global_admission_interface/CHILD_PROJECTION_CHECK_RECORD.json",
+      "bytes": 1369,
+      "sha256": "a53d5fcc1e8fe6bf536c203f2eb7b4a4334e9b4f87149b48c28aaee7115c1bbc"
+    },
+    {
+      "path": "research/q2_global_admission_interface/EXECUTION_LEDGER.json",
+      "bytes": 522,
+      "sha256": "53ffbc10ee7445916e114ad1fed7519f680c6be9303642b28ea62aede1a737c5"
+    },
+    {
+      "path": "research/q2_global_admission_interface/GLOBAL_INTERFACE.md",
+      "bytes": 6711,
+      "sha256": "29c967035ed3cfd6ea5e43f7c81b578ebed497e4dfc9e9c66a083a8635aa72b6"
+    },
+    {
+      "path": "research/q2_global_admission_interface/MANIFEST.json",
+      "bytes": 937,
+      "sha256": "d94941a5a92a44191ee9275d73ad342dc66fc6e37a100e9824751f4f3377cb15"
+    },
+    {
+      "path": "research/q2_global_admission_interface/SOURCE_PINS.json",
+      "bytes": 1208,
+      "sha256": "70730dd7e56694ae9ea28e3cda3cddea7cb8f54c220eff44777f26dab156c115"
+    },
+    {
+      "path": "research/q2_global_admission_interface/STOP_STATUS.json",
+      "bytes": 904,
+      "sha256": "e5c85f32525efd4ab278d4b6a2bb27ebb0a8764d28d720fefc6fd7119cc2466f"
+    }
+  ]
+}

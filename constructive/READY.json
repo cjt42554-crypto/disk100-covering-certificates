@@ -1,0 +1,21 @@
+{
+  "status": "PUBLIC_CONSTRUCTIVE_MATH_SUBSET_STATIC_PREPARED_NO_NEW_MATH",
+  "manifest_sha256": "d8b6dfad94f096a0d0ec95732b6dc116f2f866ce06056b25e4bf65b7d3b00b53",
+  "manifest_payload_files": 58,
+  "manifest_payload_bytes": 90552424,
+  "largest_blob_bytes": 26736492,
+  "original_mathematical_results_inherited": true,
+  "portable_adapters_mathematically_executed": false,
+  "new_math_or_search_executions": 0,
+  "reference_count": 35599,
+  "required_coordinate_chunks": 36,
+  "exact_guarded_cover_radius": "0.116404851624",
+  "exact_ordinary_transport_cover_radius": "0.116404861624",
+  "guarded_finite_reference_strict_distance_lower_bound": "0.002362504",
+  "ordinary_finite_reference_strict_distance_lower_bound": "0.002362494",
+  "metadata_personal_paths_urls_sessions_browser_receipts_excluded": true,
+  "no_old_source_modified": true,
+  "no_git_actions": true,
+  "writer_stopped": true,
+  "ready_receipt_detached_from_manifest": true
+}

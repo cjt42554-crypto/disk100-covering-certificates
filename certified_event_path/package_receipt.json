@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "path_nodes": 23,
+  "path_segments": 22,
+  "exhaustive_endpoint_candidates": 3186163,
+  "short_segment_cap": [
+    231185886538821,
+    2000000000000000
+  ],
+  "whole_path_cap": [
+    235173307525027,
+    2000000000000000
+  ],
+  "quartic_degree": 4,
+  "isolated_open_segment_roots": 1,
+  "strict_other_site_count": 96,
+  "strict_bracket_other_site_count_per_triangle": 97,
+  "stdlib_replays": [
+    {
+      "command": "python3 -S certified_event_path/verify_path.py",
+      "status": "PASS",
+      "log": "stdlib_replay.log"
+    },
+    {
+      "command": "python3 -S -O certified_event_path/verify_path.py",
+      "status": "PASS",
+      "log": "stdlib_optimized_replay.log"
+    }
+  ],
+  "negative_tests": {
+    "command": "python3 -S -O certified_event_path/negative_tests.py",
+    "mathematical_sha_bypass": true,
+    "all_rejected": true,
+    "count": 5
+  },
+  "scope": "New explicit rational piecewise-linear path; whole closed unit disk coverage. No original optimizer-arc, stationary-branch supremum, or global-optimality claim.",
+  "remaining_blockers": []
+}

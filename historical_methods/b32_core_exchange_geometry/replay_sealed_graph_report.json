@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "handoff": "first_handoff",
+      "seed_file": "first_handoff/seeds/exchange000_target14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "full_integer_actual_graph_identity": "NOT_CLAIMED_IN_FIRST_HANDOFF",
+      "integer_target_face_strict_status": true
+    },
+    {
+      "handoff": "first_handoff",
+      "seed_file": "first_handoff/seeds/exchange001_target14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "full_integer_actual_graph_identity": "NOT_CLAIMED_IN_FIRST_HANDOFF",
+      "integer_target_face_strict_status": true
+    },
+    {
+      "handoff": "first_handoff",
+      "seed_file": "first_handoff/seeds/exchange002_target14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "full_integer_actual_graph_identity": "NOT_CLAIMED_IN_FIRST_HANDOFF",
+      "integer_target_face_strict_status": true
+    },
+    {
+      "handoff": "first_handoff",
+      "seed_file": "first_handoff/seeds/exchange003_target15.npy",
+      "status": "PASS",
+      "actual_fingerprint": "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c",
+      "full_integer_actual_graph_identity": "NOT_CLAIMED_IN_FIRST_HANDOFF",
+      "integer_target_face_strict_status": true
+    },
+    {
+      "handoff": "first_handoff",
+      "seed_file": "first_handoff/seeds/exchange004_target15.npy",
+      "status": "PASS",
+      "actual_fingerprint": "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c",
+      "full_integer_actual_graph_identity": "NOT_CLAIMED_IN_FIRST_HANDOFF",
+      "integer_target_face_strict_status": true
+    },
+    {
+      "handoff": "first_handoff",
+      "seed_file": "first_handoff/seeds/exchange005_target15.npy",
+      "status": "PASS",
+      "actual_fingerprint": "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c",
+      "full_integer_actual_graph_identity": "NOT_CLAIMED_IN_FIRST_HANDOFF",
+      "integer_target_face_strict_status": true
+    },
+    {
+      "handoff": "second_handoff",
+      "seed_file": "second_handoff/seeds/exchange000_intended14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "9e2baacbb9f1c1b3e9792d900791e83f6f8f992b73bc26c2f2e3a7bb42ac6429",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17266
+    },
+    {
+      "handoff": "second_handoff",
+      "seed_file": "second_handoff/seeds/exchange001_intended10.npy",
+      "status": "PASS",
+      "actual_fingerprint": "b83a8447d1339bd09d32f29a4a03f9d845e39c1b4aaa1b7cbb0d1d8f33368cde",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17266
+    },
+    {
+      "handoff": "second_handoff",
+      "seed_file": "second_handoff/seeds/exchange002_intended15.npy",
+      "status": "PASS",
+      "actual_fingerprint": "2336a49d758f6fd5f05545cb05d65af6209f53dd91b3a6dfc987e55622941a7a",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17266
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange000_intended10.npy",
+      "status": "PASS",
+      "actual_fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17363
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange001_intended10.npy",
+      "status": "PASS",
+      "actual_fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17363
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange002_intended10.npy",
+      "status": "PASS",
+      "actual_fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17072
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange003_intended10.npy",
+      "status": "PASS",
+      "actual_fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 16878
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange004_intended10.npy",
+      "status": "PASS",
+      "actual_fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 16878
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange005_intended15.npy",
+      "status": "PASS",
+      "actual_fingerprint": "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17072
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange006_intended15.npy",
+      "status": "PASS",
+      "actual_fingerprint": "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17072
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange007_intended14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17072
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange008_intended14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17072
+    },
+    {
+      "handoff": "third_handoff",
+      "seed_file": "third_handoff/seeds/exchange009_intended14.npy",
+      "status": "PASS",
+      "actual_fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "full_integer_actual_graph_identity": "PASS",
+      "integer_emptycircle_checks": 17072
+    }
+  ],
+  "seed_count": 19,
+  "full_integer_actual_graph_seeds": 13,
+  "exact_target_face_and_numerical_graph_first_seeds": 6,
+  "scope": "Graph replay only; no optimizer or radius certificate"
+}

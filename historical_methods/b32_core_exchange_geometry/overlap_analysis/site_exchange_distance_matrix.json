@@ -1,0 +1,1017 @@
+{
+  "status": "PASS",
+  "scope": "Exact overlap over the supplied 16 cores only; no global catalog completeness or optimality claim.",
+  "catalog_path": "b32_catalog_search/frozen_handoff/catalog.json",
+  "catalog_sha256": "f3234fd61f521362c69e3442940edc1d381fb5c2e06b1cd12a79e93ab2e57bb4",
+  "catalog_fingerprints": [
+    "6b46ee93c3b68297ae07e3afff046da7028b15d5095552925fedf7c67d33096d",
+    "abdb41f889d90cb0fa9c2f1dd1ae8fd3e8c551381702fa3e5d201e5740ef12a0",
+    "e8bfaaa353f9ad925226e2ea7e5968a0c9aa4ad91a5f8c21c75c9396443ee05a",
+    "23a2cb04d09f432e16601e7664304eed0088d04c5521f869b5d8e1d373f0b659",
+    "6c1cf0b1cb1083c9df690cae65a3629979c8cd1e7be48be4d52886ad513a73f5",
+    "9896c5b948b7d3ce946636ab27a2c84968379b6adf89084838f9cbf96ddc3514",
+    "426928b521b881350ab610d4944aacf2fe3e61ad25a03c2487922d4c8fdd2bd1",
+    "36448cf3ffc55eaa416fc7b20a2a1dbe5fe05a9f8c52151eaca24f20d41d4743",
+    "07842271ca4211149c131d1bbbb5c77e2412a09fffaba0761e787c10cf50c545",
+    "19f4ec74e157777760b8140488b75d88b4df3d831c5f7530df37fda92b813380",
+    "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+    "ea16618e05f3c0959f3bebd01b015bcbfec70ba597e91bf7720f12c1e0f8dcbc",
+    "0c822cf9c9abc1172f3b840fc618d8516f9c795da92a7dedcda308635fc596c8",
+    "cc7e65826bd840831571e1f07d958629f4f63b5e2c0b065f9a90a7ee8d69742b",
+    "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+    "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c"
+  ],
+  "indices": "zero-based independent_index in frozen_handoff/catalog.json",
+  "source_target_convention": "Apply each stored pose to target coordinates to express them in the unchanged source frame.",
+  "axial_embedding": "(q,r) -> (q+r/2, sqrt(3)*r/2); all computations use integer axial coordinates.",
+  "rotation": "R(q,r)=(-r,q+r), 60 degrees counterclockwise",
+  "reflection": "S(q,r)=(r,q), applied before R^k",
+  "d6_elements": [
+    {
+      "rotation_k": 0,
+      "rotation_degrees_ccw": 0,
+      "reflection_swap_q_r_first": false,
+      "linear_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 1,
+      "rotation_degrees_ccw": 60,
+      "reflection_swap_q_r_first": false,
+      "linear_matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 2,
+      "rotation_degrees_ccw": 120,
+      "reflection_swap_q_r_first": false,
+      "linear_matrix": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 3,
+      "rotation_degrees_ccw": 180,
+      "reflection_swap_q_r_first": false,
+      "linear_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 4,
+      "rotation_degrees_ccw": 240,
+      "reflection_swap_q_r_first": false,
+      "linear_matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 5,
+      "rotation_degrees_ccw": 300,
+      "reflection_swap_q_r_first": false,
+      "linear_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 0,
+      "rotation_degrees_ccw": 0,
+      "reflection_swap_q_r_first": true,
+      "linear_matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 1,
+      "rotation_degrees_ccw": 60,
+      "reflection_swap_q_r_first": true,
+      "linear_matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 2,
+      "rotation_degrees_ccw": 120,
+      "reflection_swap_q_r_first": true,
+      "linear_matrix": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 3,
+      "rotation_degrees_ccw": 180,
+      "reflection_swap_q_r_first": true,
+      "linear_matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 4,
+      "rotation_degrees_ccw": 240,
+      "reflection_swap_q_r_first": true,
+      "linear_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    },
+    {
+      "rotation_k": 5,
+      "rotation_degrees_ccw": 300,
+      "reflection_swap_q_r_first": true,
+      "linear_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "translation": [
+        0,
+        0
+      ],
+      "formula": "target_in_source_frame = R^k S^s target + translation"
+    }
+  ],
+  "translation_enumeration": "For each D6 element, enumerate every source_point - transformed_target_point. Its Counter multiplicity is the exact site intersection count.",
+  "completeness_of_translation_search": "Any pose with nonzero site overlap matches a source and transformed target point, so its translation appears among point differences. The maximum is positive.",
+  "triangle_matching": "Unordered triples of exact integer axial coordinates. Positive directed core edges are the union of directed edges of counterclockwise normalized core faces.",
+  "boundary_ring_change_definition": "Cardinality of symmetric difference of undirected core boundary edge sets, each boundary edge having one core face. Removed and added edges both count.",
+  "boundary_profile_definition": "Set of (boundary coordinate, core triangle incidence); changed incidences count as removal plus addition. q1 fan size at a boundary site is 4 minus core triangle incidence.",
+  "tie_break_order": [
+    "maximum common core triangles",
+    "minimum boundary ring edge changes",
+    "minimum boundary incidence profile changes",
+    "maximum common core edges",
+    "maximum common positive directed core edges",
+    "minimum positive boundary edge changes",
+    "minimum boundary site role changes",
+    "prefer no reflection, then lower rotation k, then lexicographic translation"
+  ],
+  "consistency_checks": [
+    {
+      "index": 0,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 1,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 2,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 3,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 4,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 5,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 6,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 7,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 8,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 9,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 10,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 11,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 12,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 13,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 14,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    },
+    {
+      "index": 15,
+      "vertex_count": 68,
+      "edge_count": 175,
+      "face_count": 108,
+      "boundary_count": 26,
+      "all_unit_edges_induced_by_sites_present": true,
+      "all_elementary_triangles_induced_by_sites_present": true
+    }
+  ],
+  "matrix_checks": {
+    "diagonal_zero": true,
+    "symmetric": true,
+    "triangle_inequality": true
+  },
+  "site_exchange_distance_matrix": [
+    [
+      0,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      5,
+      0,
+      4,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      5,
+      5,
+      6,
+      6,
+      5,
+      5
+    ],
+    [
+      4,
+      4,
+      0,
+      1,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      4
+    ],
+    [
+      3,
+      5,
+      1,
+      0,
+      1,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      5,
+      1,
+      1,
+      0,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      5,
+      4,
+      3,
+      3,
+      0,
+      1,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      4,
+      5,
+      4,
+      4,
+      4,
+      1,
+      0,
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      1,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      6,
+      4,
+      3,
+      3,
+      3,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      4,
+      6,
+      4,
+      4,
+      4,
+      4,
+      5,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2
+    ],
+    [
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      0,
+      1
+    ],
+    [
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      0
+    ]
+  ],
+  "max_common_triangle_matrix_at_max_site_overlap": [
+    [
+      108,
+      99,
+      101,
+      103,
+      103,
+      103,
+      101,
+      101,
+      101,
+      103,
+      103,
+      101,
+      103,
+      101,
+      101,
+      101
+    ],
+    [
+      99,
+      108,
+      101,
+      99,
+      99,
+      99,
+      99,
+      101,
+      101,
+      99,
+      99,
+      99,
+      97,
+      97,
+      99,
+      99
+    ],
+    [
+      101,
+      101,
+      108,
+      106,
+      106,
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      99,
+      101
+    ],
+    [
+      103,
+      99,
+      106,
+      108,
+      106,
+      103,
+      101,
+      101,
+      101,
+      103,
+      103,
+      101,
+      103,
+      101,
+      101,
+      101
+    ],
+    [
+      103,
+      99,
+      106,
+      106,
+      108,
+      103,
+      101,
+      101,
+      101,
+      103,
+      103,
+      101,
+      103,
+      101,
+      101,
+      101
+    ],
+    [
+      103,
+      99,
+      101,
+      103,
+      103,
+      108,
+      106,
+      101,
+      101,
+      103,
+      103,
+      101,
+      103,
+      101,
+      101,
+      101
+    ],
+    [
+      101,
+      99,
+      101,
+      101,
+      101,
+      106,
+      108,
+      101,
+      99,
+      101,
+      101,
+      101,
+      101,
+      99,
+      99,
+      101
+    ],
+    [
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      108,
+      106,
+      106,
+      106,
+      106,
+      104,
+      104,
+      106,
+      106
+    ],
+    [
+      101,
+      101,
+      101,
+      101,
+      101,
+      101,
+      99,
+      106,
+      108,
+      106,
+      106,
+      106,
+      104,
+      104,
+      106,
+      106
+    ],
+    [
+      103,
+      99,
+      101,
+      103,
+      103,
+      103,
+      101,
+      106,
+      106,
+      108,
+      106,
+      106,
+      104,
+      104,
+      106,
+      106
+    ],
+    [
+      103,
+      99,
+      101,
+      103,
+      103,
+      103,
+      101,
+      106,
+      106,
+      106,
+      108,
+      106,
+      106,
+      106,
+      106,
+      106
+    ],
+    [
+      101,
+      99,
+      101,
+      101,
+      101,
+      101,
+      101,
+      106,
+      106,
+      106,
+      106,
+      108,
+      106,
+      106,
+      106,
+      106
+    ],
+    [
+      103,
+      97,
+      101,
+      103,
+      103,
+      103,
+      101,
+      104,
+      104,
+      104,
+      106,
+      106,
+      108,
+      106,
+      104,
+      104
+    ],
+    [
+      101,
+      97,
+      101,
+      101,
+      101,
+      101,
+      99,
+      104,
+      104,
+      104,
+      106,
+      106,
+      106,
+      108,
+      104,
+      104
+    ],
+    [
+      101,
+      99,
+      99,
+      101,
+      101,
+      101,
+      99,
+      106,
+      106,
+      106,
+      106,
+      106,
+      104,
+      104,
+      108,
+      106
+    ],
+    [
+      101,
+      99,
+      101,
+      101,
+      101,
+      101,
+      101,
+      106,
+      106,
+      106,
+      106,
+      106,
+      104,
+      104,
+      106,
+      108
+    ]
+  ]
+}

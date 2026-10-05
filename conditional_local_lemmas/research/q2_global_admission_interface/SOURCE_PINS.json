@@ -1,0 +1,35 @@
+{
+  "scope": "read source bytes and status; no source execution",
+  "files": [
+    {
+      "path": "research/q2_tau_mean_arc_envelope/PROOF.md",
+      "bytes": 11827,
+      "sha256": "570696466a5e90d0d06e1738e41a4a94571ec7a8c45a66559fea27f2bd3cd663"
+    },
+    {
+      "path": "research/q2_tau_mean_arc_envelope/SOURCE_PINS.json",
+      "bytes": 1526,
+      "sha256": "d0170173c887dd3f8c1a0e63273fd85dd45ae7ab810a996fb4ca3346755e9343"
+    },
+    {
+      "path": "research/q2_tau_mean_arc_envelope/MANIFEST.json",
+      "bytes": 387,
+      "sha256": "5203429165943a18f7ccc27e01834f657a37146bca37518020f39b0914e99df2"
+    },
+    {
+      "path": "research/q2_parameter_uniform_tau/PRO_PARAMETER_COROLLARY.md",
+      "bytes": 11132,
+      "sha256": "43059d525b9e23f4c1639fe6d95cfeea45c5b55fb993daf20aaf6a29b5a12f1b"
+    },
+    {
+      "path": "research/q2_uniform_tau_review/PRO_RADIUS_REVIEW.md",
+      "bytes": 8660,
+      "sha256": "6115ffc95e88f1a5fe5a806a1037d0deb4833f3766302bc399aa3d4e69097387"
+    },
+    {
+      "path": "research/q2_uniform_tau_review/PRO_RADIUS_RELAXED_CAP_REVIEW.md",
+      "bytes": 6454,
+      "sha256": "6885e6822e3c6027bbda4312fb71c3be3195449dbb3c950e9c77772683bea5f8"
+    }
+  ]
+}

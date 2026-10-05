@@ -1,0 +1,347 @@
+{
+  "status": "PASS",
+  "review": "Finite numerical true-diagram flip gates and all saved fields independently replayed; exact dyadic chord pending",
+  "events": [
+    {
+      "target_id": "target01_candidate0040",
+      "candidate_id": 40,
+      "labels": [
+        73,
+        29,
+        20,
+        74
+      ],
+      "source_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "source_file": "inputs/target01_candidate0040_source.npy",
+      "frames": [
+        {
+          "fraction": 0.9995,
+          "file": "workers/target01_candidate0040/accepted/node011_f0.99950000.npy",
+          "file_sha256": "44243636c2a76452f6cd7433e634819dc615c79c613b49e0e229fee9e3ac2b51",
+          "coordinate_sha256": "1f71cd4009323db93a814b1283cdadaed261ea0d01000da4ff58d980a15bb24d",
+          "old_ordered_duplicate": false,
+          "old_unordered_duplicate": false,
+          "geometry": {
+            "raw_event_value": 1.3834857773778117e-05,
+            "q": [
+              -0.517407934619728,
+              -0.6830854981725529
+            ],
+            "rho_squared": 0.013372338114331207,
+            "q_norm_squared": 0.7343167686210975,
+            "q_strict_inside_unit_disk": true,
+            "four_points_convex": true,
+            "q_inside_quad_diagnostic": true,
+            "minimum_other96_circle_margin": 0.03755092873299057,
+            "nearest_other_site": 30,
+            "other96_strict_nearest": true,
+            "support_radius_squared_spread": 1.383485777379373e-05,
+            "before_adjacent_faces": [
+              [
+                20,
+                29,
+                73
+              ],
+              [
+                29,
+                73,
+                74
+              ]
+            ],
+            "after_adjacent_faces": [
+              [
+                20,
+                73,
+                74
+              ],
+              [
+                20,
+                29,
+                74
+              ]
+            ],
+            "before_faces_actual": true,
+            "after_faces_actual": false
+          }
+        },
+        {
+          "fraction": 1.0,
+          "file": "workers/target01_candidate0040/accepted/node012_f1.00000000.npy",
+          "file_sha256": "dc2dea118b02b171d33bab71c0b19637d1ab1e77420b2e1bc4760ad680ecfffd",
+          "coordinate_sha256": "3d73ee22a2b62b9770fbfe4493da64df854f19d0351bc3d72599344dc238985d",
+          "old_ordered_duplicate": false,
+          "old_unordered_duplicate": false,
+          "geometry": {
+            "raw_event_value": -5.412337245047638e-16,
+            "q": [
+              -0.517415655637932,
+              -0.6831186212438172
+            ],
+            "rho_squared": 0.013372391044004606,
+            "q_norm_squared": 0.7343700113892848,
+            "q_strict_inside_unit_disk": true,
+            "four_points_convex": true,
+            "q_inside_quad_diagnostic": true,
+            "minimum_other96_circle_margin": 0.03755725159636712,
+            "nearest_other_site": 30,
+            "other96_strict_nearest": true,
+            "support_radius_squared_spread": 5.412337245047638e-16,
+            "before_adjacent_faces": [
+              [
+                20,
+                29,
+                73
+              ],
+              [
+                29,
+                73,
+                74
+              ]
+            ],
+            "after_adjacent_faces": [
+              [
+                20,
+                73,
+                74
+              ],
+              [
+                20,
+                29,
+                74
+              ]
+            ],
+            "before_faces_actual": false,
+            "after_faces_actual": true
+          }
+        },
+        {
+          "fraction": 1.0005,
+          "file": "workers/target01_candidate0040/accepted/node013_f1.00050000.npy",
+          "file_sha256": "1524ee48ca9d1044f2a3e7c45741844176668291a6620c623b76ebaf72471e66",
+          "coordinate_sha256": "576714c771e0558c58d39d1de1400f42d0ff8b345caa833ac9ee22d33fb8865b",
+          "old_ordered_duplicate": false,
+          "old_unordered_duplicate": false,
+          "geometry": {
+            "raw_event_value": -1.3834857774494558e-05,
+            "q": [
+              -0.5174169799734479,
+              -0.6831465573510993
+            ],
+            "rho_squared": 0.013378765835539272,
+            "q_norm_squared": 0.7344095499855022,
+            "q_strict_inside_unit_disk": true,
+            "four_points_convex": true,
+            "q_inside_quad_diagnostic": true,
+            "minimum_other96_circle_margin": 0.03755685656183649,
+            "nearest_other_site": 30,
+            "other96_strict_nearest": true,
+            "support_radius_squared_spread": 1.383485777451364e-05,
+            "before_adjacent_faces": [
+              [
+                20,
+                29,
+                73
+              ],
+              [
+                29,
+                73,
+                74
+              ]
+            ],
+            "after_adjacent_faces": [
+              [
+                20,
+                73,
+                74
+              ],
+              [
+                20,
+                29,
+                74
+              ]
+            ],
+            "before_faces_actual": false,
+            "after_faces_actual": true
+          }
+        }
+      ],
+      "numerical_related_physical_event_gate": true,
+      "exact_binary64_chord_certificate_pending": true,
+      "implicit_curve_not_certified": true,
+      "whole_original_restores": 0
+    },
+    {
+      "target_id": "target00_candidate0080",
+      "candidate_id": 80,
+      "labels": [
+        89,
+        38,
+        47,
+        90
+      ],
+      "source_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "source_file": "inputs/target00_candidate0080_source.npy",
+      "frames": [
+        {
+          "fraction": 0.9995,
+          "file": "workers/target00_candidate0080/accepted/node011_f0.99950000.npy",
+          "file_sha256": "583c86332e097441cdbe3a3dc33b916d3030bfd1c7eaec21880c21f996c23147",
+          "coordinate_sha256": "7d50bfb2c866a9849b2031084d9f20731feb373b3e3f3e194498a5f7582974ef",
+          "old_ordered_duplicate": false,
+          "old_unordered_duplicate": false,
+          "geometry": {
+            "raw_event_value": 1.3794298984846562e-05,
+            "q": [
+              0.5178163596793806,
+              0.6811592725735205
+            ],
+            "rho_squared": 0.013369631201369175,
+            "q_norm_squared": 0.7321117369644932,
+            "q_strict_inside_unit_disk": true,
+            "four_points_convex": true,
+            "q_inside_quad_diagnostic": true,
+            "minimum_other96_circle_margin": 0.03674124178896632,
+            "nearest_other_site": 37,
+            "other96_strict_nearest": true,
+            "support_radius_squared_spread": 1.37942989848535e-05,
+            "before_adjacent_faces": [
+              [
+                38,
+                47,
+                89
+              ],
+              [
+                38,
+                89,
+                90
+              ]
+            ],
+            "after_adjacent_faces": [
+              [
+                47,
+                89,
+                90
+              ],
+              [
+                38,
+                47,
+                90
+              ]
+            ],
+            "before_faces_actual": true,
+            "after_faces_actual": false
+          }
+        },
+        {
+          "fraction": 1.0,
+          "file": "workers/target00_candidate0080/accepted/node012_f1.00000000.npy",
+          "file_sha256": "7e4f4a1d126795ace142657bf86acebb34ba1a2b0c33dff77a977918c3630e1f",
+          "coordinate_sha256": "76835998ce8279ff50b108884a4260ba17617c98f5bc88f1a14d0c91e827b11b",
+          "old_ordered_duplicate": false,
+          "old_unordered_duplicate": false,
+          "geometry": {
+            "raw_event_value": -1.231653667943533e-16,
+            "q": [
+              0.517822523000113,
+              0.6811829878318261
+            ],
+            "rho_squared": 0.01336968101166142,
+            "q_norm_squared": 0.7321504282376963,
+            "q_strict_inside_unit_disk": true,
+            "four_points_convex": true,
+            "q_inside_quad_diagnostic": true,
+            "minimum_other96_circle_margin": 0.036746772855192844,
+            "nearest_other_site": 37,
+            "other96_strict_nearest": true,
+            "support_radius_squared_spread": 1.3877787807814457e-16,
+            "before_adjacent_faces": [
+              [
+                38,
+                47,
+                89
+              ],
+              [
+                38,
+                89,
+                90
+              ]
+            ],
+            "after_adjacent_faces": [
+              [
+                47,
+                89,
+                90
+              ],
+              [
+                38,
+                47,
+                90
+              ]
+            ],
+            "before_faces_actual": true,
+            "after_faces_actual": false
+          }
+        },
+        {
+          "fraction": 1.0005,
+          "file": "workers/target00_candidate0080/accepted/node013_f1.00050000.npy",
+          "file_sha256": "d3f4dbb6ef123c3202d9666a4129d8a510e37adc069f796e41e67b373888d517",
+          "coordinate_sha256": "9059c2508985008cc96ad3d9c41e7e61480c476e2250cb24d126f549f8c21aa2",
+          "old_ordered_duplicate": false,
+          "old_unordered_duplicate": false,
+          "geometry": {
+            "raw_event_value": -1.3794298986914352e-05,
+            "q": [
+              0.5178329564755091,
+              0.6812095786874578
+            ],
+            "rho_squared": 0.013376064951436981,
+            "q_norm_squared": 0.7321974609077102,
+            "q_strict_inside_unit_disk": true,
+            "four_points_convex": true,
+            "q_inside_quad_diagnostic": true,
+            "minimum_other96_circle_margin": 0.03675064073460363,
+            "nearest_other_site": 37,
+            "other96_strict_nearest": true,
+            "support_radius_squared_spread": 1.3794298986923026e-05,
+            "before_adjacent_faces": [
+              [
+                38,
+                47,
+                89
+              ],
+              [
+                38,
+                89,
+                90
+              ]
+            ],
+            "after_adjacent_faces": [
+              [
+                47,
+                89,
+                90
+              ],
+              [
+                38,
+                47,
+                90
+              ]
+            ],
+            "before_faces_actual": false,
+            "after_faces_actual": true
+          }
+        }
+      ],
+      "numerical_related_physical_event_gate": true,
+      "exact_binary64_chord_certificate_pending": true,
+      "implicit_curve_not_certified": true,
+      "whole_original_restores": 0
+    }
+  ],
+  "independent_report_sha256": "b88287ba8bf6aad52a0920d7c22b2a5d77a51019e8e46a242739a63597088b40",
+  "remaining_original_restore_budget": 77,
+  "physical_geometry_dedup_status": "PASS",
+  "physical_geometry_dedup_file": "audit/PHYSICAL_GEOMETRY_DEDUP.json",
+  "physical_geometry_dedup_sha256": "15ed88e505f8654e7aa9ba622f391398f4436e53546f715fb31e1cebbe8add77"
+}

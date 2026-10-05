@@ -1,0 +1,631 @@
+{
+  "scope": "Storage counts and metadata joins, not independent optimization counts, exact radius certificates, completion/global exhaustion proof, or inferred first-discovery chronology. Coordinates were retained before this read-only audit.",
+  "family_count_with_graph_matches": 4,
+  "family_count_with_logged_finals": 4,
+  "structural_9840_starts_finals_matching_target_profile": 0,
+  "families": [
+    {
+      "independent_catalog_index": 0,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "6b46ee93c3b68297ae07e3afff046da7028b15d5095552925fedf7c67d33096d",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 1,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "abdb41f889d90cb0fa9c2f1dd1ae8fd3e8c551381702fa3e5d201e5740ef12a0",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 2,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "e8bfaaa353f9ad925226e2ea7e5968a0c9aa4ad91a5f8c21c75c9396443ee05a",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 3,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "23a2cb04d09f432e16601e7664304eed0088d04c5521f869b5d8e1d373f0b659",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 4,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "6c1cf0b1cb1083c9df690cae65a3629979c8cd1e7be48be4d52886ad513a73f5",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 5,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "9896c5b948b7d3ce946636ab27a2c84968379b6adf89084838f9cbf96ddc3514",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 6,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "426928b521b881350ab610d4944aacf2fe3e61ad25a03c2487922d4c8fdd2bd1",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 7,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "36448cf3ffc55eaa416fc7b20a2a1dbe5fe05a9f8c52151eaca24f20d41d4743",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 8,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "07842271ca4211149c131d1bbbb5c77e2412a09fffaba0761e787c10cf50c545",
+      "unique_coordinate_arrays": 5,
+      "retained_coordinate_fields": 7,
+      "retained_fields_by_source": {
+        "fresh_rattler_transfer_99": 7
+      },
+      "unique_coordinates_by_source": {
+        "fresh_rattler_transfer_99": 5
+      },
+      "retained_fields_by_role": {
+        "final": 2,
+        "stage_or_attempt": 3,
+        "start": 2
+      },
+      "unique_coordinates_by_role": {
+        "final": 2,
+        "stage_or_attempt": 3,
+        "start": 2
+      },
+      "logged_completed_final_records": 2,
+      "logged_finals_by_source": {
+        "fresh_rattler_transfer_99": 2
+      },
+      "logged_final_radius_minimum": 0.1154988186794807,
+      "logged_final_radius_maximum": 0.11549881867948097,
+      "representative_retained_fields": [
+        {
+          "path": "fresh_rattler_transfer_99/workers/worker02/finals/0030.npy",
+          "field": "$",
+          "coordinate_sha256": "038304d86c5ab343d61302643d04c9794248caaef0b403091336be6b0fd31391",
+          "schema": "direct"
+        },
+        {
+          "path": "fresh_rattler_transfer_99/workers/worker02/finals/0034.npy",
+          "field": "$",
+          "coordinate_sha256": "511f0cb78d6a0b8d5d21634e0897b81b5f15aeadf25a8c55fcb65f85541b268e",
+          "schema": "direct"
+        },
+        {
+          "path": "fresh_rattler_transfer_99/workers/worker02/stages/0030_00.npy",
+          "field": "$",
+          "coordinate_sha256": "95d35f424adc6e7ebcdbef6a5732b61dd3bab76c4fd41d6de12bae0443809a14",
+          "schema": "direct"
+        },
+        {
+          "path": "fresh_rattler_transfer_99/workers/worker02/stages/0030_01.npy",
+          "field": "$",
+          "coordinate_sha256": "038304d86c5ab343d61302643d04c9794248caaef0b403091336be6b0fd31391",
+          "schema": "direct"
+        },
+        {
+          "path": "fresh_rattler_transfer_99/workers/worker02/stages/0034_00.npy",
+          "field": "$",
+          "coordinate_sha256": "511f0cb78d6a0b8d5d21634e0897b81b5f15aeadf25a8c55fcb65f85541b268e",
+          "schema": "direct"
+        }
+      ],
+      "representative_logged_final": {
+        "grid_id": 34,
+        "worker": 2,
+        "source_index": 1,
+        "initial_radius": 0.15713647995282287,
+        "final_radius": 0.1154988186794807,
+        "final_coordinate_file": "workers/worker02/finals/0034.npy",
+        "final_coordinate_sha256": "511f0cb78d6a0b8d5d21634e0897b81b5f15aeadf25a8c55fcb65f85541b268e",
+        "skip": false,
+        "skip_reason": null,
+        "seconds": 4.430724107998685,
+        "source_records_path": "fresh_rattler_transfer_99/workers/worker02/records.jsonl",
+        "source_row_ordinal_zero_based": 8,
+        "independent_catalog_index": 8,
+        "source_family": "fresh_rattler_transfer_99",
+        "rounds_count": 1,
+        "last_round_solver_success": true,
+        "last_round_solver_status": 0,
+        "last_round_feasible": true
+      },
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 9,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "19f4ec74e157777760b8140488b75d88b4df3d831c5f7530df37fda92b813380",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 10,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+      "unique_coordinate_arrays": 426,
+      "retained_coordinate_fields": 692,
+      "retained_fields_by_source": {
+        "best147_boundary_transfer": 35,
+        "cavity_repair_transfer_99": 26,
+        "event_geometry_146": 260,
+        "exact_fixed_radius_1154469": 4,
+        "fresh_rattler_geometry_bridge": 8,
+        "fresh_rattler_transfer_99": 1,
+        "improved_algebraic_1154469": 6,
+        "improved_upper_certificate": 2,
+        "next146_boundary_transfer": 15,
+        "paired_transport_146": 151,
+        "strict_local_second_order": 3,
+        "strict_upper_margin_1154469": 1,
+        "topology_patch_hybrid_146": 180
+      },
+      "unique_coordinates_by_source": {
+        "best147_boundary_transfer": 14,
+        "cavity_repair_transfer_99": 17,
+        "event_geometry_146": 161,
+        "exact_fixed_radius_1154469": 2,
+        "fresh_rattler_geometry_bridge": 8,
+        "fresh_rattler_transfer_99": 1,
+        "improved_algebraic_1154469": 3,
+        "improved_upper_certificate": 2,
+        "next146_boundary_transfer": 10,
+        "paired_transport_146": 105,
+        "strict_local_second_order": 2,
+        "strict_upper_margin_1154469": 1,
+        "topology_patch_hybrid_146": 126
+      },
+      "retained_fields_by_role": {
+        "best_snapshot": 5,
+        "proposal": 14,
+        "final": 114,
+        "stage_or_attempt": 150,
+        "start": 114,
+        "input": 18,
+        "other_retained_coordinate": 268,
+        "rational_or_high_precision_snapshot": 9
+      },
+      "unique_coordinates_by_role": {
+        "best_snapshot": 4,
+        "proposal": 8,
+        "final": 114,
+        "stage_or_attempt": 150,
+        "start": 114,
+        "input": 7,
+        "other_retained_coordinate": 171,
+        "rational_or_high_precision_snapshot": 2
+      },
+      "logged_completed_final_records": 114,
+      "logged_finals_by_source": {
+        "best147_boundary_transfer": 6,
+        "cavity_repair_transfer_99": 8,
+        "next146_boundary_transfer": 4,
+        "paired_transport_146": 44,
+        "topology_patch_hybrid_146": 52
+      },
+      "logged_final_radius_minimum": 0.1154469548855824,
+      "logged_final_radius_maximum": 0.11544695488567663,
+      "representative_retained_fields": [
+        {
+          "path": "best147_boundary_transfer/best.npy",
+          "field": "$",
+          "coordinate_sha256": "1b5a6512069e7191ef10c5b51a484d59a9be3e64318b8b8a55a77fec7d408eb7",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0019_R0.11544695488558475.npy",
+          "field": "$",
+          "coordinate_sha256": "252f74e368820fa50406c3d5cecbc59d56cbaa6c1f12f2349d80c7c96129ce00",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0025_R0.11544695488558258.npy",
+          "field": "$",
+          "coordinate_sha256": "1b5a6512069e7191ef10c5b51a484d59a9be3e64318b8b8a55a77fec7d408eb7",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0052_R0.11544695488558300.npy",
+          "field": "$",
+          "coordinate_sha256": "e1181f577e47c7d24f1639dc91324cfbd2c86e6b061c4afbf82147bbaa7b2a91",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0058_R0.11544695488558664.npy",
+          "field": "$",
+          "coordinate_sha256": "f86f6764a4cd349f219c07ebe9338fec8274fb8391e1f476afcc2ea20071bd88",
+          "schema": "direct"
+        }
+      ],
+      "representative_logged_final": {
+        "grid_id": 60,
+        "worker": 0,
+        "source_index": 3,
+        "initial_radius": 0.12245135856882718,
+        "final_radius": 0.1154469548855824,
+        "final_coordinate_file": "workers/worker00/finals/0060.npy",
+        "final_coordinate_sha256": "2e44d5524cd95e337bebec733515481490bf89fe8de87464de1b37e78842c465",
+        "skip": false,
+        "skip_reason": null,
+        "seconds": 5.306053866999719,
+        "source_records_path": "topology_patch_hybrid_146/workers/worker00/records.jsonl",
+        "source_row_ordinal_zero_based": 15,
+        "independent_catalog_index": 10,
+        "source_family": "topology_patch_hybrid_146",
+        "rounds_count": 2,
+        "last_round_solver_success": false,
+        "last_round_solver_status": 8,
+        "last_round_feasible": true
+      },
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 11,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "ea16618e05f3c0959f3bebd01b015bcbfec70ba597e91bf7720f12c1e0f8dcbc",
+      "unique_coordinate_arrays": 38,
+      "retained_coordinate_fields": 71,
+      "retained_fields_by_source": {
+        "best147_boundary_transfer": 34,
+        "cavity_repair_transfer_99": 1,
+        "fresh_rattler_transfer_99": 9,
+        "next146_boundary_transfer": 27
+      },
+      "unique_coordinates_by_source": {
+        "best147_boundary_transfer": 14,
+        "cavity_repair_transfer_99": 1,
+        "fresh_rattler_transfer_99": 6,
+        "next146_boundary_transfer": 19
+      },
+      "retained_fields_by_role": {
+        "proposal": 14,
+        "final": 16,
+        "stage_or_attempt": 22,
+        "start": 16,
+        "input": 2,
+        "best_snapshot": 1
+      },
+      "unique_coordinates_by_role": {
+        "proposal": 8,
+        "final": 16,
+        "stage_or_attempt": 22,
+        "start": 16,
+        "input": 1,
+        "best_snapshot": 1
+      },
+      "logged_completed_final_records": 16,
+      "logged_finals_by_source": {
+        "best147_boundary_transfer": 6,
+        "fresh_rattler_transfer_99": 2,
+        "next146_boundary_transfer": 8
+      },
+      "logged_final_radius_minimum": 0.11546097849130267,
+      "logged_final_radius_maximum": 0.11546097849131545,
+      "representative_retained_fields": [
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0022_R0.11546097849130267.npy",
+          "field": "$",
+          "coordinate_sha256": "54e390d757c920b8a0d18d7eed49e3d06abe99cd6f47f7560e2c69868fe6ded2",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0023_R0.11546097849130761.npy",
+          "field": "$",
+          "coordinate_sha256": "449dd9caa36de2cc1886eb31f76b452dbd06e0b0bf0985a87aaa3a011cf90eb4",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0055_R0.11546097849130416.npy",
+          "field": "$",
+          "coordinate_sha256": "cfe01905efd63a007b820cf76a4b694e65fa48196bc453179f818bb3e5877b68",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0056_R0.11546097849130701.npy",
+          "field": "$",
+          "coordinate_sha256": "7ae4f55ab44440afdd0216e1a29989dcbbe46b507a4cbc3cfff15dd7cbc2bc4e",
+          "schema": "direct"
+        },
+        {
+          "path": "best147_boundary_transfer/frozen_proposals/grid0253_R0.11546097849130367.npy",
+          "field": "$",
+          "coordinate_sha256": "3e183d4fbf6eee626fce42c9133679bc85a4e76b610de216bedaafa0e5ff11a6",
+          "schema": "direct"
+        }
+      ],
+      "representative_logged_final": {
+        "grid_id": 22,
+        "worker": 0,
+        "initial_radius": 0.17007272712838126,
+        "final_radius": 0.11546097849130267,
+        "final_coordinate_file": "workers/worker00/finals/0022.npy",
+        "final_coordinate_sha256": "54e390d757c920b8a0d18d7eed49e3d06abe99cd6f47f7560e2c69868fe6ded2",
+        "skip": false,
+        "skip_reason": null,
+        "seconds": 4.824928707000254,
+        "source_records_path": "best147_boundary_transfer/workers/worker00/records.jsonl",
+        "source_row_ordinal_zero_based": 20,
+        "independent_catalog_index": 11,
+        "source_family": "best147_boundary_transfer",
+        "rounds_count": 2,
+        "last_round_solver_success": false,
+        "last_round_solver_status": 8,
+        "last_round_feasible": true
+      },
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 12,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "0c822cf9c9abc1172f3b840fc618d8516f9c795da92a7dedcda308635fc596c8",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 13,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "cc7e65826bd840831571e1f07d958629f4f63b5e2c0b065f9a90a7ee8d69742b",
+      "unique_coordinate_arrays": 15,
+      "retained_coordinate_fields": 21,
+      "retained_fields_by_source": {
+        "next146_boundary_transfer": 15,
+        "paired_transport_146": 6
+      },
+      "unique_coordinates_by_source": {
+        "next146_boundary_transfer": 11,
+        "paired_transport_146": 4
+      },
+      "retained_fields_by_role": {
+        "final": 6,
+        "stage_or_attempt": 9,
+        "start": 6
+      },
+      "unique_coordinates_by_role": {
+        "final": 6,
+        "stage_or_attempt": 9,
+        "start": 6
+      },
+      "logged_completed_final_records": 6,
+      "logged_finals_by_source": {
+        "next146_boundary_transfer": 4,
+        "paired_transport_146": 2
+      },
+      "logged_final_radius_minimum": 0.11546413095627227,
+      "logged_final_radius_maximum": 0.11546413095630725,
+      "representative_retained_fields": [
+        {
+          "path": "next146_boundary_transfer/workers/worker01/finals/0164.npy",
+          "field": "$",
+          "coordinate_sha256": "f76393f058d7d321930eb79fa5ac7ceb7b9ba3b61306040c3539fd348420677f",
+          "schema": "direct"
+        },
+        {
+          "path": "next146_boundary_transfer/workers/worker01/finals/0165.npy",
+          "field": "$",
+          "coordinate_sha256": "084dbee2233d048d1015d9ac9ab528c5a556edb705c8b335c159306d7ac34997",
+          "schema": "direct"
+        },
+        {
+          "path": "next146_boundary_transfer/workers/worker01/finals/0292.npy",
+          "field": "$",
+          "coordinate_sha256": "ac22b5d007273c71d800b9a7af0a09cdde0f1e026afa42383d2a04de3773daf9",
+          "schema": "direct"
+        },
+        {
+          "path": "next146_boundary_transfer/workers/worker01/finals/0293.npy",
+          "field": "$",
+          "coordinate_sha256": "fe02bf79ca9ca4aa7c9a307364b06ad1a4e037540f0d69ecddf73296088d3acf",
+          "schema": "direct"
+        },
+        {
+          "path": "next146_boundary_transfer/workers/worker01/stages/0164_00.npy",
+          "field": "$",
+          "coordinate_sha256": "f1f04e3a02375bdebf71f02293feda43631a04f92225675112566a6266d392ab",
+          "schema": "direct"
+        }
+      ],
+      "representative_logged_final": {
+        "grid_id": 164,
+        "worker": 1,
+        "initial_radius": 0.1825376979068044,
+        "final_radius": 0.11546413095627227,
+        "final_coordinate_file": "workers/worker01/finals/0164.npy",
+        "final_coordinate_sha256": "f76393f058d7d321930eb79fa5ac7ceb7b9ba3b61306040c3539fd348420677f",
+        "skip": false,
+        "skip_reason": null,
+        "seconds": 5.176613664000797,
+        "source_records_path": "next146_boundary_transfer/workers/worker01/records.jsonl",
+        "source_row_ordinal_zero_based": 39,
+        "independent_catalog_index": 13,
+        "source_family": "next146_boundary_transfer",
+        "rounds_count": 2,
+        "last_round_solver_success": true,
+        "last_round_solver_status": 0,
+        "last_round_feasible": true
+      },
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 14,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    },
+    {
+      "independent_catalog_index": 15,
+      "official_parent_id_status": "not_assigned",
+      "fingerprint": "bd88ef8e5f86917e2b004cb91f5857bdb2f14d614d31dcd58c22d1da64a0cc2c",
+      "unique_coordinate_arrays": 0,
+      "retained_coordinate_fields": 0,
+      "retained_fields_by_source": {},
+      "unique_coordinates_by_source": {},
+      "retained_fields_by_role": {},
+      "unique_coordinates_by_role": {},
+      "logged_completed_final_records": 0,
+      "logged_finals_by_source": {},
+      "logged_final_radius_minimum": null,
+      "logged_final_radius_maximum": null,
+      "representative_retained_fields": [],
+      "representative_logged_final": null,
+      "chronology_note": "Representative selected by minimum logged final radius, not a reconstructed globally first discovery. Per-source row order is preserved separately."
+    }
+  ],
+  "matched_worker_records_sha256": {
+    "best147_boundary_transfer/workers/worker00/records.jsonl": "2749b8a69971d02b657386e25b2925127da6bdd47a43c070441b68efd605972c",
+    "best147_boundary_transfer/workers/worker01/records.jsonl": "7cfbabba59d418fdc69c609cd62d66f991c70d0ac197212b83600428f6288d92",
+    "best147_boundary_transfer/workers/worker02/records.jsonl": "3a04c896b9610edbc836c3582ab5a507a0a4ae94bb9a99db723293cfc113192a",
+    "best147_boundary_transfer/workers/worker03/records.jsonl": "b1753b3e3d7dc4e4af171342759d83d89ec6ce64da313605ab214eb0ac0613e8",
+    "cavity_repair_transfer_99/workers/worker00/records.jsonl": "764c2559a4995e2c2bc909ac67f1c102faac2ba6f1aaee2557652b7805cffb5c",
+    "cavity_repair_transfer_99/workers/worker01/records.jsonl": "a5b27e03e5251fb99c9103548a81718d687aa0954302000fcdc23b23ac4bc86b",
+    "cavity_repair_transfer_99/workers/worker02/records.jsonl": "c27cd406353fec539ea56e9c0dd9b6bd0b5c6cbab26e932c66a1e8d849a8e9d7",
+    "cavity_repair_transfer_99/workers/worker03/records.jsonl": "1934651b03884bfe2921ebd86fa03ebac7459c6f4571487be83cb9035034b6d7",
+    "fresh_rattler_transfer_99/workers/worker00/records.jsonl": "90b7bbfb7049668890e221aff0d2e232cafa965d69eb0cbd4258ddc017475c83",
+    "fresh_rattler_transfer_99/workers/worker01/records.jsonl": "ef35e825b0fb702755258e9d832d2eeaa2d5778b0d85376904678b1767611074",
+    "fresh_rattler_transfer_99/workers/worker02/records.jsonl": "2021f6cc19064fa5bc48d2407f270761ac56436fc57503d71bef004bee834f3c",
+    "fresh_rattler_transfer_99/workers/worker03/records.jsonl": "057582d1bebc63946d104cf454ba9c1981f151459c8ba170c29711bb8dddccf8",
+    "next146_boundary_transfer/workers/worker00/records.jsonl": "ceae4cafa6792296bf0901920667bfbe16915a63bd4f1c4dda1cc44cf0d444b7",
+    "next146_boundary_transfer/workers/worker01/records.jsonl": "a7166e9e4b54f5d93f668b31d5e211c83e13d57fa18e4cb9196954d905227b4d",
+    "next146_boundary_transfer/workers/worker02/records.jsonl": "7e9c482867f8db9d1fb785c2613cf0db27937b4b61876aaa2971f6710aa3e3ec",
+    "next146_boundary_transfer/workers/worker03/records.jsonl": "9517e5c5a02293fb36dbe3a9a7ccd3da1737c30823bdf6b8c78f5d9f2385e47c",
+    "paired_transport_146/workers/worker00/records.jsonl": "98373af83e646f95c17413368526b01ba4e4f7f71299333c4a5ea38e8d774f4f",
+    "paired_transport_146/workers/worker01/records.jsonl": "a5be5daaee4d030d196871ba5b3c16fd477237d853505aed4aa48856abc3ac5f",
+    "paired_transport_146/workers/worker02/records.jsonl": "a790562200675bf6037aeeb9d9fc0d8fa829a574bb2f24d11f18c2c883bfa92b",
+    "paired_transport_146/workers/worker03/records.jsonl": "915e06b7795b7740d4e89a3e58eb292b892b8207d9a792906a30c5fbd37d0bc3",
+    "topology_patch_hybrid_146/workers/worker00/records.jsonl": "263f3756a3df35d94235b72ebfbfb24ae227451d780a5ea825feebba6d23e027",
+    "topology_patch_hybrid_146/workers/worker01/records.jsonl": "8e374ed7cc98174ede21fd34add456d561aa64def859f74989a0b4925a8c626e",
+    "topology_patch_hybrid_146/workers/worker02/records.jsonl": "7182aa1b731a5e24b78a44817fdaa55a4942c8b5491081300e3cee1bcbbc7e99",
+    "topology_patch_hybrid_146/workers/worker03/records.jsonl": "167106d241603352f9303b67056308ad61f8ff7b05498a4554513ebd232b4147"
+  }
+}

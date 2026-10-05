@@ -1,0 +1,31 @@
+{
+  "status": "PROXY_PATHS_FINISHED_AWAITING_INDEPENDENT_PHYSICAL_GATES",
+  "paths": [
+    {
+      "target_id": "target01_candidate0040",
+      "accepted_nodes": 14,
+      "proxy_solves": 14,
+      "failed_nodes": 0,
+      "termination": "reached intended post-event level",
+      "last_fraction": 1.0005,
+      "last_actual_radius": 0.11563896731506802,
+      "result_file": "workers/target01_candidate0040/RESULT.json",
+      "result_sha256": "44f5495df2a91d87f694dff6b1b1fd34f0988a5a71c87c2d93df8bf8a254e17a"
+    },
+    {
+      "target_id": "target00_candidate0080",
+      "accepted_nodes": 14,
+      "proxy_solves": 14,
+      "failed_nodes": 0,
+      "termination": "reached intended post-event level",
+      "last_fraction": 1.0005,
+      "last_actual_radius": 0.11562725980348391,
+      "result_file": "workers/target00_candidate0080/RESULT.json",
+      "result_sha256": "37c3068409b66423ff0a3cfbd6d7c7beb245429d2b2541e9aa6faff75c50b7bf"
+    }
+  ],
+  "total_proxy_solves": 28,
+  "whole_original_restores": 0,
+  "worker_limit": 2,
+  "no_automatic_original_restores": true
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ANALYTIC_INTERFACE_PASS_CONDITIONAL",
+  "runtime_acceptance": "NOT_REPLAYED; no local or archive verifier was executed",
+  "conclusions": {
+    "same_quadratic_actual_anchor_replacement": "valid from signed area identity, with identical radius/lambda/common tilt and eligible ordinary disjoint faces/anchors",
+    "boundary_Q_and_GAMMA_uses_J_minus_A": false,
+    "BI_origin": "q0 face terminal interface reservation, independent of marked anchor slack",
+    "lens_allocation": "old Q already pays assigned-cell radial displacement; preserve once, no extra lens fee",
+    "new_global_radius_claim": false,
+    "full_1132_chain_audited": false
+  },
+  "remaining_obligations": [
+    "new local support independent acceptance",
+    "same-radius/same-penalty boundary support and domain",
+    "common tilt and all other type/ear supports",
+    "actual eligible fan existence",
+    "single variance/BI allocation, all other branches and closure"
+  ],
+  "execution_counts": {
+    "old_verifier": 0,
+    "new_local_guard": 0,
+    "source_import": 0,
+    "optimizer": 0,
+    "scan": 0,
+    "graph_catalogue": 0,
+    "archive_extraction": 0
+  },
+  "background_computation": {
+    "initiated_by_this_agent": false,
+    "pid": null,
+    "note": "No background process was started. All read/hash operations were foreground and completed."
+  },
+  "source_archive_sha256": "8194bbc46ee1e8a4c7df894e8cd55f7035609706b007b3e3b5307c8399f27806",
+  "final_root_interface_sha256": "9e451e083dfc5316988f4ee3d08e809ff84b5f1ae680555f5b62c8127cd7f4c4"
+}

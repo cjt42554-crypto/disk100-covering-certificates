@@ -1,0 +1,29 @@
+{
+  "index": 16,
+  "snapshot": "016_corrected.npz",
+  "U": [
+    28889807367,
+    250000000000
+  ],
+  "candidate_counts": {
+    "T": 128555,
+    "B": 9900,
+    "A": 100,
+    "E": 1
+  },
+  "total": 138556,
+  "exact_fallbacks": 0,
+  "seconds": 1.1188315750005131,
+  "exact_replay": {
+    "candidate_counts": {
+      "T": 128555,
+      "B": 9900,
+      "A": 100,
+      "E": 1
+    },
+    "total": 138556,
+    "exact_radius_squared": null,
+    "upper_squared": "834620969702367472689/62500000000000000000000",
+    "unique_worst_candidate": null
+  }
+}

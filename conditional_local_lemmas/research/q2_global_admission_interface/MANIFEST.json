@@ -1,0 +1,27 @@
+{
+  "status": "PAPER_INTERFACE_AND_NEW_PROJECTION_LEMMA_AWAITING_STATIC_REVIEW",
+  "mathematical_executions": 0,
+  "mathematical_imports": 0,
+  "files": [
+    {
+      "path": "research/q2_global_admission_interface/CENTER_PROJECTION_LEMMA.md",
+      "bytes": 5325,
+      "sha256": "900e1dc430be16fb60455e582d669566ab9a40e0ff9b28c82fd06f82575874b4"
+    },
+    {
+      "path": "research/q2_global_admission_interface/EXECUTION_LEDGER.json",
+      "bytes": 522,
+      "sha256": "53ffbc10ee7445916e114ad1fed7519f680c6be9303642b28ea62aede1a737c5"
+    },
+    {
+      "path": "research/q2_global_admission_interface/GLOBAL_INTERFACE.md",
+      "bytes": 6711,
+      "sha256": "29c967035ed3cfd6ea5e43f7c81b578ebed497e4dfc9e9c66a083a8635aa72b6"
+    },
+    {
+      "path": "research/q2_global_admission_interface/SOURCE_PINS.json",
+      "bytes": 1208,
+      "sha256": "70730dd7e56694ae9ea28e3cda3cddea7cb8f54c220eff44777f26dab156c115"
+    }
+  ]
+}

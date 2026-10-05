@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "path": "DIRECTIONAL_LENS_LEMMA.md",
+      "sha256": "2d0df21426259167a02ad874b483255f22f021ff88d56dcce4df4007c9905248",
+      "bytes": 3664
+    },
+    {
+      "path": "REVISION_RECORD.md",
+      "sha256": "9cfb61e4758677512f7e40495064537bb2a362d1715dcb12a2a1d8c47c948012",
+      "bytes": 457
+    },
+    {
+      "path": "history/pre_zero_coefficient_DIRECTIONAL_LENS_LEMMA.md",
+      "sha256": "43763af68a53506cc895ec838968cbde243b883979be2bcd941cd6bf93add999",
+      "bytes": 3637
+    },
+    {
+      "path": "history/pre_zero_coefficient_SHA256.json",
+      "sha256": "0cdd0715d7f1bee50f1276a7a059a217e59c7b0869fb2c0fa7b4b6e8bcf815ad",
+      "bytes": 291
+    }
+  ],
+  "mathematical_executions": 0,
+  "scope": "one-base fixed-tau exact directional support; not two-face fee"
+}

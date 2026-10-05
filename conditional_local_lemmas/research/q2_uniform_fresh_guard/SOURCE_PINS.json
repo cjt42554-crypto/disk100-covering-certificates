@@ -1,0 +1,80 @@
+{
+  "status": "FRESH_GUARD_SOURCE_COMPOSED_NOT_EXECUTED_AWAITING_STATIC_CLEARANCE",
+  "guard_source": {
+    "path": "research/q2_uniform_fresh_guard/verify.py",
+    "sha256": "d65a5094576b9851755720ca38ca8f2a1c06a47e9f66eab64e3923471b7868e7"
+  },
+  "guard_plan": {
+    "path": "research/q2_uniform_fresh_guard/GUARD_PLAN.md",
+    "sha256": "8535afdb6d14aeb8fef57c2f857bf5c798670146fda0438d0b0aeab2f49d4de7"
+  },
+  "paper_and_review_inputs": [
+    {
+      "path": "research/q2_tau_mean_arc_envelope/PROOF.md",
+      "sha256": "570696466a5e90d0d06e1738e41a4a94571ec7a8c45a66559fea27f2bd3cd663",
+      "role": "new root mean-norm / unequal outer arc-sum paper; fresh Section 4 and Section 5 constants only"
+    },
+    {
+      "path": "research/q2_radius_uniform_tau/PROOF.md",
+      "sha256": "692a4526d88dd3e856aa96b60961b43c1726d9ba029803199b90e8d7b0c9da2c",
+      "role": "independently reviewed continuous-radius paper; only new transfer/remainder/tau arithmetic"
+    },
+    {
+      "path": "research/q2_radius_uniform_tau/COROLLARY_RELAXED_MIDDLE.md",
+      "sha256": "768a6e71756ad155331b2196b68394548f2eadb4affeb1352e210ef93d766e28",
+      "role": "independently reviewed relaxed actual-middle corollary"
+    },
+    {
+      "path": "research/q2_local_radius_uniform_tau/RADIUS_UNIFORM_ACTUAL_TAU_PROOF.md",
+      "sha256": "f955eb7473c61ac2222a989a35337dbb11a2d990ed5122ac9cd0bb2d4f1bb720",
+      "role": "independently reviewed local continuous-radius paper; new constant margins only"
+    },
+    {
+      "path": "research/q2_parameter_uniform_tau/PARAMETER_UNIFORM_LEMMA.md",
+      "sha256": "6c131c32e6f679f4557f9c1a31b95864a357ce33bf1949fba4c1fae31531fd74",
+      "role": "independently reviewed local parameter transport; arithmetic residuals only"
+    },
+    {
+      "path": "research/q2_parameter_uniform_tau/PRO_PARAMETER_COROLLARY.md",
+      "sha256": "43059d525b9e23f4c1639fe6d95cfeea45c5b55fb993daf20aaf6a29b5a12f1b",
+      "role": "independently reviewed Pro parameter transport; arithmetic residuals only"
+    },
+    {
+      "path": "research/q2_tau_geometry_thresholds/ANALYSIS.md",
+      "sha256": "97283475b6176cd0d426759d73d931690a155dec69a86843d5f5a630ff6ebbdf",
+      "role": "independently reviewed exact geometry / relaxed-branch interface; new finite rational reductions only"
+    },
+    {
+      "path": "research/q2_uniform_tau_review/PRO_RADIUS_REVIEW.md",
+      "sha256": "6115ffc95e88f1a5fe5a806a1037d0deb4833f3766302bc399aa3d4e69097387",
+      "role": "accepted continuous-radius paper independent-review evidence"
+    },
+    {
+      "path": "research/q2_uniform_tau_review/PRO_RADIUS_RELAXED_CAP_REVIEW.md",
+      "sha256": "6885e6822e3c6027bbda4312fb71c3be3195449dbb3c950e9c77772683bea5f8",
+      "role": "accepted relaxed-cap corollary independent-review evidence"
+    },
+    {
+      "path": "research/q2_local_radius_uniform_tau_review/INDEPENDENT_REVIEW.md",
+      "sha256": "658a9a0b1b87d6f38376d265f65fd1b417251695f6a9da3c7254c90a6b312728",
+      "role": "accepted local-radius paper independent-review evidence"
+    },
+    {
+      "path": "research/q2_parameter_uniform_tau_review/INDEPENDENT_REVIEW.md",
+      "sha256": "05908d9b0f9d0074900a6f17b49b65a2b918b9601eb117089d85e5728ded7eda",
+      "role": "accepted local-parameter independent-review evidence"
+    },
+    {
+      "path": "research/q2_pro_parameter_uniform_tau_review/INDEPENDENT_REVIEW.md",
+      "sha256": "e5214f141c1eec4c40463c3e9f5a4fb627221d69164c1b7701a6e1b5a41af668",
+      "role": "accepted Pro-parameter independent-review evidence"
+    },
+    {
+      "path": "research/q2_tau_geometry_thresholds_review/INDEPENDENT_REVIEW.md",
+      "sha256": "8232bdd64f2aa66a271ef8d1846d9a950754b441993ec7087a081fd36c8118f4",
+      "role": "accepted geometry independent-review evidence"
+    }
+  ],
+  "runtime_source_loading": "NONE: verify.py does not load any input source or certificate; these pins are metadata for the static proof-to-constant review.",
+  "old_48_guard_included_or_replayed": false
+}

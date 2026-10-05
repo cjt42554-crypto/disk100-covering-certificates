@@ -1,0 +1,41 @@
+{
+  "status": "OPTIMIZERS_FINISHED_INDEPENDENT_AUDIT_PENDING",
+  "results": [
+    {
+      "restore_id": "target01_candidate0040_after",
+      "result_file": "original_restores/target01_candidate0040_after/RESULT.json",
+      "result_sha256": "4191cc8dd8d36a5540a02c5639a468d93ff613dbcf5b0f4e8a4fd879c00a0c48",
+      "best_actual_radius": 0.11562795495589936,
+      "rounds": 2,
+      "failure": null
+    },
+    {
+      "restore_id": "target01_candidate0040_before",
+      "result_file": "original_restores/target01_candidate0040_before/RESULT.json",
+      "result_sha256": "362f5517f86716f4712f97b313e779e466bf8b7f088fb0db65d03c5467407e62",
+      "best_actual_radius": 0.11551473632646043,
+      "rounds": 3,
+      "failure": null
+    },
+    {
+      "restore_id": "target00_candidate0080_before",
+      "result_file": "original_restores/target00_candidate0080_before/RESULT.json",
+      "result_sha256": "77034d45af9c0b421890c406a1f8ebc2b5cbe80af9ba7436578810a8f801837f",
+      "best_actual_radius": 0.1155147363264658,
+      "rounds": 2,
+      "failure": null
+    },
+    {
+      "restore_id": "target00_candidate0080_after",
+      "result_file": "original_restores/target00_candidate0080_after/RESULT.json",
+      "result_sha256": "b7f7db44abda111f0cfb9b77ec33b59b8a5b7585766bd1b9e268b73600b0fa89",
+      "best_actual_radius": 0.1156190083763614,
+      "rounds": 2,
+      "failure": null
+    }
+  ],
+  "whole_original_restores": 4,
+  "earlier_original_restores": 19,
+  "total_cumulative": 23,
+  "remaining_authorized_budget": 73
+}

@@ -1,0 +1,27 @@
+{
+  "covering_exact_verified": true,
+  "strict_margin_exact_verified": true,
+  "local_cover_radius_bound": [
+    1154469548855829,
+    10000000000000000
+  ],
+  "reference_radius_bound": [
+    115446954885583,
+    1000000000000000
+  ],
+  "strict_radius_margin": [
+    1,
+    10000000000000000
+  ],
+  "configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "candidate_counts": {
+    "T": 128436,
+    "B": 9900,
+    "A": 100,
+    "E": 1
+  },
+  "total": 138437,
+  "actual_covering_squared_bound": "1332799939235381342323027277241/100000000000000000000000000000000",
+  "statement": "The explicit frozen 100-center rational configuration covers the whole closed unit disk at V, and V<U. Its covering radius, and consequently the arbitrary-configuration optimum, is strictly below U.",
+  "cloud_statement_not_changed": "The separate cloud result remains its reported non-strict <= bound."
+}

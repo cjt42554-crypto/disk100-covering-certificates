@@ -1,0 +1,1117 @@
+[
+  {
+    "ids": [
+      "e0090",
+      "e0093"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          95,
+          75,
+          38
+        ],
+        "shared_edge": [
+          82,
+          95
+        ],
+        "index": 90,
+        "id": "e0090",
+        "base_sign": 1.0,
+        "base_value": 0.0015783395027663143,
+        "base_value_corrected": 0.001578339521285057,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          38,
+          95,
+          41
+        ],
+        "shared_edge": [
+          38,
+          82
+        ],
+        "index": 93,
+        "id": "e0093",
+        "base_sign": 1.0,
+        "base_value": 0.0013264295639052776,
+        "base_value_corrected": 0.0013264295699073837,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        1998.3505278615876,
+        -1549.7505287363817
+      ],
+      [
+        -1549.7505287363815,
+        3873.17355154446
+      ]
+    ],
+    "gram_eigenvalues": [
+      1124.5560757520595,
+      4746.9680036539885
+    ],
+    "gram_rank": 2,
+    "gram_condition": 4.221192794213842,
+    "normalized_cross_coupling": -0.5570478208644755,
+    "shared_sites": 3,
+    "union_sites": [
+      38,
+      41,
+      75,
+      82,
+      95
+    ],
+    "predicted_squared_barrier": 0.000840261871756643,
+    "predicted_radius_barrier": 0.0036374398309992825,
+    "local_only": true,
+    "family": "weak_three_shared_sites_five_site_cavity",
+    "pair_index": 0,
+    "first_event_response_residual": 3.3306690738754696e-16,
+    "second_contact_response_residual": 2.96637714392034e-16,
+    "second_event_response_residual": 4.440892098500626e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.000725553659342742,
+        0.00029031158873442565
+      ],
+      [
+        0.00029031158873442565,
+        0.0003743469067016919
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 3.2526065174565133e-19,
+    "maximum_joint_linear_center_shift": 0.12079709915057991,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0090",
+      "e0094"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          95,
+          75,
+          38
+        ],
+        "shared_edge": [
+          82,
+          95
+        ],
+        "index": 90,
+        "id": "e0090",
+        "base_sign": 1.0,
+        "base_value": 0.0015783395027663143,
+        "base_value_corrected": 0.001578339521285057,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          38,
+          95,
+          82,
+          92
+        ],
+        "shared_edge": [
+          38,
+          95
+        ],
+        "index": 94,
+        "id": "e0094",
+        "base_sign": 1.0,
+        "base_value": 0.0012194328110756469,
+        "base_value_corrected": 0.00121943277655265,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        1998.3505278615876,
+        -1338.0466931344674
+      ],
+      [
+        -1338.0466931344681,
+        4584.353468039649
+      ]
+    ],
+    "gram_eigenvalues": [
+      1430.6473586646082,
+      5152.056637236628
+    ],
+    "gram_rank": 2,
+    "gram_condition": 3.60120654893296,
+    "normalized_cross_coupling": -0.44207543853021036,
+    "shared_sites": 3,
+    "union_sites": [
+      38,
+      75,
+      82,
+      92,
+      95
+    ],
+    "predicted_squared_barrier": 0.0006280747852144385,
+    "predicted_radius_barrier": 0.0027188955221890397,
+    "local_only": true,
+    "family": "weak_three_shared_sites_five_site_cavity",
+    "pair_index": 1,
+    "first_event_response_residual": 4.440892098500626e-16,
+    "second_contact_response_residual": 1.6458188978329957e-16,
+    "second_event_response_residual": 6.661338147750939e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.0006219634583063279,
+        0.00018153402752190708
+      ],
+      [
+        0.00018153402752190702,
+        0.0002711180570787348
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 1.0842021724855044e-19,
+    "maximum_joint_linear_center_shift": 0.10487284438534715,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0093",
+      "e0094"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          82,
+          38,
+          95,
+          41
+        ],
+        "shared_edge": [
+          38,
+          82
+        ],
+        "index": 93,
+        "id": "e0093",
+        "base_sign": 1.0,
+        "base_value": 0.0013264295639052776,
+        "base_value_corrected": 0.0013264295699073837,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          38,
+          95,
+          82,
+          92
+        ],
+        "shared_edge": [
+          38,
+          95
+        ],
+        "index": 94,
+        "id": "e0094",
+        "base_sign": 1.0,
+        "base_value": 0.0012194328110756469,
+        "base_value_corrected": 0.00121943277655265,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        3873.17355154446,
+        -2081.3702382858137
+      ],
+      [
+        -2081.3702382858132,
+        4584.353468039649
+      ]
+    ],
+    "gram_eigenvalues": [
+      2117.2365061218507,
+      6340.290513462259
+    ],
+    "gram_rank": 2,
+    "gram_condition": 2.9946066465081835,
+    "normalized_cross_coupling": -0.4939429755282903,
+    "shared_sites": 3,
+    "union_sites": [
+      38,
+      41,
+      82,
+      92,
+      95
+    ],
+    "predicted_squared_barrier": 0.0004700672917126235,
+    "predicted_radius_barrier": 0.0020348912018950454,
+    "local_only": true,
+    "family": "weak_three_shared_sites_five_site_cavity",
+    "pair_index": 2,
+    "first_event_response_residual": 2.220446049250313e-16,
+    "second_contact_response_residual": 1.1188966420050406e-16,
+    "second_event_response_residual": 1.249000902703301e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.00034150696403720314,
+        0.00015504965663529655
+      ],
+      [
+        0.00015504965663529655,
+        0.00028852830611745075
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 5.421010862427522e-20,
+    "maximum_joint_linear_center_shift": 0.07961874183050031,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0054",
+      "e0138"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          75,
+          65,
+          26,
+          27
+        ],
+        "shared_edge": [
+          65,
+          75
+        ],
+        "index": 54,
+        "id": "e0054",
+        "base_sign": 1.0,
+        "base_value": 0.0005547217784319941,
+        "base_value_corrected": 0.0005547217869504559,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          27,
+          75,
+          95,
+          65
+        ],
+        "shared_edge": [
+          27,
+          75
+        ],
+        "index": 138,
+        "id": "e0138",
+        "base_sign": 1.0,
+        "base_value": 0.0007301878105791049,
+        "base_value_corrected": 0.0007301878289825139,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        20469.17564930486,
+        -4969.445986036166
+      ],
+      [
+        -4969.445986036168,
+        9516.40999876726
+      ]
+    ],
+    "gram_eigenvalues": [
+      7597.783543647693,
+      22387.802104424427
+    ],
+    "gram_rank": 2,
+    "gram_condition": 2.946622784896561,
+    "normalized_cross_coupling": -0.35605839170610887,
+    "shared_sites": 3,
+    "union_sites": [
+      26,
+      27,
+      65,
+      75,
+      95
+    ],
+    "predicted_squared_barrier": 0.00011735750579550209,
+    "predicted_radius_barrier": 0.0005080331268094501,
+    "local_only": true,
+    "family": "other_five_site_cavity",
+    "pair_index": 3,
+    "first_event_response_residual": 4.440892098500626e-16,
+    "second_contact_response_residual": 3.1726466072357074e-17,
+    "second_event_response_residual": 1.6653345369377348e-16,
+    "mixed_t_objective_curvature": [
+      [
+        5.594673784882255e-05,
+        2.921524943446783e-05
+      ],
+      [
+        2.9215249434467836e-05,
+        0.00012033777487324606
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 8.131516293641283e-20,
+    "maximum_joint_linear_center_shift": 0.04144876838377545,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0056",
+      "e0057"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          29,
+          65,
+          64,
+          26
+        ],
+        "shared_edge": [
+          29,
+          65
+        ],
+        "index": 56,
+        "id": "e0056",
+        "base_sign": 1.0,
+        "base_value": 0.0007600906207997776,
+        "base_value_corrected": 0.0007600906341523573,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          29,
+          26,
+          65,
+          33
+        ],
+        "shared_edge": [
+          26,
+          29
+        ],
+        "index": 57,
+        "id": "e0057",
+        "base_sign": 1.0,
+        "base_value": 0.0008234094901003447,
+        "base_value_corrected": 0.0008234094859935453,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        7839.826556051896,
+        -1927.7645547774753
+      ],
+      [
+        -1927.7645547774755,
+        7055.023217788246
+      ]
+    ],
+    "gram_eigenvalues": [
+      5480.128455623089,
+      9414.721318217053
+    ],
+    "gram_rank": 2,
+    "gram_condition": 1.7179745683801861,
+    "normalized_cross_coupling": -0.2592098732785735,
+    "shared_sites": 3,
+    "union_sites": [
+      26,
+      29,
+      33,
+      64,
+      65
+    ],
+    "predicted_squared_barrier": 0.00018171126192382896,
+    "predicted_radius_barrier": 0.0007866164157622368,
+    "local_only": true,
+    "family": "other_five_site_cavity",
+    "pair_index": 4,
+    "first_event_response_residual": 3.3306690738754696e-16,
+    "second_contact_response_residual": 6.926696629466766e-17,
+    "second_event_response_residual": 1.6653345369377348e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.0001367414685088315,
+        3.736420817083944e-05
+      ],
+      [
+        3.7364208170839457e-05,
+        0.0001519526389971475
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 2.0328790734103208e-20,
+    "maximum_joint_linear_center_shift": 0.060935086662627036,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0092",
+      "e0183"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          75,
+          82,
+          95,
+          81
+        ],
+        "shared_edge": [
+          75,
+          82
+        ],
+        "index": 92,
+        "id": "e0092",
+        "base_sign": 1.0,
+        "base_value": 0.0009884900820980793,
+        "base_value_corrected": 0.0009884900436810645,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          75,
+          81,
+          82,
+          84
+        ],
+        "shared_edge": [
+          75,
+          81
+        ],
+        "index": 183,
+        "id": "e0183",
+        "base_sign": 1.0,
+        "base_value": 0.0009506253991901404,
+        "base_value_corrected": 0.0009506254639074306,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        6453.955946727965,
+        -1833.7959005932933
+      ],
+      [
+        -1833.7959005932933,
+        7122.152109580479
+      ]
+    ],
+    "gram_eigenvalues": [
+      4924.072018303947,
+      8652.036038004497
+    ],
+    "gram_rank": 2,
+    "gram_condition": 1.7570896619389036,
+    "normalized_cross_coupling": -0.2704782680243599,
+    "shared_sites": 3,
+    "union_sites": [
+      75,
+      81,
+      82,
+      84,
+      95
+    ],
+    "predicted_squared_barrier": 0.0002023754108186189,
+    "predicted_radius_barrier": 0.0008760701929596602,
+    "local_only": true,
+    "family": "other_five_site_cavity",
+    "pair_index": 5,
+    "first_event_response_residual": 1.3877787807814457e-16,
+    "second_contact_response_residual": 6.498436771334992e-17,
+    "second_event_response_residual": 3.469446951953614e-17,
+    "mixed_t_objective_curvature": [
+      [
+        0.0001671739210262994,
+        4.304356974512756e-05
+      ],
+      [
+        4.304356974512756e-05,
+        0.00015148976112068312
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 5.421010862427522e-20,
+    "maximum_joint_linear_center_shift": 0.055447087106052936,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0200",
+      "e0246"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          43,
+          44,
+          42,
+          25
+        ],
+        "shared_edge": [
+          43,
+          44
+        ],
+        "index": 200,
+        "id": "e0200",
+        "base_sign": 1.0,
+        "base_value": 0.0007322234965990229,
+        "base_value_corrected": 0.0007322235292339194,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          42,
+          80,
+          78,
+          44
+        ],
+        "shared_edge": [
+          42,
+          80
+        ],
+        "index": 246,
+        "id": "e0246",
+        "base_sign": 1.0,
+        "base_value": 0.00092692893432961,
+        "base_value_corrected": 0.0009269289014578346,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        14237.702421746413,
+        7714.105279871158
+      ],
+      [
+        7714.105279871162,
+        14515.480560546002
+      ]
+    ],
+    "gram_eigenvalues": [
+      6661.235994311673,
+      22091.946987980744
+    ],
+    "gram_rank": 2,
+    "gram_condition": 3.316493666767856,
+    "normalized_cross_coupling": 0.5365990465150147,
+    "shared_sites": 2,
+    "union_sites": [
+      25,
+      42,
+      43,
+      44,
+      78,
+      80
+    ],
+    "predicted_squared_barrier": 4.5273858658875934e-05,
+    "predicted_radius_barrier": 0.00019598763471743254,
+    "local_only": true,
+    "family": "two_shared_sites_positive_or_negative_coupling",
+    "pair_index": 6,
+    "first_event_response_residual": 2.220446049250313e-16,
+    "second_contact_response_residual": 1.1202222485674936e-17,
+    "second_event_response_residual": 1.1102230246251565e-16,
+    "mixed_t_objective_curvature": [
+      [
+        9.86376248181463e-05,
+        -5.241996771858796e-05
+      ],
+      [
+        -5.241996771858796e-05,
+        9.675002793678157e-05
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 4.0657581468206416e-20,
+    "maximum_joint_linear_center_shift": 0.06703569048675245,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0007",
+      "e0075"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          96,
+          76,
+          74,
+          11
+        ],
+        "shared_edge": [
+          76,
+          96
+        ],
+        "index": 7,
+        "id": "e0007",
+        "base_sign": 1.0,
+        "base_value": 0.0008172543495565128,
+        "base_value_corrected": 0.0008172543788517283,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          11,
+          19,
+          76,
+          10
+        ],
+        "shared_edge": [
+          11,
+          19
+        ],
+        "index": 75,
+        "id": "e0075",
+        "base_sign": 1.0,
+        "base_value": 0.0008544440980078646,
+        "base_value_corrected": 0.0008544441217570463,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        11587.988930096804,
+        5910.072652191234
+      ],
+      [
+        5910.072652191236,
+        10506.187611595704
+      ]
+    ],
+    "gram_eigenvalues": [
+      5112.3151262891315,
+      16981.861415403375
+    ],
+    "gram_rank": 2,
+    "gram_condition": 3.3217556030686186,
+    "normalized_cross_coupling": 0.5356316213245791,
+    "shared_sites": 2,
+    "union_sites": [
+      10,
+      11,
+      19,
+      74,
+      76,
+      96
+    ],
+    "predicted_squared_barrier": 5.9170873103064556e-05,
+    "predicted_radius_barrier": 0.0002561469202572913,
+    "local_only": true,
+    "family": "two_shared_sites_positive_or_negative_coupling",
+    "pair_index": 7,
+    "first_event_response_residual": 4.440892098500626e-16,
+    "second_contact_response_residual": 2.179246366695864e-17,
+    "second_event_response_residual": 2.220446049250313e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.00012101584657542518,
+        -6.807535442616776e-05
+      ],
+      [
+        -6.807535442616778e-05,
+        0.0001334766084830395
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 6.776263578034403e-20,
+    "maximum_joint_linear_center_shift": 0.06156511763798909,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0006",
+      "e0211"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          52,
+          7,
+          12,
+          60
+        ],
+        "shared_edge": [
+          7,
+          52
+        ],
+        "index": 6,
+        "id": "e0006",
+        "base_sign": 1.0,
+        "base_value": 0.0008617844302597317,
+        "base_value_corrected": 0.0008617844230850399,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          59,
+          60,
+          52,
+          50
+        ],
+        "shared_edge": [
+          59,
+          60
+        ],
+        "index": 211,
+        "id": "e0211",
+        "base_sign": 1.0,
+        "base_value": 0.0008625584562714228,
+        "base_value_corrected": 0.0008625584778243832,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        10590.642533605182,
+        5293.052113966497
+      ],
+      [
+        5293.052113966498,
+        10728.550274153593
+      ]
+    ],
+    "gram_eigenvalues": [
+      5366.095169593048,
+      15953.097638165727
+    ],
+    "gram_rank": 2,
+    "gram_condition": 2.9729434782602957,
+    "normalized_cross_coupling": 0.49656315856475103,
+    "shared_sites": 2,
+    "union_sites": [
+      7,
+      12,
+      50,
+      52,
+      59,
+      60
+    ],
+    "predicted_squared_barrier": 6.268899737292021e-05,
+    "predicted_radius_barrier": 0.0002713766549146844,
+    "local_only": true,
+    "family": "two_shared_sites_positive_or_negative_coupling",
+    "pair_index": 8,
+    "first_event_response_residual": 2.220446049250313e-16,
+    "second_contact_response_residual": 1.919037845299343e-17,
+    "second_event_response_residual": 8.326672684688674e-17,
+    "mixed_t_objective_curvature": [
+      [
+        0.00012532498077316232,
+        -6.183050248758156e-05
+      ],
+      [
+        -6.183050248758156e-05,
+        0.00012371401894784118
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 1.3552527156068805e-20,
+    "maximum_joint_linear_center_shift": 0.038189217205570926,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0069",
+      "e0211"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          12,
+          73,
+          63,
+          7
+        ],
+        "shared_edge": [
+          12,
+          73
+        ],
+        "index": 69,
+        "id": "e0069",
+        "base_sign": 1.0,
+        "base_value": 0.000832561009318569,
+        "base_value_corrected": 0.0008325609916260113,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          59,
+          60,
+          52,
+          50
+        ],
+        "shared_edge": [
+          59,
+          60
+        ],
+        "index": 211,
+        "id": "e0211",
+        "base_sign": 1.0,
+        "base_value": 0.0008625584562714228,
+        "base_value_corrected": 0.0008625584778243832,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        10004.70601827419,
+        3234.4163703353734
+      ],
+      [
+        3234.416370335374,
+        10728.550274153593
+      ]
+    ],
+    "gram_eigenvalues": [
+      7112.0257306513,
+      13621.230561776481
+    ],
+    "gram_rank": 2,
+    "gram_condition": 1.91523921279867,
+    "normalized_cross_coupling": 0.31219305691363497,
+    "shared_sites": 0,
+    "union_sites": [
+      7,
+      12,
+      50,
+      52,
+      59,
+      60,
+      63,
+      73
+    ],
+    "predicted_squared_barrier": 7.362317912501984e-05,
+    "predicted_radius_barrier": 0.00031871002747546113,
+    "local_only": true,
+    "family": "different_local_cavities_strong_coupling",
+    "pair_index": 9,
+    "first_event_response_residual": 4.440892098500626e-16,
+    "second_contact_response_residual": 1.1275702593849246e-17,
+    "second_event_response_residual": 1.1102230246251565e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.00011074684872050051,
+        -3.3387681588964844e-05
+      ],
+      [
+        -3.3387681588964844e-05,
+        0.00010327487270746887
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 3.3881317890172014e-20,
+    "maximum_joint_linear_center_shift": 0.03960333946137568,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0178",
+      "e0203"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          46,
+          81,
+          45,
+          82
+        ],
+        "shared_edge": [
+          46,
+          81
+        ],
+        "index": 178,
+        "id": "e0178",
+        "base_sign": 1.0,
+        "base_value": 0.0009316819902093266,
+        "base_value_corrected": 0.0009316819602332728,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          30,
+          99,
+          77,
+          27
+        ],
+        "shared_edge": [
+          30,
+          99
+        ],
+        "index": 203,
+        "id": "e0203",
+        "base_sign": 1.0,
+        "base_value": 0.00040231247316109987,
+        "base_value_corrected": 0.00040231244224135047,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        7172.175856304613,
+        3900.7402308503483
+      ],
+      [
+        3900.7402308503474,
+        27529.25302111041
+      ]
+    ],
+    "gram_eigenvalues": [
+      6450.3281142675,
+      28251.100763147522
+    ],
+    "gram_rank": 2,
+    "gram_condition": 4.379792820253412,
+    "normalized_cross_coupling": 0.27760312519846264,
+    "shared_sites": 0,
+    "union_sites": [
+      27,
+      30,
+      45,
+      46,
+      77,
+      81,
+      82,
+      99
+    ],
+    "predicted_squared_barrier": 7.380814161833905e-05,
+    "predicted_radius_barrier": 0.00031951071826371945,
+    "local_only": true,
+    "family": "different_local_cavities_strong_coupling",
+    "pair_index": 10,
+    "first_event_response_residual": 4.440892098500626e-16,
+    "second_contact_response_residual": 4.8951728087720525e-17,
+    "second_event_response_residual": 2.220446049250313e-16,
+    "mixed_t_objective_curvature": [
+      [
+        0.00015106965814419386,
+        -2.140572040701514e-05
+      ],
+      [
+        -2.140572040701514e-05,
+        3.9358065906514565e-05
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 8.131516293641283e-20,
+    "maximum_joint_linear_center_shift": 0.033867355699811565,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  },
+  {
+    "ids": [
+      "e0054",
+      "e0203"
+    ],
+    "events": [
+      {
+        "kind": "dt_flip",
+        "sites": [
+          75,
+          65,
+          26,
+          27
+        ],
+        "shared_edge": [
+          65,
+          75
+        ],
+        "index": 54,
+        "id": "e0054",
+        "base_sign": 1.0,
+        "base_value": 0.0005547217784319941,
+        "base_value_corrected": 0.0005547217869504559,
+        "base_orientation_sign": 1
+      },
+      {
+        "kind": "dt_flip",
+        "sites": [
+          30,
+          99,
+          77,
+          27
+        ],
+        "shared_edge": [
+          30,
+          99
+        ],
+        "index": 203,
+        "id": "e0203",
+        "base_sign": 1.0,
+        "base_value": 0.00040231247316109987,
+        "base_value_corrected": 0.00040231244224135047,
+        "base_orientation_sign": 1
+      }
+    ],
+    "gram": [
+      [
+        20469.17564930486,
+        -10314.293070429416
+      ],
+      [
+        -10314.293070429414,
+        27529.25302111041
+      ]
+    ],
+    "gram_eigenvalues": [
+      13097.571584379739,
+      34900.85708603553
+    ],
+    "gram_rank": 2,
+    "gram_condition": 2.6646815297927864,
+    "normalized_cross_coupling": -0.43450229751637115,
+    "shared_sites": 1,
+    "union_sites": [
+      26,
+      27,
+      30,
+      65,
+      75,
+      77,
+      99
+    ],
+    "predicted_squared_barrier": 7.506512968638408e-05,
+    "predicted_radius_barrier": 0.000324952139110579,
+    "local_only": true,
+    "family": "different_local_cavities_strong_coupling",
+    "pair_index": 11,
+    "first_event_response_residual": 8.881784197001252e-16,
+    "second_contact_response_residual": 2.651382531495411e-17,
+    "second_event_response_residual": 3.3306690738754696e-16,
+    "mixed_t_objective_curvature": [
+      [
+        6.02237166772246e-05,
+        2.25638183180296e-05
+      ],
+      [
+        2.2563818318029597e-05,
+        4.477890605948446e-05
+      ]
+    ],
+    "mixed_curvature_gram_inverse_error": 4.0657581468206416e-20,
+    "maximum_joint_linear_center_shift": 0.06457548910212824,
+    "mixed_response_scope": "Full geometric contact/event second derivatives with all cross terms; not a third-derivative stationary KKT response"
+  }
+]

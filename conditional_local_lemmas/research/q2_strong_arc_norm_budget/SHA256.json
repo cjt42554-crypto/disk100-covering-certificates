@@ -1,0 +1,30 @@
+{
+  "status": "FROZEN_ANALYTIC_TAU_ZERO_D_GT_223_10000_READY_FOR_INDEPENDENT_STATIC_REVIEW",
+  "author_mathematical_program_executions": 0,
+  "symbolic_helper_mathematical_program_executions": 0,
+  "old_checker_calls": 0,
+  "mathematical_source_imports": 0,
+  "positive_tau_general_fee_proved": false,
+  "accepted_input_pins": {
+    "accepted_inputs/actual_anchor_1_40_PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "accepted_inputs/actual_anchor_1_40_certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da"
+  },
+  "files": {
+    "EXECUTION_LEDGER.json": {
+      "sha256": "cdb8edf16eca580c2b5ee4f6d902d130e3c2d61d0ece0fdd0c882d33567d967d",
+      "bytes": 452
+    },
+    "TAU_ZERO_NORM_PROOF.md": {
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+      "bytes": 13053
+    },
+    "accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+      "bytes": 15099
+    },
+    "accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    }
+  }
+}

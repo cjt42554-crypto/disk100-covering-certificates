@@ -1,0 +1,27 @@
+{
+  "status": "FROZEN_INDEPENDENT_STATIC_SMALL_TAU_PASS",
+  "files": {
+    "INDEPENDENT_REVIEW.md": {
+      "sha256": "5bc15f2f22c87679403e93490051595b9aea8ea2f78ea18bec58de12f58a1381",
+      "bytes": 9890
+    },
+    "ISSUE_HISTORY.md": {
+      "sha256": "0181c7d2572d5da01b6b75bc56aaca1ab5b5a259c60dae55795b73c90b64b294",
+      "bytes": 1716
+    },
+    "SUPPLEMENTAL_STATIC_CHECK.md": {
+      "sha256": "9112b6451f4b2462b558b487313a81309139cd42aa06fb75bccce9bcc34623bd",
+      "bytes": 1949
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "51e1e169fefe88162ae4960f5f46bf661a5628c79547ecb270e6bd428f488187",
+      "bytes": 4188
+    }
+  },
+  "reviewer_mathematical_program_executions": 0,
+  "supplemental_reviewer_mathematical_program_executions": 0,
+  "source_imports": 0,
+  "checker_calls": 0,
+  "replays": 0,
+  "metadata_only": true
+}

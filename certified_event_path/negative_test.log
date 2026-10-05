@@ -1,0 +1,28 @@
+[
+  {
+    "test": "event_polynomial_tamper",
+    "status": "REJECTED",
+    "reason": "event coefficient mismatch"
+  },
+  {
+    "test": "nonisolating_root_bracket",
+    "status": "REJECTED",
+    "reason": "root box does not cross the event"
+  },
+  {
+    "test": "lowered_continuous_coverage_cap",
+    "status": "REJECTED",
+    "reason": "wrong continuous segment coverage cap"
+  },
+  {
+    "test": "missing_other_site_empty_check",
+    "status": "REJECTED",
+    "reason": "missing/repeated other-site emptiness checks"
+  },
+  {
+    "test": "false_endpoint_cover_radius",
+    "status": "REJECTED",
+    "reason": "uncovered candidate ('T', 0, 1, 3)"
+  }
+]
+PASS: all five mathematical tamper tests rejected.

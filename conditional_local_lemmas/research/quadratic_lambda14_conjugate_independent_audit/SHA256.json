@@ -1,0 +1,49 @@
+{
+  "status": "FROZEN_INDEPENDENT_CORRECTED_LAMBDA14_CONJUGATE_AUDIT_PASS",
+  "initial_source_analytic_issue": "Acute second derivative had a factor-two error; owner corrected proof and guard and preserved initial snapshot as superseded history. Numerical certificate unchanged.",
+  "independent_fresh_verify_calls": 1,
+  "complete_saved_JSON_match": true,
+  "child_checker_calls": 0,
+  "initial_superseded_source_verify_calls": 0,
+  "old_checker_batches_run": 0,
+  "old_primitive_verify_calls": 0,
+  "optimizers_run": 0,
+  "all_current_and_history_source_bytes_unchanged": true,
+  "files": {
+    "REVIEW.md": {
+      "bytes": 6209,
+      "sha256": "b82d82962276147e1011c90af1b2f848d5870f729f80eb71e1744fb946f6fdb0"
+    },
+    "verify_audit.py": {
+      "bytes": 5155,
+      "sha256": "b2848044c4fafb46949cdafb907a5d000d5aad5bb9971a5896e271632386a5c9"
+    },
+    "audit_certificate.json": {
+      "bytes": 2916,
+      "sha256": "939ef1b46fb259679b1144aebf86a735acbc9bec4a548beb1a6442dcb1e167fc"
+    },
+    "replay.log": {
+      "bytes": 815,
+      "sha256": "14624b74d9c6c97b3f5f6d42cc063c2bad381e05845afd9901a5620af3704e2c"
+    },
+    "analytic_child/REVIEW.md": {
+      "bytes": 8042,
+      "sha256": "49f5c1f15966ee42ffe03089d1d4963563b8135ede6710b91980039dc54950db"
+    }
+  },
+  "target_source_sha256": {
+    "PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "replay.log": "e1c3535b2023a350366024fb734dd5f936956a8eb21ad9e604d6571af3cafb3a",
+    "SHA256.json": "4606ec6e225fa4c2e00da75c1eb1835e721d666125d14a2ed79520b361335b9e",
+    "history_factor2_correction/PROOF.md": "266dc36cf80d739dd2f99bcf1703fb77589a88644228f3adde64128b780913e4",
+    "history_factor2_correction/verify_conjugate.py": "a5573868e6af596d48eefdd3fc0a15fc9f53285e4a30de42b9614622f8cae960",
+    "history_factor2_correction/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "history_factor2_correction/replay.log": "12b42809fcf4b3aa142d28d9e5bf9c8182956f670540ab7f19f2e7c4054a862d",
+    "history_factor2_correction/SHA256.json": "a8c001b5655bd4eeb42728b9210e184895093f808367eaddb4be2c1dfd57184e",
+    "history_factor2_correction/STATUS.json": "f496cc9823ce38f76ba05ee659e50aa9b87ad4c84abe174a82d9303afe70cdaf"
+  },
+  "primitive_sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+  "scope": "Exact unrestricted cap-anchor full-apex single-face conjugate at lambda=7/50 and fixed positive tilt, plus zero tilt. No actual shared-anchor joint epsilon, arc bootstrap, global covering-radius bound or optimum."
+}

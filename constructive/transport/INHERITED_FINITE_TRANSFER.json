@@ -1,0 +1,30 @@
+{
+  "basin_exclusion_claim": false,
+  "exact_centerwise_delta": [
+    1,
+    100000000
+  ],
+  "exhaustive_history_claim": false,
+  "finite_reference_count": 35599,
+  "global_optimum_proved": false,
+  "includes_new_guarded_source_reference": false,
+  "new_best_common_strict_exclusion_decimal": ".002362494",
+  "new_best_common_strict_exclusion_threshold": [
+    1181247,
+    500000000
+  ],
+  "new_best_excludes_old_finite_refs_at_2e_minus6": true,
+  "new_guarded_source_is_numerical_same_orbit": true,
+  "new_ordinary_best_npy_sha256": "ea5ebe01e8aea5eeb86d83bd72a9ca86071e0ef1ac2109b3501d0d3cf505c398",
+  "source_common_exclusion_threshold": [
+    295313,
+    125000000
+  ],
+  "source_npy_sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565",
+  "status": "PASS_EXACT_FINITE_REFERENCE_EXCLUSION_TRANSPORT",
+  "theorem": "If an O2 transform and all100 bijection matched the new best to a reference at distance <=M-delta, applying the same transform/bijection to the source gives distance <=M by triangle inequality, contradicting the source Hall certificate.",
+  "evidence_status": "INHERITED_ORIGINAL_FINITE_EXCLUSION_TRANSPORT_PASS",
+  "public_preparation_math_executions": 0,
+  "source_hall_result": "hall/INHERITED_RESULT.json",
+  "centerwise_transport_result": "transport/INHERITED_RESULT.json"
+}

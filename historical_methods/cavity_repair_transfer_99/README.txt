@@ -1,0 +1,12 @@
+PUBLICATION SCOPE: CURATED HISTORICAL RESEARCH RECORD
+This is a lean, privacy-edited copy. Original replay/rebuild instructions below describe the complete historical archive, not a ready-to-run public reproduction. Large run snapshots, inventories, caches and some dependency trees are intentionally omitted. No complete replay of these finite runs is claimed here; no program was executed for publication. Read ../README.md and this route's PUBLICATION_SCOPE.json. Original files were retained unchanged.
+
+OR-cavity wall repairs followed by original-problem full100 restoration
+
+The geometry owner permanently sealed80files with48 distinct raw-frame QCQP preparations and source-to-aligned transformations. Those exact arrays were copied and SHA/frame/outside-patch bitwise checked; no NE/SW vector was applied to a different frame. Every finite witness has one assigned covering owner in each branch, while alternative owners are alternatives, not simultaneously necessary neighbors. Source LP/QCQP stages,47 success and1 status8 failure, are preserved in the handoff and target ledger. These local proxy stages do not establish full coverage or a global upper bound.
+
+This48-start batch is within the64 budget. The owner explicitly had not run original-problem full100 optimization, so the designated handoff preparation namespace is excluded from the old-original-optimizer input hash scan. Every actual earlier initial/trace in the enlarged ordered and sorted100-coordinate geometry library, including the frozen96 batch, is checked separately. No blindfree-only, random or repeated initial was added.
+
+All100 circles are original-problem nooffset epigraph variables. At most two SLSQP rounds refresh actual interior/boundary inventory and record statuses, new contacts and true-minus-frozen objective. Independent replay evaluates every source/reference/start/stage/final using every triple, every pair-circle intersection, antipodes and axes with true nearest100 distances. Eight older directories and the complete geometry handoff remain unchanged.
+
+Binding geometry and actual active graphs identify contact families; inactive completion changes are preserved. Full100 baseline matches require complete coordinate/inventory alignment, never radius alone. Event-edge survival before/after restoration is explicitly recorded. Finite failure proves no global barrier or optimality. Reproduce in a writable copy: python3 -B source/cavity_search.py; python3 -B source/audit_finalize.py; python3 -B source/seal_result.py.

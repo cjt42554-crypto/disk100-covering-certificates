@@ -1,0 +1,4 @@
+PASS unique root independent verify_actual_quadratic.verify() call 1.
+Complete JSON MATCH and certificate bytes MATCH.
+All 8 frozen current/dependency files unchanged.
+No old verifier, optimizer, catalogue, geometry search or parameter transfer.

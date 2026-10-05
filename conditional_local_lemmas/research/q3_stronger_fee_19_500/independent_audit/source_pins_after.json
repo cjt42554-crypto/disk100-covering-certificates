@@ -1,0 +1,62 @@
+{
+  "ATTEMPT_LEDGER.json": {
+    "sha256": "818cc49268dfd8be528613ead1a04e1cb35b67ea30c749e48f371e8f1d304c05",
+    "bytes": 382
+  },
+  "GUARD_ADDENDUM.md": {
+    "sha256": "e2ce31e43a8ed34b0e8ef006287881b9fc0fa94ad0706dd8f8df344407fca5f7",
+    "bytes": 3174
+  },
+  "PROOF.md": {
+    "sha256": "5a58cc96f916018885d39888bcd07ca77e768d3c719a695e2d619311fed1610f",
+    "bytes": 16698
+  },
+  "README.md": {
+    "sha256": "502472ff4ab8819ad474892c3f0ba476d3267647186969c9c7da77eda09f6b18",
+    "bytes": 1325
+  },
+  "SHA256.json": {
+    "sha256": "b1be5f8251bf97900e481f6c5b4d5fc0ff8e7004697a1b6f8b53f5cfbe5215c6",
+    "bytes": 3376
+  },
+  "attempts/author_001/receipt.json": {
+    "sha256": "74327ae1771b2781dd3bd60b9844f86a59e1d540fb41c229785cb44f9092898d",
+    "bytes": 560
+  },
+  "attempts/author_001/replay.log": {
+    "sha256": "73c59fa6be61ece177613748b7591e80c0c93bbb20c712134059346cd613d973",
+    "bytes": 152
+  },
+  "attempts/author_001/verify_actual_quadratic_19_500.py": {
+    "sha256": "bd042f4976fbeeb8440da66864814371f82e4fd0e380844cd153dcb7e600f46d",
+    "bytes": 9468
+  },
+  "certificate.json": {
+    "sha256": "b79cc05457486de14e8ed89a8d62bacf596581b152092a3951f9893b3dfa56bb",
+    "bytes": 5336
+  },
+  "dependencies/coupled_edges/verify_support.py": {
+    "sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+    "bytes": 4976
+  },
+  "dependencies/quadratic_lambda14_conjugate/PROOF.md": {
+    "sha256": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "bytes": 3157
+  },
+  "dependencies/quadratic_lambda14_conjugate/certificate.json": {
+    "sha256": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "bytes": 3196
+  },
+  "dependencies/quadratic_lambda14_conjugate/verify_conjugate.py": {
+    "sha256": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "bytes": 3507
+  },
+  "replay.log": {
+    "sha256": "73c59fa6be61ece177613748b7591e80c0c93bbb20c712134059346cd613d973",
+    "bytes": 152
+  },
+  "verify_actual_quadratic_19_500.py": {
+    "sha256": "bd042f4976fbeeb8440da66864814371f82e4fd0e380844cd153dcb7e600f46d",
+    "bytes": 9468
+  }
+}

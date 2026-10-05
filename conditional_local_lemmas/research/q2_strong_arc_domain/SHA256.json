@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_ACCEPTED_RESTRICTED_MIRROR_FAMILY_AND_EXACT_GENERAL_INTERFACE",
+  "mathematical_executions": 0,
+  "files": {
+    "ANALYSIS.md": "9274e72efe3bee6c0aa4957e9e1bcc924bb217dda8558624a6a949f36846cac4",
+    "EXECUTION_SCOPE.md": "5750407131f7821acb69b284131680dd2c15312560d9a8e6b83fa5ddc48b7eae",
+    "RELATED_PROGRESS.md": "cfcecc10ed0391b4c97c2ef1db8da128221c33121b6e4b1996e51c5972b89a41",
+    "REVISION_RECORD.json": "c558acc376a4290d783afd8fb7952dc7d99a3ba9d6015682f8506890218e6be1",
+    "SOURCE_PINS.json": "b8d082f0c9ea09bdf50c06af96754522ecba3b488c38f3786659715ab84d2bb4",
+    "history/ANALYSIS_before_zero_skew_correction.md": "26c456d69574a69a7a3c3633204148865fdee384c47c22a7b684abe087be5b03"
+  },
+  "independent_review": {
+    "path": "PROJECT_SOURCE/research/q2_strong_arc_domain_review",
+    "STATIC_REVIEW.md": "2d929b3b71e73b3644d6839b258dbb08c194eac86ae665756ea1aae6cda398c1",
+    "SOURCE_PINS.json": "c43ac38a753d23617749edcabaf41cbaad1ff41c84b2a4117c6e5daceab27709",
+    "SHA256.json": "f519a28f918198471cc43b859afbbdcd107bb01adbdd9b5eac0b49f0935f1199"
+  },
+  "limits": [
+    "No uniform general positive-tau two-face fee proved.",
+    "No symmetry-extremality claim.",
+    "No acceptance of the separate awaiting-review zero-tau theorem.",
+    "No global Q, incidence or whole-cover reduction."
+  ],
+  "frozen_tree_note": "No further edits planned; later work must use a separate addendum."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_INDEPENDENT_STATIC_Q2_ACTUAL_A_REVIEW_PASS",
+  "scope": "Actual-A fee alone at R=5661/50000 and sin epsilon=1/12; exact parent target bridge; actual full caps above .62/.6; no joint/Q/degree-7/whole-cover acceptance.",
+  "reviewer_mathematical_executions": 0,
+  "files": {
+    "INDEPENDENT_REVIEW.md": {
+      "sha256": "f1e0e42c83910b28240da349dc1c7e4f7f8b1248ad381bd45fa0ed76485c3554",
+      "bytes": 10851
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "326b6df3dd468c938a8318a399793ad2e4a39c324f6fc6fcde46d3815817cc7e",
+      "bytes": 3237
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "status": "FROZEN_ACCEPTED_LOCAL_UNIFORM_RADIUS_FEE_19_500_STATIC_REVIEW_PASS",
+  "radius_lower": [
+    0,
+    1
+  ],
+  "radius_lower_included": false,
+  "radius_upper": [
+    794400,
+    5378209
+  ],
+  "radius_upper_included": true,
+  "requested_radius_upper": [
+    231,
+    2000
+  ],
+  "same_normalized_local_fee": [
+    19,
+    500
+  ],
+  "fee_surplus_above_3_100": [
+    1,
+    125
+  ],
+  "fixed_lambda": [
+    7,
+    50
+  ],
+  "fixed_tilt": [
+    1071883,
+    20000000
+  ],
+  "files": {
+    "PROOF_ADDENDUM.md": "eacd376402698410798b1ade9373c786896519a18b7a95c589ba4cb93a480fae",
+    "radius_endpoint_fraction.py": "7f56e4f3dd808320586ed060a9eb089ec752868a479ea38780cc25cda7783d47",
+    "endpoint_arithmetic.json": "4b1890a96617817c58481435864678eb867528c90ce7b6448ca94f6e69df85de",
+    "SOURCE_PINS.json": "c29656471c6dff992ba1f4e87e05e13d7e5408e28d4820e7233e8023de4a891b",
+    "PREMISE_STATUS.json": "7389a605e8926a2602b2c66ab7395edda8b52fa252874143a515f9dcf398d980",
+    "STATIC_RADIUS_REVIEW.md": "d3e7e947d390ab880d70edffd1a7f864c8115ab4897b49d2a02bfef309b48651"
+  },
+  "stronger_normalized_premise_independently_accepted": true,
+  "stronger_source_and_acceptance_pins_unchanged_at_freeze": true,
+  "earlier_025_radius_directory_unchanged_at_freeze": true,
+  "new_endpoint_fraction_calls": 1,
+  "frozen_math_source_imports_or_executions_by_this_owner": 0,
+  "stronger_or_earlier_or_conjugate_checker_calls_by_this_owner": 0,
+  "optimizers_scans_or_geometry_searches": 0,
+  "independent_radius_review": "PASS_STATIC_UNIFORM_RADIUS_LOCAL_ACTUAL_A_FEE_19_500; no math code execution by child reviewer",
+  "scope": "Local actual signed-anchor consecutive common-apex three-face theorem at fixed coefficients. No coefficient rectangle, eligible global fan incidence, boundary/profile budget, global radius exclusion or optimum."
+}

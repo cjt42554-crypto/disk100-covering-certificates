@@ -1,0 +1,7 @@
+{
+  "revision": "ZERO_SKEW_ENDPOINT_DISPLAY_CORRECTION",
+  "previous_source_sha256": "26c456d69574a69a7a3c3633204148865fdee384c47c22a7b684abe087be5b03",
+  "preserved_source": "history/ANALYSIS_before_zero_skew_correction.md",
+  "issue": "H<Qs is equality when sin(epsilon)=0. Change to H<=Qs; Qs<.948662 remains strict, so every final norm bound stays strict.",
+  "mathematical_executions": 0
+}

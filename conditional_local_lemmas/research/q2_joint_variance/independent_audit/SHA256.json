@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_INDEPENDENT_STATIC_Q2_JOINT_VARIANCE_REVIEW_PASS",
+  "reviewer_mathematical_executions": 0,
+  "scope": "Actual signed-A pair loss plus the one specified actual-middle-halfarc variance at cos gamma=17/25,tan skew half=1/40; fullarc>.134 only. Global Q,degree-7,four-cell window,whole profile and full cover are unverified; this point does not meet xi>.6.",
+  "files": {
+    "INDEPENDENT_REVIEW.md": {
+      "sha256": "20f658873158cfed7041b8e9a2cb1fd9c43a7e8c5e56e68df8e500ee97568033",
+      "bytes": 10584
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "49f8e2ac7d81bd97ae5ca32ae88d902a23afc52d89c689e9914b7bf82a18cd0d",
+      "bytes": 3412
+    }
+  }
+}

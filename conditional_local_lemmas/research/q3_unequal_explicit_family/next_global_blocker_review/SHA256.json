@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_STATIC_BLIND_REVIEW_PASS",
+  "fresh_candidate_calls": 0,
+  "numeric_verifier_calls": 0,
+  "files": {
+    "ANALYTIC_BLIND_REVIEW.md": {
+      "bytes": 10780,
+      "sha256": "37bf3dc157cb1fe46b49b766cf563978158ca74386ff60eb12f489f87ea42956"
+    },
+    "SOURCE_REVIEW_PINS.json": {
+      "bytes": 2020,
+      "sha256": "ff7bf5e0cfb3ec15efd73409b5d72c99b027d103fe5c8730b5f40592c9ce80fd"
+    }
+  },
+  "input_certificate_sha256": "e5db4d60907d510bcc606edc89243b579036dc8d63c2004fceb3703580c1db75",
+  "scope": "All 33 actual nearest-owned boundary arcs connected/covered and strictly longer than .092; entire unit circle covered; exact seven-face q3 degree7 Voronoi/Delaunay star; source score formula blocks .019931551 standalone loss from these local premises. No closedDisk100 cover, global profile/radius, remaining-face radius bound or outer-Q condition certified."
+}

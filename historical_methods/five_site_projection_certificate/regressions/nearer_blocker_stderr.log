@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "five_site_projection_certificate/verify_projection.py", line 159, in <module>
+    main()
+  File "five_site_projection_certificate/verify_projection.py", line 152, in main
+    result = certify(a.coordinates,a.primary,a.added,a.radius)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "five_site_projection_certificate/verify_projection.py", line 106, in certify
+    require(gap > 0, 'another center blocks the five-site nearest circle')
+  File "five_site_projection_certificate/verify_projection.py", line 25, in require
+    raise ValueError(message)
+ValueError: another center blocks the five-site nearest circle

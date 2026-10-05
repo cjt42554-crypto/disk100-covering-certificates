@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "reviewed_source_sha256": "63a9c0f0379796c941dd068a7aa2c714a335143910b9c44300110c8322bdf6b4",
+  "arithmetic_and_input_tests": [
+    {
+      "case": "malformed_three_coordinate_JSON_before_acceptor",
+      "status": "PASS",
+      "expected_rejection": "each center must have exactly two coordinates"
+    },
+    {
+      "case": "duplicate_selected_sites",
+      "status": "PASS",
+      "expected_rejection": "three primary and two distinct added sites required"
+    },
+    {
+      "case": "out_of_range_selector",
+      "status": "PASS",
+      "expected_rejection": "site index outside range"
+    },
+    {
+      "case": "nearer_site_original_negative_receipt_replayed_geometry_only",
+      "status": "PASS",
+      "expected_rejection": "another center blocks the five-site nearest circle"
+    },
+    {
+      "case": "source_bytes_change_during_parser_read",
+      "status": "PASS",
+      "expected_rejection": "coordinate file changed during read"
+    },
+    {
+      "case": "six_sqrt_interval_zero_square_nonsquare_large_rational_edges",
+      "status": "PASS"
+    },
+    {
+      "case": "radial_displacement_rectangle_bound",
+      "status": "PASS"
+    },
+    {
+      "case": "translated_exact_primary_circle_formula",
+      "status": "PASS"
+    },
+    {
+      "case": "same_ray_projection_collision",
+      "status": "PASS",
+      "expected_rejection": "two selected sites have the same circle ray"
+    },
+    {
+      "case": "center_on_polygon_boundary",
+      "status": "PASS",
+      "expected_rejection": "circle center is not strictly inside the five-site polygon"
+    },
+    {
+      "case": "valid_original_positive_geometry_reaches_cover_gate_without_executing_it",
+      "status": "PASS"
+    },
+    {
+      "case": "CRLF_source_byte_hash_and_reader_normalized_hash_distinct",
+      "status": "PASS",
+      "source_cover_result_reused_only_for_IO_test": true,
+      "new_cover_acceptor_executions": 0
+    }
+  ],
+  "tests_passed": 12,
+  "actual_full_cover_acceptor_executions": 0,
+  "intercepted_cover_gate_calls": [
+    {
+      "rows": 100,
+      "radius": "2",
+      "mode": "forbid"
+    },
+    {
+      "rows": 100,
+      "radius": "2",
+      "mode": "reuse-existing-for-IO-only"
+    }
+  ],
+  "existing_positive_and_nearer_blocker_receipts_reused": true,
+  "new_optimizer_or_full_disk_or_old_math_runs": 0,
+  "source_original_unchanged": true,
+  "dimension_counterexample": "dimension_counterexample.json",
+  "CRLF_binding_check": {
+    "raw_byte_sha256": "73c6a9ed54db150d6d2a272c2200e5579bf5be294cebb8c5c5283ac152c2fa88",
+    "normalized_text_sha256": "d5c5c8b781bc78361bc33bdf09aea1e96a5dc7f2bc0c2c8229a2578311f60f6d",
+    "source_cover_return_value_is_mocked_reuse_for_IO_only": true,
+    "no_new_mathematical_cover_acceptance_claimed": true
+  }
+}

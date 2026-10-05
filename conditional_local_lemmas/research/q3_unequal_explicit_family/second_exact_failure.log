@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "PROJECT_SOURCE/research/q3_unequal_explicit_family/verify_explicit.py", line 169, in verify
+    need(all(q.read_bytes()==raw for q,raw in before.items()),'frozen primitive/conjugate unchanged')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "PROJECT_SOURCE/research/q3_unequal_explicit_family/verify_explicit.py", line 169, in <genexpr>
+    need(all(q.read_bytes()==raw for q,raw in before.items()),'frozen primitive/conjugate unchanged')
+             ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'read_bytes'

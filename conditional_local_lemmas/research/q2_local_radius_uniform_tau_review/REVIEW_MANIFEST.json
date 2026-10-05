@@ -1,0 +1,14 @@
+{
+  "EXECUTION_LEDGER.json": {
+    "bytes": 315,
+    "sha256": "00da46f92e2bc64f284be116c8e49bc3d530d6d03ebcd695e65622687bcc435d"
+  },
+  "INDEPENDENT_REVIEW.md": {
+    "bytes": 4696,
+    "sha256": "658a9a0b1b87d6f38376d265f65fd1b417251695f6a9da3c7254c90a6b312728"
+  },
+  "SOURCE_PINS.json": {
+    "bytes": 973,
+    "sha256": "deba65a96e2bb52f9cebc4393d9f15277bb37f95c0a76444ca8d6c6d5bcc1ecb"
+  }
+}

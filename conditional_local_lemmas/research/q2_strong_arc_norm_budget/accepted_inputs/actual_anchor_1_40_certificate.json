@@ -1,0 +1,204 @@
+{
+  "status": "PASS_SAME_QUADRATIC_ACTUAL_SIGNED_ANCHOR_FAN_FEE_1_40",
+  "radius": [
+    11321,
+    100000
+  ],
+  "lambda": [
+    7,
+    50
+  ],
+  "tilt": [
+    1071883,
+    20000000
+  ],
+  "same_score_fee": [
+    1,
+    40
+  ],
+  "peak_angle": [
+    [
+      20709590010864807103097136751330347,
+      25000000000000000000000000000000000
+    ],
+    [
+      41419180021729614206194276209602919,
+      50000000000000000000000000000000000
+    ]
+  ],
+  "peak_cosine": [
+    [
+      13521353397192304805298641282369837,
+      20000000000000000000000000000000000
+    ],
+    [
+      67606766985961524026493210401013307,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "accepted_conjugate": [
+    [
+      9209378939705044463007341675614403,
+      6250000000000000000000000000000000
+    ],
+    [
+      147350063035280711408117479545097227,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "accepted_obtuse": [
+    [
+      56035470136363299303858049751769519,
+      100000000000000000000000000000000000
+    ],
+    [
+      14008867534090824825964513765680993,
+      25000000000000000000000000000000000
+    ]
+  ],
+  "localization_margins": [
+    [
+      [
+        686325405729420846819814401823241,
+        50000000000000000000000000000000000
+      ],
+      [
+        274530162291768338727928307782653,
+        20000000000000000000000000000000000
+      ]
+    ],
+    [
+      [
+        11212085350988343319493944692303,
+        800000000000000000000000000000000
+      ],
+      [
+        700755334436771457468377910902329,
+        50000000000000000000000000000000000
+      ]
+    ]
+  ],
+  "curvature_strict_lower_enclosure": [
+    [
+      200979598634499235343347735730435419,
+      50000000000000000000000000000000000
+    ],
+    [
+      401959197268998470686695471460870841,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "convex_cut": [
+    1,
+    10
+  ],
+  "cut_ratio_endpoint_enclosures": [
+    [
+      [
+        165430750749559769867446921584566537,
+        100000000000000000000000000000000000
+      ],
+      [
+        82715375374779884933723460792283273,
+        50000000000000000000000000000000000
+      ]
+    ],
+    [
+      [
+        20255626620704280753921809820561929,
+        12500000000000000000000000000000000
+      ],
+      [
+        162045012965634246031374478564495439,
+        100000000000000000000000000000000000
+      ]
+    ]
+  ],
+  "paid_gamma_slope_strict_lower": [
+    25172117,
+    20000000
+  ],
+  "single_paid_budget": "2 sum e^2 + sum z + sum sigma + sum tau <= D <= 1/40",
+  "tip_V_bounds": [
+    [
+      -54281,
+      100000
+    ],
+    [
+      -121,
+      1000
+    ]
+  ],
+  "tip_skew_squared_upper": [
+    5113725,
+    8388608
+  ],
+  "tip_skew_coefficient_upper": [
+    79,
+    100
+  ],
+  "endpoint_imaginary_two_sided_bounds": [
+    [
+      3047,
+      40000
+    ],
+    [
+      73169,
+      200000
+    ]
+  ],
+  "B_jacobian_frobenius_squared_upper": [
+    76960399529,
+    20000000000
+  ],
+  "b_jacobian_frobenius_squared_upper": [
+    77583868411,
+    20000000000
+  ],
+  "B_shared_quadratic_coefficient_squared": [
+    114406399529,
+    40000000000
+  ],
+  "b_shared_quadratic_coefficient_squared": [
+    90065868411,
+    40000000000
+  ],
+  "B_linear_coefficient": [
+    201,
+    50
+  ],
+  "b_linear_coefficient": [
+    529,
+    200
+  ],
+  "B_error_strict_upper": [
+    27,
+    100
+  ],
+  "b_error_strict_upper": [
+    6,
+    25
+  ],
+  "unit_lhs_strict_lower": [
+    1187,
+    1250
+  ],
+  "unit_rhs_strict_upper": [
+    56463362969,
+    100000000000
+  ],
+  "unit_compatibility_margin_strict_lower": [
+    38496637031,
+    100000000000
+  ],
+  "primitive_sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+  "accepted_conjugate_inputs": {
+    "PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+    "certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2"
+  },
+  "old_batches_run": 0,
+  "optimizers_run": 0,
+  "geometry_searches_run": 0,
+  "scope": "Consecutive actual common-apex three-face fan, circumradii <= R, arbitrary common covered unit anchors of either signed side. sum(area/R^2 + signedA/R^2 -.56 x^2 + t gamma) <3C-1/40. Old BC lens and centered credits are not charged by this theorem; global signed-shoelace substitution, fan incidence and other profiles remain external."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_FINITE_SOURCE_DERIVATIVES",
+  "source_file": "PROJECT_ROOT/b32_event_targeting_14_review/inputs/pinned14.npy",
+  "source_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+  "diagnostic_local_circuit": [
+    4,
+    96,
+    97,
+    95
+  ],
+  "event_definition": "standard det[x,y,x\u00b2+y\u00b2,1]=-orientation*circle_clearance; positive inside when supporttriangleCCW",
+  "raw_e0": -0.0014913726629652078,
+  "fixed_source_gradient_scale": 0.02232927473741083,
+  "objective": "t=R^2",
+  "epigraph_constraint_definition": "t-g_hole>=0",
+  "event_level_equation": "[e(C)-(1-f)e0]/fixed_scale=0; tderivative0",
+  "rotation_slice_only": true,
+  "FD_rows": [
+    {
+      "h": 1e-05,
+      "cover_epigraph_J_max_error": 5.560483323785448e-10,
+      "event_fixed_source_scaled_J_max_error": 1.7930934514964747e-12,
+      "rotation_J_max_error": 4.924255447846804e-13
+    },
+    {
+      "h": 1e-06,
+      "cover_epigraph_J_max_error": 5.1288133462445984e-11,
+      "event_fixed_source_scaled_J_max_error": 3.397683523420625e-11,
+      "rotation_J_max_error": 3.4623137690203976e-12
+    },
+    {
+      "h": 1e-07,
+      "cover_epigraph_J_max_error": 4.271702436220437e-10,
+      "event_fixed_source_scaled_J_max_error": 3.6305425332727737e-10,
+      "rotation_J_max_error": 5.6951013349682e-11
+    }
+  ],
+  "proxy_solves": 0,
+  "whole_optimizers": 0,
+  "qualified_target_count": 0,
+  "scope": "Function/Jacobian calibration at one retained source; this local circuit is not a prepared pilot or an attained event. No earlier trajectory or optimizer was replayed."
+}

@@ -1,0 +1,232 @@
+{
+  "status": "READY_FIXED_SOURCE_CONTROL_CHARTS",
+  "records": [
+    {
+      "control_id": "joint02_branch03",
+      "joint_id": 2,
+      "branch_id": 3,
+      "common_primary_triangle": [
+        89,
+        38,
+        47
+      ],
+      "added_sites_in_event_order": [
+        90,
+        37
+      ],
+      "source_driver_raw_e0": [
+        0.027588597969927946,
+        0.03220487128862411
+      ],
+      "source_driver_gradient_norm": [
+        0.5654642199928321,
+        0.5885056488738205
+      ],
+      "post_raw_eta": [
+        -2,
+        -1
+      ],
+      "post_epsilon_exact": {
+        "numerator": "1",
+        "denominator": "262144"
+      },
+      "post_epsilon": 3.814697265625e-06,
+      "final_raw_power_goals": [
+        -7.62939453125e-06,
+        -3.814697265625e-06
+      ],
+      "final_source_normalized_power_goals": [
+        -0.000276541582126289,
+        -0.00011845093965559444
+      ],
+      "final_gradient_scaled_power_goals": [
+        -1.3492267523746613e-05,
+        -6.482006201512088e-06
+      ],
+      "final_homotopy_f_values": [
+        1.0002765415821262,
+        1.0001184509396557
+      ],
+      "source_normalized_eta": [
+        -72.4937165049139,
+        -31.05120312507615
+      ],
+      "gradient_scaled_eta": [
+        -3.536916977745032,
+        -1.6992190336891848
+      ],
+      "raw_power_units": "squared length",
+      "epsilon_units": "squared length",
+      "eta_units": "dimensionless",
+      "source_e0_and_gradientnorm_fixed": true,
+      "source_coordinate_relative_file": "inputs/pinned14_best61.npy",
+      "source_coordinate_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "finite_reference_relative_file": "inputs/joint02_branch03_NONZERO_UNMEASURED_RADIUS.npy",
+      "finite_reference_file_sha256": "13ad6af9deb8569aeb113f39de78d7e23de4c310aab9079c66ef3a83bbe2f044",
+      "finite_reference_radius": null,
+      "branch_diagonals": [
+        [
+          37,
+          90
+        ],
+        [
+          47,
+          90
+        ]
+      ],
+      "branch_faces": [
+        [
+          89,
+          90,
+          47
+        ],
+        [
+          90,
+          38,
+          37
+        ],
+        [
+          90,
+          37,
+          47
+        ]
+      ],
+      "complete_actual_graph_qualified": false,
+      "cover_restart_qualified": false,
+      "event_kind": "common_triangle_circlepower",
+      "equality_value_definition": "(raw_event(C)-target_raw_level)/fixed_chart_scale",
+      "epigraph_derivative_column": 200,
+      "epigraph_derivative_value": 0.0,
+      "rotation_gauge_included_in_this_adapter": false,
+      "spatial_derivatives_projected": false,
+      "full_x_dimension": 201,
+      "full_spatial_dimension": 200,
+      "rotation_quotient_spatial_dimension": 199,
+      "progress_interface": {
+        "prejoint": {
+          "phase": "prejoint",
+          "f": "source0 to joint1"
+        },
+        "postjoint": {
+          "phase": "postjoint",
+          "epsilon": "joint0 to positive epsilon with fixed raw_eta"
+        }
+      }
+    },
+    {
+      "control_id": "joint03_branch03",
+      "joint_id": 3,
+      "branch_id": 3,
+      "common_primary_triangle": [
+        73,
+        29,
+        20
+      ],
+      "added_sites_in_event_order": [
+        74,
+        72
+      ],
+      "source_driver_raw_e0": [
+        0.027669715542842928,
+        0.048711390104696106
+      ],
+      "source_driver_gradient_norm": [
+        0.5652709882343696,
+        0.6246116471602886
+      ],
+      "post_raw_eta": [
+        -1,
+        -2
+      ],
+      "post_epsilon_exact": {
+        "numerator": "1",
+        "denominator": "262144"
+      },
+      "post_epsilon": 3.814697265625e-06,
+      "final_raw_power_goals": [
+        -3.814697265625e-06,
+        -7.62939453125e-06
+      ],
+      "final_source_normalized_power_goals": [
+        -0.00013786543124082507,
+        -0.00015662444686657536
+      ],
+      "final_gradient_scaled_power_goals": [
+        -6.748439854555866e-06,
+        -1.2214620982391216e-05
+      ],
+      "final_homotopy_f_values": [
+        1.0001378654312407,
+        1.0001566244468665
+      ],
+      "source_normalized_eta": [
+        -36.14059560719485,
+        -41.05815899939153
+      ],
+      "gradient_scaled_eta": [
+        -1.7690630172326929,
+        -3.201989602807963
+      ],
+      "raw_power_units": "squared length",
+      "epsilon_units": "squared length",
+      "eta_units": "dimensionless",
+      "source_e0_and_gradientnorm_fixed": true,
+      "source_coordinate_relative_file": "inputs/pinned14_best61.npy",
+      "source_coordinate_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "finite_reference_relative_file": "inputs/joint03_branch03_NONZERO_UNMEASURED_RADIUS.npy",
+      "finite_reference_file_sha256": "e2e03635d986fd6591a415ac66bffb142ef9f2e24db0d353b3c8f85a293b3f8a",
+      "finite_reference_radius": null,
+      "branch_diagonals": [
+        [
+          72,
+          74
+        ],
+        [
+          29,
+          72
+        ]
+      ],
+      "branch_faces": [
+        [
+          20,
+          72,
+          29
+        ],
+        [
+          72,
+          73,
+          74
+        ],
+        [
+          72,
+          74,
+          29
+        ]
+      ],
+      "complete_actual_graph_qualified": false,
+      "cover_restart_qualified": false,
+      "event_kind": "common_triangle_circlepower",
+      "equality_value_definition": "(raw_event(C)-target_raw_level)/fixed_chart_scale",
+      "epigraph_derivative_column": 200,
+      "epigraph_derivative_value": 0.0,
+      "rotation_gauge_included_in_this_adapter": false,
+      "spatial_derivatives_projected": false,
+      "full_x_dimension": 201,
+      "full_spatial_dimension": 200,
+      "rotation_quotient_spatial_dimension": 199,
+      "progress_interface": {
+        "prejoint": {
+          "phase": "prejoint",
+          "f": "source0 to joint1"
+        },
+        "postjoint": {
+          "phase": "postjoint",
+          "epsilon": "joint0 to positive epsilon with fixed raw_eta"
+        }
+      }
+    }
+  ],
+  "pathspec_manifest_sha256": "24adf31a0bad10c394cb05ae19c729414190df6e045bcb63be22bcab584f93ad",
+  "nonzero_alternatives_manifest_sha256": "dc2c125099f2a35c20d5597f5fe074006a62b8b1c4fcad745efb35a99bca50b0",
+  "solver_or_wholeD_calls": 0
+}

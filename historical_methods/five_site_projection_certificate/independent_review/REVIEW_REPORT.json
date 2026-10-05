@@ -1,0 +1,58 @@
+{
+  "status": "PASS_AFTER_TWO_ROOT_INPUT_BINDING_CORRECTIONS",
+  "source_versions": {
+    "before_shape_guard_reconstructed.py": {
+      "bytes": 6798,
+      "sha256": "5d9cb7906d916a43f1808aa4ec1a0067a41f8f377174be44421d880d57c8f528"
+    },
+    "shape_guard_only_reconstructed.py": {
+      "bytes": 6907,
+      "sha256": "397872f80ca393d06cc5299f52786e123a69b624e0d69d432103a697393c448a"
+    },
+    "final_reviewed_source_snapshot.py": {
+      "bytes": 7173,
+      "sha256": "63a9c0f0379796c941dd068a7aa2c714a335143910b9c44300110c8322bdf6b4"
+    }
+  },
+  "reviewed_current_source_sha256": "63a9c0f0379796c941dd068a7aa2c714a335143910b9c44300110c8322bdf6b4",
+  "tests": 12,
+  "original_regressions_reused": true,
+  "original_regressions": {
+    "positive_stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "positive_certificate.json": {
+      "bytes": 3449,
+      "sha256": "b591891bec30661e1e3c61a8a6fd3b7ffb3528347a93c7b13cddc9444887805d"
+    },
+    "nearer_blocker_stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "positive_stdout.log": {
+      "bytes": 85,
+      "sha256": "8231a9b0fff5d8c197d4061589bd00849e8716c4fb5cbe3754a62543db03c2cb"
+    },
+    "REGRESSION_RECEIPT.json": {
+      "bytes": 369,
+      "sha256": "2c4b5eb555995ae3a2e2e13f64f48deddea50c463169b049e51e4b3862b8b182"
+    },
+    "nearer_blocker.csv": {
+      "bytes": 410,
+      "sha256": "3a1ca775d8b121ec94329e9ef65ebd646eb86a0eba2afd289cfdb4fb761b6336"
+    },
+    "nearer_blocker_stderr.log": {
+      "bytes": 853,
+      "sha256": "d68122985599eb04ea6b61ae98e2223c33e7e939e8f1d5ec35785b66574c02d1"
+    },
+    "positive.csv": {
+      "bytes": 410,
+      "sha256": "d5c5c8b781bc78361bc33bdf09aea1e96a5dc7f2bc0c2c8229a2578311f60f6d"
+    }
+  },
+  "actual_full_cover_acceptor_executions": 0,
+  "new_optimizer_or_oldproof_runs": 0,
+  "scope": "Specific exact projected five-site algebraic configuration and fullclosedD coverage cap U+D after actual source cover acceptance;no path/KKT/record/global proof",
+  "remaining_blockers": []
+}

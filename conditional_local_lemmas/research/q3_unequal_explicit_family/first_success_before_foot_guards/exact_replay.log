@@ -1,0 +1,1 @@
+Root actual algebraic checker attempts 3: first constant I wrapper error retained; second final str/Path source guard error retained; corrected source PASS. All original geometry guards were unchanged. No optimizer, catalogue, old batch or conjugate verify called.

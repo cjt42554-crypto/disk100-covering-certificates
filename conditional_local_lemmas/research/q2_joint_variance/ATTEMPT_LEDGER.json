@@ -1,0 +1,19 @@
+{
+  "author_mathematical_attempts": 1,
+  "author_mathematical_passes": 1,
+  "old_checker_calls": 0,
+  "optimizer_calls": 0,
+  "prespecified_denominators": [
+    40,
+    39
+  ],
+  "instruction": "First evaluate tan(skew/2)=1/40. Only if its required fullarc condition fails may the separately prespecified 1/39 point be attempted; record both sources and receipts. No sweep.",
+  "attempt_dirs": [
+    "attempts/author_001_denom40"
+  ],
+  "first_point_passed": true,
+  "fallback_denom39_attempts": 0,
+  "old_source_verify_calls": 0,
+  "primitive_definition_imports": 1,
+  "global_outer_Q_verified": false
+}

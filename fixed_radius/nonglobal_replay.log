@@ -1,0 +1,38 @@
+{
+  "fixed_radius_exact_verified": true,
+  "companion_root_and_whole_closed_disk_cover_freshly_recomputed": true,
+  "companion_n_variables": 932,
+  "companion_n_centers": 100,
+  "fixed_worst_candidate": [
+    "T",
+    24,
+    26,
+    33
+  ],
+  "companion_radius_interval": [
+    [
+      11544695488558220163979840676978324705424034570427252136862487491,
+      100000000000000000000000000000000000000000000000000000000000000000
+    ],
+    [
+      11544695488558220163979840676978324705424034570427252136949107360,
+      100000000000000000000000000000000000000000000000000000000000000000
+    ]
+  ],
+  "fixed_radius_interval": [
+    [
+      115446954885582804739528389204068749175480606343527731854843,
+      1000000000000000000000000000000000000000000000000000000000000
+    ],
+    [
+      28861738721395701184882097301017187293870151585881932963711,
+      250000000000000000000000000000000000000000000000000000000000
+    ]
+  ],
+  "strict_radius_gap_lower_bound": [
+    188468665619510714219412887581449767253276672477,
+    312500000000000000000000000000000000000000000000000000000000000
+  ],
+  "statement": "This fixed rational configuration is strictly nonglobal: the independently verified companion is a 100-center full closed-unit-disk cover with strictly smaller radius. Its fixed-radius polynomial is not a global optimum polynomial."
+}
+PASS: both exact proofs freshly recomputed; fixed configuration is strictly nonglobal.

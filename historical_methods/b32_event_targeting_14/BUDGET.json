@@ -1,0 +1,18 @@
+{
+  "status": "ACTUAL_ENUMERATED",
+  "source_frames": 3,
+  "event_jets": 1226,
+  "reference_models_only_on_pinned_frame": true,
+  "cap_KKT_models": 0,
+  "full_integer_source_checks": 3,
+  "finite_jet_QP_diagnostics": 822,
+  "new_covering_optimizer_calls": 0,
+  "repeated_old_continuation_frames": 0,
+  "independent_new_whole_disk_calls": 18,
+  "maximum_planned_targets": 6,
+  "first_delivery_target_count": 2,
+  "planned_new_whole_disk_probe_calls_first_delivery": 6,
+  "BLAS_threads": 1,
+  "max_compute_workers": 2,
+  "readied_event_targets": 6
+}

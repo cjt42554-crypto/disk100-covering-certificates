@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "duration_seconds": 0.05380275900097331,
+  "local_mathematical_guard_executions": 1,
+  "old_checker_calls": 0,
+  "mathematical_source_module_imports": 0,
+  "execution_mode": "single fresh stdlib-only verify.py as __main__; frozen source copied first",
+  "source_hashes": {
+    "verification.log": "c78454485e839e00edeb457a810df4a9d878eda9f44077c165302501f20b02e2",
+    "README.md": "e4bbd8d1f98c6ec69e5b209360bf1356bd0256f797c904c990b0f53f6e5e233e",
+    "RESULT_FOR_HANDOFF.md": "4481fa042148bcd61be5a1a9fadbfe40b588b344b0b6e1577a48d3d049c41fcd",
+    "PROOF.md": "8d2289a8816aefd05bea1e12783d5d78e925c31773a0d6222fee60fba3476c6e",
+    "verification.json": "b83b9882560b3d3b6c98ef077e1e9e15482b0a671b43c9cf4a63c4faade8f30e",
+    "verify.py": "34790682b20f5067840f40942ec7d53c8bf2cfe584934c269dbc266cf03b52e4"
+  },
+  "source_unchanged": true,
+  "verification_json_byte_match": true,
+  "remote_log_exact_text_match": true,
+  "guard_count": 48,
+  "scope": "conditional strong norm-domain two-face theorem only; not global covering certificate",
+  "network_calls": 0,
+  "optimizer_calls": 0
+}

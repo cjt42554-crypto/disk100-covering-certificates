@@ -1,0 +1,371 @@
+{
+  "schema": "PROJECT_RELATIVE_SOURCE_TO_PUBLIC_HASH_CORRESPONDENCE_V1",
+  "scope": "Mathematical selected files only. Source names are project-relative, not filesystem paths or private URLs. Original inputs remain untouched.",
+  "public_preparation_math_executions": 0,
+  "correspondence": [
+    {
+      "source": "radial_guarded_exact_cover/inputs/centers.npy",
+      "source_sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565",
+      "public": "endpoint/inputs/centers.npy",
+      "public_sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_exact_cover/inputs/centers.csv",
+      "source_sha256": "ece71dc3e8f92e0264e421548df3b5a84902967b523b455dc31d9406e2e22574",
+      "public": "endpoint/inputs/centers.csv",
+      "public_sha256": "ece71dc3e8f92e0264e421548df3b5a84902967b523b455dc31d9406e2e22574",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_exact_cover/source/verify_cover.py",
+      "source_sha256": "06806070a7c185bc0c710629561d4c2d713eaf231efaadb9f7b9924a05ecb514",
+      "public": "endpoint/source/verify_cover.py",
+      "public_sha256": "06806070a7c185bc0c710629561d4c2d713eaf231efaadb9f7b9924a05ecb514",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_original_transport_cover/inputs/ordinary27_best.npy",
+      "source_sha256": "ea5ebe01e8aea5eeb86d83bd72a9ca86071e0ef1ac2109b3501d0d3cf505c398",
+      "public": "transport/inputs/ordinary_best.npy",
+      "public_sha256": "ea5ebe01e8aea5eeb86d83bd72a9ca86071e0ef1ac2109b3501d0d3cf505c398",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "exact_finite_orbit_certificate/source/exact_radial.py",
+      "source_sha256": "dfb735fe3ee0980c6742d3650d3e00331f23931b173694c8581f7eb7665dd588",
+      "public": "common/exact_radial.py",
+      "public_sha256": "dfb735fe3ee0980c6742d3650d3e00331f23931b173694c8581f7eb7665dd588",
+      "transformation": "Original exact dyadic norm-squared, inclusive all100 count/mask and strict Hall acceptance kernel unchanged."
+    },
+    {
+      "source": "exact_finite_orbit_certificate/source/check_finite_orbits.py",
+      "source_sha256": "7a94f05bf11abefd3f527b0f8b2b739327926e398728214fc0040d8f1c89b81e",
+      "public": "hall/source/original_generator.py",
+      "public_sha256": "7a94f05bf11abefd3f527b0f8b2b739327926e398728214fc0040d8f1c89b81e",
+      "transformation": "Original producer and mathematical acceptance decisions unchanged. Historical source record only, not the portable replay entry; original archival input wrappers and norm selector dependencies are intentionally absent."
+    },
+    {
+      "source": "radial_guarded_original_transport_cover/verify_transport_once.py",
+      "source_sha256": "ff372d3c9c8d97b4cc6278d50b1a0c88956ab0b10f3d8da6c59737f5544f1f98",
+      "public": "transport/source/original_generator.py",
+      "public_sha256": "ff372d3c9c8d97b4cc6278d50b1a0c88956ab0b10f3d8da6c59737f5544f1f98",
+      "transformation": "Original exact Fraction displacement decisions and transport theorem unchanged. Historical generator source record only; use the new portable verifier for public input mapping."
+    },
+    {
+      "source": "exact_finite_orbit_certificate/results/WITNESSES.jsonl",
+      "source_sha256": "0606b3ffd7e0ddc084b13148365d83ab1defb5abf45abceae250c08e76a9af0b",
+      "public": "hall/results/WITNESSES.jsonl",
+      "public_sha256": "0606b3ffd7e0ddc084b13148365d83ab1defb5abf45abceae250c08e76a9af0b",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_000.npy",
+      "source_sha256": "07b70088e2e739042929cfac15831bf51cb537595981ed812a50ac2b5698cb9e",
+      "public": "hall/references/coordinates_000.npy",
+      "public_sha256": "07b70088e2e739042929cfac15831bf51cb537595981ed812a50ac2b5698cb9e",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_001.npy",
+      "source_sha256": "886798bc0298964fd791c70e081aa8736e5f28aba33bbda154759d88c6a27647",
+      "public": "hall/references/coordinates_001.npy",
+      "public_sha256": "886798bc0298964fd791c70e081aa8736e5f28aba33bbda154759d88c6a27647",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_002.npy",
+      "source_sha256": "236bb4cce58049768a16217031d285aac8c71155124699cf69d18b099a89cd34",
+      "public": "hall/references/coordinates_002.npy",
+      "public_sha256": "236bb4cce58049768a16217031d285aac8c71155124699cf69d18b099a89cd34",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_003.npy",
+      "source_sha256": "f09abb9e2cb6c6ea687bd5932490c8966eb6673f5a5e7a7c2629420cd905448f",
+      "public": "hall/references/coordinates_003.npy",
+      "public_sha256": "f09abb9e2cb6c6ea687bd5932490c8966eb6673f5a5e7a7c2629420cd905448f",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_004.npy",
+      "source_sha256": "8227d4a38616b33febae4466d695625a487580ce1ef71bfa8c798bf8163c0ee0",
+      "public": "hall/references/coordinates_004.npy",
+      "public_sha256": "8227d4a38616b33febae4466d695625a487580ce1ef71bfa8c798bf8163c0ee0",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_005.npy",
+      "source_sha256": "6a8cce3ee3e6adb4db9edcef19a34a729015a2f209b1ace9b9eb0ae5b00c99f7",
+      "public": "hall/references/coordinates_005.npy",
+      "public_sha256": "6a8cce3ee3e6adb4db9edcef19a34a729015a2f209b1ace9b9eb0ae5b00c99f7",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_006.npy",
+      "source_sha256": "2468c14272fe9db11d2615c3321e3a5ddc76d01201e21d2722141ad11b31c992",
+      "public": "hall/references/coordinates_006.npy",
+      "public_sha256": "2468c14272fe9db11d2615c3321e3a5ddc76d01201e21d2722141ad11b31c992",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_007.npy",
+      "source_sha256": "77fd7381b602c2ac922850fecbb4046b8fad22814befd19cb16a0a5a06a507d4",
+      "public": "hall/references/coordinates_007.npy",
+      "public_sha256": "77fd7381b602c2ac922850fecbb4046b8fad22814befd19cb16a0a5a06a507d4",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_008.npy",
+      "source_sha256": "1da6cbc154413211ab4894930154cfeda67c9b44562c3b5394e444f3cea9e004",
+      "public": "hall/references/coordinates_008.npy",
+      "public_sha256": "1da6cbc154413211ab4894930154cfeda67c9b44562c3b5394e444f3cea9e004",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_009.npy",
+      "source_sha256": "fa648b691c0be18d6d964107ed38cca53f0143c646ed23c70b8da9afdb3b955e",
+      "public": "hall/references/coordinates_009.npy",
+      "public_sha256": "fa648b691c0be18d6d964107ed38cca53f0143c646ed23c70b8da9afdb3b955e",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_010.npy",
+      "source_sha256": "faecfb005c134755a70f1a3aa297940f730ef63443cd133a221eff72075c04ce",
+      "public": "hall/references/coordinates_010.npy",
+      "public_sha256": "faecfb005c134755a70f1a3aa297940f730ef63443cd133a221eff72075c04ce",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_011.npy",
+      "source_sha256": "b83536acf4934dad4d9bf6eb90fd5d2468cb669168c2b4ace6b7ccadcbbe663d",
+      "public": "hall/references/coordinates_011.npy",
+      "public_sha256": "b83536acf4934dad4d9bf6eb90fd5d2468cb669168c2b4ace6b7ccadcbbe663d",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_012.npy",
+      "source_sha256": "f37b10c9416a36d8964d9824e2a9f91107f3f039166cb221ed899cc11aa02c0f",
+      "public": "hall/references/coordinates_012.npy",
+      "public_sha256": "f37b10c9416a36d8964d9824e2a9f91107f3f039166cb221ed899cc11aa02c0f",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_013.npy",
+      "source_sha256": "1aa950e104fef97ae076655a520f16f54fae556124b4ae322950c5daad9ee4ac",
+      "public": "hall/references/coordinates_013.npy",
+      "public_sha256": "1aa950e104fef97ae076655a520f16f54fae556124b4ae322950c5daad9ee4ac",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_014.npy",
+      "source_sha256": "f73a2f62e784f906866b59192aec6171b7aae66191a215b2e1241a7cc72c6966",
+      "public": "hall/references/coordinates_014.npy",
+      "public_sha256": "f73a2f62e784f906866b59192aec6171b7aae66191a215b2e1241a7cc72c6966",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_015.npy",
+      "source_sha256": "133cc448349e9258f2270b5e49cf7588418c8222f4f40f7b96d04d80b0e3d05a",
+      "public": "hall/references/coordinates_015.npy",
+      "public_sha256": "133cc448349e9258f2270b5e49cf7588418c8222f4f40f7b96d04d80b0e3d05a",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_016.npy",
+      "source_sha256": "6807ca0c6b9214f17885778d8f805496a41c2739e6eabd781113e9157010dbd4",
+      "public": "hall/references/coordinates_016.npy",
+      "public_sha256": "6807ca0c6b9214f17885778d8f805496a41c2739e6eabd781113e9157010dbd4",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_017.npy",
+      "source_sha256": "40f065508525f64e14bdcca019733884df86804e4a5b57f1b17976bac7cfcdcb",
+      "public": "hall/references/coordinates_017.npy",
+      "public_sha256": "40f065508525f64e14bdcca019733884df86804e4a5b57f1b17976bac7cfcdcb",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_018.npy",
+      "source_sha256": "6a9e96f9a24b4106a72bf6b528011d86d8ac93d5d3bffc1da682d125de9bb502",
+      "public": "hall/references/coordinates_018.npy",
+      "public_sha256": "6a9e96f9a24b4106a72bf6b528011d86d8ac93d5d3bffc1da682d125de9bb502",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_019.npy",
+      "source_sha256": "a97a23565641682cc5595ea0e90aee805596b00ce69a5afa7f5a1bbdd939e662",
+      "public": "hall/references/coordinates_019.npy",
+      "public_sha256": "a97a23565641682cc5595ea0e90aee805596b00ce69a5afa7f5a1bbdd939e662",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_020.npy",
+      "source_sha256": "ed2e646985c6f70ee2c9192cc78a3f619f81dd127f43fb032b93b55763395474",
+      "public": "hall/references/coordinates_020.npy",
+      "public_sha256": "ed2e646985c6f70ee2c9192cc78a3f619f81dd127f43fb032b93b55763395474",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_021.npy",
+      "source_sha256": "dcb10fecd971a8bf67425633fe143e672f291e6562f5bf85c04be47bae00175f",
+      "public": "hall/references/coordinates_021.npy",
+      "public_sha256": "dcb10fecd971a8bf67425633fe143e672f291e6562f5bf85c04be47bae00175f",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_022.npy",
+      "source_sha256": "19f2ca65d1dbe4929b01b91284bb0bc519e3422536b5c0934a7b948775441bee",
+      "public": "hall/references/coordinates_022.npy",
+      "public_sha256": "19f2ca65d1dbe4929b01b91284bb0bc519e3422536b5c0934a7b948775441bee",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_023.npy",
+      "source_sha256": "08f7580fff4f94973c0421b98c068d83c7cd206e5551806ab08ffc2236b67730",
+      "public": "hall/references/coordinates_023.npy",
+      "public_sha256": "08f7580fff4f94973c0421b98c068d83c7cd206e5551806ab08ffc2236b67730",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_024.npy",
+      "source_sha256": "ab6d78d3471eea1ecc15989c2820c928b53e6a0e22a09138081db5bc0bba9076",
+      "public": "hall/references/coordinates_024.npy",
+      "public_sha256": "ab6d78d3471eea1ecc15989c2820c928b53e6a0e22a09138081db5bc0bba9076",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_025.npy",
+      "source_sha256": "a911ac267118d9f384b0f24874e97ed4c632c51071783a4d21267d5768a5f03d",
+      "public": "hall/references/coordinates_025.npy",
+      "public_sha256": "a911ac267118d9f384b0f24874e97ed4c632c51071783a4d21267d5768a5f03d",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_026.npy",
+      "source_sha256": "28dbdd2f2de0fd7df375c1e0b071261b2f8bbace9bb36d8651e26bc2e426ea5a",
+      "public": "hall/references/coordinates_026.npy",
+      "public_sha256": "28dbdd2f2de0fd7df375c1e0b071261b2f8bbace9bb36d8651e26bc2e426ea5a",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_027.npy",
+      "source_sha256": "c9365642e579655149fc5bab0cf76828ed3bdeaf390a40f85d7c93a3fb1220fb",
+      "public": "hall/references/coordinates_027.npy",
+      "public_sha256": "c9365642e579655149fc5bab0cf76828ed3bdeaf390a40f85d7c93a3fb1220fb",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_028.npy",
+      "source_sha256": "73e1b5c12031a59452ef58371d6013e84f0f307b2ac2b83810b522106e3efd84",
+      "public": "hall/references/coordinates_028.npy",
+      "public_sha256": "73e1b5c12031a59452ef58371d6013e84f0f307b2ac2b83810b522106e3efd84",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_029.npy",
+      "source_sha256": "524e25b8948fdfa3b207b010b9a7aa96d6a1ef9d57915239484451882069ca86",
+      "public": "hall/references/coordinates_029.npy",
+      "public_sha256": "524e25b8948fdfa3b207b010b9a7aa96d6a1ef9d57915239484451882069ca86",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_030.npy",
+      "source_sha256": "add41e3f715f2cf7346009ab23be6f2e0f5889f9e2937f535266192f7265c065",
+      "public": "hall/references/coordinates_030.npy",
+      "public_sha256": "add41e3f715f2cf7346009ab23be6f2e0f5889f9e2937f535266192f7265c065",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_031.npy",
+      "source_sha256": "c4b988eefe2055be4e1c5cd1ed25385a0a9bef861e1b23a0c89e84d6a2bb0e80",
+      "public": "hall/references/coordinates_031.npy",
+      "public_sha256": "c4b988eefe2055be4e1c5cd1ed25385a0a9bef861e1b23a0c89e84d6a2bb0e80",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_032.npy",
+      "source_sha256": "2bacd5fc769586d9b295915ab4391cbedbac355aaf5fc6adbab2f411bafd3f41",
+      "public": "hall/references/coordinates_032.npy",
+      "public_sha256": "2bacd5fc769586d9b295915ab4391cbedbac355aaf5fc6adbab2f411bafd3f41",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_033.npy",
+      "source_sha256": "7f46a78266c1580e5d02e756d3b685ff9a402d90589acf5d1e4b6e65cde5aeec",
+      "public": "hall/references/coordinates_033.npy",
+      "public_sha256": "7f46a78266c1580e5d02e756d3b685ff9a402d90589acf5d1e4b6e65cde5aeec",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_034.npy",
+      "source_sha256": "8159b50a72786958e0fb475e71562b6dcd2158721ad371a4e6e199ea5d710d2b",
+      "public": "hall/references/coordinates_034.npy",
+      "public_sha256": "8159b50a72786958e0fb475e71562b6dcd2158721ad371a4e6e199ea5d710d2b",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/references/coordinates_035.npy",
+      "source_sha256": "eed0e2f56cb5010346b236ba5c2d02d6112467a3c348217e89667ec93c106ad2",
+      "public": "hall/references/coordinates_035.npy",
+      "public_sha256": "eed0e2f56cb5010346b236ba5c2d02d6112467a3c348217e89667ec93c106ad2",
+      "transformation": "Mathematical bytes unchanged."
+    },
+    {
+      "source": "radial_guarded_endpoint_audit/REFERENCE_INVENTORY.json",
+      "source_sha256": "dccc1cdbf7cd66ff24dad5bb8e02185ea48b54b5399821bd95f8ad98d670b6d4",
+      "public": "hall/references/INVENTORY.json",
+      "public_sha256": "477c44d2329179b9b8fd2d691da9077c3a2b873f854771671ab58dcdeeab70b0",
+      "transformation": "Keep original entries-list order, exact unordered coordinate digest and row. Prefix chunk paths with hall/. Omit source aliases, personal absolute paths, timing and archive scan metadata; binary chunks unchanged."
+    },
+    {
+      "source": "radial_guarded_exact_cover/results/stdout.json",
+      "source_sha256": "ca7100f76721019e688e72ba749b67b9c07831714941cfc21344a3e04d5eff2d",
+      "public": "endpoint/INHERITED_RESULT.json",
+      "public_sha256": "42607acd0309afbf4c444270b276f32933a97b980fcdbdea854034dad268da90",
+      "transformation": "Retain mathematical PASS fields and exact candidate counts; add explicit inherited evidence and public coordinate path. No execution replay."
+    },
+    {
+      "source": "radial_guarded_exact_cover/QUALIFIED_SOURCE_RECEIPT.json",
+      "source_sha256": "18d699792475ac96ffacdec2333b008b42c46f82b52ba027be700ec4130f5f46",
+      "public": "endpoint/INHERITED_SOURCE_IDENTITY.json",
+      "public_sha256": "fa8579165886d20a0b59d6d0f9e94c58b7218ad55b96e0e1a605ac713f0b82d1",
+      "transformation": "Whitelist exact input identity and covering mathematics; remove private execution provenance and numerical gate metadata. Original math PASS is inherited."
+    },
+    {
+      "source": "radial_guarded_original_transport_cover/RESULT.json",
+      "source_sha256": "f47118e1f96b44c671e7eb81b78ff4cae10a60ab5d438f61420980494b66b2fa",
+      "public": "transport/INHERITED_RESULT.json",
+      "public_sha256": "d30ed4c9342f80b9e380fb8733c3e3796fc82debff683690c62c9c5d2b7f4985",
+      "transformation": "Retain all100 exact displacement witnesses and transport theorem/result; remove execution/archive-only receipt links. Explicit inherited original PASS."
+    },
+    {
+      "source": "radial_guarded_original_finite_transfer/RESULT.json",
+      "source_sha256": "54dbb11c7992930b51e0983820fb107758a8bdf54e0ff16f066d811223029e47",
+      "public": "transport/INHERITED_FINITE_TRANSFER.json",
+      "public_sha256": "99f444bac5a96f51dde1d2c1d3cc43a623c1be94bb51b745a8196c1d41297f4d",
+      "transformation": "Retain exact triangle-inequality transfer bound; replace private archival receipt hashes with public project-relative prerequisite paths, preserving inherited math status."
+    },
+    {
+      "source": "exact_finite_orbit_certificate/RESULT.json",
+      "source_sha256": "4b4a100179b37246628a4105ca665f86ee2df1071e60ce4017cf06c891c05bcf",
+      "public": "hall/INHERITED_RESULT.json",
+      "public_sha256": "2e52e74327ea11daa49a586cbdf2b942ea5a8443c4f25e6a32a3fcb15c9400e0",
+      "transformation": "Retain exact finite Hall counters, threshold and source/witness hashes; remove archival plan/manifest paths and timing; adapt public relative paths. Original PASS inherited, portable reader unexecuted."
+    },
+    {
+      "source": "exact_finite_orbit_certificate/source/check_finite_orbits.py",
+      "source_sha256": "7a94f05bf11abefd3f527b0f8b2b739327926e398728214fc0040d8f1c89b81e",
+      "public": "hall/source/check_all.py",
+      "public_sha256": "612de967ca5875015f291b846771ba8537e743ef605f5fa8898d0d33efb8c0b8",
+      "transformation": "New unexecuted saved-witness reader. Removes the float selector, archive launcher and old path admission. Uses the unchanged original exact_radial hall_accept for all100 inclusive integer count/mask recomputation, both basic and buffered acceptance and exact visited-row coverage."
+    },
+    {
+      "source": "radial_guarded_original_transport_cover/verify_transport_once.py",
+      "source_sha256": "ff372d3c9c8d97b4cc6278d50b1a0c88956ab0b10f3d8da6c59737f5544f1f98",
+      "public": "transport/source/verify_transport.py",
+      "public_sha256": "b1ab5152285c1fe023b027025d1985e7645b14bc0193b722fec6ef0327b2fe5c",
+      "transformation": "New unexecuted portable adapter. Standard-library NPY decoding and exact Fraction dyadic differences replace numpy/archive bindings; same <=delta squared decision and triangle-inequality transfer. Verifies inherited saved100 displacement rows."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "all_rejected": true,
+  "cases": [
+    {
+      "case": "truncated_covering_witness_list",
+      "rejected": true,
+      "reason": "truncated certificate"
+    },
+    {
+      "case": "radius_reduced_by_2e-16",
+      "rejected": true,
+      "reason": "uncovered candidate ('T', 24, 26, 33)"
+    },
+    {
+      "case": "reference_bound_equal_to_V",
+      "rejected": true,
+      "reason": "strict rational margin inequality failed"
+    }
+  ]
+}

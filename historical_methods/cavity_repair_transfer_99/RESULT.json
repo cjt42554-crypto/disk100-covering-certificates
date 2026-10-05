@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "budget": 64,
+  "planned": 48,
+  "optimized": 48,
+  "skipped": 0,
+  "optimizer_exceptions": 0,
+  "all_triple_oracle_calls": 163,
+  "independent_counts": {
+    "source": 3,
+    "known_reference": 3,
+    "start": 48,
+    "final": 48,
+    "stage": 61
+  },
+  "maximum_all_triple_error": 4.163336342344337e-17,
+  "stage_array_count": 61,
+  "worker_exitcodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "final_SLSQP_status_counts": {
+    "0": 45,
+    "8": 3
+  },
+  "round_counts": {
+    "1": 35,
+    "2": 13
+  },
+  "final_binding_counts": {
+    "99": 40,
+    "100": 8
+  },
+  "contact_family_counts": {
+    "input_source2_99": 14,
+    "input_source1_99": 14,
+    "current146": 8,
+    "input_source0_99": 8,
+    "unmatched_contact_family0": 2,
+    "unmatched_contact_family1": 1,
+    "unmatched_contact_family2": 1
+  },
+  "unmatched_contact_family_count": 3,
+  "best_grid_id": 9,
+  "best_handoff_name": "source02_step0.020_owner014_ring2",
+  "best_final_radius": 0.11544695488558303,
+  "best_file": "workers/worker01/finals/0009.npy",
+  "best_file_sha256": "08ec0060220be6aec7c4349991339846fb68bc10ba7ad63e463373cf240dd2d3",
+  "best_matches_current146_full100_geometry_and_inventories": true,
+  "best_full100_max_center_distance": 3.0794384043958324e-08,
+  "material_candidate_count": 0,
+  "seconds": 37.14188319599998,
+  "scope": "48 finite OR-cavity repair restorations, full100 completion and independent continuous-boundary/triple numerical replay; no exact/global claim.",
+  "topology_obstacles": {
+    "paths_with_topology_event": 0,
+    "paths_with_new_binding": 0,
+    "paths_with_actual_gap_above1e8": 0,
+    "final_not_feasible": 0
+  },
+  "old_eight_frozen_trees_unchanged": true
+}

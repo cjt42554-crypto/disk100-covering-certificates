@@ -1,0 +1,159 @@
+{
+  "audit_mode": "static analytic read only; no imported source or verifier execution",
+  "archive": {
+    "path": "attachments/[REDACTED_SESSION]/disk100_lower_bound_0p1132_20261004.zip",
+    "bytes": 2013535,
+    "sha256": "8194bbc46ee1e8a4c7df894e8cd55f7035609706b007b3e3b5307c8399f27806",
+    "expected_sha256": "8194bbc46ee1e8a4c7df894e8cd55f7035609706b007b3e3b5307c8399f27806"
+  },
+  "source_members": {
+    "radial_stability_backend.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/radial_stability_backend.py",
+      "bytes": 4379,
+      "sha256": "a26e1b89116ea926dbbe0c5c5164b0c50803b625166178f461c038dcec2bdee3",
+      "lines": 109
+    },
+    "radial_corrected_stability_backend.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/radial_corrected_stability_backend.py",
+      "bytes": 3836,
+      "sha256": "a861443f1d6e279f8796148e80593df3909ff402662355db400ad30b1b42ee40",
+      "lines": 85
+    },
+    "radial_weak_monotonicity_backend.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/radial_weak_monotonicity_backend.py",
+      "bytes": 1239,
+      "sha256": "f31a65463d84efc22adbd00d973eefaedd0e3ad71a903d41bf9b5521a9410d96",
+      "lines": 23
+    },
+    "reflected_radial_stability_backend.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/reflected_radial_stability_backend.py",
+      "bytes": 1339,
+      "sha256": "97d8548129dbcb0a5d347e6ed013af4f33d4add0b840d82b5e55a73f8b4085aa",
+      "lines": 30
+    },
+    "RADIAL_PENALIZED_STAR_0p11309_PROOF.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/RADIAL_PENALIZED_STAR_0p11309_PROOF.md",
+      "bytes": 5723,
+      "sha256": "73d3b5662cac76c061dcf4551aeec43f20d939867635c4ea84a702d2cb5139c9",
+      "lines": 136
+    },
+    "RADIAL_NODE_SOFT_CORRECTION.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/RADIAL_NODE_SOFT_CORRECTION.md",
+      "bytes": 2800,
+      "sha256": "cf0aa0daccd2c1e060bf062d697de3201ff62cb45858dffbb3552c4e3a9b25ca",
+      "lines": 40
+    },
+    "REFLECTED_CENTER_RADIAL_CORRECTION.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/REFLECTED_CENTER_RADIAL_CORRECTION.md",
+      "bytes": 3247,
+      "sha256": "b2bbd52c4780e6b5681e5bd08f76208853cc8b624ae726e3a5cfb2e2e65f1fa5",
+      "lines": 75
+    },
+    "REFLECTED_RADIAL_B33_0p1132_COMPONENTS.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/REFLECTED_RADIAL_B33_0p1132_COMPONENTS.md",
+      "bytes": 3919,
+      "sha256": "382aebe30f256b3b4eaa1cd41e239ed930bcc1aeb4adc325bd16b1067ada4194",
+      "lines": 88
+    },
+    "verify_deep_face_B33_0p1132.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/verify_deep_face_B33_0p1132.py",
+      "bytes": 7260,
+      "sha256": "cf10653e4d9b24fbab1aab6e0eeaf4d3780b58bd3b6985557ae9fa8815862b5b",
+      "lines": 129
+    },
+    "deep_face_B33_0p1132_proposals.json": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/deep_face_B33_0p1132_proposals.json",
+      "bytes": 11057,
+      "sha256": "38b9cf5e1605456e4a6548ddeeda4e040f5805ee3baa4cb9f8e40cc601301c7c",
+      "lines": 623
+    },
+    "DEEP_FACE_B33_0p1132_PROOF.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/DEEP_FACE_B33_0p1132_PROOF.md",
+      "bytes": 4578,
+      "sha256": "7cfe1ec4d549155bbb868595457a8c6c7d759b5e9585ce4bae4e8023c95ee99c",
+      "lines": 98
+    },
+    "QUADRATIC_MARKED_CONJUGATE.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/QUADRATIC_MARKED_CONJUGATE.md",
+      "bytes": 3267,
+      "sha256": "c03b881d967d4c4dcf547ab05466621fd9e15fe09c349f00f519e52f4cdb77fa",
+      "lines": 81
+    },
+    "exact_quadratic_marked_conjugate.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/exact_quadratic_marked_conjugate.py",
+      "bytes": 3470,
+      "sha256": "a54af21d3b405b468e74f93ec53cab24714c5bb0fb4c66a61bd16987edfdfb6d",
+      "lines": 78
+    },
+    "RADIAL_FACE_B33_0p11316_PROOF.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/RADIAL_FACE_B33_0p11316_PROOF.md",
+      "bytes": 6591,
+      "sha256": "2e467def4d81f3a86c5d0a9881e62f1fae599d11ee4de31d1d8976a232403f5e",
+      "lines": 160
+    },
+    "research_appendix/SHARED_THREE_FACE_INTERFACE.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/research_appendix/SHARED_THREE_FACE_INTERFACE.md",
+      "bytes": 3851,
+      "sha256": "abb2e82bce5d20e508b0771d5f8bf14f861e0e1a5f077de0072f7d6c7a022fd2",
+      "lines": 84
+    },
+    "verify_reflected_radial_B33_lowM_0p1132.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/verify_reflected_radial_B33_lowM_0p1132.py",
+      "bytes": 1202,
+      "sha256": "972df72df1ef0e161eb078fbf5b27a7f23d7fa29bbf4056f77e12af5e25b5c47",
+      "lines": 24
+    },
+    "verify_reflected_radial_B33_highM_0p1132.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/verify_reflected_radial_B33_highM_0p1132.py",
+      "bytes": 1227,
+      "sha256": "86aff32b25e65db048dd46a3a67380bf7d4a831e9a1327c77cac44cd38ed39c1",
+      "lines": 24
+    },
+    "verify_reflected_radial_B33_bootstrap_0p1132.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/verify_reflected_radial_B33_bootstrap_0p1132.py",
+      "bytes": 1275,
+      "sha256": "7126350f62817027c26793125d48451acc26d2769e4d5b30fd290ac5a335ee20",
+      "lines": 24
+    },
+    "lower_bounds_extension_20261004/COMMON_APEX_FAN.md": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/lower_bounds_extension_20261004/COMMON_APEX_FAN.md",
+      "bytes": 9215,
+      "sha256": "1e96f24f9f0fc35c0c5b59179ba816484d4f27effd43769087099f9d523e9aa6",
+      "lines": 157
+    },
+    "exact_range_one_face_support.py": {
+      "zip_member": "disk100_lower_bound_0p1132_20261004/exact_range_one_face_support.py",
+      "bytes": 2364,
+      "sha256": "a33023537a5f20e406e2fac79dc16f6ce79ac152798e08563a7097e48a1414ef",
+      "lines": 53
+    }
+  },
+  "root_symbolic_interface": {
+    "path": "research/q3_actual_quadratic_support/ROOT_QUADRATIC_BUDGET_INTERFACE.md",
+    "bytes": 6001,
+    "sha256": "9e451e083dfc5316988f4ee3d08e809ff84b5f1ae680555f5b62c8127cd7f4c4",
+    "lines": 125
+  },
+  "execution_counts": {
+    "old_verifier": 0,
+    "new_local_guard": 0,
+    "source_import": 0,
+    "optimizer": 0,
+    "scan": 0,
+    "graph_catalogue": 0,
+    "archive_extraction": 0
+  },
+  "scope": "Only the quadratic actual-anchor/global boundary-budget interface. Not a replay of the .1132 full lower-bound chain and not a .11321 radius exclusion.",
+  "root_symbolic_interface_preliminary": {
+    "path": "research/q3_actual_quadratic_support/ROOT_QUADRATIC_BUDGET_INTERFACE.md",
+    "bytes": 5699,
+    "sha256": "7bc264b8731d13c64dc37302659f9684d8d54c0f72191fe035d73ed642348154",
+    "lines": 120
+  },
+  "read_sources_unchanged_at_freeze": true,
+  "background_computation": {
+    "initiated_by_this_agent": false,
+    "pid": null,
+    "note": "No background process was started. All read/hash operations were foreground and completed."
+  }
+}

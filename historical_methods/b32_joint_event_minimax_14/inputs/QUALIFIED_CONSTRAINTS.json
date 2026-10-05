@@ -1,0 +1,191 @@
+{
+  "status": "READY_SOURCE_AND_LOCAL_FIVE_CONE_CONSTRAINTS",
+  "paths": [
+    {
+      "joint_id": 2,
+      "source_file": "inputs/path_spec/inputs/pinned14_best61.npy",
+      "source_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "primary_triangle": [
+        89,
+        38,
+        47
+      ],
+      "added_sites_in_control_order": [
+        90,
+        37
+      ],
+      "raw_source_e0": [
+        0.02758859796992799,
+        0.03220487128862418
+      ],
+      "fixed_source_gradient_norm": [
+        0.5654642199928323,
+        0.5885056488738205
+      ],
+      "event_raw_formula": "h_i(C)=||C_i-O_primary(C)||^2-r_primary(C)^2",
+      "event_equality_solver_row": "[h_i(C)-target_raw_i]/fixed_source_gradient_norm_i; derivative [grad_h_i,0]/same fixed norm",
+      "prejoint_target_raw": "(1-f)*raw_source_e0, each component; f from0 to1",
+      "postjoint_raw_eta": [
+        -2,
+        -1
+      ],
+      "postjoint_epsilon": {
+        "numerator": "1",
+        "denominator": "262144"
+      },
+      "postjoint_target_raw": [
+        {
+          "numerator": "-1",
+          "denominator": "131072"
+        },
+        {
+          "numerator": "-1",
+          "denominator": "262144"
+        }
+      ],
+      "postjoint_normalized_goals": [
+        -0.0002765415821262886,
+        -0.00011845093965559416
+      ],
+      "postjoint_f_values": [
+        1.0002765415821262,
+        1.0001184509396557
+      ],
+      "desired_post_diagonals": [
+        [
+          37,
+          90
+        ],
+        [
+          47,
+          90
+        ]
+      ],
+      "desired_post_faces": [
+        [
+          89,
+          90,
+          47
+        ],
+        [
+          90,
+          38,
+          37
+        ],
+        [
+          90,
+          37,
+          47
+        ]
+      ],
+      "old_diagonals_retained": 0,
+      "exact_local_rational_control_direction_review_pass": true,
+      "original_cover_restart_qualified": false,
+      "required_dynamic_endpoint_gates": [
+        "Nondegenerate primary triangle",
+        "Five convex points with compatible cyclic order",
+        "Actual event q strictly inside unit disk",
+        "Other95 strict nearest at joint circle",
+        "Actual selected3 faces orientation/insideD/other97 strict empty",
+        "Complete actual restrictedDT/circlearc and actual wholeD oracle",
+        "Fresh recomputation of control-plane fan when implicit minimax frame differs from this radial existence frame"
+      ],
+      "do_not_treat_saved_constant_fan_as_global_path_certificate": true
+    },
+    {
+      "joint_id": 3,
+      "source_file": "inputs/path_spec/inputs/pinned14_best61.npy",
+      "source_file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+      "primary_triangle": [
+        73,
+        29,
+        20
+      ],
+      "added_sites_in_control_order": [
+        74,
+        72
+      ],
+      "raw_source_e0": [
+        0.027669715542842956,
+        0.048711390104696065
+      ],
+      "fixed_source_gradient_norm": [
+        0.5652709882343697,
+        0.6246116471602886
+      ],
+      "event_raw_formula": "h_i(C)=||C_i-O_primary(C)||^2-r_primary(C)^2",
+      "event_equality_solver_row": "[h_i(C)-target_raw_i]/fixed_source_gradient_norm_i; derivative [grad_h_i,0]/same fixed norm",
+      "prejoint_target_raw": "(1-f)*raw_source_e0, each component; f from0 to1",
+      "postjoint_raw_eta": [
+        -1,
+        -2
+      ],
+      "postjoint_epsilon": {
+        "numerator": "1",
+        "denominator": "262144"
+      },
+      "postjoint_target_raw": [
+        {
+          "numerator": "-1",
+          "denominator": "262144"
+        },
+        {
+          "numerator": "-1",
+          "denominator": "131072"
+        }
+      ],
+      "postjoint_normalized_goals": [
+        -0.0001378654312408249,
+        -0.0001566244468665755
+      ],
+      "postjoint_f_values": [
+        1.0001378654312407,
+        1.0001566244468665
+      ],
+      "desired_post_diagonals": [
+        [
+          72,
+          74
+        ],
+        [
+          29,
+          72
+        ]
+      ],
+      "desired_post_faces": [
+        [
+          20,
+          72,
+          29
+        ],
+        [
+          72,
+          73,
+          74
+        ],
+        [
+          72,
+          74,
+          29
+        ]
+      ],
+      "old_diagonals_retained": 0,
+      "exact_local_rational_control_direction_review_pass": true,
+      "original_cover_restart_qualified": false,
+      "required_dynamic_endpoint_gates": [
+        "Nondegenerate primary triangle",
+        "Five convex points with compatible cyclic order",
+        "Actual event q strictly inside unit disk",
+        "Other95 strict nearest at joint circle",
+        "Actual selected3 faces orientation/insideD/other97 strict empty",
+        "Complete actual restrictedDT/circlearc and actual wholeD oracle",
+        "Fresh recomputation of control-plane fan when implicit minimax frame differs from this radial existence frame"
+      ],
+      "do_not_treat_saved_constant_fan_as_global_path_certificate": true
+    }
+  ],
+  "proxy_launch_authorized_in_this_review": false,
+  "wholeD_calls": 0,
+  "optimizer_calls": 0,
+  "scope": "Gate for parent-authorized finite joint minimax pilot only. No measured radius or original-problem restart claim."
+}

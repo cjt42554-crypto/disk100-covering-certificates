@@ -1,0 +1,9 @@
+{
+  "scope": "Separate local strict inequality proof using the unchanged frozen Q15 geometry; no material new geometry, no optimum polynomial.",
+  "configuration_source": "improved_upper_certificate/variants/U1154469548859/configuration.json",
+  "configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "checker_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+  "witness_proposal_sha256": "142db3b99d863cd70b417baf07ede60294e7ca34565a9eca4a30c098dc8f4ce8",
+  "witness_indices_are_proposals_only": true,
+  "cloud_statement_scope": "The cloud independent result remains <= its bound. This bundle recomputes a separate local strict proof."
+}

@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 0.019500324000546243,
+  "exit_code": 0,
+  "geometry_search_calls": 0,
+  "new_fraction_guard_calls_in_this_receipt": 1,
+  "old_checker_calls": 0,
+  "old_math_source_imports": 0,
+  "optimizer_calls": 0,
+  "reason": "Static independent review suggested assertion-optimization rejection and exact radius metadata checking; no theorem/guard values change.",
+  "source_sha256": "322c475a00754b67587bf3c2be2204b37689cb2a181d96a8af141ce0ca799b8d",
+  "total_new_author_fraction_guard_calls": 2
+}

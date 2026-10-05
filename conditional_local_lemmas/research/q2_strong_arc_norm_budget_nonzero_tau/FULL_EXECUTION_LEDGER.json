@@ -1,0 +1,30 @@
+{
+  "scope": "Author production of FULL_ACTUAL_TAU_PROOF.md and the separately versioned source/endpoint notes in this nonzero-tau directory.",
+  "mathematical_program_execution_count": 0,
+  "mathematical_import_count": 0,
+  "old_checker_replay_count": 0,
+  "optimizer_count": 0,
+  "parameter_scan_or_search_count": 0,
+  "mathematical_derivation": "Paper algebra, inequalities and explicit rational products; no code evaluation of those products.",
+  "bookkeeping_actions": [
+    "Read WORKING_INTERFACE.md and the frozen TAU_ZERO_NORM_PROOF.md with cat.",
+    "Write new MEAN_BUDGET_ENVELOPE.md; hash source with sha256sum.",
+    "Write separately versioned ENVELOPE_PINS.json; hash pins.",
+    "Write ENDPOINT_CLARIFICATION.md preserving envelope source/pins; hash clarification.",
+    "Write FULL_ACTUAL_TAU_PROOF.md; hash source.",
+    "Attempt patch adding ZERO_B_CLARIFICATION.md and FULL_PROOF_PINS.json: tool rejected patch format before applying any file change.",
+    "Correct patch formatting; successfully write ZERO_B_CLARIFICATION.md and FULL_PROOF_PINS.json; hash both.",
+    "Write this ledger as a separate final author bookkeeping record."
+  ],
+  "failed_nonmathematical_operation": {
+    "tool": "apply_patch through functions.exec",
+    "purpose": "Add ZERO_B_CLARIFICATION.md and FULL_PROOF_PINS.json.",
+    "result": "Script failed before the following sha256sum could run.",
+    "error": "apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'",
+    "effect": "No files added or modified by this rejected patch; no mathematical program execution.",
+    "recovery": "The same intended two new files were added in the next call with a correctly terminated patch."
+  },
+  "frozen_sources_preserved": "All previous zero-tau, joint-counterexample, working-interface, envelope and earlier clarifier bytes remain unchanged.",
+  "earlier_directory_executions": "The earlier q2_actual_anchor exploratory seven-angle list and subsequent four actual Python calls retain their separate honest receipt; this directory's zero mathematical execution does not reclassify earlier work.",
+  "review_status": "New full actual-tau proof sent for independent static review; source freeze does not claim review acceptance."
+}

@@ -1,0 +1,3080 @@
+[
+  {
+    "pair": [
+      78,
+      80
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.15983111867683208,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        14,
+        78,
+        80
+      ]
+    ],
+    "shared_stress": 0.0010373216619830004,
+    "union_incident_stress": 0.026210315003607557,
+    "preselection_rank": 32,
+    "single_debt_sum": 0.12183145825459413,
+    "pair_deletion_radius": 0.215253396786279,
+    "pair_deletion_debt": 0.09980644190069642,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.3682746443828735,
+        -0.929717046366618
+      ],
+      "nearest_center_at_maximum": 42,
+      "maximum_squared_distance": 0.04633402482803127,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 3,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.3682746443828735,
+      -0.929717046366618
+    ],
+    "screening_index": 0,
+    "deletion_file": "screening/pair000_delete.npy",
+    "deletion_file_sha256": "bb830ec3b2d941e3342b8b1e1fc936d7238413556b8a491254e47e8a65a63c33",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      74,
+      96
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.16454130272215187,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        74,
+        77,
+        96
+      ]
+    ],
+    "shared_stress": 0.0006036734677525589,
+    "union_incident_stress": 0.02721492225602434,
+    "preselection_rank": 39,
+    "single_debt_sum": 0.12618600063388993,
+    "pair_deletion_radius": 0.2149972113994112,
+    "pair_deletion_debt": 0.09955025651382861,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9999448005852023,
+        -0.010506939736189122
+      ],
+      "nearest_center_at_maximum": 75,
+      "maximum_squared_distance": 0.046223800909523105,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 3,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.9999448005852023,
+      -0.010506939736189122
+    ],
+    "screening_index": 1,
+    "deletion_file": "screening/pair001_delete.npy",
+    "deletion_file_sha256": "8241fc7839e5f486a7602a4076f6c4b2cd5a3b0c0b8a50629d3dc410211aa062",
+    "pair_mixed_rank": 31
+  },
+  {
+    "pair": [
+      29,
+      62
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.16658530173510694,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        29,
+        35,
+        62
+      ],
+      [
+        "t",
+        29,
+        62,
+        91
+      ]
+    ],
+    "shared_stress": 0.0005501030571174906,
+    "union_incident_stress": 0.025656578674000365,
+    "preselection_rank": 44,
+    "single_debt_sum": 0.12825911996028433,
+    "pair_deletion_radius": 0.21494304479800092,
+    "pair_deletion_debt": 0.09949608991241833,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5583290515531211,
+        0.8296195936643445
+      ],
+      "nearest_center_at_maximum": 34,
+      "maximum_squared_distance": 0.04620051250703543,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 3,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.5583290515531211,
+      0.8296195936643445
+    ],
+    "screening_index": 2,
+    "deletion_file": "screening/pair002_delete.npy",
+    "deletion_file_sha256": "4f705a1c695a7fa424d7c8e7ddff79e2b167fbcca2cdb3c4bc017f9243a05a72",
+    "pair_mixed_rank": 28
+  },
+  {
+    "pair": [
+      65,
+      73
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.15996578161294636,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        65,
+        71,
+        73
+      ]
+    ],
+    "shared_stress": 0.0013227441064942692,
+    "union_incident_stress": 0.028041995035420736,
+    "preselection_rank": 49,
+    "single_debt_sum": 0.12377161895120639,
+    "pair_deletion_radius": 0.21507464572280144,
+    "pair_deletion_debt": 0.09962769083721885,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.3875526756531939,
+        0.9218475598460141
+      ],
+      "nearest_center_at_maximum": 70,
+      "maximum_squared_distance": 0.046257103232788546,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 3,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      0.3875526756531939,
+      0.9218475598460141
+    ],
+    "screening_index": 3,
+    "deletion_file": "screening/pair003_delete.npy",
+    "deletion_file_sha256": "3592130eb2ca7bc1506782576d6a2ca75f47b70e519ae56705e2dcdf33a13545",
+    "pair_mixed_rank": 33
+  },
+  {
+    "pair": [
+      44,
+      80
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2089548795893454,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        42,
+        44,
+        80
+      ]
+    ],
+    "shared_stress": 0.009813640761744107,
+    "union_incident_stress": 0.04446727908837311,
+    "preselection_rank": 94,
+    "single_debt_sum": 0.12179341827701184,
+    "pair_deletion_radius": 0.18093511880603544,
+    "pair_deletion_debt": 0.06548816392045285,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.10967986397224164,
+        -0.7421215745020937
+      ],
+      "nearest_center_at_maximum": 42,
+      "maximum_squared_distance": 0.032737517217354156,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.10967986397224164,
+      -0.7421215745020937
+    ],
+    "screening_index": 4,
+    "deletion_file": "screening/pair004_delete.npy",
+    "deletion_file_sha256": "428063659b86eb940aa8b1bb59c970282c966b6bbaebf8774e239be5992571bb",
+    "pair_mixed_rank": 26
+  },
+  {
+    "pair": [
+      45,
+      81
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21147121544113884,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        45,
+        81,
+        85
+      ],
+      [
+        "t",
+        45,
+        46,
+        81
+      ]
+    ],
+    "shared_stress": 0.009800398278401649,
+    "union_incident_stress": 0.04277773104483889,
+    "preselection_rank": 98,
+    "single_debt_sum": 0.13142792849649618,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 5,
+    "deletion_file": "screening/pair005_delete.npy",
+    "deletion_file_sha256": "1391f16d37d096c09934992d1d994cea18f6fb064b86ec70e90c9f929900467f",
+    "pair_mixed_rank": 23
+  },
+  {
+    "pair": [
+      45,
+      46
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.1746984600019729,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        45,
+        46,
+        81
+      ],
+      [
+        "t",
+        28,
+        45,
+        46
+      ]
+    ],
+    "shared_stress": 0.009295179565956034,
+    "union_incident_stress": 0.043359000305338756,
+    "preselection_rank": 100,
+    "single_debt_sum": 0.13145166838543595,
+    "pair_deletion_radius": 0.20212016246049136,
+    "pair_deletion_debt": 0.08667320757490878,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.1095651773092518,
+        -0.13082802468122898
+      ],
+      "nearest_center_at_maximum": 79,
+      "maximum_squared_distance": 0.04085256007305542,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.1095651773092518,
+      -0.13082802468122898
+    ],
+    "screening_index": 6,
+    "deletion_file": "screening/pair006_delete.npy",
+    "deletion_file_sha256": "c32da7e5015878766a45f063c31ff671621f995d0501fcccb24a8affa92da83a",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      72,
+      73
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20138004664061634,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        7,
+        72,
+        73
+      ],
+      [
+        "t",
+        71,
+        72,
+        73
+      ]
+    ],
+    "shared_stress": 0.01170398506406919,
+    "union_incident_stress": 0.044398217528571156,
+    "preselection_rank": 106,
+    "single_debt_sum": 0.1231511190931121,
+    "pair_deletion_radius": 0.18315969648478658,
+    "pair_deletion_debt": 0.067712741599204,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        0.4250235220374272,
+        0.6198630403033472
+      ],
+      "nearest_center_at_maximum": 71,
+      "maximum_squared_distance": 0.033547474416399145,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      0.4250235220374272,
+      0.6198630403033472
+    ],
+    "screening_index": 7,
+    "deletion_file": "screening/pair007_delete.npy",
+    "deletion_file_sha256": "1826508608cf668d4b5131e0240f24e037d2158ee2de7d724204a3e736d6eaba",
+    "pair_mixed_rank": 30
+  },
+  {
+    "pair": [
+      42,
+      78
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20777023646820622,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "b",
+        42,
+        78,
+        1
+      ]
+    ],
+    "shared_stress": 0.0024918827577446426,
+    "union_incident_stress": 0.021882425602896754,
+    "preselection_rank": 111,
+    "single_debt_sum": 0.15273839615104642,
+    "pair_deletion_radius": 0.23380318437068745,
+    "pair_deletion_debt": 0.11835622948510487,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.2051075222538158,
+        -0.9787394465918396
+      ],
+      "nearest_center_at_maximum": 42,
+      "maximum_squared_distance": 0.05466392902187367,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.2051075222538158,
+      -0.9787394465918396
+    ],
+    "screening_index": 8,
+    "deletion_file": "screening/pair008_delete.npy",
+    "deletion_file_sha256": "82143bb52ea4d0a45e051fadb615382592192fe4f82f31de9d01215095078043",
+    "pair_mixed_rank": 29
+  },
+  {
+    "pair": [
+      14,
+      78
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2095802733411599,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        14,
+        78,
+        80
+      ],
+      [
+        "b",
+        14,
+        78,
+        -1
+      ]
+    ],
+    "shared_stress": 0.003056697771640695,
+    "union_incident_stress": 0.020627902666745874,
+    "preselection_rank": 116,
+    "single_debt_sum": 0.1549757862038378,
+    "pair_deletion_radius": 0.23657659806546957,
+    "pair_deletion_debt": 0.12112964317988699,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5207809148916981,
+        -0.8536903646431568
+      ],
+      "nearest_center_at_maximum": 78,
+      "maximum_squared_distance": 0.05596848675223075,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.5207809148916981,
+      -0.8536903646431568
+    ],
+    "screening_index": 9,
+    "deletion_file": "screening/pair009_delete.npy",
+    "deletion_file_sha256": "db08d25894b5ef13ae7be559efe416d3c48e45e130347105142ec7596ac6f0f2",
+    "pair_mixed_rank": 30
+  },
+  {
+    "pair": [
+      29,
+      35
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.209853070148421,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        29,
+        35,
+        62
+      ],
+      [
+        "b",
+        29,
+        35,
+        -1
+      ]
+    ],
+    "shared_stress": 0.002647449986529464,
+    "union_incident_stress": 0.020944966659877336,
+    "preselection_rank": 116,
+    "single_debt_sum": 0.15426889501732516,
+    "pair_deletion_radius": 0.2351624651934334,
+    "pair_deletion_debt": 0.11971551030785081,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.6890998079162309,
+        0.724666443772453
+      ],
+      "nearest_center_at_maximum": 60,
+      "maximum_squared_distance": 0.055301385035852774,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.6890998079162309,
+      0.724666443772453
+    ],
+    "screening_index": 10,
+    "deletion_file": "screening/pair010_delete.npy",
+    "deletion_file_sha256": "e1a661c7f60a149b68c46054938d822b5ff402738c8478c373b9cc3d83972a3a",
+    "pair_mixed_rank": 29
+  },
+  {
+    "pair": [
+      29,
+      91
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20981474453282192,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        29,
+        62,
+        91
+      ],
+      [
+        "b",
+        29,
+        91,
+        1
+      ]
+    ],
+    "shared_stress": 0.002510565806037784,
+    "union_incident_stress": 0.021150278850441358,
+    "preselection_rank": 119,
+    "single_debt_sum": 0.15431443480583817,
+    "pair_deletion_radius": 0.23526647293908023,
+    "pair_deletion_debt": 0.11981951805349765,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.4118111625557621,
+        0.9112692063240542
+      ],
+      "nearest_center_at_maximum": 86,
+      "maximum_squared_distance": 0.05535031328919497,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.4118111625557621,
+      0.9112692063240542
+    ],
+    "screening_index": 11,
+    "deletion_file": "screening/pair011_delete.npy",
+    "deletion_file_sha256": "085b6b24af575f3ebd6b58a0413fd4a0f574b0199021cda9251c6d30af8f3a90",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      74,
+      77
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21027680864733458,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        74,
+        77,
+        96
+      ],
+      [
+        "b",
+        74,
+        77,
+        -1
+      ]
+    ],
+    "shared_stress": 0.0029460176574954543,
+    "union_incident_stress": 0.022393144286118893,
+    "preselection_rank": 121,
+    "single_debt_sum": 0.1532364236426264,
+    "pair_deletion_radius": 0.23496146076542754,
+    "pair_deletion_debt": 0.11951450587984495,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9839596203577733,
+        -0.1783913268782616
+      ],
+      "nearest_center_at_maximum": 30,
+      "maximum_squared_distance": 0.05520688804502355,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.9839596203577733,
+      -0.1783913268782616
+    ],
+    "screening_index": 12,
+    "deletion_file": "screening/pair012_delete.npy",
+    "deletion_file_sha256": "4d662548949e977314e20f34010b860388116becf3ed6805ec7eea5dd5399d18",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      42,
+      80
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2121262294862654,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        42,
+        44,
+        80
+      ]
+    ],
+    "shared_stress": 0.009813640761744107,
+    "union_incident_stress": 0.03071114320571717,
+    "preselection_rank": 121,
+    "single_debt_sum": 0.14351744660957028,
+    "pair_deletion_radius": 0.20265914713859387,
+    "pair_deletion_debt": 0.08721219225301129,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.17142583334794045,
+        -0.9851970278380685
+      ],
+      "nearest_center_at_maximum": 42,
+      "maximum_squared_distance": 0.04107072991894224,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.17142583334794045,
+      -0.9851970278380685
+    ],
+    "screening_index": 13,
+    "deletion_file": "screening/pair013_delete.npy",
+    "deletion_file_sha256": "157b58518f6739a7252efbaadd95c691730d7e6097c88ade4166a745be447512",
+    "pair_mixed_rank": 26
+  },
+  {
+    "pair": [
+      12,
+      73
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20658468032366886,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        12,
+        63,
+        73
+      ]
+    ],
+    "shared_stress": 0.010342287031769084,
+    "union_incident_stress": 0.04756543848440811,
+    "preselection_rank": 121,
+    "single_debt_sum": 0.12347435350640737,
+    "pair_deletion_radius": 0.18236247483015755,
+    "pair_deletion_debt": 0.06691551994457497,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        0.1296244757822434,
+        0.7366398282192527
+      ],
+      "nearest_center_at_maximum": 62,
+      "maximum_squared_distance": 0.03325607222617984,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      0.1296244757822434,
+      0.7366398282192527
+    ],
+    "screening_index": 14,
+    "deletion_file": "screening/pair014_delete.npy",
+    "deletion_file_sha256": "c2256e6bdac2a6618a6fd802b9b7207ab781521765fa4076424cc714dc942fa5",
+    "pair_mixed_rank": 31
+  },
+  {
+    "pair": [
+      35,
+      62
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21478819845550545,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        35,
+        36,
+        62
+      ],
+      [
+        "t",
+        29,
+        35,
+        62
+      ]
+    ],
+    "shared_stress": 0.009421358343332962,
+    "union_incident_stress": 0.0300617084490572,
+    "preselection_rank": 122,
+    "single_debt_sum": 0.14834652893516584,
+    "pair_deletion_radius": 0.20262510688168592,
+    "pair_deletion_debt": 0.08717815199610333,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.7147312987306226,
+        0.699399149709833
+      ],
+      "nearest_center_at_maximum": 29,
+      "maximum_squared_distance": 0.04105693393881464,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.7147312987306226,
+      0.699399149709833
+    ],
+    "screening_index": 15,
+    "deletion_file": "screening/pair015_delete.npy",
+    "deletion_file_sha256": "4e82038e1b698ff0c7f4d9dcac5e303324ae8452a2db1449d1119f849ffcbb5f",
+    "pair_mixed_rank": 23
+  },
+  {
+    "pair": [
+      63,
+      65
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20658731026525104,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "b",
+        63,
+        65,
+        1
+      ]
+    ],
+    "shared_stress": 0.002636301457736554,
+    "union_incident_stress": 0.0234559718866725,
+    "preselection_rank": 125,
+    "single_debt_sum": 0.1537530895660934,
+    "pair_deletion_radius": 0.23475454258920164,
+    "pair_deletion_debt": 0.11930758770361906,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.22769158727845096,
+        0.9737333007978208
+      ],
+      "nearest_center_at_maximum": 71,
+      "maximum_squared_distance": 0.05510969526626529,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      0.22769158727845096,
+      0.9737333007978208
+    ],
+    "screening_index": 16,
+    "deletion_file": "screening/pair016_delete.npy",
+    "deletion_file_sha256": "e5131d49a548c2f94ab78038fd126f144808ec9b0d36052be14cbdb962cf2341",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      62,
+      91
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21482188513738515,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        29,
+        62,
+        91
+      ],
+      [
+        "t",
+        62,
+        88,
+        91
+      ]
+    ],
+    "shared_stress": 0.009404069724817513,
+    "union_incident_stress": 0.030147425077644993,
+    "preselection_rank": 125,
+    "single_debt_sum": 0.14839206872367885,
+    "pair_deletion_radius": 0.20267064667019893,
+    "pair_deletion_debt": 0.08722369178461635,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.3787244190553861,
+        0.9255094890983886
+      ],
+      "nearest_center_at_maximum": 29,
+      "maximum_squared_distance": 0.04107539102171662,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.3787244190553861,
+      0.9255094890983886
+    ],
+    "screening_index": 17,
+    "deletion_file": "screening/pair017_delete.npy",
+    "deletion_file_sha256": "07fc2ac09054c3e569304e8046b28daca42df9ea19b2d434e20be0d2a5a497c4",
+    "pair_mixed_rank": 27
+  },
+  {
+    "pair": [
+      14,
+      80
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21832122845703883,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        14,
+        78,
+        80
+      ],
+      [
+        "t",
+        14,
+        24,
+        80
+      ]
+    ],
+    "shared_stress": 0.009066493857539073,
+    "union_incident_stress": 0.030768582187667377,
+    "preselection_rank": 126,
+    "single_debt_sum": 0.14575483666236166,
+    "pair_deletion_radius": 0.20489653719138526,
+    "pair_deletion_debt": 0.08944958230580267,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5502342537602476,
+        -0.835010338851504
+      ],
+      "nearest_center_at_maximum": 32,
+      "maximum_squared_distance": 0.04198259095302072,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.5502342537602476,
+      -0.835010338851504
+    ],
+    "screening_index": 18,
+    "deletion_file": "screening/pair018_delete.npy",
+    "deletion_file_sha256": "a58dbddfc30a6ff20f275c735fab077582f525eacee69ce9a380551bfcc1016f",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      63,
+      73
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21348942915971966,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        12,
+        63,
+        73
+      ]
+    ],
+    "shared_stress": 0.010342287031769084,
+    "union_incident_stress": 0.03312327957539005,
+    "preselection_rank": 128,
+    "single_debt_sum": 0.14309913773855182,
+    "pair_deletion_radius": 0.201987259062302,
+    "pair_deletion_debt": 0.08654030417671942,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.19232025857894644,
+        0.9813322159901443
+      ],
+      "nearest_center_at_maximum": 64,
+      "maximum_squared_distance": 0.0407988528235015,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      0.19232025857894644,
+      0.9813322159901443
+    ],
+    "screening_index": 19,
+    "deletion_file": "screening/pair019_delete.npy",
+    "deletion_file_sha256": "588ec59710d4231dfd267667ee72237fad3a4aafe569db985ff8d0b9071889d9",
+    "pair_mixed_rank": 27
+  },
+  {
+    "pair": [
+      65,
+      71
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20895858865857048,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        65,
+        71,
+        73
+      ],
+      [
+        "b",
+        65,
+        71,
+        1
+      ]
+    ],
+    "shared_stress": 0.00335942148184591,
+    "union_incident_stress": 0.021022345530606633,
+    "preselection_rank": 130,
+    "single_debt_sum": 0.15704773513133335,
+    "pair_deletion_radius": 0.23736204125975371,
+    "pair_deletion_debt": 0.12191508637417113,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.5382742788299731,
+        0.842769719882052
+      ],
+      "nearest_center_at_maximum": 71,
+      "maximum_squared_distance": 0.05634073863099702,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 3,
+    "cavity_internal_count": 1,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      0.5382742788299731,
+      0.842769719882052
+    ],
+    "screening_index": 20,
+    "deletion_file": "screening/pair020_delete.npy",
+    "deletion_file_sha256": "180258e4a7e08c6049b0a64f238f214ea1fabbf35fdb476f9ff01d9b014d2009",
+    "pair_mixed_rank": 33
+  },
+  {
+    "pair": [
+      46,
+      81
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20840489763296274,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        45,
+        46,
+        81
+      ],
+      [
+        "t",
+        46,
+        81,
+        82
+      ]
+    ],
+    "shared_stress": 0.007884011984387734,
+    "union_incident_stress": 0.053282428425087416,
+    "preselection_rank": 130,
+    "single_debt_sum": 0.13015743631316387,
+    "pair_deletion_radius": 0.18066309142731202,
+    "pair_deletion_debt": 0.06521613654172943,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.2117379099888212,
+        -0.2683717618850695
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.032639152604073296,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.2117379099888212,
+      -0.2683717618850695
+    ],
+    "screening_index": 21,
+    "deletion_file": "screening/pair021_delete.npy",
+    "deletion_file_sha256": "6f3324b58bb287fa6c9da687ec726b7b93f75c91dd1ca602116b150f43519c06",
+    "pair_mixed_rank": 28
+  },
+  {
+    "pair": [
+      71,
+      73
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21873598671028494,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        65,
+        71,
+        73
+      ],
+      [
+        "t",
+        71,
+        72,
+        73
+      ]
+    ],
+    "shared_stress": 0.009165032037557226,
+    "union_incident_stress": 0.032590028237645396,
+    "preselection_rank": 133,
+    "single_debt_sum": 0.14639378330379177,
+    "pair_deletion_radius": 0.20528190462754195,
+    "pair_deletion_debt": 0.08983494974195937,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.567655163253939,
+        0.8232664305260746
+      ],
+      "nearest_center_at_maximum": 65,
+      "maximum_squared_distance": 0.04214066036751123,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      0.567655163253939,
+      0.8232664305260746
+    ],
+    "screening_index": 22,
+    "deletion_file": "screening/pair022_delete.npy",
+    "deletion_file_sha256": "2d142573d273759a8ed7af4de9b118263f0f88f46f3a14892379597a090d68a9",
+    "pair_mixed_rank": 35
+  },
+  {
+    "pair": [
+      77,
+      96
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21548229020562185,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        74,
+        77,
+        96
+      ],
+      [
+        "t",
+        77,
+        96,
+        99
+      ]
+    ],
+    "shared_stress": 0.009998237436942368,
+    "union_incident_stress": 0.032014393179634754,
+    "preselection_rank": 134,
+    "single_debt_sum": 0.14834516547145393,
+    "pair_deletion_radius": 0.2031447491256778,
+    "pair_deletion_debt": 0.0876977942400952,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9770702033100584,
+        -0.212917396667443
+      ],
+      "nearest_center_at_maximum": 74,
+      "maximum_squared_distance": 0.04126778909733457,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.9770702033100584,
+      -0.212917396667443
+    ],
+    "screening_index": 23,
+    "deletion_file": "screening/pair023_delete.npy",
+    "deletion_file_sha256": "a078d70c1b895040119c68ced3848ed7ba4bbb28943b83d38a4ab9123033b7a3",
+    "pair_mixed_rank": 31
+  },
+  {
+    "pair": [
+      75,
+      81
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.21028099521604515,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        75,
+        81,
+        82
+      ]
+    ],
+    "shared_stress": 0.010961784095894007,
+    "union_incident_stress": 0.05628185159229906,
+    "preselection_rank": 157,
+    "single_debt_sum": 0.12913991857695262,
+    "pair_deletion_radius": 0.18051380309769463,
+    "pair_deletion_debt": 0.06506684821211205,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.21252642534390717,
+        -0.26891092864205696
+      ],
+      "nearest_center_at_maximum": 46,
+      "maximum_squared_distance": 0.03258523310879327,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.21252642534390717,
+      -0.26891092864205696
+    ],
+    "screening_index": 24,
+    "deletion_file": "screening/pair024_delete.npy",
+    "deletion_file_sha256": "ebe395a3014ab16344c81b0a15d43ec2f3954d32a9b542218e66f23fd1d8c069",
+    "pair_mixed_rank": 29
+  },
+  {
+    "pair": [
+      81,
+      82
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.17497096492034012,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        75,
+        81,
+        82
+      ],
+      [
+        "t",
+        46,
+        81,
+        82
+      ]
+    ],
+    "shared_stress": 0.0123780062058677,
+    "union_incident_stress": 0.05302659059338799,
+    "preselection_rank": 159,
+    "single_debt_sum": 0.13177735842110327,
+    "pair_deletion_radius": 0.20379308653767764,
+    "pair_deletion_debt": 0.08834613165209505,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.32617979714185685,
+        -0.15119593361777012
+      ],
+      "nearest_center_at_maximum": 38,
+      "maximum_squared_distance": 0.04153162212055336,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.32617979714185685,
+      -0.15119593361777012
+    ],
+    "screening_index": 25,
+    "deletion_file": "screening/pair025_delete.npy",
+    "deletion_file_sha256": "2252b338b7dd82c26a0aaaeee95d58935b939a81004d23dd1519ae6a38f53f94",
+    "pair_mixed_rank": 42
+  },
+  {
+    "pair": [
+      46,
+      82
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2113033842995846,
+    "shared_active_count": 2,
+    "shared_active_keys": [
+      [
+        "t",
+        41,
+        46,
+        82
+      ],
+      [
+        "t",
+        46,
+        81,
+        82
+      ]
+    ],
+    "shared_stress": 0.012041425171853656,
+    "union_incident_stress": 0.05343922217545629,
+    "preselection_rank": 161,
+    "single_debt_sum": 0.13180109831004305,
+    "pair_deletion_radius": 0.1821574650945738,
+    "pair_deletion_debt": 0.06671051020899123,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.3219303346067115,
+        -0.12102381571327536
+      ],
+      "nearest_center_at_maximum": 38,
+      "maximum_squared_distance": 0.033181342089680876,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.3219303346067115,
+      -0.12102381571327536
+    ],
+    "screening_index": 26,
+    "deletion_file": "screening/pair026_delete.npy",
+    "deletion_file_sha256": "6e0240802c703232aa80c26420fc982ebcfe5cd09211b82d08899cb9219f0658",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      42,
+      44
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.17276857329058862,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        42,
+        44,
+        80
+      ]
+    ],
+    "shared_stress": 0.009813640761744107,
+    "union_incident_stress": 0.041593950783423955,
+    "preselection_rank": 173,
+    "single_debt_sum": 0.15270035617346414,
+    "pair_deletion_radius": 0.20265914713859387,
+    "pair_deletion_debt": 0.08721219225301129,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.17142583334794045,
+        -0.9851970278380685
+      ],
+      "nearest_center_at_maximum": 42,
+      "maximum_squared_distance": 0.04107072991894224,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      -0.17142583334794045,
+      -0.9851970278380685
+    ],
+    "screening_index": 27,
+    "deletion_file": "screening/pair027_delete.npy",
+    "deletion_file_sha256": "fa638cfbeadaef073858996b09006353e24ffef4145d0bc1a92373f3ad706afa",
+    "pair_mixed_rank": 32
+  },
+  {
+    "pair": [
+      71,
+      72
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.1714894546205907,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        71,
+        72,
+        73
+      ]
+    ],
+    "shared_stress": 0.007842287931062958,
+    "union_incident_stress": 0.04327694253211491,
+    "preselection_rank": 187,
+    "single_debt_sum": 0.15642723527323907,
+    "pair_deletion_radius": 0.20528190462754195,
+    "pair_deletion_debt": 0.08983494974195937,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 163,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.567655163253939,
+        0.8232664305260746
+      ],
+      "nearest_center_at_maximum": 65,
+      "maximum_squared_distance": 0.04214066036751123,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 5,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 1,
+    "maximum_cavity_point": [
+      0.567655163253939,
+      0.8232664305260746
+    ],
+    "screening_index": 28,
+    "deletion_file": "screening/pair028_delete.npy",
+    "deletion_file_sha256": "61cf03cb8f20252ce663ffd16b1534477e4bc8da28d6b4d6193e827315cec836",
+    "pair_mixed_rank": 40
+  },
+  {
+    "pair": [
+      75,
+      82
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.20947116134803304,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        75,
+        81,
+        82
+      ]
+    ],
+    "shared_stress": 0.010961784095894007,
+    "union_incident_stress": 0.06059605853013386,
+    "preselection_rank": 188,
+    "single_debt_sum": 0.1307835805738318,
+    "pair_deletion_radius": 0.1821574650945738,
+    "pair_deletion_debt": 0.06671051020899123,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.3219303346067115,
+        -0.12102381571327536
+      ],
+      "nearest_center_at_maximum": 38,
+      "maximum_squared_distance": 0.033181342089680876,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.3219303346067115,
+      -0.12102381571327536
+    ],
+    "screening_index": 29,
+    "deletion_file": "screening/pair029_delete.npy",
+    "deletion_file_sha256": "f040b1f938f03c843d50bc082c6d03275a60c55e8da78c66451f3ed60cdd34ff",
+    "pair_mixed_rank": 36
+  },
+  {
+    "pair": [
+      8,
+      72
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.183278829265456,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        8,
+        18,
+        72
+      ]
+    ],
+    "shared_stress": 0.01331300580446608,
+    "union_incident_stress": 0.05996095587936028,
+    "preselection_rank": 191,
+    "single_debt_sum": 0.1335388811809445,
+    "pair_deletion_radius": 0.1972427363117478,
+    "pair_deletion_debt": 0.08179578142616521,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        0.5585286485421204,
+        0.482637690181815
+      ],
+      "nearest_center_at_maximum": 5,
+      "maximum_squared_distance": 0.038904697027745676,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      0.5585286485421204,
+      0.482637690181815
+    ],
+    "screening_index": 30,
+    "deletion_file": "screening/pair030_delete.npy",
+    "deletion_file_sha256": "74c7804c3d3e10e154ff635625a9a578e6108532473b12d0072353ae48cc5140",
+    "pair_mixed_rank": 38
+  },
+  {
+    "pair": [
+      26,
+      75
+    ],
+    "family": "adjacent_shared_star",
+    "separation": 0.2034304243962061,
+    "shared_active_count": 1,
+    "shared_active_keys": [
+      [
+        "t",
+        26,
+        75,
+        84
+      ]
+    ],
+    "shared_stress": 0.012652731755143287,
+    "union_incident_stress": 0.06519710851418498,
+    "preselection_rank": 192,
+    "single_debt_sum": 0.12489606737861858,
+    "pair_deletion_radius": 0.17977917691062764,
+    "pair_deletion_debt": 0.06433222202504506,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.47200177149714995,
+        -0.3293090252085201
+      ],
+      "nearest_center_at_maximum": 26,
+      "maximum_squared_distance": 0.03232055245066275,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 6,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.47200177149714995,
+      -0.3293090252085201
+    ],
+    "screening_index": 31,
+    "deletion_file": "screening/pair031_delete.npy",
+    "deletion_file_sha256": "dec20941f02fe239f167164536df23b5e37222642d5586a41b79e9ec31fa2d3e",
+    "pair_mixed_rank": 31
+  },
+  {
+    "pair": [
+      74,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.0993342785500153,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.011121144054792403,
+    "preselection_rank": 24,
+    "single_debt_sum": 0.13106483330056634,
+    "pair_deletion_radius": 0.1809855842881138,
+    "pair_deletion_debt": 0.0655386294025312,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9988360673426764,
+        -0.04823391519891923
+      ],
+      "nearest_center_at_maximum": 76,
+      "maximum_squared_distance": 0.03275578172010994,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      -0.9988360673426764,
+      -0.04823391519891923
+    ],
+    "screening_index": 32,
+    "deletion_file": "screening/pair032_delete.npy",
+    "deletion_file_sha256": "fda44d69ea6c09d48d0944174351b6b333fa763a1d86cee823a48f5fd3cf5351",
+    "pair_mixed_rank": 11
+  },
+  {
+    "pair": [
+      29,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.7430208941327354,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.010706596321952585,
+    "preselection_rank": 30,
+    "single_debt_sum": 0.13261694691925696,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 61,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 33,
+    "deletion_file": "screening/pair033_delete.npy",
+    "deletion_file_sha256": "a8f3429e4cb436ad0eba73f47e524ec2dd673343a71acf52240da7950279828f",
+    "pair_mixed_rank": 19
+  },
+  {
+    "pair": [
+      29,
+      74
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.9364922964811625,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.01073057931797431,
+    "preselection_rank": 32,
+    "single_debt_sum": 0.13262937242375303,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 61,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 34,
+    "deletion_file": "screening/pair034_delete.npy",
+    "deletion_file_sha256": "68424b15c4dedf75b8a362e5f227aa08dddf24e26cf1e8f43412c58443069225",
+    "pair_mixed_rank": 21
+  },
+  {
+    "pair": [
+      65,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.9628280793544184,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.011544303468967801,
+    "preselection_rank": 34,
+    "single_debt_sum": 0.13273898928740913,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 72,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 35,
+    "deletion_file": "screening/pair035_delete.npy",
+    "deletion_file_sha256": "80b5fdb458a10e5b52cd4769190f3b8af7706c3f65dcf04658e4b6ea97458195",
+    "pair_mixed_rank": 29
+  },
+  {
+    "pair": [
+      74,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.020373656248431,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.027271619661612286,
+    "preselection_rank": 34,
+    "single_debt_sum": 0.1218438837590902,
+    "pair_deletion_radius": 0.1809855842881138,
+    "pair_deletion_debt": 0.0655386294025312,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9988360673426764,
+        -0.04823391519891923
+      ],
+      "nearest_center_at_maximum": 76,
+      "maximum_squared_distance": 0.03275578172010994,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.9988360673426764,
+      -0.04823391519891923
+    ],
+    "screening_index": 36,
+    "deletion_file": "screening/pair036_delete.npy",
+    "deletion_file_sha256": "f279053cb6b64a69284243d7b67a630ef7a9f89f3240031f2171b514a9a157db",
+    "pair_mixed_rank": 21
+  },
+  {
+    "pair": [
+      65,
+      74
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.6436347697289269,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.01156828646498953,
+    "preselection_rank": 36,
+    "single_debt_sum": 0.1327514147919052,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 72,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 37,
+    "deletion_file": "screening/pair037_delete.npy",
+    "deletion_file_sha256": "b9655693ebadac889c83842bb760354190f0c499e127b07c9f58252a321e35fd",
+    "pair_mixed_rank": 31
+  },
+  {
+    "pair": [
+      62,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.597345808061754,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02659724646793594,
+    "preselection_rank": 36,
+    "single_debt_sum": 0.12669458083709764,
+    "pair_deletion_radius": 0.18097315878361772,
+    "pair_deletion_debt": 0.06552620389803514,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.4031644817958025,
+        -0.9151275324337707
+      ],
+      "nearest_center_at_maximum": 78,
+      "maximum_squared_distance": 0.032751284200120516,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.4031644817958025,
+      -0.9151275324337707
+    ],
+    "screening_index": 38,
+    "deletion_file": "screening/pair038_delete.npy",
+    "deletion_file_sha256": "5d553817645ff7d7ef2ff4384a9c59a0a53bd3ca22176f2f8bf06de5b30eee5a",
+    "pair_mixed_rank": 12
+  },
+  {
+    "pair": [
+      78,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.0167342206969265,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.027794612727755172,
+    "preselection_rank": 37,
+    "single_debt_sum": 0.12617357512939387,
+    "pair_deletion_radius": 0.18097315878361772,
+    "pair_deletion_debt": 0.06552620389803514,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.4031644817958025,
+        -0.9151275324337707
+      ],
+      "nearest_center_at_maximum": 79,
+      "maximum_squared_distance": 0.032751284200120516,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.4031644817958025,
+      -0.9151275324337707
+    ],
+    "screening_index": 39,
+    "deletion_file": "screening/pair039_delete.npy",
+    "deletion_file_sha256": "60f05440551f92ab45111580583fd4f9c1a7e3360f3206e0f28c2fd939f5309b",
+    "pair_mixed_rank": 23
+  },
+  {
+    "pair": [
+      73,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.8028723804002904,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02891759673171788,
+    "preselection_rank": 37,
+    "single_debt_sum": 0.12208503745986754,
+    "pair_deletion_radius": 0.18097315878361772,
+    "pair_deletion_debt": 0.06552620389803514,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.4031644817958025,
+        -0.9151275324337707
+      ],
+      "nearest_center_at_maximum": 78,
+      "maximum_squared_distance": 0.032751284200120516,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.4031644817958025,
+      -0.9151275324337707
+    ],
+    "screening_index": 40,
+    "deletion_file": "screening/pair040_delete.npy",
+    "deletion_file_sha256": "96aec1d48c2de05c79336db434936d85873eb3debe96d72e5fecc1c4e717fd4f",
+    "pair_mixed_rank": 28
+  },
+  {
+    "pair": [
+      62,
+      74
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.8698511343069839,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02662122946395767,
+    "preselection_rank": 38,
+    "single_debt_sum": 0.1267070063415937,
+    "pair_deletion_radius": 0.1809855842881138,
+    "pair_deletion_debt": 0.0655386294025312,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9988360673426764,
+        -0.04823391519891923
+      ],
+      "nearest_center_at_maximum": 75,
+      "maximum_squared_distance": 0.03275578172010994,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.9988360673426764,
+      -0.04823391519891923
+    ],
+    "screening_index": 41,
+    "deletion_file": "screening/pair041_delete.npy",
+    "deletion_file_sha256": "a996c5f4b5356d09fe9c3f1fd57bc50afca2023c5f17eb1662748212be84deeb",
+    "pair_mixed_rank": 18
+  },
+  {
+    "pair": [
+      73,
+      74
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.5127192895281616,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02894157972773961,
+    "preselection_rank": 39,
+    "single_debt_sum": 0.1220974629643636,
+    "pair_deletion_radius": 0.1809855842881138,
+    "pair_deletion_debt": 0.0655386294025312,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.9988360673426764,
+        -0.04823391519891923
+      ],
+      "nearest_center_at_maximum": 75,
+      "maximum_squared_distance": 0.03275578172010994,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.9988360673426764,
+      -0.04823391519891923
+    ],
+    "screening_index": 42,
+    "deletion_file": "screening/pair042_delete.npy",
+    "deletion_file_sha256": "a04a61722ef2b60c715b514ecd3acc4080be5c13221f71f77bf4a7d822799cde",
+    "pair_mixed_rank": 33
+  },
+  {
+    "pair": [
+      29,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.60402250813064,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.026857071928772465,
+    "preselection_rank": 40,
+    "single_debt_sum": 0.12339599737778081,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 61,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 43,
+    "deletion_file": "screening/pair043_delete.npy",
+    "deletion_file_sha256": "819e11b49d0fb5e895a300798260a4af102b7ecaa57b47cf1da3650006fc16ba",
+    "pair_mixed_rank": 29
+  },
+  {
+    "pair": [
+      29,
+      65
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.933946207340232,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.011153738732149712,
+    "preselection_rank": 42,
+    "single_debt_sum": 0.1343035284105958,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 71,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 4,
+    "cavity_internal_count": 0,
+    "cavity_boundary_count": 4,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 44,
+    "deletion_file": "screening/pair044_delete.npy",
+    "deletion_file_sha256": "6021e54ff3196a365472512cace3940bada7d9fd02d05916b696b704f934d2f1",
+    "pair_mixed_rank": 30
+  },
+  {
+    "pair": [
+      65,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.8029975604444817,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.027694779075787684,
+    "preselection_rank": 44,
+    "single_debt_sum": 0.12351803974593298,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 72,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 45,
+    "deletion_file": "screening/pair045_delete.npy",
+    "deletion_file_sha256": "4715a97a7971780885e5287ca0200b81681db81be980211471aca7874f3e7af5",
+    "pair_mixed_rank": 43
+  },
+  {
+    "pair": [
+      29,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.8700067302531058,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.027404047990937083,
+    "preselection_rank": 45,
+    "single_debt_sum": 0.12773811425258055,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 61,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 46,
+    "deletion_file": "screening/pair046_delete.npy",
+    "deletion_file_sha256": "37a53bf0b8db77847d6371f7b54e7cd184f43e321db2bc32fc4bb06dd0a26663",
+    "pair_mixed_rank": 34
+  },
+  {
+    "pair": [
+      45,
+      78
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.7351209834119994,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02758151492191542,
+    "preselection_rank": 45,
+    "single_debt_sum": 0.13188728418241927,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 47,
+    "deletion_file": "screening/pair047_delete.npy",
+    "deletion_file_sha256": "18f874cc47f97d4f37b3589d80311335960fa54009c6dda2959e9912fdd1d30a",
+    "pair_mixed_rank": 27
+  },
+  {
+    "pair": [
+      29,
+      73
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.8703593800740282,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02852703199489979,
+    "preselection_rank": 45,
+    "single_debt_sum": 0.12364957658305423,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 61,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 48,
+    "deletion_file": "screening/pair048_delete.npy",
+    "deletion_file_sha256": "57f6f15125a7b8c865342f2dfc32bde55a6a9aaacdccbadab7ff74cd991735f0",
+    "pair_mixed_rank": 42
+  },
+  {
+    "pair": [
+      62,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.4546895330530663,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04274772207475583,
+    "preselection_rank": 46,
+    "single_debt_sum": 0.1174736312956215,
+    "pair_deletion_radius": 0.1766153318246451,
+    "pair_deletion_debt": 0.061168376939062505,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.4760881920897051,
+        0.6589273278090806
+      ],
+      "nearest_center_at_maximum": 36,
+      "maximum_squared_distance": 0.031192975435529496,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.4760881920897051,
+      0.6589273278090806
+    ],
+    "screening_index": 49,
+    "deletion_file": "screening/pair049_delete.npy",
+    "deletion_file_sha256": "5f3758e60d583a7bc8de6adabf0c3b69698ac97ff184b962d62520b56f1110d8",
+    "pair_mixed_rank": 25
+  },
+  {
+    "pair": [
+      45,
+      74
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.9868470333045031,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.027605497917937146,
+    "preselection_rank": 47,
+    "single_debt_sum": 0.13189970968691533,
+    "pair_deletion_radius": 0.1818080351699667,
+    "pair_deletion_debt": 0.0663610802843841,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317531,
+        -0.27315510179182356
+      ],
+      "nearest_center_at_maximum": 83,
+      "maximum_squared_distance": 0.03305416165236384,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.04596777413317531,
+      -0.27315510179182356
+    ],
+    "screening_index": 50,
+    "deletion_file": "screening/pair050_delete.npy",
+    "deletion_file_sha256": "4a1bcb009ef9389890388f283b1f5ef9cfd5c2335b7113038c3abb48ddedb3b2",
+    "pair_mixed_rank": 27
+  },
+  {
+    "pair": [
+      80,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.919784594447855,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.043945088334575055,
+    "preselection_rank": 47,
+    "single_debt_sum": 0.11695262558791772,
+    "pair_deletion_radius": 0.1760943261169413,
+    "pair_deletion_debt": 0.06064737123135873,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.813933657303914,
+        0.022708259259248607
+      ],
+      "nearest_center_at_maximum": 74,
+      "maximum_squared_distance": 0.031009211690579675,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.813933657303914,
+      0.022708259259248607
+    ],
+    "screening_index": 51,
+    "deletion_file": "screening/pair051_delete.npy",
+    "deletion_file_sha256": "c943de00ea0107f81e37c1e9cdf2b7c7897ab266a74984f9447ea2691147fac9",
+    "pair_mixed_rank": 27
+  },
+  {
+    "pair": [
+      73,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.6430415065386608,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04506807233853776,
+    "preselection_rank": 47,
+    "single_debt_sum": 0.11286408791839139,
+    "pair_deletion_radius": 0.172005788447415,
+    "pair_deletion_debt": 0.0565588335618324,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        0.28224060150991986,
+        0.7619463442839478
+      ],
+      "nearest_center_at_maximum": 7,
+      "maximum_squared_distance": 0.029585991259416883,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      0.28224060150991986,
+      0.7619463442839478
+    ],
+    "screening_index": 52,
+    "deletion_file": "screening/pair052_delete.npy",
+    "deletion_file_sha256": "305854acd95a1c4227401ef1f456225a2c7678b89ef0bcd4468396f097e936ed",
+    "pair_mixed_rank": 29
+  },
+  {
+    "pair": [
+      62,
+      65
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.8664284725031737,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.02704438887813307,
+    "preselection_rank": 48,
+    "single_debt_sum": 0.1283811623284365,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 71,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 53,
+    "deletion_file": "screening/pair053_delete.npy",
+    "deletion_file_sha256": "d1192fdb93f292f1712891aaa5345ecafb06d0eacc2a45ef0330c4224d46e60d",
+    "pair_mixed_rank": 38
+  },
+  {
+    "pair": [
+      65,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.5083144097654566,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.028241755137952296,
+    "preselection_rank": 49,
+    "single_debt_sum": 0.12786015662073272,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 72,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 54,
+    "deletion_file": "screening/pair054_delete.npy",
+    "deletion_file_sha256": "1de525e97ee62eb1ece0b43ad6a41a59ecb7576bc1a6dac57950de02c43f2887",
+    "pair_mixed_rank": 48
+  },
+  {
+    "pair": [
+      62,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.778828221330885,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04329469813692044,
+    "preselection_rank": 51,
+    "single_debt_sum": 0.12181574817042123,
+    "pair_deletion_radius": 0.1766153318246451,
+    "pair_deletion_debt": 0.061168376939062505,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.4760881920897051,
+        0.6589273278090806
+      ],
+      "nearest_center_at_maximum": 36,
+      "maximum_squared_distance": 0.031192975435529496,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.4760881920897051,
+      0.6589273278090806
+    ],
+    "screening_index": 55,
+    "deletion_file": "screening/pair055_delete.npy",
+    "deletion_file_sha256": "6a186baebbac7ae536707871babdd225eaae4b6a237811336bf2eb920d48d944",
+    "pair_mixed_rank": 28
+  },
+  {
+    "pair": [
+      62,
+      73
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.7789062743178311,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04441768214088316,
+    "preselection_rank": 51,
+    "single_debt_sum": 0.11772721050089491,
+    "pair_deletion_radius": 0.1766153318246451,
+    "pair_deletion_debt": 0.061168376939062505,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.4760881920897051,
+        0.6589273278090806
+      ],
+      "nearest_center_at_maximum": 36,
+      "maximum_squared_distance": 0.031192975435529496,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.4760881920897051,
+      0.6589273278090806
+    ],
+    "screening_index": 56,
+    "deletion_file": "screening/pair056_delete.npy",
+    "deletion_file_sha256": "69f33de7f19ff7c34fad08e77c14c31f6137fe999137b43e60c1a51789b45a43",
+    "pair_mixed_rank": 33
+  },
+  {
+    "pair": [
+      73,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.3721636414806677,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04561504840070238,
+    "preselection_rank": 52,
+    "single_debt_sum": 0.11720620479319113,
+    "pair_deletion_radius": 0.1760943261169413,
+    "pair_deletion_debt": 0.06064737123135873,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.813933657303914,
+        0.022708259259248607
+      ],
+      "nearest_center_at_maximum": 73,
+      "maximum_squared_distance": 0.031009211690579675,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.813933657303914,
+      0.022708259259248607
+    ],
+    "screening_index": 57,
+    "deletion_file": "screening/pair057_delete.npy",
+    "deletion_file_sha256": "48bcd52bae973b984b46720279d0f62bbeca28bb53a33a88b7fce03d0477a1ab",
+    "pair_mixed_rank": 33
+  },
+  {
+    "pair": [
+      29,
+      45
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.19450231672893,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.027190950185097332,
+    "preselection_rank": 53,
+    "single_debt_sum": 0.13345182330560595,
+    "pair_deletion_radius": 0.1825376979068044,
+    "pair_deletion_debt": 0.06709074302122182,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        -0.5280848086633404,
+        0.8491916361216725
+      ],
+      "nearest_center_at_maximum": 60,
+      "maximum_squared_distance": 0.03332001115711579,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      -0.5280848086633404,
+      0.8491916361216725
+    ],
+    "screening_index": 58,
+    "deletion_file": "screening/pair058_delete.npy",
+    "deletion_file_sha256": "bd43d86dd16ff512bc52dfcda4f550dc479b18aa3d4332c6ce5595bc67429fca",
+    "pair_mixed_rank": 34
+  },
+  {
+    "pair": [
+      45,
+      80
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.5759593135160046,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04373199052873531,
+    "preselection_rank": 55,
+    "single_debt_sum": 0.12266633464094312,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 59,
+    "deletion_file": "screening/pair059_delete.npy",
+    "deletion_file_sha256": "f5bc5dadd664341d80d229bd62b7a902898ed6c2b0fcd8b33df06889ed7b611c",
+    "pair_mixed_rank": 40
+  },
+  {
+    "pair": [
+      45,
+      65
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.2313107554618834,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.028028657332112544,
+    "preselection_rank": 57,
+    "single_debt_sum": 0.13357386567375812,
+    "pair_deletion_radius": 0.18265974027495657,
+    "pair_deletion_debt": 0.06721278538937399,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "all_pair_unit_circle_intersection",
+      "maximum_point": [
+        0.4202014109182845,
+        0.9074308647287037
+      ],
+      "nearest_center_at_maximum": 71,
+      "maximum_squared_distance": 0.033364580717314594,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 6,
+    "cavity_internal_count": 4,
+    "cavity_boundary_count": 2,
+    "maximum_cavity_point": [
+      0.4202014109182845,
+      0.9074308647287037
+    ],
+    "screening_index": 60,
+    "deletion_file": "screening/pair060_delete.npy",
+    "deletion_file_sha256": "92d8846e5deeacbb7c5d9645292cc13440fbe1fd89863cb6948a0c23d1ed17a6",
+    "pair_mixed_rank": 48
+  },
+  {
+    "pair": [
+      45,
+      62
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.029861405170918,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.043081600331080695,
+    "preselection_rank": 59,
+    "single_debt_sum": 0.12752945722344664,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 61,
+    "deletion_file": "screening/pair061_delete.npy",
+    "deletion_file_sha256": "1143c6bff45e9e9d3c0362eada6fca044a5b09f374c8acc646abcfe64a4b273f",
+    "pair_mixed_rank": 39
+  },
+  {
+    "pair": [
+      45,
+      96
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 0.8292424974363719,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.04427896659089992,
+    "preselection_rank": 60,
+    "single_debt_sum": 0.12700845151574286,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 62,
+    "deletion_file": "screening/pair062_delete.npy",
+    "deletion_file_sha256": "2011364a059704b6bd301d10093d06e74010e2ad69fb3789663e77600be87349",
+    "pair_mixed_rank": 44
+  },
+  {
+    "pair": [
+      45,
+      73
+    ],
+    "family": "separated_disjoint_stars",
+    "separation": 1.0716490753720238,
+    "shared_active_count": 0,
+    "shared_active_keys": [],
+    "shared_stress": 0.0,
+    "union_incident_stress": 0.045401950594862635,
+    "preselection_rank": 60,
+    "single_debt_sum": 0.12291991384621653,
+    "pair_deletion_radius": 0.18180803516996671,
+    "pair_deletion_debt": 0.06636108028438413,
+    "pair_deletion_score": {
+      "method": "all-pair-circle+all-antipodes+interior-Delaunay-nearest-distance",
+      "all_pairs_examined": 4753,
+      "interior_candidates": 162,
+      "boundary_intersection_candidates": 9506,
+      "antipodes": 98,
+      "auxiliary_circle_points": 102,
+      "maximum_candidate_kind": "interior_delaunay_vertex",
+      "maximum_point": [
+        -0.04596777413317535,
+        -0.2731551017918235
+      ],
+      "nearest_center_at_maximum": 45,
+      "maximum_squared_distance": 0.03305416165236385,
+      "numerical_only": true
+    },
+    "cavity_hole_count": 8,
+    "cavity_internal_count": 8,
+    "cavity_boundary_count": 0,
+    "maximum_cavity_point": [
+      -0.04596777413317535,
+      -0.2731551017918235
+    ],
+    "screening_index": 63,
+    "deletion_file": "screening/pair063_delete.npy",
+    "deletion_file_sha256": "d4835549d339fea53c57c0782baf3a704c7214e350a7b236a98fdedc39635c37",
+    "pair_mixed_rank": 48
+  }
+]

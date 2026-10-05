@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "path": "DIRECTIONAL_LENS_LEMMA.md",
+      "sha256": "43763af68a53506cc895ec838968cbde243b883979be2bcd941cd6bf93add999",
+      "bytes": 3637
+    }
+  ],
+  "mathematical_executions": 0,
+  "scope": "one-base fixed-tau exact directional support; not two-face fee"
+}

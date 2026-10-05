@@ -1,0 +1,39 @@
+{
+  "status": "PASS_EXACT_FINITE_ORIGIN_FIXED_O2_ALL100_EXCLUSION",
+  "reference_count": 35599,
+  "hall_witnesses_accepted": 35599,
+  "buffered_hall_witnesses_accepted": 35599,
+  "centers_per_array": 100,
+  "epsilon": {
+    "numerator": 1,
+    "denominator": 500000
+  },
+  "conclusion": "For each pinned finite reference, every origin-fixed orthogonal transform and every all100 bijection has maximum distance strictly greater than epsilon.",
+  "current_source_sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565",
+  "current_ordered_coordinate_sha256": "aad4ce99af54b98c3a835a57ea40809a66d3b1e17b4888f74f8e6bf8dfc868c9",
+  "witnesses_file": "hall/results/WITNESSES.jsonl",
+  "witnesses_sha256": "0606b3ffd7e0ddc084b13148365d83ab1defb5abf45abceae250c08e76a9af0b",
+  "minimum_exact_buffer": {
+    "numerator": 1180252,
+    "denominator": 1000000000
+  },
+  "stronger_common_certified_epsilon": {
+    "numerator": 2362504,
+    "denominator": 1000000000
+  },
+  "minimum_selected_norm_gap_numeric_only": 0.004723024831460476,
+  "integer_coordinate_conversions": 7120000,
+  "integer_count_masks": 142396,
+  "numeric_guidance_only_no_numeric_acceptance": true,
+  "translation_allowed": false,
+  "scaling_allowed": false,
+  "references_are_finite_saved_arrays_only": true,
+  "exhaustive_historical_inventory_claim": false,
+  "basin_exclusion_claim": false,
+  "global_optimum_claim": false,
+  "evidence_status": "INHERITED_ORIGINAL_EXACT_FINITE_HALL_PASS",
+  "public_preparation_math_executions": 0,
+  "public_portable_verifier_execution_status": "UNEXECUTED_STATIC_ADAPTER",
+  "current_source_file": "endpoint/inputs/centers.npy",
+  "public_inventory_file": "hall/references/INVENTORY.json"
+}

@@ -1,0 +1,1 @@
+Root actual scalar calls total 2: original source PASS; corrected analytic concavity guard source PASS, complete JSONMATCH. Old batches 0; optimizers 0. First source and original output preserved in history_factor2_correction/.

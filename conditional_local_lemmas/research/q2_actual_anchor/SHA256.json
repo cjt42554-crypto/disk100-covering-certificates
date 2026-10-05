@@ -1,0 +1,21 @@
+{
+  "status": "THEORY_AND_RECOVERED_HELPER_RECEIPTS_READY_FOR_STATIC_REVIEW",
+  "files": {
+    "AUTHOR_ANALYSIS.md": {
+      "sha256": "faefe51d4ef2885bfcad669bb0a4964c1914bae138598d957bac521196c6d2b0",
+      "bytes": 15360
+    },
+    "helper_receipts/q2_equality_check_execution_ledger.md": {
+      "sha256": "d174bde92eeb86779e450b0701355aeaa06b8150d9a55099f858e1ee114a65c5",
+      "bytes": 10801
+    },
+    "history/AUTHOR_ANALYSIS_before_direction_z_correction.md": {
+      "sha256": "4f063ae8ef08dd0b613a8eafb21ab3655355b2754236e06224c041865090b571",
+      "bytes": 14039
+    },
+    "history/AUTHOR_ANALYSIS_before_zero_skew_correction.md": {
+      "sha256": "5a0d1c1906950c32dacfd53537b4a7f86b5d54904d6169969fbf382e68c0df1f",
+      "bytes": 14774
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "status": "INDEPENDENT_STATIC_ANALYTIC_PASS_CONDITIONAL_SMALL_TAU_D_GT_1_12500",
+  "author_root": "PROJECT_SOURCE/research/q2_small_tau_robustness",
+  "source_files": {
+    "SMALL_TAU_STRONG_ARC.md": {
+      "sha256": "0e245b34c317c98ca46192a39db432f318e4a87b59a42f46f5681c690d3fda37",
+      "bytes": 6168
+    },
+    "REVISION_RECORD.md": {
+      "sha256": "7ba4d4cd03c0ce4d70d9fdecce8ad21747f9fe31fe87f3fc6668ae170dbc0253",
+      "bytes": 557
+    },
+    "history/PRE_PI_SOURCE_CLARIFICATION.md": {
+      "sha256": "1f9f0af9c3ff37e53c1f71106fa7d7a2daede080a023bea6ea82d6648691b271",
+      "bytes": 6008
+    },
+    "SHA256.json": {
+      "sha256": "5ea3d986cdb7b6e655c2ede4019a461df9862fbb7e65b243a09ab76b4747b3e2",
+      "bytes": 620
+    },
+    "ZERO_SLACK_CLARIFICATION.md": {
+      "sha256": "15c040dac71c4d9c85da8edf59f9e1e4a745f5fba48f4e4977cc4b49a767641e",
+      "bytes": 1171
+    },
+    "CLARIFICATION_PIN.json": {
+      "sha256": "dc56a80ee3566186d98f786f9bcdd03ff60b17ea39e9b80995cc9e6ae0e38aa5",
+      "bytes": 212
+    }
+  },
+  "original_author_manifest_all_entries_match": true,
+  "clarification_pin_matches": true,
+  "tau_zero_author_source_pins": {
+    "TAU_ZERO_NORM_PROOF.md": {
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+      "bytes": 13053
+    },
+    "EXECUTION_LEDGER.json": {
+      "sha256": "cdb8edf16eca580c2b5ee4f6d902d130e3c2d61d0ece0fdd0c882d33567d967d",
+      "bytes": 452
+    },
+    "SHA256.json": {
+      "sha256": "c6491092402132c60d0b0005e7d2d75a35180b34397a622a764b743c1726918a",
+      "bytes": 1219
+    },
+    "accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+      "bytes": 15099
+    },
+    "accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    },
+    "CLARIFICATIONS.md": {
+      "sha256": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+      "bytes": 971
+    },
+    "CLARIFICATIONS_BUDGET_ENDPOINTS.md": {
+      "sha256": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+      "bytes": 1577
+    },
+    "CLARIFICATIONS_DOMAIN.md": {
+      "sha256": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b",
+      "bytes": 1209
+    }
+  },
+  "frozen_independently_accepted_tau_zero_dependency": {
+    "research/q2_tau_zero_review/INDEPENDENT_REVIEW.md": {
+      "sha256": "432df75e4dbe1996be17414de5c263ebed7ca6fdee41d3dcd7eefffb6fbe400a",
+      "bytes": 11037
+    },
+    "research/q2_tau_zero_review/ISSUE_HISTORY.md": {
+      "sha256": "2a95976ba5ecb2d9d2dce64a4aaba512c81185ef2805b7bf96c17b6cd996aba4",
+      "bytes": 2331
+    },
+    "research/q2_tau_zero_review/SOURCE_PINS.json": {
+      "sha256": "8ff944ef3734f55900afc47ffa3dcaa6a4f9adec88c5132df49d9ca2e4be6094",
+      "bytes": 2446
+    },
+    "research/q2_tau_zero_review/SHA256.json": {
+      "sha256": "bd6c4bb91fbacd2defd2d3ec9d0bf0b692887a33808db20817d178c935a05650",
+      "bytes": 595
+    }
+  },
+  "tau_zero_all_reviewed_source_bytes_unchanged": true,
+  "source_edits_by_reviewers": false,
+  "reviewer_mathematical_program_executions": 0,
+  "supplemental_reviewer_mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "checker_calls": 0,
+  "numerical_replays": 0,
+  "search_or_optimizer_calls": 0,
+  "metadata_only_hashing_and_document_writing_performed": true,
+  "arithmetic_premise": "Previously accepted per-face scalar support and peak brackets; not regenerated. New geometry and rational guards reviewed statically.",
+  "accepted_scope": "Same actual two-face fan and actual middle norm cap, both connected actual outer full arcs >.147; D<=.0223 implies tau0+tau1>.00008, hence D>.00008.",
+  "excluded_scope": [
+    "general fee .022282728...",
+    "global covering or radius exclusion",
+    "unproved actual-fan transport to the norm cap"
+  ],
+  "author_execution_record": "Current source prose, revision record and original manifest report mathematical executions zero; no standalone EXECUTION_LEDGER or numerical receipt exists in this tree."
+}

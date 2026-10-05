@@ -1,0 +1,46 @@
+{
+  "scope": "frozen acquired original Pro conditional two-face source",
+  "file_count": 8,
+  "files": [
+    {
+      "path": "research/pro_sources_20261005/two_anchor_tau_lemma.zip",
+      "bytes": 23739,
+      "sha256": "bfbdccc4599b068ab167f7e7d9ea992d5a3334ac3e892f6de8cf72db87d0e64f"
+    },
+    {
+      "path": "research/pro_sources_20261005/TAU_SOURCE_ACQUISITION.json",
+      "bytes": 965,
+      "sha256": "af31ac1ad787b007c2a8261f605840c26e57dfd48b11ed9df700c63f6a72a0b3"
+    },
+    {
+      "path": "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/PROOF.md",
+      "bytes": 21017,
+      "sha256": "8d2289a8816aefd05bea1e12783d5d78e925c31773a0d6222fee60fba3476c6e"
+    },
+    {
+      "path": "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/README.md",
+      "bytes": 929,
+      "sha256": "e4bbd8d1f98c6ec69e5b209360bf1356bd0256f797c904c990b0f53f6e5e233e"
+    },
+    {
+      "path": "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/RESULT_FOR_HANDOFF.md",
+      "bytes": 2837,
+      "sha256": "4481fa042148bcd61be5a1a9fadbfe40b588b344b0b6e1577a48d3d049c41fcd"
+    },
+    {
+      "path": "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verification.json",
+      "bytes": 23723,
+      "sha256": "b83b9882560b3d3b6c98ef077e1e9e15482b0a671b43c9cf4a63c4faade8f30e"
+    },
+    {
+      "path": "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verification.log",
+      "bytes": 2184,
+      "sha256": "c78454485e839e00edeb457a810df4a9d878eda9f44077c165302501f20b02e2"
+    },
+    {
+      "path": "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verify.py",
+      "bytes": 11849,
+      "sha256": "34790682b20f5067840f40942ec7d53c8bf2cfe584934c269dbc266cf03b52e4"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "status": "PRO_PARAMETER_AUTHOR_SOURCE_FROZEN_AWAITING_STATIC_REVIEW",
+  "author_files": {
+    "PRO_PARAMETER_COROLLARY.md": {
+      "bytes": 11132,
+      "sha256": "43059d525b9e23f4c1639fe6d95cfeea45c5b55fb993daf20aaf6a29b5a12f1b"
+    },
+    "PRO_EXECUTION_LEDGER.json": {
+      "bytes": 1425,
+      "sha256": "ee2df46310567f656c6773038499cfa529df46639f71e141a31cb1ef8461c25b"
+    }
+  },
+  "frozen_dependencies": {
+    "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/PROOF.md": {
+      "bytes": 21017,
+      "sha256": "8d2289a8816aefd05bea1e12783d5d78e925c31773a0d6222fee60fba3476c6e"
+    },
+    "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/RESULT_FOR_HANDOFF.md": {
+      "bytes": 2837,
+      "sha256": "4481fa042148bcd61be5a1a9fadbfe40b588b344b0b6e1577a48d3d049c41fcd"
+    },
+    "research/pro_tau_review/STATIC_REVIEW.md": {
+      "bytes": 12735,
+      "sha256": "e595c63da5eca44119c5fbaa997a6c04a29351c884201e390b53c86d51e8e80c"
+    },
+    "research/pro_tau_review/CHILD_STATIC_REVIEW.md": {
+      "bytes": 2398,
+      "sha256": "3bc861eae80af5b526c1d349a2e9335f2abcf8bfa4c397358035375e0ff567a6"
+    },
+    "research/pro_tau_review/SOURCE_PINS.json": {
+      "bytes": 1863,
+      "sha256": "6d9fde7854f18ed7fecc2fa1084a99a91b727bee10f12ae9122031fa60a7cf4a"
+    },
+    "research/pro_tau_review/EXECUTION_LEDGER.json": {
+      "bytes": 805,
+      "sha256": "31861c586790e850d90bd83d1f081bbc0774cbb24ebdc16a7c165cf84c00c22a"
+    },
+    "research/pro_tau_review/REPLAY_METADATA_REVIEW.json": {
+      "bytes": 1586,
+      "sha256": "1b096ac71dd66619b455abf528ad3b26fb2ec06a5db35165d69824c1a4a28482"
+    },
+    "research/pro_tau_review/AUDIT_MANIFEST.json": {
+      "bytes": 1222,
+      "sha256": "0de8a9dacd4d67ba5b4afade09ece8dbd7d68008fcf1d13be2fc6994a1c59f98"
+    },
+    "research/pro_tau_local_replay_20261005/LOCAL_REPLAY_RECEIPT.json": {
+      "bytes": 1130,
+      "sha256": "9e43b03619aaeb3e83dc73b17b847aa9ffc5581bc39ae0addbe47b5f95a94314"
+    },
+    "research/q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "bytes": 15099,
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1"
+    },
+    "research/q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "bytes": 4402,
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da"
+    }
+  },
+  "old_readonly_scalar_dependencies": {
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/PROOF.md": {
+      "bytes": 3157,
+      "sha256": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3"
+    },
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/certificate.json": {
+      "bytes": 3196,
+      "sha256": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2"
+    },
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/SHA256.json": {
+      "bytes": 352,
+      "sha256": "4606ec6e225fa4c2e00da75c1eb1835e721d666125d14a2ed79520b361335b9e"
+    }
+  },
+  "local_parameter_source_preserved": {
+    "PARAMETER_UNIFORM_LEMMA.md": {
+      "bytes": 10820,
+      "sha256": "6c131c32e6f679f4557f9c1a31b95864a357ce33bf1949fba4c1fae31531fd74"
+    },
+    "EXECUTION_LEDGER.json": {
+      "bytes": 1104,
+      "sha256": "b3dbefff337b4a8a44e2684885b2c285154e95a03ffc5234e6f8d228cd82db32"
+    },
+    "LOCAL_SOURCE_PINS.json": {
+      "bytes": 4722,
+      "sha256": "71e9fd1fd08d3db88739a52981a787618b40eac673b6a092fc8ecf04ee0c70d0"
+    }
+  },
+  "scope": "Exactly R22; Pro norm domain outer squared norms >= .83, same actual middle cap, arbitrary actual signed anchor tau; explicit continuous parameter rectangles.",
+  "mathematical_program_executions": 0,
+  "predecessor_one_root_replay_not_repeated": true,
+  "metadata_hashing_only": true
+}

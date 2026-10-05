@@ -1,0 +1,109 @@
+{
+  "status": "PASS_METADATA_PINS_MATCH",
+  "reviewer": "/root/q2_uniform_review",
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "metadata_hashing_only": true,
+  "sources": {
+    "research/q2_strong_arc_norm_budget_nonzero_tau/FULL_ACTUAL_TAU_PROOF.md": {
+      "bytes": 12907,
+      "sha256": "84ff30accf1b90746288d199127ab39759bea006000aaca88dd7887e5f48822e"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/MEAN_BUDGET_ENVELOPE.md": {
+      "bytes": 6768,
+      "sha256": "4a4e634053549ff56019d93802cfb10da56ae21bbf23b03cc6822b6fc97a0a8c"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/ENDPOINT_CLARIFICATION.md": {
+      "bytes": 1053,
+      "sha256": "8246a5bd62623156b03a77e6245920d4724adc9c1bb312b51fa0939d5762c5b3"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/ZERO_B_CLARIFICATION.md": {
+      "bytes": 604,
+      "sha256": "62b5e0af542d26d799fcdc0525e4a68b7bdf0ad69e68844120f2e7bad1a53ab7"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/SKEW_LOCALIZATION_CLARIFICATION.md": {
+      "bytes": 1067,
+      "sha256": "30053208b6e779e1af0e012fed43cb5bd8c8a642d1813a16c2295d18fae04494"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/SINE_INTERVAL_GUARD.md": {
+      "bytes": 1107,
+      "sha256": "48fa3c0b0231342b9b24f9fca7588188c857f2ef2bb47d347080508f26619620"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/FULL_AUTHOR_MANIFEST.json": {
+      "bytes": 2572,
+      "sha256": "2c0a767f6f67216f47b2d5651c09622e795d01df87fba8ff98f0e650e51d9300"
+    },
+    "research/q2_strong_arc_norm_budget_nonzero_tau/FULL_EXECUTION_LEDGER.json": {
+      "bytes": 2271,
+      "sha256": "d17d7ff92dd77634485c3c3e744eac6d26f0e9c91763760b3918af615db8df92"
+    },
+    "research/q2_full_tau_review/INDEPENDENT_REVIEW.md": {
+      "bytes": 14464,
+      "sha256": "cb5bd88282037a212c739622fb5bf46205ce27a3514d02d93f4ccf389f05d62b"
+    },
+    "research/q2_full_tau_review/SUPPLEMENTAL_STATIC_CHECK.md": {
+      "bytes": 2078,
+      "sha256": "bb8677543bb0b7985de3cda05a62b0a377e7bfadaec0ed1d15dd87d04337c11b"
+    },
+    "research/q2_full_tau_review/SOURCE_PINS.json": {
+      "bytes": 8184,
+      "sha256": "77c28358a8ec18d67b3653b5b605aca8f4c5df5d5c183de17299632661b900bd"
+    },
+    "research/q2_full_tau_review/SHA256.json": {
+      "bytes": 791,
+      "sha256": "fdda9d51bf66f8b3c5465a01c027bae1c90811e7d249ea0fe25613c289e3a9b8"
+    },
+    "research/q2_mean_budget_review/INDEPENDENT_REVIEW.md": {
+      "bytes": 9244,
+      "sha256": "f54f629df1bc3a920771aabadc6f19ae6b92f1c5b64ccaaf91db99c337ac7acf"
+    },
+    "research/q2_mean_budget_review/SUPPLEMENTAL_STATIC_CHECK.md": {
+      "bytes": 1787,
+      "sha256": "962e903a72b6ae8d289b77964090e63aad21e7a06d79ca993df4b85bd393c6f3"
+    },
+    "research/q2_mean_budget_review/SOURCE_PINS.json": {
+      "bytes": 4169,
+      "sha256": "4e11f220cdd31f93c821eecea514155f0c9e9a8c7537994a410ec714011b90d4"
+    },
+    "research/q2_mean_budget_review/SHA256.json": {
+      "bytes": 763,
+      "sha256": "765b3cf622bb835d1d5158ffbf671d9b1fa1188698273e34681e35aa8c5da097"
+    },
+    "research/q2_strong_arc_norm_budget/TAU_ZERO_NORM_PROOF.md": {
+      "bytes": 13053,
+      "sha256": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1"
+    },
+    "research/q2_strong_arc_norm_budget/CLARIFICATIONS.md": {
+      "bytes": 971,
+      "sha256": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1"
+    },
+    "research/q2_strong_arc_norm_budget/CLARIFICATIONS_BUDGET_ENDPOINTS.md": {
+      "bytes": 1577,
+      "sha256": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589"
+    },
+    "research/q2_strong_arc_norm_budget/CLARIFICATIONS_DOMAIN.md": {
+      "bytes": 1209,
+      "sha256": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b"
+    },
+    "research/q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_PROOF.md": {
+      "bytes": 15099,
+      "sha256": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1"
+    },
+    "research/q2_strong_arc_norm_budget/accepted_inputs/actual_anchor_1_40_certificate.json": {
+      "bytes": 4402,
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da"
+    },
+    "research/q2_parameter_uniform_tau/PARAMETER_UNIFORM_LEMMA.md": {
+      "bytes": 10820,
+      "sha256": "6c131c32e6f679f4557f9c1a31b95864a357ce33bf1949fba4c1fae31531fd74"
+    },
+    "research/q2_parameter_uniform_tau/EXECUTION_LEDGER.json": {
+      "bytes": 1104,
+      "sha256": "b3dbefff337b4a8a44e2684885b2c285154e95a03ffc5234e6f8d228cd82db32"
+    },
+    "research/q2_parameter_uniform_tau/LOCAL_SOURCE_PINS.json": {
+      "bytes": 4722,
+      "sha256": "71e9fd1fd08d3db88739a52981a787618b40eac673b6a092fc8ecf04ee0c70d0"
+    }
+  }
+}

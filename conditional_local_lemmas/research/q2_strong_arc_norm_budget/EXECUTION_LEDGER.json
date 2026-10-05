@@ -1,0 +1,9 @@
+{
+  "author_mathematical_program_executions": 0,
+  "symbolic_helper_mathematical_program_executions": 0,
+  "old_checker_calls": 0,
+  "mathematical_source_imports": 0,
+  "new_parameter_scans": 0,
+  "optimizer_calls": 0,
+  "scope": "General zero-tau strong-arc proof by symbolic geometry and explicit rational Taylor bounds; arbitrary positive-tau bridge remains open. File copying/writing and SHA bookkeeping are not mathematical checker executions."
+}

@@ -1,0 +1,16 @@
+{
+  "task": "New local actual signed-anchor q2 continuous-radius lemma",
+  "status": "AUTHOR_PAPER_PROOF_AWAITING_INDEPENDENT_REVIEW",
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "checker_calls": 0,
+  "old_checker_replays": 0,
+  "optimizers": 0,
+  "parameter_scans_or_searches": 0,
+  "mathematical_method": "Paper algebra, Taylor inequalities and exact rational products, with no code evaluation of mathematical constants.",
+  "filesystem_operations": "Read frozen source/review documents with cat and enumerate files; write a separately versioned proof/ledger; SHA256 metadata hashing and JSON serialization only.",
+  "preserved_sources": "All old single-radius author proofs, clarifications, independent audits and delivered ZIP packages remain unchanged.",
+  "new_scope": "R in [.11322,.1135], fixed lambda=7/50,t=1071883/20000000, same actual positive consecutive fan/circumradius/covered unit anchors, same actual middle norm<=1, both original actual connected outer full assigned arcs>.147 imply actual signed-anchor deficit D>.0223 for arbitrary actual tau.",
+  "global_status": "Conditional local geometry only; no new global covering exclusion or exact optimum claim.",
+  "historical_executions": "Earlier q2 exploration, author/reviewer single-radius work and Pro 48-guard replay retain their separate original ledgers and are not reclassified here."
+}

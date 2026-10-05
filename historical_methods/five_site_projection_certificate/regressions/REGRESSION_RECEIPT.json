@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "actual_new_geometry_regressions": 2,
+  "disk100_optimized_source_runs": 0,
+  "tests": [
+    {
+      "case": "positive",
+      "actual_exit_code": 0,
+      "expected_accept": true,
+      "status": "PASS"
+    },
+    {
+      "case": "nearer_blocker",
+      "actual_exit_code": 1,
+      "expected_accept": false,
+      "status": "PASS"
+    }
+  ],
+  "actual_regression_source_sha256": "5d9cb7906d916a43f1808aa4ec1a0067a41f8f377174be44421d880d57c8f528",
+  "actual_regression_source_reconstructed_and_preserved": "../independent_review/before_shape_guard_reconstructed.py",
+  "regressions_executed_before_input_shape_and_raw_byte_binding_fixes": true,
+  "valid_two_column_unix_inputs_mathematically_unaffected": true,
+  "updated_source_not_replayed_on_identical_toy_cover": true
+}

@@ -1,0 +1,1827 @@
+{
+  "centers": 100,
+  "delta_fraction": [
+    1,
+    100000000
+  ],
+  "exact_closed_D_cover_radius_decimal": ".116404861624",
+  "exact_closed_D_cover_radius_fraction": [
+    14550607703,
+    125000000000
+  ],
+  "exact_closed_D_cover_radius_lt_0p1165": true,
+  "exact_displacement_checks": 100,
+  "global_optimum_proved": false,
+  "new_source_npy_sha256": "ea5ebe01e8aea5eeb86d83bd72a9ca86071e0ef1ac2109b3501d0d3cf505c398",
+  "old_source_npy_sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565",
+  "record_upper_improved": false,
+  "rows": [
+    {
+      "center": 0,
+      "difference_xy": [
+        [
+          -7836553,
+          9007199254740992
+        ],
+        [
+          27457783,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        1736514854024033,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 1,
+      "difference_xy": [
+        [
+          3780869,
+          2251799813685248
+        ],
+        [
+          -5911155,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        949819858724329,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 2,
+      "difference_xy": [
+        [
+          -15214383,
+          9007199254740992
+        ],
+        [
+          -14682295,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        1093756595938789,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 3,
+      "difference_xy": [
+        [
+          -5164819,
+          9007199254740992
+        ],
+        [
+          11412505,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        236946691586069,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 4,
+      "difference_xy": [
+        [
+          -529937,
+          2251799813685248
+        ],
+        [
+          5673269,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        36679312729865,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 5,
+      "difference_xy": [
+        [
+          -2486425,
+          2251799813685248
+        ],
+        [
+          7274819,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        151839939972761,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 6,
+      "difference_xy": [
+        [
+          4100763,
+          9007199254740992
+        ],
+        [
+          -7703191,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        126604180311157,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 7,
+      "difference_xy": [
+        [
+          9899523,
+          9007199254740992
+        ],
+        [
+          23388733,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        2115041721385753,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 8,
+      "difference_xy": [
+        [
+          509263,
+          1125899906842624
+        ],
+        [
+          9127503,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        149704604626273,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 9,
+      "difference_xy": [
+        [
+          -3162777,
+          4503599627370496
+        ],
+        [
+          6438367,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        201503103254353,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 10,
+      "difference_xy": [
+        [
+          -1692253,
+          18014398509481984
+        ],
+        [
+          -1321757,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        30816385288793,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 11,
+      "difference_xy": [
+        [
+          174625,
+          2251799813685248
+        ],
+        [
+          -9715241,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        94873809938081,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 12,
+      "difference_xy": [
+        [
+          -10189569,
+          9007199254740992
+        ],
+        [
+          9950461,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        514320939735565,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 13,
+      "difference_xy": [
+        [
+          419939,
+          2251799813685248
+        ],
+        [
+          -16014245,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        301601326432601,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 14,
+      "difference_xy": [
+        [
+          -548553,
+          562949953421312
+        ],
+        [
+          -165729463,
+          144115188075855872
+        ]
+      ],
+      "distance_squared": [
+        47186718474934993,
+        20769187434139310514121985316880384
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 15,
+      "difference_xy": [
+        [
+          1252443,
+          4503599627370496
+        ],
+        [
+          -18085865,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        352196328290209,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 16,
+      "difference_xy": [
+        [
+          -6561935,
+          18014398509481984
+        ],
+        [
+          -20808533,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        238027018278157,
+        162259276829213363391578010288128
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 17,
+      "difference_xy": [
+        [
+          -3435563,
+          36028797018963968
+        ],
+        [
+          76283,
+          1125899906842624
+        ]
+      ],
+      "distance_squared": [
+        17761847522105,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 18,
+      "difference_xy": [
+        [
+          11431357,
+          36028797018963968
+        ],
+        [
+          -3123151,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        754936541664713,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 19,
+      "difference_xy": [
+        [
+          166921901,
+          288230376151711744
+        ],
+        [
+          4851703,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        124278755146309865,
+        83076749736557242056487941267521536
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 20,
+      "difference_xy": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "distance_squared": [
+        0,
+        1
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 21,
+      "difference_xy": [
+        [
+          -524809,
+          2251799813685248
+        ],
+        [
+          442479,
+          2251799813685248
+        ]
+      ],
+      "distance_squared": [
+        235606075961,
+        2535301200456458802993406410752
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 22,
+      "difference_xy": [
+        [
+          16627175,
+          18014398509481984
+        ],
+        [
+          -8597393,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        1179766960318949,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 23,
+      "difference_xy": [
+        [
+          -20976525,
+          36028797018963968
+        ],
+        [
+          -24378327,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        2354361231621429,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 24,
+      "difference_xy": [
+        [
+          12154373,
+          18014398509481984
+        ],
+        [
+          -14480241,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        2573337907788145,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 25,
+      "difference_xy": [
+        [
+          -50273305,
+          72057594037927936
+        ],
+        [
+          5496309,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        3010755797598721,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 26,
+      "difference_xy": [
+        [
+          23456741,
+          72057594037927936
+        ],
+        [
+          -6101393,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        1145850642988265,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 27,
+      "difference_xy": [
+        [
+          -9519509,
+          18014398509481984
+        ],
+        [
+          3308139,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        265721589894217,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 28,
+      "difference_xy": [
+        [
+          -1122913,
+          4503599627370496
+        ],
+        [
+          -2232101,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        10026009296477,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 29,
+      "difference_xy": [
+        [
+          -1803441,
+          18014398509481984
+        ],
+        [
+          2441471,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        27095522015845,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 30,
+      "difference_xy": [
+        [
+          -18804523,
+          18014398509481984
+        ],
+        [
+          5286119,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        465382301586173,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 31,
+      "difference_xy": [
+        [
+          11463991,
+          36028797018963968
+        ],
+        [
+          960705,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        146190355200481,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 32,
+      "difference_xy": [
+        [
+          43934077,
+          36028797018963968
+        ],
+        [
+          3660587,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        1983802710580205,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 33,
+      "difference_xy": [
+        [
+          8837871,
+          18014398509481984
+        ],
+        [
+          -197824095,
+          144115188075855872
+        ]
+      ],
+      "distance_squared": [
+        44133282246578049,
+        20769187434139310514121985316880384
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 34,
+      "difference_xy": [
+        [
+          -67388761,
+          144115188075855872
+        ],
+        [
+          -44776539,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        12560998888389205,
+        20769187434139310514121985316880384
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 35,
+      "difference_xy": [
+        [
+          -2914517,
+          2251799813685248
+        ],
+        [
+          -15413381,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        373482863343785,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 36,
+      "difference_xy": [
+        [
+          -2012579,
+          2251799813685248
+        ],
+        [
+          -8093299,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        324731839502825,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 37,
+      "difference_xy": [
+        [
+          -16239619,
+          18014398509481984
+        ],
+        [
+          -13116279,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        951872324488525,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 38,
+      "difference_xy": [
+        [
+          -15335143,
+          18014398509481984
+        ],
+        [
+          -17948429,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        1523751025102613,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 39,
+      "difference_xy": [
+        [
+          -215565,
+          4503599627370496
+        ],
+        [
+          3473011,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        12247678483021,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 40,
+      "difference_xy": [
+        [
+          -27490193,
+          36028797018963968
+        ],
+        [
+          978797,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        817025499478625,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 41,
+      "difference_xy": [
+        [
+          169346897,
+          144115188075855872
+        ],
+        [
+          -21127953,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        57247356993621985,
+        20769187434139310514121985316880384
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 42,
+      "difference_xy": [
+        [
+          17241265,
+          72057594037927936
+        ],
+        [
+          -33298505,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        4732422959740325,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 43,
+      "difference_xy": [
+        [
+          14776319,
+          36028797018963968
+        ],
+        [
+          -5776805,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        906729888767069,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 44,
+      "difference_xy": [
+        [
+          -7180283,
+          18014398509481984
+        ],
+        [
+          12134095,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        99396362714557,
+        162259276829213363391578010288128
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 45,
+      "difference_xy": [
+        [
+          16941739,
+          18014398509481984
+        ],
+        [
+          -5655533,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        798783376569545,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 46,
+      "difference_xy": [
+        [
+          -32261455,
+          18014398509481984
+        ],
+        [
+          -10635691,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        1493273170906949,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 47,
+      "difference_xy": [
+        [
+          -10910233,
+          9007199254740992
+        ],
+        [
+          3246475,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        64786392019957,
+        40564819207303340847894502572032
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 48,
+      "difference_xy": [
+        [
+          3357389,
+          18014398509481984
+        ],
+        [
+          -551443,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        12488418426317,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 49,
+      "difference_xy": [
+        [
+          -12251273,
+          36028797018963968
+        ],
+        [
+          -3823439,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        383992662708065,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 50,
+      "difference_xy": [
+        [
+          12912427,
+          9007199254740992
+        ],
+        [
+          -3606927,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        679933006504645,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 51,
+      "difference_xy": [
+        [
+          5562235,
+          18014398509481984
+        ],
+        [
+          9960029,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        65070317938033,
+        162259276829213363391578010288128
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 52,
+      "difference_xy": [
+        [
+          9600017,
+          18014398509481984
+        ],
+        [
+          108361239,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        13216723340019745,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 53,
+      "difference_xy": [
+        [
+          14970913,
+          18014398509481984
+        ],
+        [
+          -43495655,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        5477923780736129,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 54,
+      "difference_xy": [
+        [
+          2802713,
+          9007199254740992
+        ],
+        [
+          33756821,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        1170943764667517,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 55,
+      "difference_xy": [
+        [
+          3528235,
+          9007199254740992
+        ],
+        [
+          1871307,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        26455601768221,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 56,
+      "difference_xy": [
+        [
+          3417625,
+          9007199254740992
+        ],
+        [
+          -9751029,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        53381363599733,
+        40564819207303340847894502572032
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 57,
+      "difference_xy": [
+        [
+          -13015369,
+          18014398509481984
+        ],
+        [
+          -2175623,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        245133197216225,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 58,
+      "difference_xy": [
+        [
+          3882639,
+          4503599627370496
+        ],
+        [
+          4425721,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        260785176038977,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 59,
+      "difference_xy": [
+        [
+          -1886051,
+          9007199254740992
+        ],
+        [
+          4979487,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        102738351507277,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 60,
+      "difference_xy": [
+        [
+          9206997,
+          9007199254740992
+        ],
+        [
+          -18837163,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        1711139410016713,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 61,
+      "difference_xy": [
+        [
+          -400417,
+          2251799813685248
+        ],
+        [
+          32337101,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        1055949462613097,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 62,
+      "difference_xy": [
+        [
+          7238885,
+          9007199254740992
+        ],
+        [
+          40250057,
+          36028797018963968
+        ]
+      ],
+      "distance_squared": [
+        2458490385194849,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 63,
+      "difference_xy": [
+        [
+          6833715,
+          18014398509481984
+        ],
+        [
+          -1903945,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        104699765709625,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 64,
+      "difference_xy": [
+        [
+          -23039669,
+          18014398509481984
+        ],
+        [
+          -812381,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        533466199186205,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 65,
+      "difference_xy": [
+        [
+          -10358103,
+          9007199254740992
+        ],
+        [
+          -35597555,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        1696347113012461,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 66,
+      "difference_xy": [
+        [
+          337425,
+          562949953421312
+        ],
+        [
+          -3566159,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        41864531453281,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 67,
+      "difference_xy": [
+        [
+          3793,
+          4398046511104
+        ],
+        [
+          7208589,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        3913904127089065,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 68,
+      "difference_xy": [
+        [
+          -673615,
+          4503599627370496
+        ],
+        [
+          17061917,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        407270846780489,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 69,
+      "difference_xy": [
+        [
+          994469,
+          4503599627370496
+        ],
+        [
+          13080759,
+          72057594037927936
+        ]
+      ],
+      "distance_squared": [
+        424282215558097,
+        5192296858534827628530496329220096
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 70,
+      "difference_xy": [
+        [
+          -758887,
+          9007199254740992
+        ],
+        [
+          2388993,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        8010925469125,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 71,
+      "difference_xy": [
+        [
+          -69347,
+          2251799813685248
+        ],
+        [
+          3164397,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        10321184783785,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 72,
+      "difference_xy": [
+        [
+          -101111,
+          562949953421312
+        ],
+        [
+          -354135,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        779711394769,
+        20282409603651670423947251286016
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 73,
+      "difference_xy": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "distance_squared": [
+        0,
+        1
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 74,
+      "difference_xy": [
+        [
+          7939733,
+          9007199254740992
+        ],
+        [
+          4084981,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        39863214940825,
+        40564819207303340847894502572032
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 75,
+      "difference_xy": [
+        [
+          4385,
+          4503599627370496
+        ],
+        [
+          103223,
+          281474976710656
+        ]
+      ],
+      "distance_squared": [
+        2727696086849,
+        20282409603651670423947251286016
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 76,
+      "difference_xy": [
+        [
+          -1755795,
+          4503599627370496
+        ],
+        [
+          916063,
+          2251799813685248
+        ]
+      ],
+      "distance_squared": [
+        6439501761901,
+        20282409603651670423947251286016
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 77,
+      "difference_xy": [
+        [
+          -111832559,
+          288230376151711744
+        ],
+        [
+          -3300655,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        23662308443810081,
+        83076749736557242056487941267521536
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 78,
+      "difference_xy": [
+        [
+          17696971,
+          36028797018963968
+        ],
+        [
+          -3200511,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        968752104886585,
+        1298074214633706907132624082305024
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 79,
+      "difference_xy": [
+        [
+          3010823,
+          4503599627370496
+        ],
+        [
+          2604227,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        7923526702429,
+        10141204801825835211973625643008
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 80,
+      "difference_xy": [
+        [
+          7181235,
+          9007199254740992
+        ],
+        [
+          1861627,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        65432756473741,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 81,
+      "difference_xy": [
+        [
+          7071349,
+          9007199254740992
+        ],
+        [
+          6406027,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        45520579302265,
+        40564819207303340847894502572032
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 82,
+      "difference_xy": [
+        [
+          -4987439,
+          9007199254740992
+        ],
+        [
+          4097465,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        92031425483621,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 83,
+      "difference_xy": [
+        [
+          552999,
+          2251799813685248
+        ],
+        [
+          -469697,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        5113541575825,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 84,
+      "difference_xy": [
+        [
+          1273933,
+          2251799813685248
+        ],
+        [
+          241539,
+          1125899906842624
+        ]
+      ],
+      "distance_squared": [
+        1856269642573,
+        5070602400912917605986812821504
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 85,
+      "difference_xy": [
+        [
+          -4811919,
+          9007199254740992
+        ],
+        [
+          -86500631,
+          144115188075855872
+        ]
+      ],
+      "distance_squared": [
+        13409927665813777,
+        20769187434139310514121985316880384
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 86,
+      "difference_xy": [
+        [
+          5434045,
+          9007199254740992
+        ],
+        [
+          -26878155,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        840550596452125,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 87,
+      "difference_xy": [
+        [
+          13601001,
+          9007199254740992
+        ],
+        [
+          1136817,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        93139790546745,
+        40564819207303340847894502572032
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 88,
+      "difference_xy": [
+        [
+          -2728215,
+          4503599627370496
+        ],
+        [
+          -429297,
+          562949953421312
+        ]
+      ],
+      "distance_squared": [
+        19238095595601,
+        20282409603651670423947251286016
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 89,
+      "difference_xy": [
+        [
+          6842593,
+          9007199254740992
+        ],
+        [
+          152521,
+          2251799813685248
+        ]
+      ],
+      "distance_squared": [
+        47193281450705,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 90,
+      "difference_xy": [
+        [
+          -4684805,
+          9007199254740992
+        ],
+        [
+          -3035325,
+          2251799813685248
+        ]
+      ],
+      "distance_squared": [
+        169358563578025,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 91,
+      "difference_xy": [
+        [
+          7372081,
+          18014398509481984
+        ],
+        [
+          -2859067,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        185135804038385,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 92,
+      "difference_xy": [
+        [
+          6523351,
+          18014398509481984
+        ],
+        [
+          2022635,
+          2251799813685248
+        ]
+      ],
+      "distance_squared": [
+        304381458235601,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 93,
+      "difference_xy": [
+        [
+          -330551,
+          2251799813685248
+        ],
+        [
+          -2801323,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        9595633967945,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 94,
+      "difference_xy": [
+        [
+          6383591,
+          18014398509481984
+        ],
+        [
+          -6987011,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        236023524911765,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 95,
+      "difference_xy": [
+        [
+          1069289,
+          9007199254740992
+        ],
+        [
+          196871,
+          2251799813685248
+        ]
+      ],
+      "distance_squared": [
+        1763510015777,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 96,
+      "difference_xy": [
+        [
+          814891,
+          9007199254740992
+        ],
+        [
+          653857,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        545788159165,
+        40564819207303340847894502572032
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 97,
+      "difference_xy": [
+        [
+          -235757,
+          562949953421312
+        ],
+        [
+          1582481,
+          9007199254740992
+        ]
+      ],
+      "distance_squared": [
+        16733075055905,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 98,
+      "difference_xy": [
+        [
+          19555541,
+          9007199254740992
+        ],
+        [
+          -3121353,
+          18014398509481984
+        ]
+      ],
+      "distance_squared": [
+        1539419579761333,
+        324518553658426726783156020576256
+      ],
+      "distance_squared_le_delta_squared": true
+    },
+    {
+      "center": 99,
+      "difference_xy": [
+        [
+          -9689191,
+          9007199254740992
+        ],
+        [
+          7457365,
+          4503599627370496
+        ]
+      ],
+      "distance_squared": [
+        316329593207381,
+        81129638414606681695789005144064
+      ],
+      "distance_squared_le_delta_squared": true
+    }
+  ],
+  "schema": "EXACT_BINARY64_SOURCE_COVER_BY_CENTERWISE_TRANSPORT_V1",
+  "status": "PASS_EXACT_CENTERWISE_TRANSPORT_CLOSED_D_COVER",
+  "theorem": "For each x in closed D choose a source center a_i with |x-a_i|<=R; the corresponding new center b_i satisfies |a_i-b_i|<=delta by exact dyadic squared distance, so |x-b_i|<=R+delta.",
+  "evidence_status": "INHERITED_ORIGINAL_EXACT_CENTERWISE_TRANSPORT_PASS",
+  "public_preparation_math_executions": 0,
+  "source_file": "endpoint/inputs/centers.npy",
+  "new_center_file": "transport/inputs/ordinary_best.npy"
+}

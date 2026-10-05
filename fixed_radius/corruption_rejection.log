@@ -1,0 +1,20 @@
+{
+  "all_rejected": true,
+  "cases": [
+    {
+      "case": "constant_polynomial_coefficient_plus_one",
+      "rejected": true,
+      "reason": "polynomial coefficients do not encode exact radius"
+    },
+    {
+      "case": "exact_radius_squared_numerator_plus_one",
+      "rejected": true,
+      "reason": "wrong exact radius"
+    },
+    {
+      "case": "root_interval_shifted_two_grid_units",
+      "rejected": true,
+      "reason": "invalid positive root isolation"
+    }
+  ]
+}

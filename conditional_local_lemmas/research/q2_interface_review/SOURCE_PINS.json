@@ -1,0 +1,14 @@
+{
+  "status": "PASS_STATIC_ASSIGNED_ARC_NECESSARY_NORM_LEMMA",
+  "source_files": {
+    "PROJECT_SOURCE/research/Q2_ARC_SCOPE_INTERFACE_20261005.md": "c9134243b18308b056b2636ebb1d6a71134e2f66787a865db84d40036e09b545"
+  },
+  "reviewer_checker_calls": 0,
+  "reviewer_fraction_calculations": 0,
+  "reviewer_mathematical_imports": 0,
+  "reviewer_optimizer_or_geometry_search_calls": 0,
+  "skew_candidate_status": "PENDING_NOT_AUDITED",
+  "conditional_q2_profile_target_status": "PARENT_SUPPLIED_CONDITIONAL_TARGET_NOT_VERIFIED_BY_THIS_REVIEW",
+  "scope": "Covered small assigned-arc endpoints imply the necessary norm lower bound. Strict monotonicity and x-versus-xi distinction reviewed. No two-face fee or whole-cover claim.",
+  "root_interface_modified_by_reviewer": false
+}

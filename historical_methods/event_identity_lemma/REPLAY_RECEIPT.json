@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "command": [
+    "python3",
+    "-S",
+    "-B",
+    "event_identity_lemma/verify_identity.py"
+  ],
+  "exit_code": 0,
+  "executions": 1,
+  "result_origin": "Actual stdout of standalone exact integer polynomial run; saved without rerunning math",
+  "checked_utc": "2026-10-04T22:23:52.999321+00:00",
+  "input_files": {
+    "verify_identity.py": {
+      "bytes": 5898,
+      "sha256": "e67d00af0fd88fb1007202d09b8e29d858ba1c84380c0e548761d01d1e37079b"
+    },
+    "RESULT.json": {
+      "bytes": 984,
+      "sha256": "4080fbeffcd8df57bff786ad16f871e1aba157ca4cb945cfdd8ab168742a6292"
+    }
+  },
+  "old_optimizer_or_oracle_runs": 0,
+  "original_research_files_changed": 0
+}

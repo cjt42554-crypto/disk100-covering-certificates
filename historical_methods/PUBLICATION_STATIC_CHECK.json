@@ -1,0 +1,31 @@
+{
+  "status": "PASS_PUBLICATION_STATIC_CHECKS",
+  "scope": "Copy/privacy/syntax/data integrity only; no mathematical acceptance or finite-run replay.",
+  "python_sources_ast_parsed_without_import": 147,
+  "json_files_parsed": 305,
+  "count_scope": "Payload files excluding this report, root MANIFEST_SHA256.json and READY.json.",
+  "utf8_payload_text_files_scanned": 498,
+  "non_utf8_raw_input_files_unchanged": 177,
+  "privacy_scan_variants": [
+    "raw",
+    "percent-decoded up to three rounds",
+    "HTML entity decoded",
+    "escaped slash normalized",
+    "Unicode and hex escape decoded"
+  ],
+  "privacy_findings": [],
+  "parse_errors": [],
+  "publication_source_map_entries_verified": 650,
+  "mathematical_execution_count": 0,
+  "original_source_files_changed": 0,
+  "selected_source_files": 650,
+  "routes": 22,
+  "privacy_correction": {
+    "publication_relative": "five_site_projection_certificate/regressions/nearer_blocker_stderr.log",
+    "original_source_sha256": "d68122985599eb04ea6b61ae98e2223c33e7e939e8f1d5ec35785b66574c02d1",
+    "clean_publication_sha256": "6b3048cb2b51a27a18ceadc514608df016a6ec9ed64e22492775f4f7c801170a",
+    "filename_fields_cleaned": 4,
+    "all_non_filename_traceback_content_preserved": true,
+    "original_scan_limitation": "The initial text extension allowlist omitted .log; corrected scan processes all UTF-8 payload files."
+  }
+}

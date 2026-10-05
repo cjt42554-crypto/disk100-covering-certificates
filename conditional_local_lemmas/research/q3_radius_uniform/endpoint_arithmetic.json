@@ -1,0 +1,60 @@
+{
+  "status": "PASS_NEW_EXACT_RADIUS_ENDPOINT_ARITHMETIC",
+  "lambda": [
+    7,
+    50
+  ],
+  "tilt": [
+    1071883,
+    20000000
+  ],
+  "same_local_normalized_fee": [
+    1,
+    40
+  ],
+  "unit_lhs_strict_lower_K": [
+    1187,
+    1250
+  ],
+  "unit_sum_norms_squared_strict_upper_S": [
+    4987489,
+    1000000
+  ],
+  "radius_interval": {
+    "lower": [
+      0,
+      1
+    ],
+    "lower_included": false,
+    "upper": [
+      949600,
+      4987489
+    ],
+    "upper_included": true
+  },
+  "K_minus_Rmax_S": [
+    0,
+    1
+  ],
+  "requested_simple_upper": [
+    19,
+    100
+  ],
+  "K_minus_requested_upper_times_S": [
+    197709,
+    100000000
+  ],
+  "Rmax_minus_requested_upper": [
+    197709,
+    498748900
+  ],
+  "endpoint_logic": "K < actual_lhs <= R*actual_sum < R*S <= K; strict fit proves the closed endpoint despite zero envelope margin",
+  "new_fraction_endpoint_calls_this_receipt": 1,
+  "frozen_source_imports_or_executions": 0,
+  "local_proof_checker_calls": 0,
+  "conjugate_checker_calls": 0,
+  "primitive_verify_calls": 0,
+  "new_trig_guard_calls": 0,
+  "optimizers_or_scans_or_geometry_searches": 0,
+  "scope": "Local same-coefficient actual signed-anchor three-face inequality; conditional on the unchanged frozen normalized fit and the proved unitpoint condition. No global radius exclusion or optimum."
+}

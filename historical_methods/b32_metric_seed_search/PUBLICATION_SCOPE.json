@@ -1,0 +1,18 @@
+{
+  "route": "b32_metric_seed_search",
+  "publication_kind": "CURATED_HISTORICAL_RESEARCH_RECORD",
+  "complete_public_replay_claim": false,
+  "retained_source_files": 26,
+  "retained_source_bytes": 566369,
+  "omitted_source_files": 516,
+  "omitted_source_bytes": 102292104,
+  "omissions": [
+    "complete historical run trajectories/checkpoints where not explicitly selected",
+    "large discovery/cache/NPZ/archive and duplicate frozen trees",
+    "original private manifest/READY files; publication hashes are issued separately"
+  ],
+  "originals_deleted": false,
+  "new_math_optimizers_or_oracles_executed": 0,
+  "original_replay_instructions_apply_only_to_complete_historical_archive": true,
+  "source_hashes_are_historical_original_bytes_not_edited_publication_bytes": true
+}

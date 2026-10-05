@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "source_csv_sha256": "d5c5c8b781bc78361bc33bdf09aea1e96a5dc7f2bc0c2c8229a2578311f60f6d",
+  "full_cover_acceptor_sha256": "06806070a7c185bc0c710629561d4c2d713eaf231efaadb9f7b9924a05ecb514",
+  "source_closed_disk_cover": {
+    "status": "PASS",
+    "claim": "The listed closed disks cover the closed unit disk.",
+    "radius": "2",
+    "input_centers": 100,
+    "distinct_centers": 6,
+    "scale": 10,
+    "counts": {
+      "triples": 20,
+      "degenerate_triples": 0,
+      "outside_triples": 11,
+      "interior_candidates": 9,
+      "boundary_pairs": 15,
+      "disjoint_bisectors": 5,
+      "boundary_candidates": 20,
+      "antipodes": 6,
+      "cardinal": 4,
+      "exact_fallbacks": 0
+    },
+    "witness_disks_used": 5,
+    "maximum_candidate_distance_approx": 0.7653668647301797,
+    "worst_candidate_approx": {
+      "kind": "bisector_boundary",
+      "indices": [
+        3,
+        4
+      ],
+      "a": 4,
+      "b": -28,
+      "d": 0,
+      "surd_radicand": 80000,
+      "sign": 1
+    },
+    "seconds": 0.0003914779990736861,
+    "arithmetic": "All acceptance and candidate inclusion tests use exact integers. Floats only choose witnesses and report approximations.",
+    "scope": "Configuration-specific upper bound only; no assertion of local or global optimality."
+  },
+  "primary_sites": [
+    0,
+    1,
+    2
+  ],
+  "added_sites": [
+    3,
+    4
+  ],
+  "common_circle_center": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "common_circle_radius_squared": [
+    1,
+    4
+  ],
+  "exact_algebraic_added_centers": [
+    {
+      "site": 3,
+      "rational_base_q": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "rational_ray_vector": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "scale_squared": [
+        1,
+        4
+      ],
+      "positive_scale_branch": true,
+      "formula": "q+sqrt(scale_squared)*rational_ray_vector",
+      "displacement_upper": [
+        1,
+        2
+      ]
+    },
+    {
+      "site": 4,
+      "rational_base_q": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "rational_ray_vector": [
+        [
+          4,
+          5
+        ],
+        [
+          -3,
+          5
+        ]
+      ],
+      "scale_squared": [
+        1,
+        4
+      ],
+      "positive_scale_branch": true,
+      "formula": "q+sqrt(scale_squared)*rational_ray_vector",
+      "displacement_upper": [
+        1,
+        2
+      ]
+    }
+  ],
+  "remaining95_centers_unchanged_rational": true,
+  "distinct_convex_five_sites": true,
+  "circle_center_inside_five_polygon": true,
+  "cyclic_ray_order": [
+    3,
+    0,
+    1,
+    2,
+    4
+  ],
+  "other_strictly_farther_centers": 95,
+  "minimum_other_site_squared_gap": [
+    35,
+    4
+  ],
+  "minimum_gap_site": 5,
+  "maximum_center_displacement_upper": [
+    1,
+    2
+  ],
+  "cover_radius": [
+    5,
+    2
+  ],
+  "cover_radius_integer_polynomial_ascending": [
+    -5,
+    2
+  ],
+  "cover_radius_approx": 2.5,
+  "projected_closed_unit_disk_cover": true,
+  "argument": "Each projected center moves by at most D; the nearest-distance function therefore rises by at most D everywhere on the closed unit disk.",
+  "scope": "Specified projected five-site algebraic event configuration only; no path, stationary-point, record improvement or global optimality claim."
+}

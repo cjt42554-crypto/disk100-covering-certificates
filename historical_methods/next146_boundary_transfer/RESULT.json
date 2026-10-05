@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "grid_budget": 399,
+  "optimized": 391,
+  "skipped": 8,
+  "exceptions": 0,
+  "all100_deletions_independently_replayed": 100,
+  "all_final_arrays_independently_replayed": 391,
+  "maximum_all_triple_score_error": 5.551115123125783e-17,
+  "stage_array_count": 532,
+  "best_grid_id": 4,
+  "best_donor": 80,
+  "best_target": {
+    "hole_id": 170,
+    "key": [
+      "b",
+      16,
+      23,
+      -1
+    ],
+    "point": [
+      0.9986443011805624,
+      0.05205343139108606
+    ],
+    "sites": [
+      16,
+      23
+    ],
+    "kind": "boundary_grid",
+    "active": true,
+    "support_radius": 0.1154469548855826
+  },
+  "best_final_radius": 0.11544695488558263,
+  "best_file": "workers/worker00/finals/0004.npy",
+  "best_file_sha256": "6c67f24d824be3b434b7c9a0e4415be9fbd2aecd321e214f64cfd625c9aeed8c",
+  "material_candidate_count": 0,
+  "final_SLSQP_status_counts": {
+    "0": 356,
+    "8": 35
+  },
+  "known99_stops": 0,
+  "seconds": 84.14101782699981,
+  "scope": "Finite floating numerical construction search, whole-disk critical-point replay and file audit. No exact covering or global-infeasibility/optimality certificate.",
+  "proposal_numerical_geometry_groups": 0,
+  "proposal_grouping_scope": "All100 alignment plus complete active/inactive inventory, not radius-only",
+  "fresh_winner_diagnostic": "fresh_winner_diagnostic.json",
+  "input_baseline_file_sha256": "de82a12038c6f9a705b7a985c7e25c53c8e94f5c506946aba9a6c6f03a02852d",
+  "input_baseline_scope": "grid25/de82 .11544695488558258 baseline; all preparation lambda and response stats belong only to this input"
+}

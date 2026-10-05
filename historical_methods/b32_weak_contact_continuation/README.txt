@@ -1,0 +1,11 @@
+PUBLICATION SCOPE: CURATED HISTORICAL RESEARCH RECORD
+This is a lean, privacy-edited copy. Original replay/rebuild instructions below describe the complete historical archive, not a ready-to-run public reproduction. Large run snapshots, inventories, caches and some dependency trees are intentionally omitted. No complete replay of these finite runs is claimed here; no program was executed for publication. Read ../README.md and this route's PUBLICATION_SCOPE.json. Original files were retained unchanged.
+
+Numerical B32 index14 weak-contact diagnosis and two physically distinct repaired continuations.
+Input: pinned14 grid61 SHA78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0.
+Original t=R^2 analytic stress Hessian agrees with three finite-difference steps. Raw spatial rank is tolerance sensitive: complete augmented critical/gauge tangents have54/all-positive and68/strong dimensions, not53/67; added near-null curvature is positive numerically.
+14 tiny positive multipliers remain positive finite data, not exact zeros. Initial146-only cone directions are not true cover tangents because eight near-inactive real holes can take over linearly. Incoming22-inequality conservative model produces12 finite cost trials (one infeasible status8 preserved); three distinct signed directions include two reflection-equivalent curves.
+121 first path stages stop at actual old-hole takeover. Two physically distinct paths extend from saved pre-takeover arrays with all remaining old Voronoi branch inequalities included.48 new stages keep actual wholeD equal to repaired model up to finite Rcap .11565. No restricted-DT/circle event occurred; disk-exterior full-hull events are recorded separately.
+No whole original objective optimizer ran, no previous optimizer or saved stage reran, no new U and no qualified event handoff. All169 actual stages plus unique baseline/source configurations independently accepted by all161700 triples and continuous all-pair boundary candidate oracle.
+Replay in a new directory: source/diagnose.py, source/incoming_diagnose.py, source/continue_cones.py, source/extend_all_contacts.py, source/audit_and_seal.py in that order. Current directory permanently frozen; do not replay into it.
+Finite failures and positive curvature are numerical evidence, not a strict SOSC certificate or global obstruction.

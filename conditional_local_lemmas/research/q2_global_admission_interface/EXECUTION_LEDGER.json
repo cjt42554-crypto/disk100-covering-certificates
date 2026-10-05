@@ -1,0 +1,12 @@
+{
+  "author": "/root/q2_radius_uniform",
+  "mathematical_executions": 0,
+  "mathematical_imports": 0,
+  "old_48_guard_replays": 0,
+  "sampling_or_optimization": 0,
+  "method": "Full source reading, paper scope extraction and geometric reasoning, text writing and byte hashing only",
+  "mean_source_status_when_read": "NEW_ROOT_AUTHOR_PAPER_AWAITING_INDEPENDENT_REVIEW",
+  "projection_status": "new paper lemma awaiting independent static review",
+  "global_radius_certificate": false,
+  "frozen_sources_modified": false
+}

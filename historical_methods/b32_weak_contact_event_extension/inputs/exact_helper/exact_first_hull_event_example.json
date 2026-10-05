@@ -1,0 +1,85 @@
+{
+  "status": "PASS_EXACT_CHORD_FIRST_EVENT",
+  "source_full_integer_graph_status": "PASS",
+  "common_denominator": "36893488147419103232",
+  "affine_coordinate_definition": "Integer P(t)=A_integer+t*(B_integer-A_integer), divided by Q; no intermediate floating rounding in predicates",
+  "polynomial_predicates_checked": 633,
+  "initial_zero_predicates": [],
+  "predicate_roots_in_segment": 1,
+  "first_event_cluster": [
+    {
+      "kind": "TRIANGLE_ORIENTATION_ZERO",
+      "labels": [
+        96,
+        97,
+        95
+      ],
+      "integer_polynomial_coefficients": [
+        "8693831198624943192895111340",
+        "-8714361448385795331442310378",
+        "20521576450880927055863049"
+      ],
+      "degree": 2,
+      "root_isolation": {
+        "left": [
+          "288230087921612905",
+          "288230376151711744"
+        ],
+        "right": [
+          "1152920351686451621",
+          "1152921504606846976"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "4886e0e5de9b727eff50bfabcdaf5903b4f482a0e840f747adc10f1589a46324"
+      }
+    }
+  ],
+  "first_event_bracket": {
+    "left": [
+      "288230087921612905",
+      "288230376151711744"
+    ],
+    "right": [
+      "1152920351686451621",
+      "1152921504606846976"
+    ]
+  },
+  "no_any_DT_circle_hull_predicate_root_before_first_bracket": true,
+  "all_predicate_roots": [
+    {
+      "kind": "TRIANGLE_ORIENTATION_ZERO",
+      "labels": [
+        96,
+        97,
+        95
+      ],
+      "integer_polynomial_coefficients": [
+        "8693831198624943192895111340",
+        "-8714361448385795331442310378",
+        "20521576450880927055863049"
+      ],
+      "degree": 2,
+      "root_isolation": {
+        "left": [
+          "288230087921612905",
+          "288230376151711744"
+        ],
+        "right": [
+          "1152920351686451621",
+          "1152921504606846976"
+        ],
+        "roots_in_whole_segment": 1,
+        "roots_before_left": 0,
+        "roots_in_bracket": 1,
+        "exact_sign_at_left": 1,
+        "exact_sign_at_right": -1,
+        "sturm_chain_sha256": "4886e0e5de9b727eff50bfabcdaf5903b4f482a0e840f747adc10f1589a46324"
+      }
+    }
+  ],
+  "scope": "Exact integer polynomial/Sturm first physical event of this endpoint chord only; no whole curved path, unitdisk-center necessity, radius, completeness or optimality assertion"
+}

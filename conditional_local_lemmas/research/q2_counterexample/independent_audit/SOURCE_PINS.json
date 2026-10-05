@@ -1,0 +1,83 @@
+{
+  "status": "PASS_STATIC_FULL_SOURCE_ACTUAL_A_Q2_WITNESS",
+  "reviewer_mathematical_executions": 0,
+  "reviewer_old_checker_calls": 0,
+  "reviewer_math_imports": 0,
+  "author_fixed_point_executions_reported": 1,
+  "author_receipt_snapshot_timing": "Explicitly post-run metadata snapshots; reviewer does not assert a contemporaneous pre-run capture.",
+  "source_and_certificate_snapshots_match_current_bytes": true,
+  "accepted_peak_condition": "Pinned accepted scalar peak certificate is a premise, not independently regenerated.",
+  "reviewed_author_files": {
+    "ANALYSIS.md": {
+      "sha256": "e827c42bb99ea7ee186f61e16ceb86173c4982d510ed7e36d4ca737a9489a331",
+      "bytes": 11332
+    },
+    "ADDITIONAL_SCOPE.md": {
+      "sha256": "a1f95150db8272c002b164322be530bf5a74c26095d0025f4e1e02dd167fc084",
+      "bytes": 2299
+    },
+    "verify_new_skew_point.py": {
+      "sha256": "c21323c63e675c37128b94f8bad9e625193b81052021efb5d2be378f74df278d",
+      "bytes": 8793
+    },
+    "certificate.json": {
+      "sha256": "9607aa092babadb878f3fa561a989001c6cad129ec757a4efb4bdea7f74f0476",
+      "bytes": 14385
+    },
+    "replay.log": {
+      "sha256": "9c75c6f63540cbf4af6c62f43a117a35dd9ee4659eda9224e1b9d02d6cead60f",
+      "bytes": 222
+    },
+    "ATTEMPT_LEDGER.json": {
+      "sha256": "f325a2d15de9ed9c2f653303a2b9b41040e8ac0e70dde498e55b5559d0a12ea0",
+      "bytes": 709
+    },
+    "attempts/author_001/verify_new_skew_point.py": {
+      "sha256": "c21323c63e675c37128b94f8bad9e625193b81052021efb5d2be378f74df278d",
+      "bytes": 8793
+    },
+    "attempts/author_001/certificate.json": {
+      "sha256": "9607aa092babadb878f3fa561a989001c6cad129ec757a4efb4bdea7f74f0476",
+      "bytes": 14385
+    },
+    "attempts/author_001/replay.log": {
+      "sha256": "9c75c6f63540cbf4af6c62f43a117a35dd9ee4659eda9224e1b9d02d6cead60f",
+      "bytes": 222
+    },
+    "attempts/author_001/receipt.json": {
+      "sha256": "2d6139af659b80b8d3ffa5824542efdb87796acf6b8f84fef6cb53d7b0f53e74",
+      "bytes": 1575
+    },
+    "SOURCE_PINS.json": {
+      "sha256": "ac122e3e41c6decf9469e0534f12d4768be4c8b8360df0c9ea5e12287d972c45",
+      "bytes": 2248
+    }
+  },
+  "accepted_inputs": {
+    "q3_actual_quadratic_support/certificate.json": {
+      "sha256": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+      "bytes": 4402
+    },
+    "quadratic_lambda14_conjugate/PROOF.md": {
+      "sha256": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+      "bytes": 3157
+    },
+    "quadratic_lambda14_conjugate/verify_conjugate.py": {
+      "sha256": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+      "bytes": 3507
+    },
+    "quadratic_lambda14_conjugate/certificate.json": {
+      "sha256": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+      "bytes": 3196
+    },
+    "coupled_edges/verify_support.py": {
+      "sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+      "bytes": 4976
+    }
+  },
+  "separate_static_geometry_analysis": {
+    "path": "PROJECT_SOURCE/research/q2_compatibility/ANALYSIS.md",
+    "sha256": "6919451e44091c4529ed9c498d7781e037d063c7868c1e37ddeca6f4a16dbd00",
+    "bytes": 14075
+  }
+}

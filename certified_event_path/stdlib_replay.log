@@ -1,0 +1,48 @@
+{"node": -1, "U": "577509120973/5000000000000", "closed_disk_candidates": 138511, "exact_cover": "PASS"}
+{"node": 0, "U": "28875456049/250000000000", "closed_disk_candidates": 138511, "exact_cover": "PASS"}
+{"node": 1, "U": "115501824197/1000000000000", "closed_disk_candidates": 138511, "exact_cover": "PASS"}
+{"node": 2, "U": "577509121/5000000000", "closed_disk_candidates": 138512, "exact_cover": "PASS"}
+{"node": 3, "U": "28875456061/250000000000", "closed_disk_candidates": 138512, "exact_cover": "PASS"}
+{"node": 4, "U": "11550182463/100000000000", "closed_disk_candidates": 138513, "exact_cover": "PASS"}
+{"node": 5, "U": "115501829027/1000000000000", "closed_disk_candidates": 138513, "exact_cover": "PASS"}
+{"node": 6, "U": "28875466987/250000000000", "closed_disk_candidates": 138510, "exact_cover": "PASS"}
+{"node": 7, "U": "57751020033/500000000000", "closed_disk_candidates": 138514, "exact_cover": "PASS"}
+{"node": 8, "U": "115502510523/1000000000000", "closed_disk_candidates": 138514, "exact_cover": "PASS"}
+{"node": 9, "U": "115503734513/1000000000000", "closed_disk_candidates": 138506, "exact_cover": "PASS"}
+{"node": 10, "U": "23101292691/200000000000", "closed_disk_candidates": 138506, "exact_cover": "PASS"}
+{"node": 11, "U": "28877886099/250000000000", "closed_disk_candidates": 138518, "exact_cover": "PASS"}
+{"node": 12, "U": "115519389533/1000000000000", "closed_disk_candidates": 138521, "exact_cover": "PASS"}
+{"node": 13, "U": "57765039453/500000000000", "closed_disk_candidates": 138544, "exact_cover": "PASS"}
+{"node": 14, "U": "115541117481/1000000000000", "closed_disk_candidates": 138539, "exact_cover": "PASS"}
+{"node": 15, "U": "115552073373/1000000000000", "closed_disk_candidates": 138551, "exact_cover": "PASS"}
+{"node": 16, "U": "28889807367/250000000000", "closed_disk_candidates": 138556, "exact_cover": "PASS"}
+{"node": 17, "U": "28890672529/250000000000", "closed_disk_candidates": 138559, "exact_cover": "PASS"}
+{"node": 18, "U": "14445448119/125000000000", "closed_disk_candidates": 138559, "exact_cover": "PASS"}
+{"node": 19, "U": "115563252787/1000000000000", "closed_disk_candidates": 138558, "exact_cover": "PASS"}
+{"node": 20, "U": "14445242441/125000000000", "closed_disk_candidates": 138559, "exact_cover": "PASS"}
+{"node": 21, "U": "4622319651/40000000000", "closed_disk_candidates": 138566, "exact_cover": "PASS"}
+{
+  "nodes": 23,
+  "segments": 22,
+  "total_exact_candidates": 3186163,
+  "path_radius_cap": "235173307525027/2000000000000000",
+  "event": {
+    "degree": 4,
+    "roots_on_open_segment": 1,
+    "strict_empty_other_sites": 96,
+    "inside_closed_disk": true,
+    "inside_convex_quadrilateral": true,
+    "root_interval": [
+      [
+        8612370580884599513,
+        1267650600228229401496703205376
+      ],
+      [
+        4306185290442299757,
+        633825300114114700748351602688
+      ]
+    ]
+  },
+  "claim": "Explicit rational PL path covers the whole closed unit disk at the given cap and crosses a certified empty convex inside-D cocircular event. Global optimality and the original numerical curve are not certified."
+}
+PASS: exact closed-disk path and algebraic flip certificate.

@@ -1,0 +1,34 @@
+{
+  "cleared_factorization_monomials": 2820,
+  "coefficient_sha256": "427d68e1823d2df403f77e6e46a92610f3c64c5f648db43a1290ceadc364fbe8",
+  "domain": "orient(a,b,c)*orient(a,b,d) != 0",
+  "exact_cyclic_gradient_checks": [
+    {
+      "beta": "0",
+      "gradient_components_checked": 8,
+      "opposite_sides_of_shared_edge": true,
+      "triangles_noncollinear": true
+    },
+    {
+      "beta": "-5/12",
+      "gradient_components_checked": 8,
+      "opposite_sides_of_shared_edge": true,
+      "triangles_noncollinear": true
+    }
+  ],
+  "generic_variables": [
+    "ax",
+    "ay",
+    "bx",
+    "by",
+    "cx",
+    "cy",
+    "dx",
+    "dy"
+  ],
+  "integer_polynomial_identities": 4,
+  "normalized_event_row_coefficient": "beta*D0, with E=D/D0; divide by t0 if holes divided by t0",
+  "scope": "Generic exact algebraic redundancy only. No nearest-circle qualification, KKT regularity, continuous covering or global optimum.",
+  "standard_incircle_monomials": 48,
+  "status": "PASS"
+}

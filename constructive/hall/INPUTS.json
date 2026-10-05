@@ -1,0 +1,27 @@
+{
+  "schema": "PORTABLE_SAVED_RADIAL_HALL_INPUT_MAPPING_V1",
+  "reference_count": 35599,
+  "current_source": {
+    "file": "endpoint/inputs/centers.npy",
+    "sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565"
+  },
+  "current_ordered_coordinate_sha256": "aad4ce99af54b98c3a835a57ea40809a66d3b1e17b4888f74f8e6bf8dfc868c9",
+  "inventory": {
+    "file": "hall/references/INVENTORY.json",
+    "sha256": "477c44d2329179b9b8fd2d691da9077c3a2b873f854771671ab58dcdeeab70b0"
+  },
+  "witnesses": {
+    "file": "hall/results/WITNESSES.jsonl",
+    "sha256": "0606b3ffd7e0ddc084b13148365d83ab1defb5abf45abceae250c08e76a9af0b"
+  },
+  "epsilon": [
+    1,
+    500000
+  ],
+  "stronger_common_exact_threshold": [
+    2362504,
+    1000000000
+  ],
+  "original_math_pass_inherited": true,
+  "public_verifier_not_executed": true
+}

@@ -1,0 +1,13 @@
+{
+  "left": 18,
+  "right": 19,
+  "maximum_squared_integer_displacement": 3486760760285290316680,
+  "displacement_bound": [
+    59048799821,
+    1000000000000000
+  ],
+  "coverage_cap": [
+    231185886538821,
+    2000000000000000
+  ]
+}

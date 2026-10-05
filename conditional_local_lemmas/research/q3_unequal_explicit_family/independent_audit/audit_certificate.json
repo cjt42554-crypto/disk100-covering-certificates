@@ -1,0 +1,141 @@
+{
+  "BLAS_threads": 1,
+  "R": [
+    11321,
+    100000
+  ],
+  "accepted_single_face_conjugate": [
+    [
+      9209378939705044463007341675614403,
+      6250000000000000000000000000000000
+    ],
+    [
+      147350063035280711408117479545097227,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "additional_candidate_calls": 0,
+  "algebraic_cubic_completion_and_all_incident_radius_R_equalities_reviewed": true,
+  "all_33_minimum_assigned_arc_strict_lower": [
+    23,
+    250
+  ],
+  "apex_degree": 7,
+  "apex_marked_face_count": 3,
+  "assertions_enabled": true,
+  "boundary_cell_count": 33,
+  "bytecode_disabled": true,
+  "canonical_actual_owner_switches_reviewed": true,
+  "circumradius_R_star_face_count": 7,
+  "combined_attempts": 5,
+  "combined_successes": 3,
+  "complete_saved_JSON_match": true,
+  "conjugate_verify_calls": 0,
+  "connected_full_assigned_arcs_reviewed": true,
+  "cos_a": [
+    359,
+    500
+  ],
+  "cos_b": [
+    1691,
+    2500
+  ],
+  "entire_unit_circle_coverage_reviewed": true,
+  "exact_optimum_claimed": false,
+  "execution_blockers": [],
+  "existing_lens_slack_added_to_score": false,
+  "existing_middle_cell_lens_slack_normalized": [
+    [
+      90240502584348475765598685170084091,
+      100000000000000000000000000000000000
+    ],
+    [
+      45120251292174237882799342585061011,
+      50000000000000000000000000000000000
+    ]
+  ],
+  "global_profile_certified": false,
+  "global_radius_counterexample_claimed": false,
+  "graph_catalogue_calls": 0,
+  "hundred_site_cover_certified": false,
+  "independent_verify_calls": 1,
+  "interior_site_count": 4,
+  "lambda_fraction": [
+    7,
+    50
+  ],
+  "latest_tiny_fee_verify_calls": 0,
+  "min_empty_squared_margin": [
+    2276651349902828318716490943848681,
+    100000000000000000000000000000000000
+  ],
+  "old_batch_calls": 0,
+  "once_around_complete_strict_Delaunay_star_reviewed": true,
+  "optimizer_calls": 0,
+  "outer_Q_certified": false,
+  "parallel_analytic_subreview_verify_calls": 0,
+  "parameter_campaign_calls": 0,
+  "preceding_root_attempts": 4,
+  "preceding_root_plumbing_failures": 2,
+  "preceding_root_successes": 2,
+  "primitive_verify_calls": 0,
+  "proposed_target_fee": [
+    19931551,
+    1000000000
+  ],
+  "remaining_face_circumradius_bounds_certified": false,
+  "ring_29_minimum_owned_arc_lower": [
+    [
+      4908738521234051935097880286374223,
+      50000000000000000000000000000000000
+    ],
+    [
+      9817477042468103870195760572748447,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "same_score_loss": [
+    [
+      2930778494099787761569404765587,
+      160000000000000000000000000000000
+    ],
+    [
+      1831736558812367350980916184302419,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "same_whole_score": [
+    [
+      220109226273514883436685761225494631,
+      50000000000000000000000000000000000
+    ],
+    [
+      440218452547029766873371522450999469,
+      100000000000000000000000000000000000
+    ]
+  ],
+  "scope": "One exact algebraic local obstruction to standalone whole-S loss>.019931551 under the verified listed local conditions; full unit-circle coverage and actual q3,d7 with33connected covered long arcs. No whole-disk/100-site cover, additional global condition or global radius counterexample.",
+  "shared_spoke_Qmean_equals_existing_skew_sum_reviewed": true,
+  "site_count": 37,
+  "source_edits": 0,
+  "source_history_and_dependency_files_before_after_unchanged": 29,
+  "status": "PASS_INDEPENDENT_ANALYTIC_AND_ONE_FRESH_EXPLICIT_LOCAL_OBSTRUCTION_AUDIT",
+  "t": [
+    1071883,
+    20000000
+  ],
+  "target_certificate_sha256": "e5db4d60907d510bcc606edc89243b579036dc8d63c2004fceb3703580c1db75",
+  "target_checker_sha256": "c64f86cbc2fe2657ee00df18534d2901188b30356ea7268a5f9f7f7ca9688efb",
+  "target_failure_margin": [
+    [
+      161418541187632649019083815697581,
+      100000000000000000000000000000000000
+    ],
+    [
+      258269665900212238430595234413,
+      160000000000000000000000000000000
+    ]
+  ],
+  "target_proof_sha256": "6d168f09df53368e088080b51fc59849c704291a24919eae6bc09134a6890525",
+  "whole_closed_unit_disk_coverage_certified": false
+}

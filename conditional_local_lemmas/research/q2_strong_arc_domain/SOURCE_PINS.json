@@ -1,0 +1,15 @@
+{
+  "status": "STATIC_READ_INPUT_PINS",
+  "mathematical_executions": 0,
+  "inputs": {
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+    "PROJECT_SOURCE/research/quadratic_lambda14_conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+    "PROJECT_SOURCE/research/q3_actual_quadratic_support/certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+    "PROJECT_SOURCE/research/q2_counterexample/ANALYSIS.md": "e827c42bb99ea7ee186f61e16ceb86173c4982d510ed7e36d4ca737a9489a331",
+    "PROJECT_SOURCE/research/q2_counterexample/independent_audit/INDEPENDENT_REVIEW.md": "f1e0e42c83910b28240da349dc1c7e4f7f8b1248ad381bd45fa0ed76485c3554",
+    "PROJECT_SOURCE/research/q2_counterexample/SHA256.json": "5488096035a6cb3b0164bbe94a836feeb20772d4cceff5be60ce0df4cf889850",
+    "PROJECT_SOURCE/research/Q2_STRONG_ARC_NORM_CUT_20261005.md": "0d7fdff5df335e1da74f61f44aa43556a9dfd2f122884a5fbaa225300bc8b81d"
+  },
+  "scope": "Accepted scalar peak and dimensionless localization premises; previous mirrored-family symbolic identities and static acceptance; parent necessary norm note. No input code imported or executed."
+}

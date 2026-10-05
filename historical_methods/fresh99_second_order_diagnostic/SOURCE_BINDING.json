@@ -1,0 +1,28 @@
+{
+  "schema": "fresh99-second-order-source-binding-v1",
+  "original_geometry_bridge_manifest_sha256": "c4e7e6f72ce904a691e6448f5fe24869ce048999064184d2ff5e8458106b56f5",
+  "all_old80_files_unchanged": true,
+  "source_inputs": [
+    {
+      "path": "fresh_rattler_geometry_bridge/inputs/basin00.npy",
+      "file_sha256": "e053e7012512613df84d2329e549f6a9722d263eb7154116a6bd5771b79017ce"
+    },
+    {
+      "path": "fresh_rattler_geometry_bridge/inputs/basin01.npy",
+      "file_sha256": "2119c57582b6142b7650285b8329cbcf7f132b752cc79b18150a3096f9f13db5"
+    },
+    {
+      "path": "fresh_rattler_geometry_bridge/inputs/basin02.npy",
+      "file_sha256": "e482be7b4d0f6eb8d94316eee003c371d1017bea70efa9e3ba74548e7e591367"
+    }
+  ],
+  "read_only_reference_sha256": {
+    "active_algebraic/curvature.py": "3aff4b393ac77b5ef058d3cc43d95bc0c323a69f5b4b312663ac3c9025b26e65",
+    "active_algebraic/analyze.py": "ab1899254aea7cb3aca22e23de87236c9003fdc2a47f9ab9f55bc8eba79fb0f1",
+    "strict_local_second_order/numeric_diagnose.py": "2db43d86383cf1dc8c4b93064f6bc73c16fd56279a4ebd9ecc213e07d94254d3",
+    "strict_local_second_order/theory/PHYSICAL_SOSC_THEOREM.md": "6a8e7a1ea74341bd3e821b383cd00563a981fd16d8753cecf1cee0aeddb86d10",
+    "strict_local_second_order/LOCAL_PROOF.md": "33430465cb3e3244d87e223d1b590d3e1eabebbf0505d9a29c13ad3c2715ddad",
+    "topology_patch_hybrid_146/source/geometry.py": "1145883126efb4863fc55aa1805c940396fc4155a10293c6ee4c10ecb4739f4b",
+    "topology_patch_hybrid_146/source/whole_disk_oracle.py": "e07f698766d143749f57a67ffa783cb6b3fbf9252452339eb91598a1c1c2a0f8"
+  }
+}

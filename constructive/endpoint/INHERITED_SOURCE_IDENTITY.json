@@ -1,0 +1,22 @@
+{
+  "schema": "EXACT_BINARY64_GLOBAL_CLOSED_D_COVER_V1",
+  "status": "PASS",
+  "source_centers": 100,
+  "distinct_centers": 100,
+  "exact_closed_unit_disk_cover": true,
+  "exact_cover_radius": "0.116404851624",
+  "exact_cover_radius_fraction": [
+    14550606453,
+    125000000000
+  ],
+  "exact_decimal_binary64_matches": 200,
+  "ordered_coordinate_sha256": "aad4ce99af54b98c3a835a57ea40809a66d3b1e17b4888f74f8e6bf8dfc868c9",
+  "source_npy_sha256": "f4a4a88461396d45a96877f9a17c090299b8a82479fe598ebb6e15a7edaae565",
+  "source_csv_sha256": "ece71dc3e8f92e0264e421548df3b5a84902967b523b455dc31d9406e2e22574",
+  "global_optimum_proved": false,
+  "strict_record_upper_improved": false,
+  "evidence_status": "INHERITED_ORIGINAL_SOURCE_IDENTITY_AND_COVER_PASS",
+  "source_npy": "endpoint/inputs/centers.npy",
+  "source_csv": "endpoint/inputs/centers.csv",
+  "public_preparation_math_executions": 0
+}

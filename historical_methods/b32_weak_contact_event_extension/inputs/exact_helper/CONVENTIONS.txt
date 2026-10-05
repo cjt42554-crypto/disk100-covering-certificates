@@ -1,0 +1,8 @@
+PUBLICATION SCOPE: CURATED HISTORICAL RESEARCH RECORD
+This is a lean, privacy-edited copy. Original replay/rebuild instructions below describe the complete historical archive, not a ready-to-run public reproduction. Large run snapshots, inventories, caches and some dependency trees are intentionally omitted. No complete replay of these finite runs is claimed here; no program was executed for publication. Read ../README.md and this route's PUBLICATION_SCOPE.json. Original files were retained unchanged.
+
+Read-only exact endpoint-chord utility: python3 -B exact_segment_events.py A.npy B.npy external_output.json.
+Coordinates are converted to a shared dyadic integer denominator. Fixed source fullDT edges/triangles and hull triples generate633 integer polynomials in this example; integer Sturm sequences isolate the first root and prove no earlier DT/circle/hull predicate root.
+Example source10 first event is the orientation-zero triangle[96,97,95], a disk-exterior fullhull event. Its restricted graph stays unchanged; this is supporting math only, not a qualified optimizer input.
+The certified path is the exact rational chord between exact binary64 endpoints, not a rounded iterative Newton curve. A whole curved-path first-event claim requires checking every earlier accepted segment and its rounding/guards.
+Centers outsideD are allowed in the original covering problem. The utility does not call outside centers original-infeasible and makes no radius/completeness/optimality assertion.

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "PROJECT_SOURCE/research/q3_parameter_broad/verify_fraction_guards.py", line 44, in <module>
+    print(json.dumps(verify(),sort_keys=True,indent=2))
+                     ^^^^^^^^
+  File "PROJECT_SOURCE/research/q3_parameter_broad/verify_fraction_guards.py", line 32, in verify
+    assert 5*eps/curvature==F(7,388)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

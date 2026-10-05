@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "reviewed_geometric_constructions": 7,
+  "reviewed_regular_cones": 35,
+  "source_remaining95_checks": 665,
+  "finite_local_threeface_checks": 36,
+  "finite_other97_emptycircle_checks": 3492,
+  "preferred_joint_ids": [
+    2,
+    3
+  ],
+  "preferred_branch_id": 3,
+  "raw_eta_joint2": [
+    -2,
+    -1
+  ],
+  "raw_eta_joint3": [
+    -1,
+    -2
+  ],
+  "epsilon": "1/262144",
+  "wholeD_calls": 0,
+  "QP_calls": 0,
+  "optimizer_calls": 0,
+  "proxy_launches": 0,
+  "cover_radius_measured": false,
+  "qualified_constraints_sha256": "3a4bdefc29c44bcd2de9f619b35302c05870e5d5c3670ad9291a88bce56d327b",
+  "inputs_manifest_sha256": {
+    "inputs": "cd03586cae92ff3f418e705b05906e81b30a553d462fc78242d356a0e7174014",
+    "inputs/path_spec": "24adf31a0bad10c394cb05ae19c729414190df6e045bcb63be22bcab584f93ad",
+    "inputs/nonzero_alternatives": "dc2c125099f2a35c20d5597f5fe074006a62b8b1c4fcad745efb35a99bca50b0"
+  }
+}

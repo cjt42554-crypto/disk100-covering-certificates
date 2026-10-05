@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "path": "REVISION_RECORD.md",
+      "bytes": 557,
+      "sha256": "7ba4d4cd03c0ce4d70d9fdecce8ad21747f9fe31fe87f3fc6668ae170dbc0253"
+    },
+    {
+      "path": "SMALL_TAU_STRONG_ARC.md",
+      "bytes": 6168,
+      "sha256": "0e245b34c317c98ca46192a39db432f318e4a87b59a42f46f5681c690d3fda37"
+    },
+    {
+      "path": "history/PRE_PI_SOURCE_CLARIFICATION.md",
+      "bytes": 6008,
+      "sha256": "1f9f0af9c3ff37e53c1f71106fa7d7a2daede080a023bea6ea82d6648691b271"
+    }
+  ],
+  "mathematical_executions": 0,
+  "scope": "small-tau strong-arc conditional analytic extension; awaiting review"
+}

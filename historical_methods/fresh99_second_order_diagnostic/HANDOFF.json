@@ -1,0 +1,66 @@
+{
+  "schema": "fresh99-second-order-handoff-v1",
+  "status": "immutable after manifest seal",
+  "numerical_only": true,
+  "source_frame": "original raw pinned source frame; same as previous geometry bridge",
+  "no_new_descent_warmstart": true,
+  "no_full100_optimizer": true,
+  "no_finite_negative_direction_probes": true,
+  "no_strict_local_or_global_claim": true,
+  "summary": [
+    {
+      "source": 0,
+      "source_sha256": "e053e7012512613df84d2329e549f6a9722d263eb7154116a6bd5771b79017ce",
+      "free_label": 24,
+      "active_count": 144,
+      "minimum_positive_contact_multiplier": 0.0005023875193511698,
+      "core_tangent_dimension": 54,
+      "core_minimum_eigenvalue": 0.0015733843036035775,
+      "full100_free_exact_flat_dimensions": 2,
+      "maximum_core_Newton_correction": 1.119480943323747e-07,
+      "corrected_stationarity_norm": 1.803052202585817e-15,
+      "maximum_reduced_H_fd_error": 2.075492880585719e-10,
+      "corrected_array": "inputs/corrected_source00.npy",
+      "corrected_array_sha256": "5d8fa49a40ee38b28a19f1759256b8bdfaa6df7b46ee237c42fecdeaf06020e8"
+    },
+    {
+      "source": 1,
+      "source_sha256": "2119c57582b6142b7650285b8329cbcf7f132b752cc79b18150a3096f9f13db5",
+      "free_label": 73,
+      "active_count": 148,
+      "minimum_positive_contact_multiplier": 0.00016257697419984834,
+      "core_tangent_dimension": 50,
+      "core_minimum_eigenvalue": 0.0015684482813187349,
+      "full100_free_exact_flat_dimensions": 2,
+      "maximum_core_Newton_correction": 5.650559814179435e-08,
+      "corrected_stationarity_norm": 9.160250216273715e-16,
+      "maximum_reduced_H_fd_error": 1.5883911331675922e-10,
+      "corrected_array": "inputs/corrected_source01.npy",
+      "corrected_array_sha256": "30dccf4df1e322c5cfa8516853b02d6f432fb6cfd940ee04cfc289e7016e3405"
+    },
+    {
+      "source": 2,
+      "source_sha256": "e482be7b4d0f6eb8d94316eee003c371d1017bea70efa9e3ba74548e7e591367",
+      "free_label": 80,
+      "active_count": 143,
+      "minimum_positive_contact_multiplier": 0.0004422949411362035,
+      "core_tangent_dimension": 55,
+      "core_minimum_eigenvalue": 0.0015605909277838254,
+      "full100_free_exact_flat_dimensions": 2,
+      "maximum_core_Newton_correction": 5.161597770420633e-08,
+      "corrected_stationarity_norm": 3.2276041338085517e-16,
+      "maximum_reduced_H_fd_error": 1.477393806949121e-10,
+      "corrected_array": "inputs/corrected_source02.npy",
+      "corrected_array_sha256": "ca5a719737e81b471092aaaba6f3047d088f402561669dc3b956b8fd6eaf132e"
+    }
+  ],
+  "interpretation": "These three nominal basins are numerically positive-curvature99 cores with genuine2-dimensional free feasible lenses, rather than evident second-order saddles. Free-center movement inside the lens does not automatically lower the core radius. Require structural topology/event crossing for further search; interval SOSC is not provided.",
+  "zero_stress_rule": "The active-equality tangent represents the critical cone only if all multipliers are positive at an actual root. Zero multipliers retain inequality directions; this is explained in cone_review.txt.",
+  "files": [
+    "RESULT.json",
+    "AUDIT.json",
+    "cone_review.txt",
+    "README.txt",
+    "SOURCE_BINDING.json"
+  ]
+}

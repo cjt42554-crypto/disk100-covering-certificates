@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_LOCAL_UNIFORM_RADIUS_ADDENDUM_STATIC_REVIEW_PASS",
+  "radius_upper": [
+    949600,
+    4987489
+  ],
+  "radius_upper_included": true,
+  "radius_lower": [
+    0,
+    1
+  ],
+  "radius_lower_included": false,
+  "same_normalized_local_fee": [
+    1,
+    40
+  ],
+  "files": {
+    "PROOF_ADDENDUM.md": "4f8ef8ce523091f6dd22dc6ed9064d736eab8d1f4f4cdf2ddbbf9bb8f3b506a3",
+    "radius_endpoint_fraction.py": "a0c916945229dc79bfdc9e5beea6d933e3c50a2566f923093d7bdacba6324649",
+    "endpoint_arithmetic.json": "e2aa792b58c0852a63d070a477d41538cad1402387186aceba012722cef84ffe",
+    "SOURCE_PINS.json": "082f6cb6ed62938abeff834c33491e9bb4ef8986dd1c3159705e2d9c12651348",
+    "STATIC_RADIUS_REVIEW.md": "22b05f41963538335b0b509ca8bf4168b3491bee2016a57352d7356f4cb35467"
+  },
+  "new_endpoint_fraction_calls": 1,
+  "frozen_math_source_imports_or_executions": 0,
+  "local_or_conjugate_checker_calls": 0,
+  "optimizers_scans_or_geometry_searches": 0,
+  "original_source_pins_unchanged_at_freeze": true,
+  "independent_static_review": "PASS; no mathematical execution by reviewer",
+  "scope": "Local same-quadratic actual signed-anchor consecutive three-face inequality only. No global covering exclusion, eligible fan incidence, external boundary support, or exact optimum."
+}

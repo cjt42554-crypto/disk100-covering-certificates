@@ -1,0 +1,67 @@
+{
+  "old6_to_frozen_current_graph10": {
+    "all166_catalog10_bijection_checked": true,
+    "labelled_faces_equal": true,
+    "same_supported_quad_under_verified_face_mapping": "Comparable combinatorial support only; physical metric event and direction equivalence require additional evidence.",
+    "source_geometries_equal": false
+  },
+  "pairs": [
+    {
+      "actual_full_restricted_graph_fingerprint_equal": false,
+      "global_fullgraph_face_bijection_available": false,
+      "metric_hash_difference_implies_physical_novelty": false,
+      "ordered_coordinate_sha_equal": false,
+      "physical_event_equivalence": "unknown_not_inferred",
+      "radius_or_nearest_coordinates_used_to_merge": false,
+      "same_original_label_number_implies_physical_equivalence": false,
+      "source_a": "old6_source_graph10",
+      "source_a_B_F": [
+        32,
+        166
+      ],
+      "source_b": "old_forced12_source_B33",
+      "source_b_B_F": [
+        33,
+        165
+      ]
+    },
+    {
+      "actual_full_restricted_graph_fingerprint_equal": false,
+      "global_fullgraph_face_bijection_available": false,
+      "metric_hash_difference_implies_physical_novelty": false,
+      "ordered_coordinate_sha_equal": false,
+      "physical_event_equivalence": "unknown_not_inferred",
+      "radius_or_nearest_coordinates_used_to_merge": false,
+      "same_original_label_number_implies_physical_equivalence": false,
+      "source_a": "old6_source_graph10",
+      "source_a_B_F": [
+        32,
+        166
+      ],
+      "source_b": "best14_grid0061_reference",
+      "source_b_B_F": [
+        32,
+        166
+      ]
+    },
+    {
+      "actual_full_restricted_graph_fingerprint_equal": false,
+      "global_fullgraph_face_bijection_available": false,
+      "metric_hash_difference_implies_physical_novelty": false,
+      "ordered_coordinate_sha_equal": false,
+      "physical_event_equivalence": "unknown_not_inferred",
+      "radius_or_nearest_coordinates_used_to_merge": false,
+      "same_original_label_number_implies_physical_equivalence": false,
+      "source_a": "old_forced12_source_B33",
+      "source_a_B_F": [
+        33,
+        165
+      ],
+      "source_b": "best14_grid0061_reference",
+      "source_b_B_F": [
+        32,
+        166
+      ]
+    }
+  ]
+}

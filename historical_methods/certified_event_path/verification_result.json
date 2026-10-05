@@ -1,0 +1,24 @@
+{
+  "nodes": 23,
+  "segments": 22,
+  "total_exact_candidates": 3186163,
+  "path_radius_cap": "235173307525027/2000000000000000",
+  "event": {
+    "degree": 4,
+    "roots_on_open_segment": 1,
+    "strict_empty_other_sites": 96,
+    "inside_closed_disk": true,
+    "inside_convex_quadrilateral": true,
+    "root_interval": [
+      [
+        8612370580884599513,
+        1267650600228229401496703205376
+      ],
+      [
+        4306185290442299757,
+        633825300114114700748351602688
+      ]
+    ]
+  },
+  "claim": "Explicit rational PL path covers the whole closed unit disk at the given cap and crosses a certified empty convex inside-D cocircular event. Global optimality and the original numerical curve are not certified."
+}

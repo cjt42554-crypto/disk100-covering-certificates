@@ -1,0 +1,54 @@
+{
+  "status": "STOPPED_UNREVIEWED_CANDIDATE_NOT_THEOREM_OR_CERTIFICATE",
+  "author_files": {
+    "UNREVIEWED_CANDIDATE.md": {
+      "bytes": 5100,
+      "sha256": "f4551822a9fef0fb205302c3240f55d855e9814c39dc4941fe4ac43c7c3867b3"
+    },
+    "EXECUTION_LEDGER.json": {
+      "bytes": 1017,
+      "sha256": "2fefeb991dcd166df96d3f74532a57f912b047f8286a070ecbd82718957e7aa8"
+    }
+  },
+  "source_snapshots": {
+    "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/PROOF.md": {
+      "bytes": 21017,
+      "sha256": "8d2289a8816aefd05bea1e12783d5d78e925c31773a0d6222fee60fba3476c6e"
+    },
+    "research/pro_sources_20261005/sources/two_anchor_tau_lemma/two_anchor_tau_lemma/verification.json": {
+      "bytes": 23723,
+      "sha256": "b83b9882560b3d3b6c98ef077e1e9e15482b0a671b43c9cf4a63c4faade8f30e"
+    },
+    "research/pro_tau_review/STATIC_REVIEW.md": {
+      "bytes": 12735,
+      "sha256": "e595c63da5eca44119c5fbaa997a6c04a29351c884201e390b53c86d51e8e80c"
+    },
+    "research/q2_radius_uniform_tau/PROOF.md": {
+      "bytes": 15575,
+      "sha256": "692a4526d88dd3e856aa96b60961b43c1726d9ba029803199b90e8d7b0c9da2c"
+    },
+    "research/q2_radius_uniform_tau/child_slabs/RADIUS_SLAB_TRANSFER.md": {
+      "bytes": 7050,
+      "sha256": "ccfd02c9378028251f86a9ceef54826cad606e936219869a44ecbc32233c6641"
+    },
+    "research/q2_radius_uniform_tau/CONSTANT_HEADROOM.md": {
+      "bytes": 3730,
+      "sha256": "478abac1b152064603ccf1e87ae7588903efcc145cc22e61803747a9330517b9"
+    },
+    "research/q2_parameter_uniform_tau/PRO_PARAMETER_COROLLARY.md": {
+      "bytes": 11132,
+      "sha256": "43059d525b9e23f4c1639fe6d95cfeea45c5b55fb993daf20aaf6a29b5a12f1b"
+    },
+    "research/q2_parameter_uniform_tau/PRO_SOURCE_PINS.json": {
+      "bytes": 3902,
+      "sha256": "68356e1cc320166842289a92763b9fea7499275fbf9ad27eaa7f7bb6ad789661"
+    }
+  },
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "checker_replays": 0,
+  "metadata_hashing_only": true,
+  "research_stopped": true,
+  "signed_gradient_changed_Delta_guard_unresolved": true,
+  "independent_audit_not_performed": true
+}

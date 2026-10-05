@@ -1,0 +1,8 @@
+PASS rejected: inverse perturbation
+PASS rejected: midpoint perturbation
+PASS rejected: altered geometric equation
+PASS rejected: missing Delaunay face
+PASS rejected: broken boundary arc order
+PASS rejected: cubic malformed system
+PASS rejected: corrupted unused-center anchors
+PASS rejected: wrong root dimension

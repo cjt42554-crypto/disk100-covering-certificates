@@ -1,0 +1,181 @@
+{
+  "schema": "DISK100_PUBLIC_COPY_RECEIPT_V1",
+  "source_commit": "0abd66b68b71d7b799a8306a86f78a7977cc1d3f",
+  "scope": "Static copy, metadata redaction and dependency curation; not fresh mathematical acceptance",
+  "mathematical_replay_count": 0,
+  "all_copied_python_sources_byte_identical": true,
+  "numeric_and_exact_witness_payloads_byte_identical": true,
+  "original_evidence_not_modified": true,
+  "files": [
+    {
+      "original_project_relative": "strict_local_second_order/DEPENDENCIES.json",
+      "public_package_relative": "DEPENDENCIES.json",
+      "original_sha256": "694050542fbd07d9b34b9b9399ffd67a146ace6a31f3e952461fda9b13f09170",
+      "public_sha256": "68c7a90480a1bf3e247737a1a1df1d49ddd7aa99a800962ba27d1dd1c213823b",
+      "bytes": 845,
+      "unchanged": false,
+      "changes": [
+        "Documentation explicitly marks historical numerical proposal tools as omitted; no acceptance source or data changed"
+      ]
+    },
+    {
+      "original_project_relative": "strict_local_second_order/LOCAL_PROOF.md",
+      "public_package_relative": "LOCAL_PROOF.md",
+      "original_sha256": "33430465cb3e3244d87e223d1b590d3e1eabebbf0505d9a29c13ad3c2715ddad",
+      "public_sha256": "33430465cb3e3244d87e223d1b590d3e1eabebbf0505d9a29c13ad3c2715ddad",
+      "bytes": 8329,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/README.md",
+      "public_package_relative": "README.md",
+      "original_sha256": "b19cb412f77d55179840f7a251676aa078bfa0adcb7d009b53ce61920c38dee9",
+      "public_sha256": "391d9549c75ed12d96a6f6b7c5e77e5bf5b6f93ed1c630a0319f98f8496513b4",
+      "bytes": 1957,
+      "unchanged": false,
+      "changes": [
+        "Documentation explicitly marks historical numerical proposal tools as omitted; no acceptance source or data changed"
+      ]
+    },
+    {
+      "original_project_relative": "strict_local_second_order/SOURCE_BINDING.json",
+      "public_package_relative": "SOURCE_BINDING.json",
+      "original_sha256": "9883a3a423c123b50da828ac52d011372f152e112ad23571457528cd8ee4fac6",
+      "public_sha256": "146759db3b60ea5d8a9da71c677d79cfcafa33addb34a4a2fd4966959610430e",
+      "bytes": 1013,
+      "unchanged": false,
+      "changes": [
+        "private metadata redacted; numerical and mathematical source inputs unchanged"
+      ]
+    },
+    {
+      "original_project_relative": "strict_local_second_order/UPSTREAM_MANIFEST_SHA256.json",
+      "public_package_relative": "UPSTREAM_MANIFEST_SHA256.json",
+      "original_sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2",
+      "public_sha256": "4bc4d4647c5b5e8e6e7bb01d1ce10f50fae1823139ce0333efffa15f329472e2",
+      "bytes": 6291,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/negative_tests.json",
+      "public_package_relative": "negative_tests.json",
+      "original_sha256": "d4a52b8660cda551b17074416f2d1bddb10c5bc41abb59d2376431d8a7f909b4",
+      "public_sha256": "d4a52b8660cda551b17074416f2d1bddb10c5bc41abb59d2376431d8a7f909b4",
+      "bytes": 1234,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/sosc_witness.json.gz",
+      "public_package_relative": "sosc_witness.json.gz",
+      "original_sha256": "7c53ab8fcfcc0d53121a6f530814797f19126f613bea24be3b71288c2d66d7f3",
+      "public_sha256": "7c53ab8fcfcc0d53121a6f530814797f19126f613bea24be3b71288c2d66d7f3",
+      "bytes": 1727234,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/algebraic_cover_topology.json",
+      "public_package_relative": "source/algebraic_cover_topology.json",
+      "original_sha256": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+      "public_sha256": "d8c40cf0541aed6a1d793e02e652a570094acc4d2c9069d1b34069a5578906a4",
+      "bytes": 7887,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/exact_algebraic_cover.py",
+      "public_package_relative": "source/exact_algebraic_cover.py",
+      "original_sha256": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+      "public_sha256": "0f12003fd5620bfd21f3a0a8ff3a11237b1da726c20e63798e6651a805e61232",
+      "bytes": 16080,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/exact_krawczyk.py",
+      "public_package_relative": "source/exact_krawczyk.py",
+      "original_sha256": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+      "public_sha256": "84720038ce84f3a9d6839f25735771328b41e2f309898529a4e4efdce8939225",
+      "bytes": 8057,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/krawczyk_preconditioner.json.gz",
+      "public_package_relative": "source/krawczyk_preconditioner.json.gz",
+      "original_sha256": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+      "public_sha256": "131ddfbcb2d29d2e0e74ee4a561b3a8ba883f33f89955081d574506c284e97a3",
+      "bytes": 5544622,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/polynomial_system.json",
+      "public_package_relative": "source/polynomial_system.json",
+      "original_sha256": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+      "public_sha256": "c2da24e7a5109c776c81d49ae3a82c36ba0d891ad0de553a5d0d4e9223205b44",
+      "bytes": 145183,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/rational_midpoint.json",
+      "public_package_relative": "source/rational_midpoint.json",
+      "original_sha256": "3d2ffb930325ba19ced5ae5ce4a8590be0a3488b6aba777db5132f4a4e337a72",
+      "public_sha256": "3d2ffb930325ba19ced5ae5ce4a8590be0a3488b6aba777db5132f4a4e337a72",
+      "bytes": 57955,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/root_high_precision.json",
+      "public_package_relative": "source/root_high_precision.json",
+      "original_sha256": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+      "public_sha256": "618ab635ddae5689aee23ca829c614f0927c0c797326a8bdd574c2cc4a822ec3",
+      "bytes": 104874,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/source/source_configuration.json",
+      "public_package_relative": "source/source_configuration.json",
+      "original_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "public_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+      "bytes": 6128,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/test_negative.py",
+      "public_package_relative": "test_negative.py",
+      "original_sha256": "0c317adbd192747b93b3ad40ac5b3512d99d84c8056ad9e42f31ed126e5c6dc7",
+      "public_sha256": "0c317adbd192747b93b3ad40ac5b3512d99d84c8056ad9e42f31ed126e5c6dc7",
+      "bytes": 3147,
+      "unchanged": true,
+      "changes": []
+    },
+    {
+      "original_project_relative": "strict_local_second_order/verification.json",
+      "public_package_relative": "verification.json",
+      "original_sha256": "798cb8021967352f668a03afa436229e54ae2212677b38b6f47f155eea980e6d",
+      "public_sha256": "0e18d1e155d447cb26690a1711fee4f2ed0e98b5afd10bfa9c939bd19c699eeb",
+      "bytes": 11405,
+      "unchanged": false,
+      "changes": [
+        "private metadata redacted; numerical and mathematical source inputs unchanged"
+      ]
+    },
+    {
+      "original_project_relative": "strict_local_second_order/verify_sosc.py",
+      "public_package_relative": "verify_sosc.py",
+      "original_sha256": "10a8b9c5b0d261228b6f925554918f3a3a88adf17eb7c3ecd1209a1250b5cd44",
+      "public_sha256": "10a8b9c5b0d261228b6f925554918f3a3a88adf17eb7c3ecd1209a1250b5cd44",
+      "bytes": 10532,
+      "unchanged": true,
+      "changes": []
+    }
+  ]
+}

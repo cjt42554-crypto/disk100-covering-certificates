@@ -1,0 +1,11 @@
+{
+  "PROOF.md": "c7bfeca28b166fc600776c3f1955861e079fc6af09f4a49fa38ef1a2ba78a40b",
+  "attempts/author_001/PROOF.md": "605bfc2978bdcd17ff054055eae3bdba35f5c62828014ff5f9c62ceefb100827",
+  "attempts/author_001/receipt.json": "7fecbf5f6d78914392b391167fb8ab26c5455d154f0024abf5358ffa1b945ab0",
+  "attempts/author_001/replay.log": "72eaf61d7f79be588fb761ec3ceb11c4196cba8a0a764e83429b13db12bc0b6c",
+  "attempts/author_001/verify_fraction_guards.py": "5c0774f38e2cf4d4033aab16d7c16d7570385633cb80e50395deec20d198f403",
+  "certificate.json": "34e3b2725e8fd0e20241648add373106b2c38277516378e3d2d4009a62681576",
+  "receipt.json": "b2dd745066184b29016024939ef5676a01aee2753c25e73e828cd04ea2167384",
+  "replay.log": "34e3b2725e8fd0e20241648add373106b2c38277516378e3d2d4009a62681576",
+  "verify_fraction_guards.py": "7c4cf267517f216afb142517711b4a7fba92ee83c222e83dcd3e2230ea25c38d"
+}

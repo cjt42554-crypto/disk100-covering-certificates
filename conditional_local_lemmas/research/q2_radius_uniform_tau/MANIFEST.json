@@ -1,0 +1,35 @@
+{
+  "status": "AUTHOR_PAPER_FROZEN_AWAITING_INDEPENDENT_STATIC_AUDIT",
+  "mathematical_executions": 0,
+  "mathematical_imports": 0,
+  "old_checker_replays": 0,
+  "source_file_count": 13,
+  "file_count": 5,
+  "files": [
+    {
+      "path": "research/q2_radius_uniform_tau/PROOF.md",
+      "bytes": 15575,
+      "sha256": "692a4526d88dd3e856aa96b60961b43c1726d9ba029803199b90e8d7b0c9da2c"
+    },
+    {
+      "path": "research/q2_radius_uniform_tau/GUARD_PLAN.md",
+      "bytes": 2186,
+      "sha256": "5bf6eb6f31234f6298398f0a6a5b7fd5cf8b4ae3bf29f4b945b543a2956ff781"
+    },
+    {
+      "path": "research/q2_radius_uniform_tau/EXECUTION_LEDGER.json",
+      "bytes": 762,
+      "sha256": "c659f49e8fbf5650b0e236e39fdf9ce3a0c1c1a0562b6fc311502daaa26ab624"
+    },
+    {
+      "path": "research/q2_radius_uniform_tau/SOURCE_PINS.json",
+      "bytes": 2793,
+      "sha256": "c4b6b4efbae6d287af1d5b5239c3cb8ebb00cfa8b372e68a2defc0ae1ccfdf7f"
+    },
+    {
+      "path": "research/q2_radius_uniform_tau/child_slabs/RADIUS_SLAB_TRANSFER.md",
+      "bytes": 7050,
+      "sha256": "ccfd02c9378028251f86a9ceef54826cad606e936219869a44ecbc32233c6641"
+    }
+  ]
+}

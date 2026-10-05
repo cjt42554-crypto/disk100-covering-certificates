@@ -1,0 +1,20 @@
+{
+  "acceptance_entrypoint": "python3 -S -O -B verify_sosc.py",
+  "negative_test_entrypoint": "python3 -S -O -B test_negative.py",
+  "runtime": "Python 3 standard library only; no third-party packages or network",
+  "required_files": [
+    "verify_sosc.py",
+    "sosc_witness.json.gz",
+    "SOURCE_BINDING.json",
+    "UPSTREAM_MANIFEST_SHA256.json",
+    "source/polynomial_system.json",
+    "source/rational_midpoint.json",
+    "source/root_high_precision.json",
+    "source/krawczyk_preconditioner.json.gz",
+    "source/source_configuration.json",
+    "source/algebraic_cover_topology.json",
+    "source/exact_krawczyk.py",
+    "source/exact_algebraic_cover.py"
+  ],
+  "non_acceptance_tools": "Historical numeric_diagnose.py, propose.py and auxiliary workspace audits are omitted from this public subset; no acceptance dependency uses them."
+}

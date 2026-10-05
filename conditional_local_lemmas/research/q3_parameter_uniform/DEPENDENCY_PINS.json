@@ -1,0 +1,17 @@
+{
+  "dependencies/actual/DEGENERATE_CLOSURE_ADDENDUM.md": "06ac07cdf3c1e55b32b8e06e31214390c0269ccfeee11831a4bae334bee53146",
+  "dependencies/actual/PROOF.md": "58dc829a24518ecacc44e3414c89973eb92b94573b72a631fc78e41d023173c1",
+  "dependencies/actual/SOURCE_REVIEW.md": "59f55297674fc38f0cd8895d246cab2103f437afca6272e36048cb1ccccecb51",
+  "dependencies/actual/certificate.json": "c92f9879d82e80ca134eb93379d1e842189f836c5e5603d954361c95b7f286da",
+  "dependencies/actual/root_independent_audit/REVIEW.md": "79141b7ef5402d671ba4970df0d115cafbf5d178d29c06142aaefb5b7096f329",
+  "dependencies/actual/verify_actual_quadratic.py": "71811ec96c80d452028f9b434215a8899798e555056125b3adaab178d41bc86f",
+  "dependencies/conjugate/PROOF.md": "aaaad3b1629ba98fd44907735b75ae111fecaa45c8d77f078f4e28acf4713ea3",
+  "dependencies/conjugate/certificate.json": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+  "dependencies/conjugate/verify_conjugate.py": "e95db0a6ead5ace03884ab54743b6238f8fe4cd242b1563617b789fce9cb57f4",
+  "dependencies/radius/PROOF_ADDENDUM.md": "4f8ef8ce523091f6dd22dc6ed9064d736eab8d1f4f4cdf2ddbbf9bb8f3b506a3",
+  "dependencies/radius/SHA256.json": "6faee472ad9c2b3f559a48cedb58e0d4858b0b482fea7720515871b844754fe9",
+  "dependencies/radius/SOURCE_PINS.json": "082f6cb6ed62938abeff834c33491e9bb4ef8986dd1c3159705e2d9c12651348",
+  "dependencies/radius/STATIC_RADIUS_REVIEW.md": "22b05f41963538335b0b509ca8bf4168b3491bee2016a57352d7356f4cb35467",
+  "dependencies/radius/endpoint_arithmetic.json": "e2aa792b58c0852a63d070a477d41538cad1402387186aceba012722cef84ffe",
+  "dependencies/radius/radius_endpoint_fraction.py": "a0c916945229dc79bfdc9e5beea6d933e3c50a2566f923093d7bdacba6324649"
+}

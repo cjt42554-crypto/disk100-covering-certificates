@@ -1,0 +1,15 @@
+{
+  "external_sources_required": false,
+  "output_sha256": {
+    "all256_pair_attempts.json": "ce0f0d09bab91cc27106f13508d66c266f391b271d40798b5a111bd02994b22a",
+    "current_official_identity.json": "157255d20b2e9bf20b94be3c54f0372443b3f15371f9c80b177d64387641f350",
+    "failure_records.json": "5fce3002988b1cf99f4156b36363dbe2a2527c9eec746600f624119f3f9d78bf",
+    "official_catalog_mapping.json": "c15383a272eeb25e32914459ee100719a96533eece2c56926df79585576f6ea4"
+  },
+  "outputs_byte_identical": true,
+  "returncode": 0,
+  "status": "PASS",
+  "stderr": "",
+  "stdlib_only": true,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"graph_count\": 16,\n  \"mappings\": {\n    \"0\": \"B32_P26_F108_000\",\n    \"1\": \"B32_P26_F108_001\",\n    \"2\": \"B32_P26_F108_002\",\n    \"3\": \"B32_P26_F108_003\",\n    \"4\": \"B32_P26_F108_004\",\n    \"5\": \"B32_P26_F108_005\",\n    \"6\": \"B32_P26_F108_006\",\n    \"7\": \"B32_P26_F108_007\",\n    \"8\": \"B32_P26_F108_008\",\n    \"9\": \"B32_P26_F108_009\",\n    \"10\": \"B32_P26_F108_010\",\n    \"11\": \"B32_P26_F108_011\",\n    \"12\": \"B32_P26_F108_012\",\n    \"13\": \"B32_P26_F108_013\",\n    \"14\": \"B32_P26_F108_014\",\n    \"15\": \"B32_P26_F108_015\"\n  },\n  \"current\": {\n    \"status\": \"PASS\",\n    \"local_independent_index\": 10,\n    \"official_family_id\": \"B32_P26_F108_010\",\n    \"fingerprint\": \"8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7\"\n  }\n}\n"
+}

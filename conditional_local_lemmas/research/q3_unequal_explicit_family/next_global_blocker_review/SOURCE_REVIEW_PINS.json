@@ -1,0 +1,45 @@
+{
+  "status": "PASS_STATIC_ANALYTIC_BLIND_REVIEW_ONLY",
+  "candidate_verifier_calls": 0,
+  "conjugate_verifier_calls": 0,
+  "optimizer_calls": 0,
+  "parameter_scans_run": 0,
+  "graph_catalogues_run": 0,
+  "old_bound_batches_run": 0,
+  "source_mutations": 0,
+  "runtime_replay_owner": "Separately assigned portable agent, not this review",
+  "owner_reported_candidate_attempts": 4,
+  "owner_reported_history": "Two plumbing failures and two successes, retained by the source owner; no historical attempt replayed here",
+  "reviewed_source": {
+    "PROOF.md": {
+      "bytes": 10488,
+      "sha256": "6d168f09df53368e088080b51fc59849c704291a24919eae6bc09134a6890525"
+    },
+    "verify_explicit.py": {
+      "bytes": 11681,
+      "sha256": "c64f86cbc2fe2657ee00df18534d2901188b30356ea7268a5f9f7f7ca9688efb"
+    },
+    "certificate.json": {
+      "bytes": 42491,
+      "sha256": "e5db4d60907d510bcc606edc89243b579036dc8d63c2004fceb3703580c1db75"
+    },
+    "SHA256.json": {
+      "bytes": 453,
+      "sha256": "c3a299cd60ca949372d8f708ae916cfa7047cce1da55f07af0c4c9f69511e00f"
+    }
+  },
+  "read_dependency": {
+    "research/coupled_edges/verify_support.py": {
+      "bytes": 4976,
+      "sha256": "90fd6e3426d8c113bacedd55f9a13f5e47981e9a48d21bfef48183ec4602efec",
+      "access": "read_only_no_import_or_verifier"
+    },
+    "research/quadratic_lambda14_conjugate/certificate.json": {
+      "bytes": 3196,
+      "sha256": "f325d42bfe651599881b7dc652567729a1586389ee385c38060840bc41696bc2",
+      "access": "read_only_no_import_or_verifier"
+    }
+  },
+  "review_sha256": "37bf3dc157cb1fe46b49b766cf563978158ca74386ff60eb12f489f87ea42956",
+  "analytic_scope": "All 33 actual nearest-owned boundary arcs connected/covered and strictly longer than .092; entire unit circle covered; exact seven-face q3 degree7 Voronoi/Delaunay star; source score formula blocks .019931551 standalone loss from these local premises. No closedDisk100 cover, global profile/radius, remaining-face radius bound or outer-Q condition certified."
+}

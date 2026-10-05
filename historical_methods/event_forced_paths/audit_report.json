@@ -1,0 +1,1756 @@
+{
+  "status": "PASS",
+  "source_frozen_hashes": {
+    "derive.py": true,
+    "matrices.npz": true,
+    "directions.json": true,
+    "diagnostic.json": true,
+    "input/configuration.json": true,
+    "input/candidate.npy": true
+  },
+  "copied_input_hashes": {
+    "inputs/baseline_corrected.npy": true,
+    "inputs/derive.py": true,
+    "inputs/diagnostic.json": true,
+    "inputs/events.json": true,
+    "inputs/matrices.npz": true,
+    "inputs/true_cover.py": true
+  },
+  "optimization_paths_repeated": 0,
+  "completed_paths": 12,
+  "independent_scored_arrays": 367,
+  "maximum_independent_score_difference": 0.0,
+  "validated_numerical_events": 12,
+  "paths": [
+    {
+      "path": "path00_e0090",
+      "event": "e0090",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.45334132479297473,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11645900982202345,
+      "restorations": [
+        {
+          "path": "path00_e0090/restored_event_before.npy",
+          "file_sha256": "9d83edbc771e6abc44557217e40c7b988c875ac5bedc48578e18e9e875f44a0a",
+          "coordinate_sha256": "b058061024a07cf411d91e35ac78de52686b34fbc4e8480343813e2cc293fdf7",
+          "independent_true_radius": 0.11550182419454724,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path00_e0090/restored_event_after.npy",
+          "file_sha256": "4272ab21a926209cb96874b365b75a0638cdd1717e9bc99112377041adbe78eb",
+          "coordinate_sha256": "b52449bd6bad79c1945422961829424a1162fa3c492ff8e76b1980427642b704",
+          "independent_true_radius": 0.1164526774035363,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 2.5020038124656807e-12,
+          "quadratic_model_squared_radius_cost": 2.5020635420505754e-12,
+          "ratio": 0.9999761278704994,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 2.0917238427453633e-11,
+          "quadratic_model_squared_radius_cost": 2.2518571878455176e-11,
+          "ratio": 0.9288883211757477,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 2.1684842983760166e-10,
+          "quadratic_model_squared_radius_cost": 2.5020635420505757e-10,
+          "ratio": 0.8666783484638552,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 1.9025942505496163e-09,
+          "quadratic_model_squared_radius_cost": 2.2518571878455177e-09,
+          "ratio": 0.8449000499760548,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.0013119871007089563,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path01_e0093",
+      "event": "e0093",
+      "accepted_nodes": 20,
+      "failed_attempt_nodes": 3,
+      "last_accepted_fraction": 1.001,
+      "stop": {
+        "reason": "SLSQP_or_feasibility_failure",
+        "fraction": 1.0015,
+        "previous_fraction": 1.001,
+        "attempts": 22
+      },
+      "event_valid": true,
+      "event_inside_norm": 0.3814283459772925,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.1162485605510106,
+      "restorations": [
+        {
+          "path": "path01_e0093/restored_event_before.npy",
+          "file_sha256": "36a65dc7768e68275276c82d75c14c07688804073fc7e7314f504f25954441dc",
+          "coordinate_sha256": "87fcd973ac3f5a47483eb3731105f6f190826838dc22769f36f07627cb6d711c",
+          "independent_true_radius": 0.11550182419454808,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path01_e0093/restored_event_after.npy",
+          "file_sha256": "7e18ad2e8eac5cadb5351fb2b2f51202723313dab0a2bf3e1033b030e5ad129e",
+          "coordinate_sha256": "bbdca8e5a0ca57fae481b91d2cc4c1a2e3a925a3adfd1a78bb00a7a8936d1d13",
+          "independent_true_radius": 0.11624855940078552,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 1.2910002927801756e-12,
+          "quadratic_model_squared_radius_cost": 1.2909310500703508e-12,
+          "ratio": 1.0000536378064662,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 1.1618072823238457e-11,
+          "quadratic_model_squared_radius_cost": 1.1618379450633154e-11,
+          "ratio": 0.9999736084196595,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 1.2908022394009233e-10,
+          "quadratic_model_squared_radius_cost": 1.2909310500703509e-10,
+          "ratio": 0.9999002187844033,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 1.1614918679625497e-09,
+          "quadratic_model_squared_radius_cost": 1.1618379450633158e-09,
+          "ratio": 0.999702129628115,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": -4.570223038028524e-10,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path02_e0094",
+      "event": "e0094",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.468162103269029,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11607300941156354,
+      "restorations": [
+        {
+          "path": "path02_e0094/restored_event_before.npy",
+          "file_sha256": "deab87a0de232bfe54dcbe5dc8f116bbda46310ea2210d5f8257b61656e6bdfc",
+          "coordinate_sha256": "1598469dbdd68f9d4e84ce633c4cab7d77dd54881a747390a711f3e0d1f99669",
+          "independent_true_radius": 0.11550182419454719,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path02_e0094/restored_event_after.npy",
+          "file_sha256": "038c7b41f11be63b69b346edfe7c69e7a36cbbd65c19bca601a57cb6c5fe1ecc",
+          "coordinate_sha256": "3725cc631252123879f7fee9a6f529a52f493677d28246c7c4ec31180a3e3dc3",
+          "independent_true_radius": 0.11607244066143942,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 1.0907125896908454e-12,
+          "quadratic_model_squared_radius_cost": 1.0906663360183892e-12,
+          "ratio": 1.0000424086367468,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 9.81597268745471e-12,
+          "quadratic_model_squared_radius_cost": 9.815997024165501e-12,
+          "ratio": 0.9999975207092331,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 1.090627553546053e-10,
+          "quadratic_model_squared_radius_cost": 1.0906663360183893e-10,
+          "ratio": 0.9999644414876893,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 9.814949825104335e-10,
+          "quadratic_model_squared_radius_cost": 9.815997024165504e-10,
+          "ratio": 0.9998933170967157,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.0014744839614459534,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path03_e0206",
+      "event": "e0206",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.8297240974105965,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11556358495084182,
+      "restorations": [
+        {
+          "path": "path03_e0206/restored_event_before.npy",
+          "file_sha256": "5517ab3226afd8c269ee251ef5b1863f27f24cf672d3b3304d4d43120d34724c",
+          "coordinate_sha256": "0438e5ff711483a41225b64181f146351b5d2cc3ef412df85286c3cefa9d0002",
+          "independent_true_radius": 0.11550182419454878,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path03_e0206/restored_event_after.npy",
+          "file_sha256": "d6b880fa688386a2795b8bda29393b47dae222209501f809d808e10069eb872d",
+          "coordinate_sha256": "111bfd4330e65c5042daa94ebce5a98553dfad9c2c9bc1e93d6ae2f5e4903871",
+          "independent_true_radius": 0.11551610349101131,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 1.1137098188118699e-13,
+          "quadratic_model_squared_radius_cost": 1.1126488430574828e-13,
+          "ratio": 1.0009535584933262,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 1.001514843279594e-12,
+          "quadratic_model_squared_radius_cost": 1.0013839587517342e-12,
+          "ratio": 1.000130703639414,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 1.112997020935591e-11,
+          "quadratic_model_squared_radius_cost": 1.1126488430574825e-11,
+          "ratio": 1.0003129270122204,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 1.0023037955164682e-10,
+          "quadratic_model_squared_radius_cost": 1.0013839587517344e-10,
+          "ratio": 1.00091856550796,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.001543673441416941,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path04_e0049",
+      "event": "e0049",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.8526378353737684,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11559652511820216,
+      "restorations": [
+        {
+          "path": "path04_e0049/restored_event_before.npy",
+          "file_sha256": "1fcb437d6ff51f91bf2c2393803469d81df3a69887e074be659b3fd8a70b94ff",
+          "coordinate_sha256": "3aee0f93107439353c711b1789101c40f4da89b9e307102f5b36cf88c6daeb87",
+          "independent_true_radius": 0.11550182419454776,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path04_e0049/restored_event_after.npy",
+          "file_sha256": "c7556d398d6c88a10cc3709e4c74df4d5aa1bc6460465a1a45844be8d1fa770f",
+          "coordinate_sha256": "415edccf1951e1e6fb4674aed0f1bc90f6ae3753982d1c6a162b3c0d071db0fd",
+          "independent_true_radius": 0.11556807160559793,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 1.7268131369263529e-13,
+          "quadratic_model_squared_radius_cost": 1.7262027955610481e-13,
+          "ratio": 1.000353574543428,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 1.5538247771784697e-12,
+          "quadratic_model_squared_radius_cost": 1.553582516004943e-12,
+          "ratio": 1.0001559371137554,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 1.7267329927017627e-11,
+          "quadratic_model_squared_radius_cost": 1.726202795561048e-11,
+          "ratio": 1.0003071464963897,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 1.5549965308447877e-10,
+          "quadratic_model_squared_radius_cost": 1.5535825160049432e-10,
+          "ratio": 1.0009101639760214,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.0015478399276120417,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path05_e0203",
+      "event": "e0203",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.8111795986741521,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.1156327067386133,
+      "restorations": [
+        {
+          "path": "path05_e0203/restored_event_before.npy",
+          "file_sha256": "5c9f724f7ecb81ad91c293262dcd98e7f4d18ac8f84d408d551a21adb23f46f0",
+          "coordinate_sha256": "e289adb93755e20fc5c0cdfc8a5f45fe30fa612f62d4c47fd20680cb6347d2fd",
+          "independent_true_radius": 0.1155018241945473,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path05_e0203/restored_event_after.npy",
+          "file_sha256": "1e40fc615b3cbf5a68df27d317ff5fac494a8ddecea73579c249868269babc3b",
+          "coordinate_sha256": "c38e1ab4b651df1dd86cf38ba9a6227fb1e78c111cf4dff350c1bbba967d2bc4",
+          "independent_true_radius": 0.11561405131184303,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 1.8171228410857054e-13,
+          "quadratic_model_squared_radius_cost": 1.8162497893298522e-13,
+          "ratio": 1.0004806892537481,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 1.6349040177221497e-12,
+          "quadratic_model_squared_radius_cost": 1.6346248103968665e-12,
+          "ratio": 1.0001708082022904,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 1.8169174498261498e-11,
+          "quadratic_model_squared_radius_cost": 1.8162497893298518e-11,
+          "ratio": 1.0003676038946958,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 1.6364121689649291e-10,
+          "quadratic_model_squared_radius_cost": 1.6346248103968668e-10,
+          "ratio": 1.0010934365835475,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.00153470266330392,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path06_e0054",
+      "event": "e0054",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.6529462188513816,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11563765863104616,
+      "restorations": [
+        {
+          "path": "path06_e0054/restored_event_before.npy",
+          "file_sha256": "7a15ec2c025318b0986807276e2f15b1c2e7f340dbe261e352600f40eaf0cb69",
+          "coordinate_sha256": "bb5928d6bbadad73d4ebd57160dc0dd428cd860b0a6a38839ef5880306221c09",
+          "independent_true_radius": 0.11550182419454737,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path06_e0054/restored_event_after.npy",
+          "file_sha256": "42712f68a3ff1561089040f91ec3b8c9fc70873fae23fd4294ec821fd10c4b05",
+          "coordinate_sha256": "7de712674e553f8b3595606dc6ea765bc6d85b7b55b7ededef50ef2a59759ea5",
+          "independent_true_radius": 0.1155944486795761,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 2.4433233214438133e-13,
+          "quadratic_model_squared_radius_cost": 2.442697295516052e-13,
+          "ratio": 1.0002562846935272,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 2.1986509834981405e-12,
+          "quadratic_model_squared_radius_cost": 2.1984275659644462e-12,
+          "ratio": 1.0001016260608961,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 2.4433533321599477e-11,
+          "quadratic_model_squared_radius_cost": 2.4426972955160517e-11,
+          "ratio": 1.0002685705859258,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 2.2001765860590883e-10,
+          "quadratic_model_squared_radius_cost": 2.1984275659644466e-10,
+          "ratio": 1.000795577767364,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.001585340638925061,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path07_e0246",
+      "event": "e0246",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.8460846346436681,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11563393065829712,
+      "restorations": [
+        {
+          "path": "path07_e0246/restored_event_before.npy",
+          "file_sha256": "5ef9748756aecad4b362e0a60bfa80e90fc0c5d284aeaf2c6c3408bc290271d9",
+          "coordinate_sha256": "5e4c861ac5bd3e944ee495f170c5f407c89f56db296d96d6ccace368e70aca0f",
+          "independent_true_radius": 0.11550182419454781,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path07_e0246/restored_event_after.npy",
+          "file_sha256": "5618c93a606653f777ba75c5940f0e38a934ee7ee34a346acf0872a168d359b8",
+          "coordinate_sha256": "f0e482d121bbdd1c37f7f643ba9147b5d2c9cf3cfdff35dbceb0f4d90c9e3aab",
+          "independent_true_radius": 0.11560958869407964,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 3.4453342956375366e-13,
+          "quadratic_model_squared_radius_cost": 3.444598323248297e-13,
+          "ratio": 1.0002136598581821,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 3.100344633799601e-12,
+          "quadratic_model_squared_radius_cost": 3.1001384909234664e-12,
+          "ratio": 1.0000664947313607,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 3.445204017904491e-11,
+          "quadratic_model_squared_radius_cost": 3.444598323248297e-11,
+          "ratio": 1.000175838980152,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 3.1017594048776687e-10,
+          "quadratic_model_squared_radius_cost": 3.100138490923467e-10,
+          "ratio": 1.0005228521109453,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.0015587452983181838,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path08_e0200",
+      "event": "e0200",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.8244341457312625,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11572758359225212,
+      "restorations": [
+        {
+          "path": "path08_e0200/restored_event_before.npy",
+          "file_sha256": "1b36c841befdcfc2629c52320acbe8d6b9e801cc4b1e226ef7a3d98913f7d9ef",
+          "coordinate_sha256": "6811a0a920fb6bf80361715f4ead4ee59a6a366cd4a2423f37c2bb3f30cf09ea",
+          "independent_true_radius": 0.11550182419454734,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path08_e0200/restored_event_after.npy",
+          "file_sha256": "b0d63cbd0363fa8d0a3971d2c69396eea48a6b9cc5f53008d06f7ea6f7f33291",
+          "coordinate_sha256": "611e804ecc4f01106854d60b8906c411e13614f44520819bff9bd275a3233c3f",
+          "independent_true_radius": 0.11570200918420367,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 3.5125895248011574e-13,
+          "quadratic_model_squared_radius_cost": 3.5118025731195846e-13,
+          "ratio": 1.0002240876772506,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 3.1609888317962742e-12,
+          "quadratic_model_squared_radius_cost": 3.160622315807626e-12,
+          "ratio": 1.000115963235093,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 3.5129114894782987e-11,
+          "quadratic_model_squared_radius_cost": 3.511802573119585e-11,
+          "ratio": 1.0003157684225195,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 3.1635974916122134e-10,
+          "quadratic_model_squared_radius_cost": 3.160622315807626e-10,
+          "ratio": 1.0009413259501798,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.001561323679577046,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path09_e0007",
+      "event": "e0007",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.857543849603929,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11572903640817479,
+      "restorations": [
+        {
+          "path": "path09_e0007/restored_event_before.npy",
+          "file_sha256": "cdc07ef952a9a0e9e12878e7579ad033cc42ed1a6c68f22d6981feb515a179d2",
+          "coordinate_sha256": "bc28fddf03713bbdc9ea711ecdbc4bf46a8d1fc464332384afbeff34cfcf29c3",
+          "independent_true_radius": 0.11550182419454734,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path09_e0007/restored_event_after.npy",
+          "file_sha256": "dc7b854c7604d92a61c7b80dc3b4eb6995cc5e8cc841c4d504b31162dbe22ab9",
+          "coordinate_sha256": "711e93ad5a054bafde1ea62c217ff519f9321a2fabae1f0b7092193690105125",
+          "independent_true_radius": 0.11572903640817345,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 4.31567975800462e-13,
+          "quadratic_model_squared_radius_cost": 4.314812544404312e-13,
+          "ratio": 1.000200985232008,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 3.883629529077837e-12,
+          "quadratic_model_squared_radius_cost": 3.88333128996388e-12,
+          "ratio": 1.0000767998122455,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 4.315582093072923e-11,
+          "quadratic_model_squared_radius_cost": 4.3148125444043113e-11,
+          "ratio": 1.000178350429061,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 3.8853992592735587e-10,
+          "quadratic_model_squared_radius_cost": 3.8833312899638805e-10,
+          "ratio": 1.0005325245659629,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": -1.685827915572957e-10,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path10_e0230",
+      "event": "e0230",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.8179065197893126,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11569435318375443,
+      "restorations": [
+        {
+          "path": "path10_e0230/restored_event_before.npy",
+          "file_sha256": "6007a136a8f638fbc1e00038157fbba250c42ebf6a85d131eeb3a6a2628b0d7a",
+          "coordinate_sha256": "f5a3bce19825cf5aa89b5a854f7803041fc1353aadfaeb6625711b101a0b71e9",
+          "independent_true_radius": 0.11550182419454781,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path10_e0230/restored_event_after.npy",
+          "file_sha256": "78e6b8290b7bba89f471d4e9a5824f9d5028b63c91aa825775d03975d0fb8ec8",
+          "coordinate_sha256": "5c3e264a485c06fe67cd7affc8173d8a50a8ef2dc65df2d5591df66e368facb2",
+          "independent_true_radius": 0.11568583385392732,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 4.647324192141866e-13,
+          "quadratic_model_squared_radius_cost": 4.646609308363917e-13,
+          "ratio": 1.000153850631828,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 4.182244828232484e-12,
+          "quadratic_model_squared_radius_cost": 4.1819483775275245e-12,
+          "ratio": 1.0000708881789533,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 4.6474792764206185e-11,
+          "quadratic_model_squared_radius_cost": 4.6466093083639174e-11,
+          "ratio": 1.0001872264266194,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 4.184287673292264e-10,
+          "quadratic_model_squared_radius_cost": 4.1819483775275255e-10,
+          "ratio": 1.000559379397725,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.0015603846420445542,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    },
+    {
+      "path": "path11_e0211",
+      "event": "e0211",
+      "accepted_nodes": 22,
+      "failed_attempt_nodes": 0,
+      "last_accepted_fraction": 1.035,
+      "stop": null,
+      "event_valid": true,
+      "event_inside_norm": 0.43467024072584587,
+      "event_binary64_exact_zero": false,
+      "exact_binary64_sign_bracket": [
+        1,
+        -1
+      ],
+      "sampled_peak_true_radius": 0.11588363953689827,
+      "restorations": [
+        {
+          "path": "path11_e0211/restored_event_before.npy",
+          "file_sha256": "fdbfb7bc01fce874411469bc5f6a598280a8a25ccc70646a890a73bcf8271640",
+          "coordinate_sha256": "6166d6bdd4b79bbbc8479d6cba90297cb8aa1d86b9d9827789cafcf140256fc0",
+          "independent_true_radius": 0.1155018241945475,
+          "event_sign": 1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        },
+        {
+          "path": "path11_e0211/restored_event_after.npy",
+          "file_sha256": "c0bdcf4a8772cf274e57a3d874117e9d16449d40a12bdec2798b3cfd63ddcb97",
+          "coordinate_sha256": "5c933b40704428411918e5f363d14087ee65cdbd416b7ad76100daa67641f824",
+          "independent_true_radius": 0.11586759872626991,
+          "event_sign": -1,
+          "final_event_constraint_present": false,
+          "fully_unconstrained_stage_valid": true,
+          "stage": "final_all_actual_holes_zero_offsets"
+        }
+      ],
+      "small_step_model_checks": [
+        {
+          "fraction": 0.0001,
+          "observed_squared_radius_cost": 4.661427494001558e-13,
+          "quadratic_model_squared_radius_cost": 4.660461919114663e-13,
+          "ratio": 1.00020718437435,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.0003,
+          "observed_squared_radius_cost": 4.194738306706469e-12,
+          "quadratic_model_squared_radius_cost": 4.194415727203196e-12,
+          "ratio": 1.000076906898184,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.001,
+          "observed_squared_radius_cost": 4.6614172591330494e-11,
+          "quadratic_model_squared_radius_cost": 4.660461919114663e-11,
+          "ratio": 1.0002049882683233,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        },
+        {
+          "fraction": 0.003,
+          "observed_squared_radius_cost": 4.1969869767066736e-10,
+          "quadratic_model_squared_radius_cost": 4.194415727203197e-10,
+          "ratio": 1.0006130173236765,
+          "scope": "Numerical small-step consistency, no Taylor remainder bound"
+        }
+      ],
+      "min_positive_equality_curvature": 0.0015228684629171084,
+      "zero_stress_nodes": 0,
+      "scope": "Saved-state numerical validation only; sampled peak not an interval supremum certificate"
+    }
+  ],
+  "candidate_files": [
+    {
+      "path": "path00_e0090/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "638a86aabf93725f02bd5b230551a2072969c664775f2f5c8f51a33934b461e7",
+      "coordinate_sha256": "f3b2b699505d667a281121bbbc7d3a448b4c25514c057feb6163cf33ffdafa63",
+      "independent_true_radius": 0.11550182419454814,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path00_e0090/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "44fca9da675c20ff48afa860c5b6df17121103fc5a3847f594dc459d12cdb60f",
+      "coordinate_sha256": "27b3cd652aa8ce4eb6d5e017da95a482fdfd2e705cc9f7ac9284b71033a99a3a",
+      "independent_true_radius": 0.11550182419454766,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path00_e0090/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "9d83edbc771e6abc44557217e40c7b988c875ac5bedc48578e18e9e875f44a0a",
+      "coordinate_sha256": "b058061024a07cf411d91e35ac78de52686b34fbc4e8480343813e2cc293fdf7",
+      "independent_true_radius": 0.11550182419454724,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path00_e0090/restored_event_before.npy",
+      "file_sha256": "9d83edbc771e6abc44557217e40c7b988c875ac5bedc48578e18e9e875f44a0a",
+      "coordinate_sha256": "b058061024a07cf411d91e35ac78de52686b34fbc4e8480343813e2cc293fdf7",
+      "independent_true_radius": 0.11550182419454724,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path00_e0090/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "a07814cacee7024cabf92577a6c66a7767730400e5311f2748ae41384f20771e",
+      "coordinate_sha256": "4e3a5ef17ef0590e36a90579c6576a94c0477880e1988802ca29f3f41c2406dd",
+      "independent_true_radius": 0.11645267740353664,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path00_e0090/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "ae0699afd116b08bb3a999cf0d1ca95154f69d7f82dfa139d9ce8cbe7a4c80f8",
+      "coordinate_sha256": "39261a325c5e39bf9083c8c27be2a482d7061870c45e8479eefa12319e823078",
+      "independent_true_radius": 0.11645267740353628,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path00_e0090/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "4272ab21a926209cb96874b365b75a0638cdd1717e9bc99112377041adbe78eb",
+      "coordinate_sha256": "b52449bd6bad79c1945422961829424a1162fa3c492ff8e76b1980427642b704",
+      "independent_true_radius": 0.1164526774035363,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path00_e0090/restored_event_after.npy",
+      "file_sha256": "4272ab21a926209cb96874b365b75a0638cdd1717e9bc99112377041adbe78eb",
+      "coordinate_sha256": "b52449bd6bad79c1945422961829424a1162fa3c492ff8e76b1980427642b704",
+      "independent_true_radius": 0.1164526774035363,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path01_e0093/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "1e5ef2701dddc543464af092fb0598465d5f845e0e90207641e9dfba07a90142",
+      "coordinate_sha256": "64102df69ab2f147927541f86780f2e39e4d53ccf3b990df2eafa8b095000d95",
+      "independent_true_radius": 0.1155018241945491,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path01_e0093/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "9fcc373c88e65ee5f50a1574d3b534e0514cda0d22ca4c2e4f18c49a5d7876eb",
+      "coordinate_sha256": "25aed16d6a8ca34a8f845f247e9ec92686af4e8a37ffa198837072459f257cbc",
+      "independent_true_radius": 0.1155018241945483,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path01_e0093/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "36a65dc7768e68275276c82d75c14c07688804073fc7e7314f504f25954441dc",
+      "coordinate_sha256": "87fcd973ac3f5a47483eb3731105f6f190826838dc22769f36f07627cb6d711c",
+      "independent_true_radius": 0.11550182419454808,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path01_e0093/restored_event_before.npy",
+      "file_sha256": "36a65dc7768e68275276c82d75c14c07688804073fc7e7314f504f25954441dc",
+      "coordinate_sha256": "87fcd973ac3f5a47483eb3731105f6f190826838dc22769f36f07627cb6d711c",
+      "independent_true_radius": 0.11550182419454808,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path01_e0093/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "3263efc8cd63c58fb22f8d09fd6c0c579ca933df1a2363cb7afae2bb9cbf8055",
+      "coordinate_sha256": "fa397ab601832252fa2548ec70cb9eb97e4adf2588151ca942812b1a239f9aa7",
+      "independent_true_radius": 0.11624855940078699,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path01_e0093/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "f3be5a469e3d091f3459c1c2252cd55c91f866229716ff5acb6cd739d6149dba",
+      "coordinate_sha256": "0d5a268643e29c413b7334183148fdfcb03c50663e9428d17095b53cebad7c0f",
+      "independent_true_radius": 0.11624855940078592,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path01_e0093/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "7e18ad2e8eac5cadb5351fb2b2f51202723313dab0a2bf3e1033b030e5ad129e",
+      "coordinate_sha256": "bbdca8e5a0ca57fae481b91d2cc4c1a2e3a925a3adfd1a78bb00a7a8936d1d13",
+      "independent_true_radius": 0.11624855940078552,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path01_e0093/restored_event_after.npy",
+      "file_sha256": "7e18ad2e8eac5cadb5351fb2b2f51202723313dab0a2bf3e1033b030e5ad129e",
+      "coordinate_sha256": "bbdca8e5a0ca57fae481b91d2cc4c1a2e3a925a3adfd1a78bb00a7a8936d1d13",
+      "independent_true_radius": 0.11624855940078552,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path02_e0094/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "a0843c39d12b330b43b0a62eaddc828c2f4a2dac6e3c9191f73028ece686ff33",
+      "coordinate_sha256": "31c19bde234593c554994dc01f82769b5df368aed4516f124f611b48e339cd2c",
+      "independent_true_radius": 0.11550182419454766,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path02_e0094/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "712e72bbe2f0f16d93f568d53993b71c8d334c453caab7c7746d8061ee4f70f1",
+      "coordinate_sha256": "491f55eefd451cc94f7ce81f8a77a366c5e97b62beac0b7f805287284fe06322",
+      "independent_true_radius": 0.11550182419454723,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path02_e0094/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "deab87a0de232bfe54dcbe5dc8f116bbda46310ea2210d5f8257b61656e6bdfc",
+      "coordinate_sha256": "1598469dbdd68f9d4e84ce633c4cab7d77dd54881a747390a711f3e0d1f99669",
+      "independent_true_radius": 0.11550182419454719,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path02_e0094/restored_event_before.npy",
+      "file_sha256": "deab87a0de232bfe54dcbe5dc8f116bbda46310ea2210d5f8257b61656e6bdfc",
+      "coordinate_sha256": "1598469dbdd68f9d4e84ce633c4cab7d77dd54881a747390a711f3e0d1f99669",
+      "independent_true_radius": 0.11550182419454719,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path02_e0094/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "625734eed81f3ef30009f5470046a2e9709210447f4e09c0394d89cada0ef932",
+      "coordinate_sha256": "e748bbbb88b9b0ab3b6b732694c85c964c1967abfc50162e9b9fbaf393484c64",
+      "independent_true_radius": 0.1160724406614457,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path02_e0094/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "bf416a1a6a2880cc3e67cde3a3673d378b9a1d10cc592143070350e0c7a92fd5",
+      "coordinate_sha256": "9f3d32ac353f2d76a19725ac1cea9f09a7803931317ea01b26827d20b38551c0",
+      "independent_true_radius": 0.11607244066144001,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path02_e0094/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "038c7b41f11be63b69b346edfe7c69e7a36cbbd65c19bca601a57cb6c5fe1ecc",
+      "coordinate_sha256": "3725cc631252123879f7fee9a6f529a52f493677d28246c7c4ec31180a3e3dc3",
+      "independent_true_radius": 0.11607244066143942,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path02_e0094/restoration_event_after_03_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "c18ae556a255e045f452526d68080bc0430e5d3c924af9ba61c6355c62e0da68",
+      "coordinate_sha256": "af562775597f8afa565a0496bee6525ae1f11f4c29a4acba4456c8b404a94378",
+      "independent_true_radius": 0.1160724406614394,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path02_e0094/restored_event_after.npy",
+      "file_sha256": "038c7b41f11be63b69b346edfe7c69e7a36cbbd65c19bca601a57cb6c5fe1ecc",
+      "coordinate_sha256": "3725cc631252123879f7fee9a6f529a52f493677d28246c7c4ec31180a3e3dc3",
+      "independent_true_radius": 0.11607244066143942,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path03_e0206/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "adc980c85be28f1c28fc08a4a306455436d181b586772caf75e0ef790051757e",
+      "coordinate_sha256": "da85c9a061634956f5df74c58596e1dd58637cd279de41e2fa5388f66337fef4",
+      "independent_true_radius": 0.11550182419454874,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path03_e0206/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "67c59747e29ee271e47e37e7271b28252823ff08de6a289ad558819e08098f0e",
+      "coordinate_sha256": "177964b17ec29bc077990cdbb06c5fb198e6852fa973f523faa6f50b269ac377",
+      "independent_true_radius": 0.11550182419454866,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path03_e0206/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "5517ab3226afd8c269ee251ef5b1863f27f24cf672d3b3304d4d43120d34724c",
+      "coordinate_sha256": "0438e5ff711483a41225b64181f146351b5d2cc3ef412df85286c3cefa9d0002",
+      "independent_true_radius": 0.11550182419454878,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path03_e0206/restored_event_before.npy",
+      "file_sha256": "5517ab3226afd8c269ee251ef5b1863f27f24cf672d3b3304d4d43120d34724c",
+      "coordinate_sha256": "0438e5ff711483a41225b64181f146351b5d2cc3ef412df85286c3cefa9d0002",
+      "independent_true_radius": 0.11550182419454878,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path03_e0206/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "343954d19e5d1b474d279f0022f212ffa2f4b1f0ba777baeb2bd6f5d08411dc7",
+      "coordinate_sha256": "9660c36a8fb3098facc88a58bfc468f6ba5d8f782926a8a138242dfd1aa6880c",
+      "independent_true_radius": 0.11551610349101153,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path03_e0206/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "3f3a12019a3310e0b073d1109979135f48051e36ae698814c1ec4fd7f69fb450",
+      "coordinate_sha256": "747c94f791d29e63ec9f0279d8e3a250573bd15a70e4a4647fbd276ddf62ce27",
+      "independent_true_radius": 0.11551610349101135,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path03_e0206/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "d6b880fa688386a2795b8bda29393b47dae222209501f809d808e10069eb872d",
+      "coordinate_sha256": "111bfd4330e65c5042daa94ebce5a98553dfad9c2c9bc1e93d6ae2f5e4903871",
+      "independent_true_radius": 0.11551610349101131,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path03_e0206/restored_event_after.npy",
+      "file_sha256": "d6b880fa688386a2795b8bda29393b47dae222209501f809d808e10069eb872d",
+      "coordinate_sha256": "111bfd4330e65c5042daa94ebce5a98553dfad9c2c9bc1e93d6ae2f5e4903871",
+      "independent_true_radius": 0.11551610349101131,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path04_e0049/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "b7d5a5609be3ce952cef2f61dca70089be9ffba3a796a3e10ac49ca7ad622800",
+      "coordinate_sha256": "58264010e86b1dbb7772de007f8d6089d35c99dc899cc92158fb85eb05a68255",
+      "independent_true_radius": 0.11550182419454866,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path04_e0049/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "9773caf64beba9c81f7c96dd396d2b07927dc1186afedbcd405e4aed2bb78aee",
+      "coordinate_sha256": "2a49a3d10f66ed478b0477ef315895390d2c344b32b908843b8ca01fa2f1249c",
+      "independent_true_radius": 0.11550182419454803,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path04_e0049/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "1fcb437d6ff51f91bf2c2393803469d81df3a69887e074be659b3fd8a70b94ff",
+      "coordinate_sha256": "3aee0f93107439353c711b1789101c40f4da89b9e307102f5b36cf88c6daeb87",
+      "independent_true_radius": 0.11550182419454776,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path04_e0049/restored_event_before.npy",
+      "file_sha256": "1fcb437d6ff51f91bf2c2393803469d81df3a69887e074be659b3fd8a70b94ff",
+      "coordinate_sha256": "3aee0f93107439353c711b1789101c40f4da89b9e307102f5b36cf88c6daeb87",
+      "independent_true_radius": 0.11550182419454776,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path04_e0049/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "decaddaf09f05fb2f3d5912daee5114f6db686db32f371759f4f34e520184288",
+      "coordinate_sha256": "9f540f755c620d31309676e6cd439c2b8bfb3ec812cf1efdba6b8acda46924ff",
+      "independent_true_radius": 0.11556807160559947,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path04_e0049/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "f2c11792ac2526b3ff8aba915dcb848362415de2aad9152cf3d17b5207ccfb63",
+      "coordinate_sha256": "9a89a76ece3323c0c54c71a263eb9bd3124f6c4a8253414efce6ee0fb041a39f",
+      "independent_true_radius": 0.11556807160559816,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path04_e0049/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "c7556d398d6c88a10cc3709e4c74df4d5aa1bc6460465a1a45844be8d1fa770f",
+      "coordinate_sha256": "415edccf1951e1e6fb4674aed0f1bc90f6ae3753982d1c6a162b3c0d071db0fd",
+      "independent_true_radius": 0.11556807160559793,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path04_e0049/restored_event_after.npy",
+      "file_sha256": "c7556d398d6c88a10cc3709e4c74df4d5aa1bc6460465a1a45844be8d1fa770f",
+      "coordinate_sha256": "415edccf1951e1e6fb4674aed0f1bc90f6ae3753982d1c6a162b3c0d071db0fd",
+      "independent_true_radius": 0.11556807160559793,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path05_e0203/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "2d5fcaf1aff937affabd7fe1acca87a47850b2d205fe105ab2b51781717a18c0",
+      "coordinate_sha256": "2249e9bd9e60a78a389d7ca0de6bb68e6b73d1c69046b4274b416d3fe29d744b",
+      "independent_true_radius": 0.11550182419454857,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path05_e0203/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "8674c5801d1270758b187e27d469464d99295ec040ac584c458b165a751f01d4",
+      "coordinate_sha256": "d9a0020013963db753a2aaf333fafabedbf976fbcb82b6df909f829f50a86d75",
+      "independent_true_radius": 0.11550182419454824,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path05_e0203/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "687f1fc9ae178d4ea480791e18af90f9cfe5463b4c317382bdc59541560c7334",
+      "coordinate_sha256": "e7c628c213a88ca33b1c3d766c2bc0c8bd1d30dd5e53d92b5e06cc1d38666de3",
+      "independent_true_radius": 0.11550182419454935,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path05_e0203/restoration_event_before_03_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "5c9f724f7ecb81ad91c293262dcd98e7f4d18ac8f84d408d551a21adb23f46f0",
+      "coordinate_sha256": "e289adb93755e20fc5c0cdfc8a5f45fe30fa612f62d4c47fd20680cb6347d2fd",
+      "independent_true_radius": 0.1155018241945473,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path05_e0203/restored_event_before.npy",
+      "file_sha256": "5c9f724f7ecb81ad91c293262dcd98e7f4d18ac8f84d408d551a21adb23f46f0",
+      "coordinate_sha256": "e289adb93755e20fc5c0cdfc8a5f45fe30fa612f62d4c47fd20680cb6347d2fd",
+      "independent_true_radius": 0.1155018241945473,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path05_e0203/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "bd3dbfb695ae109cf8711d22f14793bd408166188ea178517aaa83c06ad99fdc",
+      "coordinate_sha256": "4009f9b2306e29ff71522a4f9ba398d23a2aedc5bd87ae90e3649b6bef313f31",
+      "independent_true_radius": 0.1156140513118439,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path05_e0203/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "b1fdfe713341eae32b9b235e12b5a5500e20238b7ab6bb2ca3c181de59b8adc8",
+      "coordinate_sha256": "ee0c14add725465fa92939a8b33b106ba7415fba5c32b31998e07de3f0119ad2",
+      "independent_true_radius": 0.11561405131184334,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path05_e0203/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "1e40fc615b3cbf5a68df27d317ff5fac494a8ddecea73579c249868269babc3b",
+      "coordinate_sha256": "c38e1ab4b651df1dd86cf38ba9a6227fb1e78c111cf4dff350c1bbba967d2bc4",
+      "independent_true_radius": 0.11561405131184303,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path05_e0203/restored_event_after.npy",
+      "file_sha256": "1e40fc615b3cbf5a68df27d317ff5fac494a8ddecea73579c249868269babc3b",
+      "coordinate_sha256": "c38e1ab4b651df1dd86cf38ba9a6227fb1e78c111cf4dff350c1bbba967d2bc4",
+      "independent_true_radius": 0.11561405131184303,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path06_e0054/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "8fe3798fc02861a2a114887cb26ee7c0a35ad11bdb332548e985bba1a13ed147",
+      "coordinate_sha256": "f5685485e11a6548be8fd46fe25c272b65e238734ac92f528720add4af803c6a",
+      "independent_true_radius": 0.11550182419455171,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path06_e0054/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "d7b049efb3696ac8c44d63f69eb7b6cf902f7625d6ec459a665969c31c43ae48",
+      "coordinate_sha256": "146272b217015087399d38c77c67a2b9958a2aeacfa5f0c5cbae977b3701a63a",
+      "independent_true_radius": 0.11550182419454817,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path06_e0054/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "dd24c6f46c406a957aa937914f5141fad97c362a1e89cfadcb05aa46a5a1cd98",
+      "coordinate_sha256": "8a057f28ea4384576ff8148f6cda34f1280a65e56a6ad602165de35635cd22bf",
+      "independent_true_radius": 0.11550182419454814,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path06_e0054/restoration_event_before_03_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "7a15ec2c025318b0986807276e2f15b1c2e7f340dbe261e352600f40eaf0cb69",
+      "coordinate_sha256": "bb5928d6bbadad73d4ebd57160dc0dd428cd860b0a6a38839ef5880306221c09",
+      "independent_true_radius": 0.11550182419454737,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path06_e0054/restored_event_before.npy",
+      "file_sha256": "7a15ec2c025318b0986807276e2f15b1c2e7f340dbe261e352600f40eaf0cb69",
+      "coordinate_sha256": "bb5928d6bbadad73d4ebd57160dc0dd428cd860b0a6a38839ef5880306221c09",
+      "independent_true_radius": 0.11550182419454737,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path06_e0054/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "0b2588d21ec066054c8b226b0710aabfdf0dad61c2f91eb50559963871df7a40",
+      "coordinate_sha256": "9087fe902a210c6f239ec5bbb9f75a5cea7956a23f942ac4a5a56c69b5b44698",
+      "independent_true_radius": 0.1155944486795809,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path06_e0054/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "e4566e909e35fc7f06caa488765ced8e90cf89a5bb4aff0c92ef94af7c23357c",
+      "coordinate_sha256": "d1801e43c7c1569da79bc557e395ab195963642e0c51f3893ae2c4c22b83b198",
+      "independent_true_radius": 0.11559444867957656,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path06_e0054/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "42712f68a3ff1561089040f91ec3b8c9fc70873fae23fd4294ec821fd10c4b05",
+      "coordinate_sha256": "7de712674e553f8b3595606dc6ea765bc6d85b7b55b7ededef50ef2a59759ea5",
+      "independent_true_radius": 0.1155944486795761,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path06_e0054/restored_event_after.npy",
+      "file_sha256": "42712f68a3ff1561089040f91ec3b8c9fc70873fae23fd4294ec821fd10c4b05",
+      "coordinate_sha256": "7de712674e553f8b3595606dc6ea765bc6d85b7b55b7ededef50ef2a59759ea5",
+      "independent_true_radius": 0.1155944486795761,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path07_e0246/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "a47028c398d45e5ab14f84289219598df98f7e39b0b7a606b5ca70695b68bd12",
+      "coordinate_sha256": "0293db0a954b814cbc8081b6fb0a2ecaad4d93905e059d14dedb9eceb36a1769",
+      "independent_true_radius": 0.11550182419454874,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path07_e0246/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "fbd502d547704af7f9f8b32840a2cd7afb9c200df73774b6f8cd7f862fcc3dd2",
+      "coordinate_sha256": "c85e644b608fc5bb3879b06eeaec595df63b034fb30699f04c64deae3252020d",
+      "independent_true_radius": 0.11550182419454795,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path07_e0246/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "5ef9748756aecad4b362e0a60bfa80e90fc0c5d284aeaf2c6c3408bc290271d9",
+      "coordinate_sha256": "5e4c861ac5bd3e944ee495f170c5f407c89f56db296d96d6ccace368e70aca0f",
+      "independent_true_radius": 0.11550182419454781,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path07_e0246/restored_event_before.npy",
+      "file_sha256": "5ef9748756aecad4b362e0a60bfa80e90fc0c5d284aeaf2c6c3408bc290271d9",
+      "coordinate_sha256": "5e4c861ac5bd3e944ee495f170c5f407c89f56db296d96d6ccace368e70aca0f",
+      "independent_true_radius": 0.11550182419454781,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path07_e0246/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "bda0f4d163f0aab7d3a2dfdb63c2158b156124c5b43064fc4c55610264eddc10",
+      "coordinate_sha256": "c8766112b2d17563ffefedf4188d602f1e6238152570c1f0a28f3c5b580915b6",
+      "independent_true_radius": 0.11560958869407977,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path07_e0246/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "4196b56eab487f3830d30c5ada32ae5cfbde4eb1a637eb0048adc25867e4ca03",
+      "coordinate_sha256": "d310c51e4836db71660915ff3ed60c9a258b5c6411d00f14c21057d812b17ddd",
+      "independent_true_radius": 0.11560958869407956,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path07_e0246/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "5618c93a606653f777ba75c5940f0e38a934ee7ee34a346acf0872a168d359b8",
+      "coordinate_sha256": "f0e482d121bbdd1c37f7f643ba9147b5d2c9cf3cfdff35dbceb0f4d90c9e3aab",
+      "independent_true_radius": 0.11560958869407964,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path07_e0246/restored_event_after.npy",
+      "file_sha256": "5618c93a606653f777ba75c5940f0e38a934ee7ee34a346acf0872a168d359b8",
+      "coordinate_sha256": "f0e482d121bbdd1c37f7f643ba9147b5d2c9cf3cfdff35dbceb0f4d90c9e3aab",
+      "independent_true_radius": 0.11560958869407964,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path08_e0200/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "815d8d08596dbd736bccaf335bd1352cebad5b0e1788b09b76fc0f8749eee398",
+      "coordinate_sha256": "e79f4788c2ef1be6204e2bacecb39488c0613ab411ca45dc94a69842f295178f",
+      "independent_true_radius": 0.11550182419454737,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path08_e0200/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "5d02b16b7d4ce65dccc79510fcbe9c5a02843b7d28656d5a794da029b67dccec",
+      "coordinate_sha256": "d773f484cc223f70aed93f9d3555272e25f43ff5f5f4ec6874ec10465d543d62",
+      "independent_true_radius": 0.11550182419454745,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path08_e0200/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "1b36c841befdcfc2629c52320acbe8d6b9e801cc4b1e226ef7a3d98913f7d9ef",
+      "coordinate_sha256": "6811a0a920fb6bf80361715f4ead4ee59a6a366cd4a2423f37c2bb3f30cf09ea",
+      "independent_true_radius": 0.11550182419454734,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path08_e0200/restored_event_before.npy",
+      "file_sha256": "1b36c841befdcfc2629c52320acbe8d6b9e801cc4b1e226ef7a3d98913f7d9ef",
+      "coordinate_sha256": "6811a0a920fb6bf80361715f4ead4ee59a6a366cd4a2423f37c2bb3f30cf09ea",
+      "independent_true_radius": 0.11550182419454734,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path08_e0200/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "cb344e0bee818e86a416d9377d285615370328ea0f50563266810d583a5ea1d0",
+      "coordinate_sha256": "61f71d09a85e74756e574111f105b6ee61ff6c1101f9105b8d4860e23e25bfb0",
+      "independent_true_radius": 0.11570200918420946,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path08_e0200/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "d119a9c2efb9499fd65a8972cd1cd0dc5f1b4ce6462eeb9cabf28982224ac643",
+      "coordinate_sha256": "bf987459d1b10b68ff313c58967945a4e1791ffc5f59eff94c6e58b382d6e3d8",
+      "independent_true_radius": 0.11570200918420707,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path08_e0200/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "f288d6864fb15b71d3c223e023693cca646492ebfd247d7d727fa775f1752dd2",
+      "coordinate_sha256": "0cdb61842eae5d05e540809d80821432555d8ed5b59810b34dd4e999984fef47",
+      "independent_true_radius": 0.11570200918420358,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path08_e0200/restoration_event_after_03_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "b0d63cbd0363fa8d0a3971d2c69396eea48a6b9cc5f53008d06f7ea6f7f33291",
+      "coordinate_sha256": "611e804ecc4f01106854d60b8906c411e13614f44520819bff9bd275a3233c3f",
+      "independent_true_radius": 0.11570200918420367,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path08_e0200/restored_event_after.npy",
+      "file_sha256": "b0d63cbd0363fa8d0a3971d2c69396eea48a6b9cc5f53008d06f7ea6f7f33291",
+      "coordinate_sha256": "611e804ecc4f01106854d60b8906c411e13614f44520819bff9bd275a3233c3f",
+      "independent_true_radius": 0.11570200918420367,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path09_e0007/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "3b0305d6b9f104939876ae0f2d088e7855d0bac5914ef1e998504e069a8f7880",
+      "coordinate_sha256": "6a57fa84cfdaef69247a2608e4681d1b37691e80fe7e87e8cbd9458c1dce51d1",
+      "independent_true_radius": 0.11550182419454728,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path09_e0007/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "93e2cca203dafada65562296627ccd382205c5030b8ed517e04a163feccd5954",
+      "coordinate_sha256": "e38ba6848a5f6ddde51a598bb6b4724abbd7e590046cda779017cdf352bffa77",
+      "independent_true_radius": 0.1155018241945473,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path09_e0007/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "cdc07ef952a9a0e9e12878e7579ad033cc42ed1a6c68f22d6981feb515a179d2",
+      "coordinate_sha256": "bc28fddf03713bbdc9ea711ecdbc4bf46a8d1fc464332384afbeff34cfcf29c3",
+      "independent_true_radius": 0.11550182419454734,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path09_e0007/restoration_event_before_03_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "02b45a8a0e59799722edab8335795453bdffdbd01faf7a8b1f40909a1436931a",
+      "coordinate_sha256": "decdace0267aee7de48f4bf7fdcd2d53470ed2ee62f721539b831adcd2f33ca9",
+      "independent_true_radius": 0.11550182419454719,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path09_e0007/restored_event_before.npy",
+      "file_sha256": "cdc07ef952a9a0e9e12878e7579ad033cc42ed1a6c68f22d6981feb515a179d2",
+      "coordinate_sha256": "bc28fddf03713bbdc9ea711ecdbc4bf46a8d1fc464332384afbeff34cfcf29c3",
+      "independent_true_radius": 0.11550182419454734,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path09_e0007/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "fe3f21ee85887749c6c85ac9ed38640acfe59c5ad07ca2f2928d3d2be942a57f",
+      "coordinate_sha256": "bf6ec9a5aa629481774a8bd7ac028378c57834704053e331460b44ccbe3ae8ec",
+      "independent_true_radius": 0.11572903640817347,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path09_e0007/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "bca69fba8658006dcbf7bb4f99971e5005955e4d90ad3a77eb80f4348cbf7507",
+      "coordinate_sha256": "b023e489725ef81be563cbe4903341cedc22a86325faa37e3f5c8bf152b80a07",
+      "independent_true_radius": 0.11572903640817345,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path09_e0007/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "dc7b854c7604d92a61c7b80dc3b4eb6995cc5e8cc841c4d504b31162dbe22ab9",
+      "coordinate_sha256": "711e93ad5a054bafde1ea62c217ff519f9321a2fabae1f0b7092193690105125",
+      "independent_true_radius": 0.11572903640817345,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path09_e0007/restored_event_after.npy",
+      "file_sha256": "dc7b854c7604d92a61c7b80dc3b4eb6995cc5e8cc841c4d504b31162dbe22ab9",
+      "coordinate_sha256": "711e93ad5a054bafde1ea62c217ff519f9321a2fabae1f0b7092193690105125",
+      "independent_true_radius": 0.11572903640817345,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path10_e0230/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "67f06836cd507ef4de58bf1f0417b1580b2c0e1adb5cd7d4fa5bda79df2ce6a2",
+      "coordinate_sha256": "e9ddbc5112ea33d89e00456b1d0d8fd4e1994698848e8baa1bea4ab69d77b7b9",
+      "independent_true_radius": 0.11550182419454803,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path10_e0230/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "b8211f326a6e87330b3824ae98c2b190e8ed776b70f90198369adf6eb99f62e3",
+      "coordinate_sha256": "b46f4d6708abad97aeb314651c1f5c9eb5bab19ac933b8fa1cb42d6c17272643",
+      "independent_true_radius": 0.11550182419454787,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path10_e0230/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "6007a136a8f638fbc1e00038157fbba250c42ebf6a85d131eeb3a6a2628b0d7a",
+      "coordinate_sha256": "f5a3bce19825cf5aa89b5a854f7803041fc1353aadfaeb6625711b101a0b71e9",
+      "independent_true_radius": 0.11550182419454781,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path10_e0230/restored_event_before.npy",
+      "file_sha256": "6007a136a8f638fbc1e00038157fbba250c42ebf6a85d131eeb3a6a2628b0d7a",
+      "coordinate_sha256": "f5a3bce19825cf5aa89b5a854f7803041fc1353aadfaeb6625711b101a0b71e9",
+      "independent_true_radius": 0.11550182419454781,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path10_e0230/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "589bc61c5aa4eae92c69049f6aa55670d01791c4193870f2db1c48be0820939a",
+      "coordinate_sha256": "87afdd87c1b84ad6eb990bfc1c182c6cc32f3e3a7f44f61a4af8b9c3196d8a76",
+      "independent_true_radius": 0.11568583385392843,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path10_e0230/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "76defd78b5eb9efcb06de72a080358f369604151bbaa5758103a1c554f51f346",
+      "coordinate_sha256": "4a41c31b1f707403c2d6b9e227684d81a42e768ecc752f929bbb86772339bec3",
+      "independent_true_radius": 0.1156858338539274,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path10_e0230/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "43b84daf56a745d4fa6d50b608702a431e55ef412934e93540817a5f7c9080bb",
+      "coordinate_sha256": "edfba4e5aa85d56e4fc0be6423adfcbe68d9268ccdb358a3148c0c8a1685fa47",
+      "independent_true_radius": 0.11568583385392736,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path10_e0230/restoration_event_after_03_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "78e6b8290b7bba89f471d4e9a5824f9d5028b63c91aa825775d03975d0fb8ec8",
+      "coordinate_sha256": "5c3e264a485c06fe67cd7affc8173d8a50a8ef2dc65df2d5591df66e368facb2",
+      "independent_true_radius": 0.11568583385392732,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path10_e0230/restored_event_after.npy",
+      "file_sha256": "78e6b8290b7bba89f471d4e9a5824f9d5028b63c91aa825775d03975d0fb8ec8",
+      "coordinate_sha256": "5c3e264a485c06fe67cd7affc8173d8a50a8ef2dc65df2d5591df66e368facb2",
+      "independent_true_radius": 0.11568583385392732,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path11_e0211/restoration_event_before_00_retain_diagonal.npy",
+      "file_sha256": "7237c4666def08f7c5f9bbdf3b791bb43abeb55585f8884d59af83eb6d1c75a7",
+      "coordinate_sha256": "c5ba640cb370f202f6a19eebd6a7a919afb1cc52ae9d04df68d696d75a0f9237",
+      "independent_true_radius": 0.11550182419455139,
+      "event_sign": 1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path11_e0211/restoration_event_before_01_zero_side_margin.npy",
+      "file_sha256": "84713a5430a441640dfb8dd147ef3b8cf65164e85bfd820caac2c41f3023ca58",
+      "coordinate_sha256": "534599875e5e61d92a1bd3f6edde13b5f847ed30cf5a3f42ffd5b9ac928f8cd5",
+      "independent_true_radius": 0.11550182419454802,
+      "event_sign": 1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path11_e0211/restoration_event_before_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "fdbfb7bc01fce874411469bc5f6a598280a8a25ccc70646a890a73bcf8271640",
+      "coordinate_sha256": "6166d6bdd4b79bbbc8479d6cba90297cb8aa1d86b9d9827789cafcf140256fc0",
+      "independent_true_radius": 0.1155018241945475,
+      "event_sign": 1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path11_e0211/restored_event_before.npy",
+      "file_sha256": "fdbfb7bc01fce874411469bc5f6a598280a8a25ccc70646a890a73bcf8271640",
+      "coordinate_sha256": "6166d6bdd4b79bbbc8479d6cba90297cb8aa1d86b9d9827789cafcf140256fc0",
+      "independent_true_radius": 0.1155018241945475,
+      "event_sign": 1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    },
+    {
+      "path": "path11_e0211/restoration_event_after_00_retain_diagonal.npy",
+      "file_sha256": "395612fee7ff6bfb25941f57f54e7ac1d147253900e877bc90201c0d61f6a3c4",
+      "coordinate_sha256": "f80bb01de4c27bf4c340f8151fa14cddfb32c14d3ebd57cfc82d156f66978aee",
+      "independent_true_radius": 0.11586759872627173,
+      "event_sign": -1,
+      "stage": "retain_diagonal"
+    },
+    {
+      "path": "path11_e0211/restoration_event_after_01_zero_side_margin.npy",
+      "file_sha256": "c8fab07ed154eacbcc8a6f9d71487764950b5c03a980a5a6ed78bed6747c1cb6",
+      "coordinate_sha256": "45ba254b0a9ea305fd614c2e9be0cd61872e47cba998359c3310b69b6cb4e20e",
+      "independent_true_radius": 0.11586759872627005,
+      "event_sign": -1,
+      "stage": "zero_side_margin"
+    },
+    {
+      "path": "path11_e0211/restoration_event_after_02_all_actual_holes_no_event_constraint.npy",
+      "file_sha256": "c0bdcf4a8772cf274e57a3d874117e9d16449d40a12bdec2798b3cfd63ddcb97",
+      "coordinate_sha256": "5c933b40704428411918e5f363d14087ee65cdbd416b7ad76100daa67641f824",
+      "independent_true_radius": 0.11586759872626991,
+      "event_sign": -1,
+      "stage": "all_actual_holes_no_event_constraint"
+    },
+    {
+      "path": "path11_e0211/restored_event_after.npy",
+      "file_sha256": "c0bdcf4a8772cf274e57a3d874117e9d16449d40a12bdec2798b3cfd63ddcb97",
+      "coordinate_sha256": "5c933b40704428411918e5f363d14087ee65cdbd416b7ad76100daa67641f824",
+      "independent_true_radius": 0.11586759872626991,
+      "event_sign": -1,
+      "final_event_constraint_present": false,
+      "fully_unconstrained_stage_valid": true,
+      "stage": "final_all_actual_holes_zero_offsets"
+    }
+  ],
+  "failures": [],
+  "seconds": 14.47666888799995,
+  "one_CPU_BLAS_thread": true,
+  "source_driver_sha256": "ebe9242fa2cfd3efbcc4daa4641e41cb0064114becd6c1444b47a04dcd6b7627",
+  "guarded_core_sha256": "8bbc07ac5811a88b3c4cbcd786203949e3152aee2f4e7703c108edc8fee01754",
+  "scope": "Complete saved geometry replay, exact rational signs of saved doubles, numerical inside/nearest/circle checks; no exact event or full-segment or global optimality claim",
+  "provenance_note": "First three paths were computed before adding full baseline boundary-event inventory and epigraph-rank fields. This audit adds those diagnostics on their preserved snapshots without repeating optimization. The finite optimization formulas are unchanged."
+}

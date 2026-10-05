@@ -1,0 +1,20 @@
+{
+  "scope": "New general actual signed-A consecutive two-face strong outer assigned arc > .147 exclusion; author proof awaiting independent review.",
+  "author_mathematical_program_executions": 0,
+  "mathematical_imports": 0,
+  "old_checker_replays": 0,
+  "optimization_or_parameter_searches": 0,
+  "bookkeeping": "Only writing separately versioned source/clarifications and SHA256 file hashing.",
+  "files": {
+    "FULL_ACTUAL_TAU_PROOF.md": "84ff30accf1b90746288d199127ab39759bea006000aaca88dd7887e5f48822e",
+    "MEAN_BUDGET_ENVELOPE.md": "4a4e634053549ff56019d93802cfb10da56ae21bbf23b03cc6822b6fc97a0a8c",
+    "ENDPOINT_CLARIFICATION.md": "8246a5bd62623156b03a77e6245920d4724adc9c1bb312b51fa0939d5762c5b3",
+    "WORKING_INTERFACE.md": "f648021de12b7182c14104d15c8b947aafd1fa90fc24dc2ce459efc87a45c5d3",
+    "../q2_strong_arc_norm_budget/TAU_ZERO_NORM_PROOF.md": "c0077a0fa8ca16bf56c4c13a93571d048082c11ba60f1da4c4f7a6b3ffa549a1",
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS.md": "16d4865e47b8878d529edccc119627421319308b8c1dec6e869e191506ab5bf1",
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS_BUDGET_ENDPOINTS.md": "bd9eca18768e1e84290624911438f03c9584dca5746821f1ab9441e3a2221589",
+    "../q2_strong_arc_norm_budget/CLARIFICATIONS_DOMAIN.md": "d046e752ee14ff14e86e2ee569a9cad78a61f10b20249e38b8e2e9612916c37b"
+  },
+  "required_additional_clarification": "ZERO_B_CLARIFICATION.md (to be independently pinned by reviewer)",
+  "status": "No prior review is claimed to certify this new full actual-tau proof."
+}

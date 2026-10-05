@@ -1,0 +1,56 @@
+{
+  "best14_reference": {
+    "coordinate_sha256": "622e7e0a868165d184427e7be422169c0094e891298af0694743cdce43336cfc",
+    "file_sha256": "78d5a0ae08b07010da7c52e9634d1a14ecdcf12cf0e04ff5d1895895231452c0",
+    "fingerprint": "3040bfc74bafa7eb3652b512fdf1824069df40e28efb56cb17146a807212ede8",
+    "historical_event_on_this_source_inferred": false,
+    "independent_catalog_index": 14
+  },
+  "child_worker_completed_before_main_numerical_loads": true,
+  "event_type_counts": {
+    "circumcenter_unit": 0,
+    "dt_flip": 18
+  },
+  "exact_algebraic_event_roots_certified": 0,
+  "exact_sign_rechecked_saved_binary64_brackets": 12,
+  "first_exact_physical_events_isolated": 0,
+  "forced12_source": {
+    "B": 33,
+    "F": 165,
+    "I": 67,
+    "active_contact_count": 152,
+    "coordinate_sha256": "d4efe696fa6ccf1a5a9714626eb41a2c8e3f7c5d5ee83c07574916b6710a5e4f",
+    "fingerprint": "a4ff300cecd33d4157fad2b92cfb371ca47b9cf222320172e59412dc9c30862a",
+    "independent_catalog_index": null
+  },
+  "forced12_worker_BLAS_threads": 1,
+  "forced12_worker_geometry_extraction_calls": 1,
+  "fullgraph_catalog14_mapping_for_old6_or_B33": "unavailable_distinct_actual_graphs",
+  "main_BLAS_threads": 1,
+  "main_geometry_extraction_calls": 0,
+  "old169_81_19_rescanned": false,
+  "old6_all100_vertices_all166_faces_to_catalog10_bijection": "PASS",
+  "old6_labelled166_faces_equal_frozen_current": true,
+  "old6_routes": 6,
+  "old6_source": {
+    "B": 32,
+    "F": 166,
+    "I": 68,
+    "coordinate_sha256": "c32db469cb5704a49e5b6ddbf0de8a136fb0205c14f67d9e16df09780cc197d2",
+    "fingerprint": "8764ca79e182ece49aaf63c485289f9030d4698480a93a558f58d21e322aa1a7",
+    "independent_catalog_index": 10
+  },
+  "oldB33_forced_routes": 12,
+  "optimizer_run": false,
+  "prior_routes": 18,
+  "reported_numerical_physical_reached": 18,
+  "saved_binary64_event_node_exactly_zero_in_forced12": 0,
+  "schema": "historical-physical-event-targets.v1",
+  "signature_uniqueness_implies_global_physical_novelty": false,
+  "source_inventory_manifest_sha256": "b3b55522f47a786010b61f4c83196e62f5c19ab9207d491bbd3f38204494bda3",
+  "source_mutations": 0,
+  "status": "PASS",
+  "unknown_exact_algebraic_root_parameters": 18,
+  "whole_oracle_run": false,
+  "within_exact_source_geometry_and_canonical_support_duplicate_signature_counts": {}
+}

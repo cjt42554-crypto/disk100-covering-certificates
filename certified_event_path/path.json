@@ -1,0 +1,511 @@
+{
+  "coordinate_denominator": 1000000000000000,
+  "nodes": [
+    {
+      "index": -1,
+      "directory": "nodes/-1",
+      "snapshot": "certified_candidates/U1155018241946/configuration.json",
+      "radius_bound": [
+        577509120973,
+        5000000000000
+      ]
+    },
+    {
+      "index": 0,
+      "directory": "nodes/00",
+      "snapshot": "000_start.npz",
+      "radius_bound": [
+        28875456049,
+        250000000000
+      ]
+    },
+    {
+      "index": 1,
+      "directory": "nodes/01",
+      "snapshot": "001_corrected.npz",
+      "radius_bound": [
+        115501824197,
+        1000000000000
+      ]
+    },
+    {
+      "index": 2,
+      "directory": "nodes/02",
+      "snapshot": "002_corrected.npz",
+      "radius_bound": [
+        577509121,
+        5000000000
+      ]
+    },
+    {
+      "index": 3,
+      "directory": "nodes/03",
+      "snapshot": "003_corrected.npz",
+      "radius_bound": [
+        28875456061,
+        250000000000
+      ]
+    },
+    {
+      "index": 4,
+      "directory": "nodes/04",
+      "snapshot": "004_corrected.npz",
+      "radius_bound": [
+        11550182463,
+        100000000000
+      ]
+    },
+    {
+      "index": 5,
+      "directory": "nodes/05",
+      "snapshot": "005_corrected.npz",
+      "radius_bound": [
+        115501829027,
+        1000000000000
+      ]
+    },
+    {
+      "index": 6,
+      "directory": "nodes/06",
+      "snapshot": "006_corrected.npz",
+      "radius_bound": [
+        28875466987,
+        250000000000
+      ]
+    },
+    {
+      "index": 7,
+      "directory": "nodes/07",
+      "snapshot": "007_corrected.npz",
+      "radius_bound": [
+        57751020033,
+        500000000000
+      ]
+    },
+    {
+      "index": 8,
+      "directory": "nodes/08",
+      "snapshot": "008_corrected.npz",
+      "radius_bound": [
+        115502510523,
+        1000000000000
+      ]
+    },
+    {
+      "index": 9,
+      "directory": "nodes/09",
+      "snapshot": "009_corrected.npz",
+      "radius_bound": [
+        115503734513,
+        1000000000000
+      ]
+    },
+    {
+      "index": 10,
+      "directory": "nodes/10",
+      "snapshot": "010_corrected.npz",
+      "radius_bound": [
+        23101292691,
+        200000000000
+      ]
+    },
+    {
+      "index": 11,
+      "directory": "nodes/11",
+      "snapshot": "011_corrected.npz",
+      "radius_bound": [
+        28877886099,
+        250000000000
+      ]
+    },
+    {
+      "index": 12,
+      "directory": "nodes/12",
+      "snapshot": "012_corrected.npz",
+      "radius_bound": [
+        115519389533,
+        1000000000000
+      ]
+    },
+    {
+      "index": 13,
+      "directory": "nodes/13",
+      "snapshot": "013_corrected.npz",
+      "radius_bound": [
+        57765039453,
+        500000000000
+      ]
+    },
+    {
+      "index": 14,
+      "directory": "nodes/14",
+      "snapshot": "014_corrected.npz",
+      "radius_bound": [
+        115541117481,
+        1000000000000
+      ]
+    },
+    {
+      "index": 15,
+      "directory": "nodes/15",
+      "snapshot": "015_corrected.npz",
+      "radius_bound": [
+        115552073373,
+        1000000000000
+      ]
+    },
+    {
+      "index": 16,
+      "directory": "nodes/16",
+      "snapshot": "016_corrected.npz",
+      "radius_bound": [
+        28889807367,
+        250000000000
+      ]
+    },
+    {
+      "index": 17,
+      "directory": "nodes/17",
+      "snapshot": "017_corrected.npz",
+      "radius_bound": [
+        28890672529,
+        250000000000
+      ]
+    },
+    {
+      "index": 18,
+      "directory": "nodes/18",
+      "snapshot": "018_event.npz",
+      "radius_bound": [
+        14445448119,
+        125000000000
+      ]
+    },
+    {
+      "index": 19,
+      "directory": "nodes/19",
+      "snapshot": "019_event_after.npz",
+      "radius_bound": [
+        115563252787,
+        1000000000000
+      ]
+    },
+    {
+      "index": 20,
+      "directory": "nodes/20",
+      "snapshot": "020_event_after.npz",
+      "radius_bound": [
+        14445242441,
+        125000000000
+      ]
+    },
+    {
+      "index": 21,
+      "directory": "nodes/21",
+      "snapshot": "021_event_after.npz",
+      "radius_bound": [
+        4622319651,
+        40000000000
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "left": -1,
+      "right": 0,
+      "maximum_squared_integer_displacement": 43505486101757,
+      "displacement_bound": [
+        6595869,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231003654986469,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 0,
+      "right": 1,
+      "maximum_squared_integer_displacement": 3960940942514959120,
+      "displacement_bound": [
+        1990211281,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231005638604281,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "maximum_squared_integer_displacement": 15845573165134539221,
+      "displacement_bound": [
+        3980649843,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231007629046843,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 2,
+      "right": 3,
+      "maximum_squared_integer_displacement": 194167007254056651172,
+      "displacement_bound": [
+        13934382199,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231017582826199,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "maximum_squared_integer_displacement": 1586652521709685743338,
+      "displacement_bound": [
+        622387611,
+        15625000000000
+      ],
+      "coverage_cap": [
+        14440217605069,
+        125000000000000
+      ]
+    },
+    {
+      "left": 4,
+      "right": 5,
+      "maximum_squared_integer_displacement": 19498833912453492169306,
+      "displacement_bound": [
+        139638225113,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231143291882113,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 5,
+      "right": 6,
+      "maximum_squared_integer_displacement": 160758668317365363239770,
+      "displacement_bound": [
+        10023680347,
+        25000000000000
+      ],
+      "coverage_cap": [
+        2892558052361,
+        25000000000000
+      ]
+    },
+    {
+      "left": 6,
+      "right": 7,
+      "maximum_squared_integer_displacement": 887894859626988357021953,
+      "displacement_bound": [
+        942281730497,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231946189744497,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 7,
+      "right": 8,
+      "maximum_squared_integer_displacement": 2089754107005844205704570,
+      "displacement_bound": [
+        1445598183109,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        232450148772109,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 8,
+      "right": 9,
+      "maximum_squared_integer_displacement": 5011265053360823936268906,
+      "displacement_bound": [
+        559646375701,
+        250000000000000
+      ],
+      "coverage_cap": [
+        58311207634701,
+        500000000000000
+      ]
+    },
+    {
+      "left": 9,
+      "right": 10,
+      "maximum_squared_integer_displacement": 9775944989452431356120192,
+      "displacement_bound": [
+        312665076231,
+        100000000000000
+      ],
+      "coverage_cap": [
+        23413684873031,
+        200000000000000
+      ]
+    },
+    {
+      "left": 10,
+      "right": 11,
+      "maximum_squared_integer_displacement": 15014480086502954322910514,
+      "displacement_bound": [
+        3874852266411,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        234892860117411,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 11,
+      "right": 12,
+      "maximum_squared_integer_displacement": 16694832368762992055546896,
+      "displacement_bound": [
+        4085931028391,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        235116864957391,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 12,
+      "right": 13,
+      "maximum_squared_integer_displacement": 15973854094921035880951205,
+      "displacement_bound": [
+        3996730425601,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        235046198864601,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 13,
+      "right": 14,
+      "maximum_squared_integer_displacement": 16827315788724111583324994,
+      "displacement_bound": [
+        4102111138027,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        235173307525027,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 14,
+      "right": 15,
+      "maximum_squared_integer_displacement": 12414948538065303050809256,
+      "displacement_bound": [
+        1761742641397,
+        500000000000000
+      ],
+      "coverage_cap": [
+        117308338068397,
+        1000000000000000
+      ]
+    },
+    {
+      "left": 15,
+      "right": 16,
+      "maximum_squared_integer_displacement": 4080297858289595444830165,
+      "displacement_bound": [
+        2019974717241,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        233131277558241,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 16,
+      "right": 17,
+      "maximum_squared_integer_displacement": 809898905737334933394804,
+      "displacement_bound": [
+        899943834769,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        232021863418769,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 17,
+      "right": 18,
+      "maximum_squared_integer_displacement": 51192827583125395404725,
+      "displacement_bound": [
+        226258320473,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231352533388473,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 18,
+      "right": 19,
+      "maximum_squared_integer_displacement": 3486760760285290316680,
+      "displacement_bound": [
+        59048799821,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231185886538821,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 19,
+      "right": 20,
+      "maximum_squared_integer_displacement": 55545186164587895290580,
+      "displacement_bound": [
+        235680262569,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231360872577569,
+        2000000000000000
+      ]
+    },
+    {
+      "left": 20,
+      "right": 21,
+      "maximum_squared_integer_displacement": 534735300473584798521485,
+      "displacement_bound": [
+        731255974659,
+        1000000000000000
+      ],
+      "coverage_cap": [
+        231851186777659,
+        2000000000000000
+      ]
+    }
+  ],
+  "path_coverage_cap": [
+    235173307525027,
+    2000000000000000
+  ],
+  "event_segment": [
+    18,
+    19
+  ],
+  "scope": "New explicit rational piecewise-linear path; whole closed unit disk coverage. No original optimizer-arc, stationary-branch supremum, or global-optimality claim.",
+  "source_result_sha256": "3ac6c687128b5738787a4a90e23228e97f8659637d50328ae217faed0c17548c",
+  "build_mode": "all accepted historical nodes"
+}

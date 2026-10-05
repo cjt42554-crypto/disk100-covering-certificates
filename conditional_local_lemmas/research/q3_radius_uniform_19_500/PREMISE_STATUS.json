@@ -1,0 +1,37 @@
+{
+  "status": "ACCEPTED_STRONGER_FIXED_RADIUS_NORMALIZED_PREMISE",
+  "stronger_theorem_source_root": "PROJECT_SOURCE/research/q3_stronger_fee_19_500",
+  "original_fixed_radius": [
+    11321,
+    100000
+  ],
+  "fixed_lambda": [
+    7,
+    50
+  ],
+  "fixed_tilt": [
+    1071883,
+    20000000
+  ],
+  "same_normalized_fee": [
+    19,
+    500
+  ],
+  "author_manifest_sha256": "b1be5f8251bf97900e481f6c5b4d5fc0ff8e7004697a1b6f8b53f5cfbe5215c6",
+  "full_independent_analytic_review": {
+    "path": "independent_audit/INDEPENDENT_REVIEW.md",
+    "sha256": "9a7b5e434a3b4a7f6989fa8d054afe9bd2554f20d98041cdec7a3ce01480aee1",
+    "verdict": "PASS_LOCAL_ACTUAL_A_ONLY"
+  },
+  "independent_fresh_receipt": {
+    "path": "independent_audit/execution_receipt.json",
+    "sha256": "f19cd7f0b9d249a03e715cf5a44155f2b2de3bf1e2421769628ac41e17ec8ad0",
+    "calls_by_that_reviewer": 1,
+    "full_JSON_and_certificate_bytes_match": true
+  },
+  "accepted_scalar_certificate_is_explicit_premise": true,
+  "zero_skew_reading": "Use displacement_squared <= (43/50)^2*sigma and displacement=0 when sigma=0; strict coefficient and final fit guards supply strict U3/S3. Original equation (12) bytes unchanged.",
+  "new_radius_scope": "Analytic extension is separate; original fixed-radius certificate metadata unchanged. It has its own static review and exact endpoint receipt.",
+  "proof_verifier_calls_by_radius_extension_owner": 0,
+  "scope": "Local actual signed-anchor three-face score at fixed coefficients; no coefficient rectangle, whole-cover budget or global exclusion."
+}

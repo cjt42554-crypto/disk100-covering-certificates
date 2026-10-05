@@ -1,0 +1,74 @@
+{
+  "python": "3.12.3",
+  "stdlib_replay": {
+    "command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "./strict_upper_margin_1154469/verify_margin.py"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "wall_seconds": 0.6928296389996831,
+    "log": "stdlib_replay.log",
+    "log_sha256": "5f15d2dd793360976a10da6c98c67966b5628f8b31f44c2c6cc8a369fa2b4f81"
+  },
+  "corruption_rejection_run": {
+    "command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "./strict_upper_margin_1154469/negative_tests.py"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "wall_seconds": 1.7101790840006288,
+    "log": "corruption_rejection.log",
+    "log_sha256": "afeb1e41a30979890463f8682e6609c2563b6a0618229df4fd4c0adbeba6cfb5"
+  },
+  "corruption_rejections": {
+    "all_rejected": true,
+    "cases": [
+      {
+        "case": "truncated_covering_witness_list",
+        "rejected": true,
+        "reason": "truncated certificate"
+      },
+      {
+        "case": "radius_reduced_by_2e-16",
+        "rejected": true,
+        "reason": "uncovered candidate ('T', 24, 26, 33)"
+      },
+      {
+        "case": "reference_bound_equal_to_V",
+        "rejected": true,
+        "reason": "strict rational margin inequality failed"
+      }
+    ]
+  },
+  "local_cover_radius_bound": [
+    1154469548855829,
+    10000000000000000
+  ],
+  "reference_radius_bound": [
+    115446954885583,
+    1000000000000000
+  ],
+  "strict_radius_margin": [
+    1,
+    10000000000000000
+  ],
+  "configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "certificate_sha256": "197c8bdf517a8b1922b929c2b52f10ac3529b9c14a52fc3831a2de8fd715626f",
+  "critical_checker_sha256": "93b202d1893f5f3aaa2ab013c2d6a623ffc182a471a6ae255d54a3cb1d4d9c3e",
+  "proof_sha256": "07074428f53e12a024741513ee0c3eff2e1c9d50b21b38cc14a86e5da13442ce",
+  "full_exact_candidate_counts": {
+    "T": 128436,
+    "B": 9900,
+    "A": 100,
+    "E": 1
+  },
+  "full_exact_candidates_total": 138437
+}

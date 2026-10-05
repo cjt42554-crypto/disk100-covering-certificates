@@ -1,0 +1,31 @@
+{
+  "status": "PASS_INDEPENDENT_SINGLE_NEW_GUARD_REPLAY",
+  "started_at_utc": "2026-10-05T00:20:03.968150+00:00",
+  "finished_at_utc": "2026-10-05T00:20:03.985058+00:00",
+  "command": [
+    "python3",
+    "-I",
+    "-B",
+    "PROJECT_SOURCE/research/q3_stronger_fee_19_500/independent_audit/run_once.py"
+  ],
+  "python_version": "3.12.3",
+  "isolated": true,
+  "dont_write_bytecode": true,
+  "assertions_enabled": true,
+  "new_guard_verify_calls": 1,
+  "old_verify_calls": 0,
+  "optimizers": 0,
+  "geometry_searches": 0,
+  "author_manifest_all_entries_match": true,
+  "historical_frozen_pins_match": true,
+  "author_source_bytes_unchanged": true,
+  "historical_source_bytes_unchanged": true,
+  "whole_JSONMATCH": true,
+  "serialized_certificate_bytes_match": true,
+  "new_verifier_sha256": "bd042f4976fbeeb8440da66864814371f82e4fd0e380844cd153dcb7e600f46d",
+  "certificate_sha256": "b79cc05457486de14e8ed89a8d62bacf596581b152092a3951f9893b3dfa56bb",
+  "replayed_certificate_sha256": "b79cc05457486de14e8ed89a8d62bacf596581b152092a3951f9893b3dfa56bb",
+  "author_manifest_sha256": "b1be5f8251bf97900e481f6c5b4d5fc0ff8e7004697a1b6f8b53f5cfbe5215c6",
+  "accepted_dependency_condition": "The pinned already-accepted scalar conjugate certificate is read, not independently regenerated; its validity remains the explicit accepted arithmetic premise.",
+  "failure": null
+}

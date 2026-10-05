@@ -1,0 +1,34 @@
+{
+  "extracted_archive_replay": {
+    "nonglobal_command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "[REDACTED_PERSONAL_ABSOLUTE_PATH]"
+    ],
+    "nonglobal_returncode": 0,
+    "nonglobal_stdout_sha256": "5298f3c48e423a47e173df5892eeed32c92be7c2153a5dd5413466136b0d363d",
+    "nonglobal_stdout": "{\n  \"fixed_radius_exact_verified\": true,\n  \"companion_root_and_whole_closed_disk_cover_freshly_recomputed\": true,\n  \"companion_n_variables\": 932,\n  \"companion_n_centers\": 100,\n  \"fixed_worst_candidate\": [\n    \"T\",\n    24,\n    26,\n    33\n  ],\n  \"companion_radius_interval\": [\n    [\n      11544695488558220163979840676978324705424034570427252136862487491,\n      100000000000000000000000000000000000000000000000000000000000000000\n    ],\n    [\n      11544695488558220163979840676978324705424034570427252136949107360,\n      100000000000000000000000000000000000000000000000000000000000000000\n    ]\n  ],\n  \"fixed_radius_interval\": [\n    [\n      115446954885582804739528389204068749175480606343527731854843,\n      1000000000000000000000000000000000000000000000000000000000000\n    ],\n    [\n      28861738721395701184882097301017187293870151585881932963711,\n      250000000000000000000000000000000000000000000000000000000000\n    ]\n  ],\n  \"strict_radius_gap_lower_bound\": [\n    188468665619510714219412887581449767253276672477,\n    312500000000000000000000000000000000000000000000000000000000000\n  ],\n  \"statement\": \"This fixed rational configuration is strictly nonglobal: the independently verified companion is a 100-center full closed-unit-disk cover with strictly smaller radius. Its fixed-radius polynomial is not a global optimum polynomial.\"\n}\nPASS: both exact proofs freshly recomputed; fixed configuration is strictly nonglobal.\n",
+    "command": [
+      "/usr/bin/python3",
+      "-S",
+      "-O",
+      "-B",
+      "[REDACTED_PERSONAL_ABSOLUTE_PATH]"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "extracted_manifest_files_checked": 34,
+    "stdout_sha256": "972a3bc6f0a3788543889cbd738b4bc21cfdfc069301eafe4ad8441ebfac15f2",
+    "stdout": "{\n  \"candidate_counts\": {\n    \"T\": 128436,\n    \"B\": 9900,\n    \"A\": 100,\n    \"E\": 1\n  },\n  \"total\": 138437,\n  \"exact_radius_squared\": \"30725429859560965167376375782992217524879413397919297557180322583631658281589463901/2305329476319453853675010622844675060361065718958756721000000000000000000000000000000\",\n  \"upper_squared\": \"6663999696176893/500000000000000000\",\n  \"unique_worst_candidate\": [\n    \"T\",\n    24,\n    26,\n    33\n  ],\n  \"fixed_radius_squared\": [\n    30725429859560965167376375782992217524879413397919297557180322583631658281589463901,\n    2305329476319453853675010622844675060361065718958756721000000000000000000000000000000\n  ],\n  \"polynomial_coefficients_descending\": [\n    2305329476319453853675010622844675060361065718958756721000000000000000000000000000000,\n    0,\n    -30725429859560965167376375782992217524879413397919297557180322583631658281589463901\n  ],\n  \"isolating_interval\": [\n    [\n      115446954885582804739528389204068749175480606343527731854843,\n      1000000000000000000000000000000000000000000000000000000000000\n    ],\n    [\n      28861738721395701184882097301017187293870151585881932963711,\n      250000000000000000000000000000000000000000000000000000000000\n    ]\n  ],\n  \"scope\": \"Exact radius and unique worst point of this fixed rational configuration only.\",\n  \"external_companion_interval_strictly_smaller\": true,\n  \"external_companion_coverage_not_replayed_here\": true\n}\nPASS: exact fixed-configuration radius, primitive irreducible quadratic, positive root isolation, full closed disk coverage, and unique worst point.\nExact interval comparison PASS; strict nonglobal conclusion additionally uses the separately accepted companion full-disk covering proof.\n"
+  },
+  "archive": "[REDACTED_PERSONAL_ABSOLUTE_PATH]",
+  "archive_bytes": 5854611,
+  "archive_sha256": "3b50a5c5be064b25f91d611e17b605055f6ed1bc161d163a0048827ffe4a71ec",
+  "configuration_sha256": "84fb2a5dd9869e641f18250b8839ceb44bfe1263fa54bf588cfdb4867fb28a36",
+  "manifest_sha256": "87841df8a2de206a6d2ade420c331158694985178e535d8594ca579e4fb3ef19",
+  "archive_self_contained": true,
+  "stdlib_replay_passed": true,
+  "all_three_corruption_cases_rejected": true
+}

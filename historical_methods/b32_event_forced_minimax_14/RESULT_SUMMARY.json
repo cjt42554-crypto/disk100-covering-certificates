@@ -1,0 +1,38 @@
+{
+  "status": "PERMANENTLY_SEALED_FINITE_TWO_PILOT_STUDY",
+  "proxy_paths": 2,
+  "proxy_accepted_nodes": 28,
+  "proxy_solves": 28,
+  "proxy_solver_status_counts": {
+    "0": 28
+  },
+  "new_original_restores": 4,
+  "cumulative_original_restore_budget_used": 23,
+  "remaining_original_restore_budget": 73,
+  "saved_center_fields": 129,
+  "unique_saved_center_arrays": 79,
+  "independent_saved_array_status": "PASS",
+  "new_material_upper": false,
+  "current_rigorous_upper_reference": 0.1154469548855829,
+  "post_basins": [
+    {
+      "target": 80,
+      "radius": 0.1156190083763614,
+      "nonbinding_center": 38,
+      "delete99_radius": 0.15441590582301193
+    },
+    {
+      "target": 40,
+      "radius": 0.11562795495589936,
+      "nonbinding_center": 29,
+      "delete99_radius": 0.1549599341886347
+    }
+  ],
+  "additional_proxy_paths_launched": 0,
+  "additional_source_jet_review_targets": 4,
+  "additional_distinct_candidate78": false,
+  "candidate78_mirror_evidence_sha256": "f4bbfcd9f52620e7a3e5ccc1e4fdd9291aa0e241acf2e4ad3d2df3cf9501d377",
+  "scope": "Finite numerical minimax paths and original zero-event restores. No global optimality, exact radius or implicit-curve certificate claim. Parent has independently accepted two exact dyadic chord event geometries; those parent-owned certificates are external to this tree.",
+  "failure_and_status8_records_preserved": true,
+  "all_other_frozen_directories_unmodified_by_this_job": true
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS_METADATA_PINS_MATCH",
+  "reviewer": "/root/q2_uniform_review",
+  "sources": {
+    "research/q2_radius_uniform_tau/PROOF.md": {
+      "bytes": 15575,
+      "sha256": "692a4526d88dd3e856aa96b60961b43c1726d9ba029803199b90e8d7b0c9da2c"
+    },
+    "research/q2_radius_uniform_tau/MANIFEST.json": {
+      "bytes": 1147,
+      "sha256": "d1975a5fd50f799672fed5b9648a43ff7d3a27f9ff1e45cda506881d588aaca9"
+    },
+    "research/q2_tau_geometry_thresholds/ANALYSIS.md": {
+      "bytes": 12781,
+      "sha256": "97283475b6176cd0d426759d73d931690a155dec69a86843d5f5a630ff6ebbdf"
+    },
+    "research/q2_tau_geometry_thresholds/SOURCE_PINS.json": {
+      "bytes": 1237,
+      "sha256": "632f1a90d1b4d6df241e469e305193d9d510666549faafe889d683cceb6f6fa3"
+    },
+    "research/q2_tau_geometry_thresholds/EXECUTION_LEDGER.json": {
+      "bytes": 816,
+      "sha256": "215690cc22fb07062abeaabb39c1b8d29048b366b07f8a69d533cf98c313cd27"
+    },
+    "research/q2_radius_uniform_tau/COROLLARY_RELAXED_MIDDLE.md": {
+      "bytes": 6484,
+      "sha256": "768a6e71756ad155331b2196b68394548f2eadb4affeb1352e210ef93d766e28"
+    },
+    "research/q2_radius_uniform_tau/COROLLARY_PINS.json": {
+      "bytes": 1543,
+      "sha256": "a7fd8d1a685798b9400e653b62861fdae1a09af50587c4eeb2b411a336fe79b1"
+    },
+    "research/q2_uniform_tau_review/PRO_RADIUS_REVIEW.md": {
+      "bytes": 8660,
+      "sha256": "6115ffc95e88f1a5fe5a806a1037d0deb4833f3766302bc399aa3d4e69097387"
+    },
+    "research/q2_uniform_tau_review/PRO_RADIUS_SOURCE_PINS.json": {
+      "bytes": 3653,
+      "sha256": "4004bdf8e501a0844babb442d356b500ae445f4eb21a009b99948e534130c2bb"
+    },
+    "research/q2_uniform_tau_review/PRO_RADIUS_REVIEW_MANIFEST.json": {
+      "bytes": 537,
+      "sha256": "efa4e41026d10a360e23470e958da4ba0884d7e7f282a386411b8048c6f1c9bc"
+    }
+  },
+  "mathematical_program_executions": 0,
+  "mathematical_source_imports": 0,
+  "metadata_hashing_only": true
+}
